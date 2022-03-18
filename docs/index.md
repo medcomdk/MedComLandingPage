@@ -2,17 +2,17 @@
 
 Here you will find the information you need to get started with MedCom's FHIR standards. 
 
-|       Name in English      | Name in Danish           |                            Short description                            |
-|:--------------------------:|--------------------------|:-----------------------------------------------------------------:|
-| MedComCore                 | Kerneprofiler            | Describes core-profiles that are static and used across standards |
-| MedComMessaging            | Medddelser..             | Describes profiles that...                                        |
-| MedComAcknowledgement      | Kvittering               | Describes profiles that...                                        |
-| [MedComHospitalNotification](https://tmsmedcom.github.io/GitHubPagesTest/) | [Sygehusadvid](https://tmsmedcom.github.io/GitHubPagesTest/)             | Describes profiles that...                                        |
-| MedComCareCommunication    | Korrespondancemeddelelse | Describes profiles that...                                        |
+|       Name in English      |       Name in Danish       |                            Short description                      |
+|:--------------------------:|:--------------------------:|:-----------------------------------------------------------------:|
+| Core                 | Kerneprofiler            | Describes core-profiles that are static and used across standards |
+| Messaging            | Medddelser..             | Describes profiles that...                                        |
+| Acknowledgement      | Kvittering               | Describes profiles that...                                        |
+| [HospitalNotification](https://tmsmedcom.github.io/GitHubPagesTest/) | [Sygehusadvid](https://tmsmedcom.github.io/GitHubPagesTest/)             | Describes profiles that...                                        |
+| CareCommunication    | Korrespondancemeddelelse | Describes profiles that...                                        |
 
 ## Information about the Transportation Layer
 
-
+See [here](\assets\documents\MedComs_FHIR-meddelelser_og_forsendelseskuvert.md)
 
 ## Test and Certification
 

@@ -17,10 +17,12 @@ Here you will find the information you need to get started with MedCom's FHIR st
 | CareCommunication | Korrespondancemeddelelse | Used in all parts of the Danish health care sector to communicate between parties.             |
 
 ## 1 Clinical Introduction to FHIR
+
 [Fast Healthcare Interoperability Resources (FHIR)](https://www.hl7.org/fhir/) is an open-source standard developed to exchange healthcare-related information and is developed by the international organization Health Level 7 (HL7). <br> 
 This introduction is amied for people with limited insigth into FHIR. First the most common _FHIR-words_ are presented followed by a short introduction to an Implementation GUide (IG). 
 
 ### 1.1 Glossary
+
 |  Word  |  Describtion  |
 |:------:|:-------------:|
 |  Resources:  | FHIR consists of generic resources, each describing a clinically delimited area, e.g. a Patient, an Allergy, an Observation, an Encounter, ect. The resouces are generic and can be used all over the world. |
@@ -44,6 +46,7 @@ __Cardinality:__ Each element is describes with a minimum and maximum cardinalit
 __Implementation Guide (IG):__ A set of rules and associated documentation describing how FHIR profiles should be used to accommodate a given standard.  -->
 
 ### 1.2 How to Read a MedCom Implementation Guide
+
 This guide is founded in the [MedComCore IG](https://build.fhir.org/ig/hl7dk/dk-medcom-core/). 
 
 * On the [landingpage of the IG](https://build.fhir.org/ig/hl7dk/dk-medcom-core/) you'll find a short introduction to IG, in this case the MedComCore profiles. 

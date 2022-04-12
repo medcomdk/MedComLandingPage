@@ -27,16 +27,16 @@ Below you'll find the most common words used in FHIR-regi.
 
 |Word|Description|
 | :-: | :- |
-| Resources: | FHIR consists of generic resources, each describing a clinically delimited area, e.g. a Patient, an Allergy, an Observation, an Encounter, ect. The resouces are generic and can be used all over the world. |
-|Profiling:| Means to fit the resources to a given context. It is widely recognized that when exchanging data it is impossible to make a _one size fits all_ within the healthcare worldwide. Therefore are the resources made generic with the possibility to be profiled to a given context, such as exchanging a CareCommunication message between Danish healthcare parties. An example of profiling could be to require a lastname and an identifier (Danish: "Det Centrale Personregister" (CPR)-number) of a patient/citizen when exchanging information about the person. |
-|Extensions:| To extend a profile means to include additional information. For example is a cpr-number of a citizen only relevant in Denmark and is therefore not a part of the genieric Patient resource. To include a CPR-number, an extension must be made. |
-|Element:| A resource, hence a profile consists of multiple elements each describing a specific part of the content, like a patient name og adress. |
-|Cardinality:| Each element is describes with a minimum and maximum cardinality. If the minimum cardinality is 0, the element may appear and if it is 1 or more the element shall appear the number of times stated. If the maximum cardinality is 0 the element must not appear, 1 the element may not appear more than once and if the maximum cardinality is * the element may appear several times. Changing the cardinality within the predefined limits is a part of the profilling.|
-|Must Support:| Indicates which information which shall be included in a MedCom standard if available in the sender systemer and which information the receiver system shall be able to handle. Read more in "Syn&Kom..." + Henvisning |
-|CodeSystem:| A collection of codes, which can be predetermined by HL7 e.g. [gender](http://hl7.org/fhir/R4/valueset-administrative-gender.html), from a international terminology e.g. [SNOMED CT](https://browser.ihtsdotools.org/?) or defined by the developer of the IG e.g. [categories in a CareCommunication message](https://build.fhir.org/ig/hl7dk/dk-medcom-carecommunication/CodeSystem-medcom-careCommunication-categoryCodes.html).|
-|ValueSet:| A collection of codes from one or more CodeSystems. ValueSet are referenced from elements in IG. |
-|Narrative:| A summary of the most important information in a standard.|
-|Implementation Guide (IG):| A set of rules and associated documentation describing how FHIR profiles should be used to accommodate a given standard. |
+| Resources | FHIR consists of generic resources, each describing a clinically delimited area, e.g. a Patient, an Allergy, an Observation, an Encounter, ect. The resouces are generic and can be used all over the world. |
+|Profiling| Means to fit the resources to a given context. It is widely recognized that when exchanging data it is impossible to make a _one size fits all_ within the healthcare worldwide. Therefore are the resources made generic with the possibility to be profiled to a given context, such as exchanging a CareCommunication message between Danish healthcare parties. An example of profiling could be to require a lastname and an identifier (Danish: "Det Centrale Personregister" (CPR)-number) of a patient/citizen when exchanging information about the person. |
+|Extensions| To extend a profile means to include additional information. For example is a cpr-number of a citizen only relevant in Denmark and is therefore not a part of the genieric Patient resource. To include a CPR-number, an extension must be made. |
+|Element| A resource, hence a profile consists of multiple elements each describing a specific part of the content, like a patient name og adress. |
+|Cardinality| Each element is describes with a minimum and maximum cardinality. If the minimum cardinality is 0, the element may appear and if it is 1 or more the element shall appear the number of times stated. If the maximum cardinality is 0 the element must not appear, 1 the element may not appear more than once and if the maximum cardinality is * the element may appear several times. Changing the cardinality within the predefined limits is a part of the profilling.|
+|Must Support| Indicates which information which shall be included in a MedCom standard if available in the sender systemer and which information the receiver system shall be able to handle. Read more in "Syn&Kom..." + Henvisning |
+|CodeSystem| A collection of codes, which can be predetermined by HL7 e.g. [gender](http://hl7.org/fhir/R4/valueset-administrative-gender.html), from a international terminology e.g. [SNOMED CT](https://browser.ihtsdotools.org/?) or defined by the developer of the IG e.g. [categories in a CareCommunication message](https://build.fhir.org/ig/hl7dk/dk-medcom-carecommunication/CodeSystem-medcom-careCommunication-categoryCodes.html).|
+|ValueSet| A collection of codes from one or more CodeSystems. ValueSet are referenced from elements in IG. |
+|Narrative| A summary of the most important information in a standard.|
+|Implementation Guide (IG)| A set of rules and associated documentation describing how FHIR profiles should be used to accommodate a given standard. |
 <!-- 
 __Resources:__ FHIR consists of generic resources, each describing a clinically delimited area, e.g. a Patient, an Allergy, an Observation, an Encounter, ect. The resouces are generic and can be used all over the world.<br>
 __Profiling:__ Means to fit the resources to a given context. It is widely recognized that when exchaning data it is impossible to make a _one size fits all_ within healthcare worldwide. Therefore are the resources made generic with the possibility to be profiled to fit a given context, such as exchanging a CareCommunication message between Danish healthcare parties. An example of profiling could be to require a lastname and an identifier (a cpr.-number) of a patient when exchanging information about the person.<br>
@@ -76,11 +76,16 @@ This guide is founded in the [MedComCore IG](https://build.fhir.org/ig/hl7dk/dk-
 * The tab [Artifacts](https://build.fhir.org/ig/hl7dk/dk-medcom-core/artifacts.html) shows entire content of the IG.
 
 
-#### 1.2.1 Why have MedCom made Multiple Implementation Guides?
+#### 1.2.1 Why are there Multiple Implementation Guides?
 
-![Overview](/assets/images/Overview-IGs.png)
+FHIR allows for a great deal of reuse. When creating a MedCom Message profiles from the MedComCore and MedComMessaging IG are used, as illustrated on the figure below. ![Overview](/assets/images/Overview-IGs.png)
+Keeping the IGs seperat allows to versioning each one of them, so an update in the MedComHospitalNotification IG wont affect the version of the MedComCareCommunication IG.  However an update in the MedComMessaging IG will affect all standards than uses profiles or inherits profiles from this IG. 
+For more information about versioning see HERE.. (is coming.)
 
 #### 1.2.2 How does Inheritance work and what is DKCorePatient? 
+
+Just like profiling of resources, it is possible to take a generic profile and specify it to a given context. For example is a [MedComCoreOrganization](https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-organization.html) determined to include a SOR-code and possible a name of the organization. But when using an organization in a messaging context, it is determined that a [MedComMessagingOrganization](https://build.fhir.org/ig/hl7dk/dk-medcom-messaging/StructureDefinition-medcom-messaging-organization.html) also shall include an EAN/GLN-number. However, MedComMessagingOrganization is based on the profiling of MedComCoreOrganization and is therefore said to inherit from this profile. <br>
+In Denmark we have a national HL7 affiliate, called HL7-DK. A group of FHIR-interested people (FHIR-SIG) make what is called DK-core profiles, generic FHIR profiles which can and should be used in FHRI project in Denmark. MedComCorePatient inherits from [DKCorePatient](https://hl7.dk/fhir/core/1.1.0/StructureDefinition-dk-core-patient.html). This means that when MedCom uses a CPR-number from DKCorePatient, it is defined in the same way as when other projects inherits from DK-core and uses a CPR-number, securing consistentcy across projects. You can read more about the work of [HL7-DK here](https://www.medcom.dk/standarder/moderniseringsnyheder/nyhedsbrev-29-november-2021). 
 
 ### 1.3 Relevant pages
 

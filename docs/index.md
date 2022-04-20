@@ -24,7 +24,7 @@ Here you will find the information you need to get started with MedCom's FHIR st
 
 ## 1 Clinical Introduction to FHIR
 
-[Fast Healthcare Interoperability Resources (FHIR)](https://www.hl7.org/fhir/)&reg;&copy; is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare related information. <br> 
+[Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)](https://www.hl7.org/fhir/) is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare related information. <br> 
 This introduction is amied for people with limited insigth into FHIR. First, the most common _FHIR-words_ are presented followed by a short introduction to a MedCom Implementation Guide (IG). 
 
 ### 1.1 Glossary

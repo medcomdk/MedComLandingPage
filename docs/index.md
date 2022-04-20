@@ -1,10 +1,16 @@
-# Welcom to MedCom FHIR Messaging
+# Welcome to MedCom FHIR Messaging
 
-[1 Clinical Introduction to FHIR](#1-clinical-introduction-to-fhir) <br> 
-    [1.1 Glossary](#11-glossary) <br> 
-    [1.2 How to Read a MedCom Implementation Guide](#12-how-to-read-a-medcom-implementation-guide) <br> 
-        [1.2.1 Why have MedCom made Multiple Implementation Guides?](#121-why-have-medcom-made-multiple-implementation-guides) <br> 
-    [1.3 Relevant pages](#13-relevant-pages) <br> 
+- [Welcom to MedCom FHIR Messaging](#welcom-to-medcom-fhir-messaging)
+  * [1 Clinical Introduction to FHIR](#1-clinical-introduction-to-fhir)
+    + [1.1 Glossary](#11-glossary)
+    + [1.2 How to Read a MedCom Implementation Guide](#12-how-to-read-a-medcom-implementation-guide)
+      - [1.2.1 Why are there Multiple Implementation Guides?](#121-why-are-there-multiple-implementation-guides-)
+      - [1.2.2 How does Inheritance work and what is DKCorePatient?](#122-how-does-inheritance-work-and-what-is-dkcorepatient-)
+    + [1.3 Relevant pages](#13-relevant-pages)
+  * [2 Information about the Transportation Layer](#2-information-about-the-transportation-layer)
+  * [3 Test and Certification](#3-test-and-certification)
+  * [4 Release Notes](#4-release-notes)
+  * [5 Support or Contact](#5-support-or-contact)
 
 Here you will find the information you need to get started with MedCom's FHIR standards. To get more information about each standard, please click on the pages below. All webpages are in English, unless other specified.
 
@@ -49,7 +55,7 @@ Below you'll find the most common words and associated descriptions used in FHIR
   </tr>
   <tr>
     <td class="tg-fspy"><span style="font-weight:bold">Profiling:</span></td>
-    <td class="tg-t6hh">Means to fit the resources to a given context. It is widely recognized that when exchanging data it is impossible to make a <span style="font-style:italic">one size fits all_</span> within healthcare worldwide.<br>Therefore are the resources made generic with the possibility to be profiled to fit a given context, such as exchanging a CareCommunication message between Danish healthcare parties.<br>An example of profiling could be to require a lastname and an identifier (a CPR-number) of a patient when exchanging information about the person.</td>
+    <td class="tg-t6hh">Means to fit the resources to a given context. It is widely recognized that when exchanging data it is impossible to make a <span style="font-style:italic">one size fits all</span> within healthcare worldwide.<br>Therefore are the resources made generic with the possibility to be profiled to fit a given context, such as exchanging a CareCommunication message between Danish healthcare parties.<br>An example of profiling could be to require a lastname and an identifier (a CPR-number) of a patient when exchanging information about the person.</td>
   </tr>
   <tr>
     <td class="tg-fspy"><span style="font-weight:bold">Extensions:</span></td>

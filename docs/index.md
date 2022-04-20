@@ -6,7 +6,7 @@
         [1.2.1 Why have MedCom made Multiple Implementation Guides?](#121-why-have-medcom-made-multiple-implementation-guides)
     [1.3 Relevant pages](#13-relevant-pages)
 
-Here you will find the information you need to get started with MedCom's FHIR standards. 
+Here you will find the information you need to get started with MedCom's FHIR standards. To get more information about each standard, please click on the pages below. All webpages are in English, unless other is specified.
 
 | Name in English | Name in Danish |                            Short description                      |
 |:---------------:|:--------------:|:-----------------------------------------------------------------:|
@@ -25,9 +25,75 @@ This introduction is amied for people with limited insigth into FHIR. First the 
 
 Below you'll find the most common words used in FHIR-regi. 
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow"><span style="font-weight:bold">__Word__</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">__Describtion__</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">__Resources:__</span></td>
+    <td class="tg-0pky">FHIR consists of generic resources, each describing a clinically delimited area, e.g. a Patient, an Allergy, an Observation, an Encounter, ect. The resouces are generic and can be used all over the world.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">__Profiling:__</span></td>
+    <td class="tg-0pky">Means to fit the resources to a given context. It is widely recognized that when exchanging data it is impossible to make a <span style="font-style:italic">_one size fits all_</span> within healthcare worldwide. <br>Therefore are the resources made generic with the possibility to be profiled to fit a given context, such as exchanging a CareCommunication message between Danish healthcare parties. <br>An example of profiling could be to require a lastname and an identifier (a CPR-number) of a patient when exchanging information about the person.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">__Extensions:__</span></td>
+    <td class="tg-0pky">To extend a profile to include additional information. For example is CPR-number of a citizen only relevant in Denmark and is therefore not a part of the generic Patient resource. To include a CPR-number, an extension must be made.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">__Must Support:__</span></td>
+    <td class="tg-0pky">Indicates which information which shall be included in a MedCom standard if available in the sender systemer and which information the receiver system shall be able to handle. Read more in "Syn&amp;Kom..."</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">__Element:__</span></td>
+    <td class="tg-0pky">A resource, hence a profile consists of multiple elements each describing a specific part of the content, like a patient name og adress.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">__Cardinality:__</span></td>
+    <td class="tg-0pky">Each element is describes with a minimum and maximum cardinality (abreviation in the IG: Card). <br>If the minimum cardinality is 0, the element may appear and if it is 1 or more the element shall appear the number of times stated.<br> If the maximum cardinality is 0 the element must not appear, 1 the element not not appear more than once and if it is * the element may appear several times.</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">__MustSupport:__</span></td>
+    <td class="tg-0lax">Indicates which information which shall be included in a MedCom standard if available in the sender systemer and which information the receiver system shall be able to handle. Read more in “Syn&amp;Kom…” + Henvisning</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">__CodeSystem:__</span></td>
+    <td class="tg-0lax">A collection of codes, which can be predetermined by HL7 e.g. gender, from a international terminology e.g. SNOMED CT or defined by the developer of the IG e.g. categories in a CareCommunication message.</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig"><span style="font-weight:bold">__ValueSet:__</span></td>
+    <td class="tg-0lax">A collection of codes from one or more CodeSystems. ValueSet are referenced from elements in IG.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">__Narrative:__</span></td>
+    <td class="tg-0pky">A summary of the most important information in a standard. </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">__Implementation Guide (IG):__</span></td>
+    <td class="tg-0pky">A set of rules and associated documentation describing how FHIR profiles should be used to accommodate a given standard.</td>
+  </tr>
+</tbody>
+</table>
+<!-- 
 |Word|Description|
 | :-: | :- |
-| Resources | FHIR consists of generic resources, each describing a clinically delimited area, e.g. a Patient, an Allergy, an Observation, an Encounter, ect. The resouces are generic and can be used all over the world. |
+|Resources | FHIR consists of generic resources, each describing a clinically delimited area, e.g. a Patient, an Allergy, an Observation, an Encounter, ect. The resouces are generic and can be used all over the world. |
 |Profiling| Means to fit the resources to a given context. It is widely recognized that when exchanging data it is impossible to make a _one size fits all_ within the healthcare worldwide. Therefore are the resources made generic with the possibility to be profiled to a given context, such as exchanging a CareCommunication message between Danish healthcare parties. An example of profiling could be to require a lastname and an identifier (Danish: "Det Centrale Personregister" (CPR)-number) of a patient/citizen when exchanging information about the person. |
 |Extensions| To extend a profile means to include additional information. For example is a cpr-number of a citizen only relevant in Denmark and is therefore not a part of the genieric Patient resource. To include a CPR-number, an extension must be made. |
 |Element| A resource, hence a profile consists of multiple elements each describing a specific part of the content, like a patient name og adress. |
@@ -37,7 +103,6 @@ Below you'll find the most common words used in FHIR-regi.
 |ValueSet| A collection of codes from one or more CodeSystems. ValueSet are referenced from elements in IG. |
 |Narrative| A summary of the most important information in a standard.|
 |Implementation Guide (IG)| A set of rules and associated documentation describing how FHIR profiles should be used to accommodate a given standard. |
-<!-- 
 __Resources:__ FHIR consists of generic resources, each describing a clinically delimited area, e.g. a Patient, an Allergy, an Observation, an Encounter, ect. The resouces are generic and can be used all over the world.<br>
 __Profiling:__ Means to fit the resources to a given context. It is widely recognized that when exchaning data it is impossible to make a _one size fits all_ within healthcare worldwide. Therefore are the resources made generic with the possibility to be profiled to fit a given context, such as exchanging a CareCommunication message between Danish healthcare parties. An example of profiling could be to require a lastname and an identifier (a cpr.-number) of a patient when exchanging information about the person.<br>
 To create a MedCom FHIR standard it is nessecary to select multiple relevant resources and profile these to the context. <br>

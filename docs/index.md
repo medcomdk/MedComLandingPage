@@ -6,7 +6,7 @@
         [1.2.1 Why have MedCom made Multiple Implementation Guides?](#121-why-have-medcom-made-multiple-implementation-guides) <br> 
     [1.3 Relevant pages](#13-relevant-pages) <br> 
 
-Here you will find the information you need to get started with MedCom's FHIR standards. To get more information about each standard, please click on the pages below. All webpages are in English, unless other is specified.
+Here you will find the information you need to get started with MedCom's FHIR standards. To get more information about each standard, please click on the pages below. All webpages are in English, unless other specified.
 
 | Name in English | Name in Danish |                            Short description                      |
 |:---------------:|:--------------:|:-----------------------------------------------------------------:|
@@ -18,7 +18,7 @@ Here you will find the information you need to get started with MedCom's FHIR st
 
 ## 1 Clinical Introduction to FHIR
 
-[Fast Healthcare Interoperability Resources (FHIR)](https://www.hl7.org/fhir/) is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare related information. <br> 
+[Fast Healthcare Interoperability Resources (FHIR)](https://www.hl7.org/fhir/)&reg;&copy; is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare related information. <br> 
 This introduction is amied for people with limited insigth into FHIR. First, the most common _FHIR-words_ are presented followed by a short introduction to a MedCom Implementation Guide (IG). 
 
 ### 1.1 Glossary
@@ -27,13 +27,13 @@ Below you'll find the most common words and associated descriptions used in FHIR
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg td{border-color:grey;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg th{border-color:grey;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-tqls{background-color:#FFF;border-color:#9b9b9b;color:#000000;text-align:left;vertical-align:top}
-.tg .tg-js9d{background-color:#FFF;border-color:#9b9b9b;color:#000000;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-svmp{background-color:#FFF;border-color:#9b9b9b;color:#000000;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-tqls{background-color:#FFF;border-color:#866E7C;color:#866E7C;text-align:left;vertical-align:top}
+.tg .tg-js9d{background-color:#FFF;border-color:#866E7C;color:#866E7C;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-svmp{background-color:#FFF;border-color:#866E7C;color:#866E7C;font-weight:bold;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
@@ -49,7 +49,7 @@ Below you'll find the most common words and associated descriptions used in FHIR
   </tr>
   <tr>
     <td class="tg-svmp"><span style="font-weight:bold">Profiling:</span></td>
-    <td class="tg-tqls">Means to fit the resources to a given context. It is widely recognized that when exchanging data it is impossible to make a <span style="font-style:italic">_one size fits all_</span> within healthcare worldwide.<br>Therefore are the resources made generic with the possibility to be profiled to fit a given context, such as exchanging a CareCommunication message between Danish healthcare parties.<br>An example of profiling could be to require a family name and an identifier (a CPR-number) of a patient when exchanging information about the person.</td>
+    <td class="tg-tqls">Means to fit the resources to a given context. It is widely recognized that when exchanging data it is impossible to make a <span style="font-style:italic">one size fits allspan> within healthcare worldwide.<br>Therefore are the resources made generic with the possibility to be profiled to fit a given context, such as exchanging a CareCommunication message between Danish healthcare parties.<br>An example of profiling could be to require a family name and an identifier (Danish: "Centrale PersonRegister", CPR-number) of a patient when exchanging information about the person.</td>
   </tr>
   <tr>
     <td class="tg-svmp"><span style="font-weight:bold">Extensions:</span></td>
@@ -138,7 +138,7 @@ For more information about versioning see HERE.. (is coming.)
 #### 1.2.2 How does Inheritance work and what is DKCorePatient? 
 
 Just like profiling of resources, it is possible to take a generic profile and specify it to a given context. For example is a [MedComCoreOrganization](https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-organization.html) determined to include a SOR-code and possible a name of the organization. When using an organization in a messaging context, it is determined that a [MedComMessagingOrganization](https://build.fhir.org/ig/hl7dk/dk-medcom-messaging/StructureDefinition-medcom-messaging-organization.html) further shall include an EAN/GLN-number. However, MedComMessagingOrganization is based on the profiling of MedComCoreOrganization and is therefore said to inherit from this profile. <br>
-In Denmark we have a national HL7 affiliate, called HL7-DK. A special FHIR-interest group (FHIR-SIG) develops what is called DK-core profiles, generic FHIR profiles which should and should be used in FHIR project in Denmark. MedComCorePatient inherits from [DKCorePatient](https://hl7.dk/fhir/core/1.1.0/StructureDefinition-dk-core-patient.html). This means that when MedCom uses a CPR-number from DKCorePatient, it is defined in the same way as when other projects inherits from DK-core and uses a CPR-number, securing consistentcy across projects. You can read more about the work of [HL7-DK here](https://www.medcom.dk/standarder/moderniseringsnyheder/nyhedsbrev-29-november-2021). 
+In Denmark there is a national HL7 affiliate, called HL7-DK. A special FHIR-interest group develops what is called DK-core profiles, generic FHIR profiles which can be used freely for FHIR project in Denmark. MedComCorePatient inherits from [DKCorePatient](https://hl7.dk/fhir/core/1.1.0/StructureDefinition-dk-core-patient.html). This means that when a MedCom standard uses a CPR-number from DKCorePatient, it is defined in the same way as when other projects inherit from DK-core and uses a CPR-number, securing consistentcy across projects. You can read more about the work of HL7-DK [here](https://www.medcom.dk/standarder/moderniseringsnyheder/nyhedsbrev-29-november-2021). 
 
 ### 1.3 Relevant pages
 

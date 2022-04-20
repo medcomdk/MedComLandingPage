@@ -27,69 +27,65 @@ Below you'll find the most common words and associated descriptions used in FHIR
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:grey;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:grey;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-tqls{background-color:#FFF;border-color:#866E7C;color:#866E7C;text-align:left;vertical-align:top}
-.tg .tg-js9d{background-color:#FFF;border-color:#866E7C;color:#866E7C;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-svmp{background-color:#FFF;border-color:#866E7C;color:#866E7C;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-kxdg{background-color:#FFF;border-color:#746f6c;color:#746f6c;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-fspy{background-color:#FFF;border-color:#746f6c;color:#746f6c;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-t6hh{background-color:#FFF;border-color:#746f6c;color:#746f6c;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-js9d"><span style="font-weight:bold">Word</span></th>
-    <th class="tg-svmp"><span style="font-weight:bold">Describtion</span></th>
+    <th class="tg-kxdg"><span style="font-weight:bold">Word</span></th>
+    <th class="tg-fspy"><span style="font-weight:bold">Describtion</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-svmp"><span style="font-weight:bold">Resources:</span></td>
-    <td class="tg-tqls">FHIR consists of generic resources, each describing a clinically delimited area, e.g. a Patient, an Allergy, an Observation, an Encounter, ect. The resouces are generic and can be used all over the world.</td>
+    <td class="tg-fspy"><span style="font-weight:bold">Resources:</span></td>
+    <td class="tg-t6hh">FHIR consists of generic resources, each describing a clinically delimited area, e.g. a Patient, an Allergy, an Observation, an Encounter, ect. The resouces are generic and can be used all over the world.</td>
   </tr>
   <tr>
-    <td class="tg-svmp"><span style="font-weight:bold">Profiling:</span></td>
-    <td class="tg-tqls">Means to fit the resources to a given context. It is widely recognized that when exchanging data it is impossible to make a <span style="font-style:italic">one size fits allspan> within healthcare worldwide.<br>Therefore are the resources made generic with the possibility to be profiled to fit a given context, such as exchanging a CareCommunication message between Danish healthcare parties.<br>An example of profiling could be to require a family name and an identifier (Danish: "Centrale PersonRegister", CPR-number) of a patient when exchanging information about the person.</td>
+    <td class="tg-fspy"><span style="font-weight:bold">Profiling:</span></td>
+    <td class="tg-t6hh">Means to fit the resources to a given context. It is widely recognized that when exchanging data it is impossible to make a <span style="font-style:italic">one size fits all_</span> within healthcare worldwide.<br>Therefore are the resources made generic with the possibility to be profiled to fit a given context, such as exchanging a CareCommunication message between Danish healthcare parties.<br>An example of profiling could be to require a lastname and an identifier (a CPR-number) of a patient when exchanging information about the person.</td>
   </tr>
   <tr>
-    <td class="tg-svmp"><span style="font-weight:bold">Extensions:</span></td>
-    <td class="tg-tqls">To extend a profile to include additional information. For example is CPR-number of a citizen only relevant in Denmark and is therefore not a part of the generic Patient resource. To include a CPR-number, an extension must be made.</td>
+    <td class="tg-fspy"><span style="font-weight:bold">Extensions:</span></td>
+    <td class="tg-t6hh">To extend a profile to include additional information. For example is CPR-number of a citizen only relevant in Denmark and is therefore not a part of the generic Patient resource. To include a CPR-number, an extension must be made.</td>
   </tr>
   <tr>
-    <td class="tg-svmp"><span style="font-weight:bold">Must Support:</span></td>
-    <td class="tg-tqls">Indicates which information which shall be included in a MedCom standard if available in the sender systemer and which information the receiver system shall be able to handle. Read more in "Syn&amp;Kom..."</td>
+    <td class="tg-fspy"><span style="font-weight:bold">Must Support:</span></td>
+    <td class="tg-t6hh">Indicates which information which shall be included in a MedCom standard if available in the sender systemer and which information the receiver system shall be able to handle. Read more in "Syn&amp;Kom..."</td>
   </tr>
   <tr>
-    <td class="tg-svmp"><span style="font-weight:bold">Element:</span></td>
-    <td class="tg-tqls">A resource, hence a profile consists of multiple elements each describing a specific part of the content, like a patient name og adress.</td>
+    <td class="tg-fspy"><span style="font-weight:bold">Element:</span></td>
+    <td class="tg-t6hh">A resource, hence a profile consists of multiple elements each describing a specific part of the content, like a patient name og adress.</td>
   </tr>
   <tr>
-    <td class="tg-svmp"><span style="font-weight:bold">Cardinality:</span></td>
-    <td class="tg-tqls">Each element is describes with a minimum and maximum cardinality (abreviation in the IG: Card).<br>If the minimum cardinality is 0, the element may appear and if it is 1 or more the element shall appear the number of times stated.<br>If the maximum cardinality is 0 the element must not appear, 1 the element not not appear more than once and if it is * the element may appear several times.</td>
+    <td class="tg-fspy"><span style="font-weight:bold">Cardinality:</span></td>
+    <td class="tg-t6hh">Each element is describes with a minimum and maximum cardinality (abreviation in the IG: Card).<br>If the minimum cardinality is 0, the element may appear and if it is 1 or more the element shall appear the number of times stated.<br>If the maximum cardinality is 0 the element must not appear, 1 the element not not appear more than once and if it is * the element may appear several times.</td>
   </tr>
   <tr>
-    <td class="tg-svmp"><span style="font-weight:bold">MustSupport:</span></td>
-    <td class="tg-tqls">Indicates which information which shall be included in a MedCom standard if available in the sender systemer and which information the receiver system shall be able to handle. Read more in “Syn&amp;Kom…” + Henvisning</td>
+    <td class="tg-fspy"><span style="font-weight:bold">MustSupport:</span></td>
+    <td class="tg-t6hh">Indicates which information which shall be included in a MedCom standard if available in the sender systemer and which information the receiver system shall be able to handle. Read more in “Syn&amp;Kom…” + Henvisning</td>
   </tr>
   <tr>
-    <td class="tg-svmp"><span style="font-weight:bold">Slicing:</span></td>
-    <td class="tg-tqls">When an element has the maximum cardinality greater than 1 or * it is possible to slice the element, meaning that the element can be replicated a number of times. For example shall a patient have an official name, but it is also possible to add a nickname, if the buisness rules allow it.</td>
+    <td class="tg-fspy"><span style="font-weight:bold">CodeSystem:</span></td>
+    <td class="tg-t6hh">A collection of codes, which can be predetermined by HL7 e.g. <a href="http://hl7.org/fhir/R4/valueset-administrative-gender.html" target="_blank" rel="noopener noreferrer">gender</a>, from a international terminology e.g. <a href="https://browser.ihtsdotools.org/?" target="_blank" rel="noopener noreferrer">SNOMED CT</a> or defined by the developer of the IG e.g. <a href="https://browser.ihtsdotools.org/?" target="_blank" rel="noopener noreferrer">categories in a CareCommunication message</a>.</td>
   </tr>
   <tr>
-    <td class="tg-svmp"><span style="font-weight:bold">CodeSystem:</span></td>
-    <td class="tg-tqls">A collection of codes, which can be predetermined by HL7 e.g. <a href="http://hl7.org/fhir/R4/valueset-administrative-gender.html" target="_blank" rel="noopener noreferrer">gender</a>, from a international terminology e.g. <a href="https://browser.ihtsdotools.org/?" target="_blank" rel="noopener noreferrer">SNOMED CT</a> or defined by the developer of the IG e.g. <a href="https://browser.ihtsdotools.org/?" target="_blank" rel="noopener noreferrer">categories in a CareCommunication message</a>.</td>
+    <td class="tg-fspy">ValueSet:</td>
+    <td class="tg-t6hh">A collection of codes from one or more CodeSystems. ValueSet are referenced from elements in IG.</td>
   </tr>
   <tr>
-    <td class="tg-svmp">ValueSet:</td>
-    <td class="tg-tqls">A collection of codes from one or more CodeSystems. ValueSet are referenced from elements in IG.</td>
+    <td class="tg-fspy"><span style="font-weight:bold">Narrative:</span></td>
+    <td class="tg-t6hh">A summary of the most important information in a standard.</td>
   </tr>
   <tr>
-    <td class="tg-svmp"><span style="font-weight:bold">Narrativ:</span></td>
-    <td class="tg-tqls">A summary of the most important information in a standard.</td>
-  </tr>
-  <tr>
-    <td class="tg-svmp"><span style="font-weight:bold">Implementation Guide (IG):</span></td>
-    <td class="tg-tqls">A set of rules and associated documentation describing how FHIR profiles should be used to accommodate a given standard.</td>
+    <td class="tg-fspy"><span style="font-weight:bold">Implementation Guide (IG):</span></td>
+    <td class="tg-t6hh">A set of rules and associated documentation describing how FHIR profiles should be used to accommodate a given standard.</td>
   </tr>
 </tbody>
 </table>

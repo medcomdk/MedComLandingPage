@@ -16,13 +16,13 @@ Markdown (filetype .md) is a markup language for virtual documents. HTML can als
 You can make different kinds of lists (enumerated, dot). See here: https://www.markdownguide.org/basic-syntax/#lists-1
 
 ## Formatting
-_Italic_ use single underscore on each side of the text '_' (some uses '*')
-__Bold__ use double underscore on each side of the text '__' (some uses '**')
-> note: use single '>' in the beginning of the line
+_Italic_ use single underscore on each side of the text '_' (some uses '*') <br> 
+__Bold__ use double underscore on each side of the text '__' (some uses '**') <br> 
+> note: use single '>' in the beginning of the line <br> 
 Read more here: https://www.markdownguide.org/cheat-sheet/#basic-syntax
 
 ## Tables
-Recommends to use this table converter for markdown tables: https://www.tablesgenerator.com/markdown_tables#
+Recommends to use this table converter for markdown tables: https://www.tablesgenerator.com/markdown_tables# <br> 
 If the above doesn't work, try making the table in html: https://www.tablesgenerator.com/html_tables 
 
 ## Table of content
@@ -32,8 +32,8 @@ To make a table of context, this generator can be used: https://ecotrust-canada.
 The more #, the smaller does the headline become. See examples here: https://www.markdownguide.org/basic-syntax/#headings
 
 ## Text
-Write like you would in a word-document. 
-For linebreak _'<br>'_ can be used. Put a space _' '_ om each side. 
+Write like you would in a word-document.  <br> 
+For linebreak < br > (without spaces inside the <>) can be used. Put a space _' '_ om each side. <br> 
 It is also possible to use double enter.
 
 ## Images and Links

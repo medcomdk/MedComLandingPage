@@ -1,6 +1,7 @@
 # Welcome to MedCom FHIR Messaging
 
-- [Welcom to MedCom FHIR Messaging](#welcom-to-medcom-fhir-messaging)
+Here you will find the information you need to get started with MedCom's FHIR messaging standards. 
+
   * [1 Clinical Introduction to FHIR](#1-clinical-introduction-to-fhir)
     + [1.1 Glossary](#11-glossary)
     + [1.2 How to Read a MedCom Implementation Guide](#12-how-to-read-a-medcom-implementation-guide)
@@ -12,15 +13,67 @@
   * [4 Release Notes](#4-release-notes)
   * [5 Support or Contact](#5-support-or-contact)
 
-Here you will find the information you need to get started with MedCom's FHIR standards. To get more information about each standard, please click on the pages below. All webpages are in English, unless other specified.
+> Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.
 
-| Name in English | Name in Danish |                            Short description                      |
-|:---------------:|:--------------:|:-----------------------------------------------------------------:|
-| Core | Kerneprofiler  | Core profiles that are static and used across standards.             |
-| Messaging | Medddelsesprofiler | Messaging profiles used across all messaging-based standards.             |
-| Acknowledgement | Kvittering  | When a message is received an acknowledgement message shall be returned to the sender, stating if the message was received properly.             |
-| [HospitalNotification](https://tmsmedcom.github.io/GitHubPagesTest/) | Sygehusadvis | Used to inform municipalities about hospitalization of a patient             |
-| CareCommunication | Korrespondancemeddelelse | Used in all parts of the Danish health care sector to communicate between parties.             |
+## 1 MedCom's FHIR Messaging standard
+
+In the table below is a link to get more information about the standard and a short description of each Implementation Guide (IG). Each standard is composed by profiles from the Core, Messaging and standard IG. To get more information about each standard, please click on the pages below.
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-rnyl{background-color:#FFF;color:#727272;text-align:center;vertical-align:middle}
+.tg .tg-prcv{background-color:#FFF;color:#727272;text-align:left;vertical-align:middle}
+.tg .tg-kftd{background-color:#efefef;text-align:left;vertical-align:top}
+.tg .tg-d8lx{background-color:#FFF;color:#444;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-2vsp{background-color:#FFF;color:#444;font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-7s4j{background-color:#FFF;color:#267CB9;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-d8lx"><span style="color:#444">English</span></th>
+    <th class="tg-d8lx"><span style="color:#444">Danish</span></th>
+    <th class="tg-2vsp"><span style="color:#444">Short description</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-kftd" colspan="3">Generic profiles used across standards</td>
+  </tr>
+  <tr>
+    <td class="tg-rnyl">Core</td>
+    <td class="tg-rnyl">Kerneprofiler</td>
+    <td class="tg-prcv">Core profiles that are static and used across standards.</td>
+  </tr>
+  <tr>
+    <td class="tg-rnyl">Messaging</td>
+    <td class="tg-rnyl">Medddelsesprofiler</td>
+    <td class="tg-prcv">Messaging profiles used across all messaging-based standards.</td>
+  </tr>
+  <tr>
+    <td class="tg-kftd" colspan="3">Current MedCom FHIR standards</td>
+  </tr>
+  <tr>
+    <td class="tg-rnyl">Acknowledgement</td>
+    <td class="tg-rnyl">Kvittering</td>
+    <td class="tg-prcv">When a message is received an acknowledgement message shall be returned to the sender, stating if the message was received properly.</td>
+  </tr>
+  <tr>
+    <td class="tg-7s4j"><a href="https://tmsmedcom.github.io/GitHubPagesTest/"><span style="text-decoration:none;color:#267CB9">HospitalNotification</span></a></td>
+    <td class="tg-rnyl">Sygehusadvis</td>
+    <td class="tg-prcv">Used to inform municipalities about hospitalization of a patient</td>
+  </tr>
+  <tr>
+    <td class="tg-rnyl">CareCommunication</td>
+    <td class="tg-rnyl">Korrespondancemeddelelse</td>
+    <td class="tg-prcv">Used in all parts of the Danish health care sector to communicate between parties.</td>
+  </tr>
+</tbody>
+</table>
 
 ## 1 Clinical Introduction to FHIR
 

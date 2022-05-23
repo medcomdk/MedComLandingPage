@@ -19,7 +19,7 @@ Here you will find the information you need to get started with MedCom's FHIR st
 | Core | Kerneprofiler  | Core profiles that are static and used across standards.             |
 | Messaging | Medddelsesprofiler | Messaging profiles used across all messaging-based standards.             |
 | Acknowledgement | Kvittering  | When a message is received an acknowledgement message shall be returned to the sender, stating if the message was received properly.             |
-| [HospitalNotification](https://tmsmedcom.github.io/GitHubPagesTest/) | [Sygehusadvis](https://tmsmedcom.github.io/GitHubPagesTest/) | Used to inform municipalities about hospitalization of a patient             |
+| [HospitalNotification](https://tmsmedcom.github.io/GitHubPagesTest/) | Sygehusadvis | Used to inform municipalities about hospitalization of a patient             |
 | CareCommunication | Korrespondancemeddelelse | Used in all parts of the Danish health care sector to communicate between parties.             |
 
 ## 1 Clinical Introduction to FHIR
@@ -60,10 +60,6 @@ Below you'll find the most common words and associated descriptions used in FHIR
   <tr>
     <td class="tg-fspy"><span style="font-weight:bold">Extensions:</span></td>
     <td class="tg-t6hh">To extend a profile to include additional information. For example is CPR-number of a citizen only relevant in Denmark and is therefore not a part of the generic Patient resource. To include a CPR-number, an extension must be made.</td>
-  </tr>
-  <tr>
-    <td class="tg-fspy"><span style="font-weight:bold">Must Support:</span></td>
-    <td class="tg-t6hh">Indicates which information which shall be included in a MedCom standard if available in the sender systemer and which information the receiver system shall be able to handle. Read more in "Syn&amp;Kom..."</td>
   </tr>
   <tr>
     <td class="tg-fspy"><span style="font-weight:bold">Element:</span></td>
@@ -111,13 +107,13 @@ This step-by-step guide takes its starting point in [MedComCore IG](https://buil
       * Click on the tab 'Snapshot Table (MustSupport)'. Here is all required content for the profil gathered. The table contains five headlines
           * Name
                 * The element name.
-            * Cardinality (Card):
-                * Given the minimum cardinality of 1 for Patient.identifier and Patient.name the information for these elements shall always be included when exchanging a MedCom standard. Not only shall a Patient.name be included, it shall always be the patients offical name, indicated by Patient.name:Official. Information about Patient.telecom, Patient.deceased, Patient.address and Patient.managingOrganization shall be included if the information is available in the sender system, given the minimum cardinality of 0. 
-                * Given the maximum cardinality of * for Patient.identifier, Patient.name, Patient.telecom and Patient.address it is allowed to slice the element. For the element Patient.deceased it is only allowed to include the information once. 
             * Flags: 
                 * I = a rule, which can be seen further down the page.
                 * &sum; = if the element shall be included in the narrativ. 
                 * ?! = modifier element, an element which potentially can modify the understanding of an entire message
+            * Cardinality (Card):
+                * Given the minimum cardinality of 1 for Patient.identifier and Patient.name the information for these elements shall always be included when exchanging a MedCom standard. Not only shall a Patient.name be included, it shall always be the patients offical name, indicated by Patient.name:Official. Information about Patient.telecom, Patient.deceased, Patient.address and Patient.managingOrganization shall be included if the information is available in the sender system, given the minimum cardinality of 0. 
+                * Given the maximum cardinality of * for Patient.identifier, Patient.name, Patient.telecom and Patient.address it is allowed to slice the element. For the element Patient.deceased it is only allowed to include the information once. 
             * Type: 
                 * Describes the datatype of the element. Click on them for more information about the datatype. 
                 * One migth notice the type at the top of the elements says _DKCorePatient_, which means that the MedComCorePatient inherits from a Patient profile developed by the Danish HL7 affiliate. You can read more about the work under '[How does Inheritance work and what is DKCorePatient?](#how-does-inheritance-work-and-what-is-dk-core-profiles)'.

@@ -2,6 +2,7 @@
 
 Here you will find the information you need to get started with MedCom's FHIR messaging standards. 
 
+  * [1 MedCom's FHIR Messaging standard](#1-medcoms-fhir-messaging-standard)
   * [1 Clinical Introduction to FHIR](#1-clinical-introduction-to-fhir)
     + [1.1 Glossary](#11-glossary)
     + [1.2 How to Read a MedCom Implementation Guide](#12-how-to-read-a-medcom-implementation-guide)
@@ -13,7 +14,7 @@ Here you will find the information you need to get started with MedCom's FHIR me
   * [4 Release Notes](#4-release-notes)
   * [5 Support or Contact](#5-support-or-contact)
 
-> Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.
+> Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.
 
 ## 1 MedCom's FHIR Messaging standard
 
@@ -22,11 +23,11 @@ In the table below is a link to get more information about the standard and a sh
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
+  overflow:hidden;padding:10px 5px;word-break:normal;width:20%;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-rnyl{background-color:#FFF;color:#727272;text-align:center;vertical-align:middle}
-.tg .tg-prcv{background-color:#FFF;color:#727272;text-align:left;vertical-align:middle}
+.tg .tg-prcv{background-color:#FFF;color:#727272;text-align:left;vertical-align:middle;width:40%;}
 .tg .tg-kftd{background-color:#efefef;text-align:left;vertical-align:top}
 .tg .tg-d8lx{background-color:#FFF;color:#444;font-weight:bold;text-align:center;vertical-align:middle}
 .tg .tg-2vsp{background-color:#FFF;color:#444;font-weight:bold;text-align:left;vertical-align:middle}

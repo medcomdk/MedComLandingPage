@@ -21,13 +21,13 @@ Here you will find the information you need to get started with MedCom's FHIR me
 In the table below is a link to get more information about the standard and a short description of each Implementation Guide (IG). Each standard is composed by profiles from the Core, Messaging and standard IG. To get more information about each standard, please click on the pages below.
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
+.tg  {border-collapse:collapse;border-spacing:0;max-width:60%;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;width:20%;}
+  overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-rnyl{background-color:#FFF;color:#727272;text-align:center;vertical-align:middle}
-.tg .tg-prcv{background-color:#FFF;color:#727272;text-align:left;vertical-align:middle;width:40%;}
+.tg .tg-prcv{background-color:#FFF;color:#727272;text-align:left;vertical-align:middle;}
 .tg .tg-kftd{background-color:#efefef;text-align:left;vertical-align:top}
 .tg .tg-d8lx{background-color:#FFF;color:#444;font-weight:bold;text-align:center;vertical-align:middle}
 .tg .tg-2vsp{background-color:#FFF;color:#444;font-weight:bold;text-align:left;vertical-align:middle}

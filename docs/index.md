@@ -21,7 +21,7 @@ Here you will find the nessecary information you'll need to get started with Med
 In the table below is a short description of each MedCom FHIR standard as well as a link to obtain more information about the specific standard. The table is divided in two parts, the upper representing the core profiles that creates a foundation for reuse of the profiles that are used across the standards and the lower representing profiles special to the standard. A MedCom FHIR standard is composed by both core profiles and specialized profiles. 
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;max-width:60%;}
+.tg  {border-collapse:collapse;border-spacing:0;max-width:65%;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -84,8 +84,6 @@ In the table below is a short description of each MedCom FHIR standard as well a
 </tbody>
 </table>
 
-[Table 1 - overview of MedComs FHIR Standards][overview]
-
 ## 2 Implementing a MedCom FHIR standard
 
 When implementing a MedCom FHIR standard the documentation below is fundamental to ensure uniform use of the standards. 
@@ -119,20 +117,25 @@ Describes how a MedCom FHIR message shall be handled in an envelope. At present,
 
 ## 3 Test and Certification
 
-Before using the implemented standard in production environment, it must be tested and certified by MedCom.  
+Before using the implemented standard in production environment, it must be tested and certified by MedCom to ensure it fulfills the requirements. In addition to he usual <a href="https://www.medcom.dk/standarder/testcenter" target="_blank">MedCom test setup</a> with a selftest and live test, <a href="https://touchstone.aegis.net/touchstone/" target="_blank">TouchStone</a> is used as a tool to validate FHIR messages send in different use cases.
+
+### TouchStone
+
+TouchStone describes an infrastructure that allows for automated test against HL7 FHIR. For each FHIR standard MedCom will develope testsuits, which is helpfull to automatisize the testing.
+<a href="assets/documents/TouchStoneGettingStarted.md" target="_blank">To get started with TouchStone please take a look here.</a> 
 
 ## 4 Governance 
 
-OPdateringer, versionering, 
+OPdateringer, versionering, change management
 
 ## 5 New to FHIR?
 
-[Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)](https://www.hl7.org/fhir/) is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare related information. <br> 
-This introduction is amied for people with limited insigth into FHIR. First, the most common _FHIR-words_ are presented followed by a short introduction to a MedCom Implementation Guide (IG). 
+The purpose of this section is to give a brief introduction to MedComs FHIR standards to people who have heard about FHIR or now a little who wants to know more. </br> 
+<a href="https://www.hl7.org/fhir/" target="_blank">Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)</a> is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare related information. <br> 
 
-### 2.1 Glossary
+### FHIR-glossary
 
-Below you'll find the most common words and associated descriptions used in FHIR-regi. 
+In the table below you'll find the most common words and associated descriptions, and an example. These words all describes a fundamental feature in FHIR, and they make the foundation to understand FHIR, why they are presented initially. 
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -196,72 +199,31 @@ Below you'll find the most common words and associated descriptions used in FHIR
 </table>
 
 
-### 2.2 How to Read a MedCom Implementation Guide
+### How to Read a MedCom Implementation Guide
 
-This step-by-step guide takes its starting point in [MedComCore IG](https://build.fhir.org/ig/hl7dk/dk-medcom-core/). 
-
-* Go to [MedComCore IG](https://build.fhir.org/ig/hl7dk/dk-medcom-core/).
-* On the landingpage you'll find a short introduction to the IG, in this case the MedComCore profiles. 
-    * The topbar on the page includes multiple options: 
-    ![Content](/assets/images/IG-content.png)
-* Click on the tab [Profiles](https://build.fhir.org/ig/hl7dk/dk-medcom-core/profiles.html) you'll get an overview of the profiles in the IG. 
-    * Choose [MedComCorePatient](https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html) and you will get to the frontpage of MedComCorePatient, called 'Content'. _Please notice: a MedComCorePatient describes both a patient and a citizen._ Here you'll find a short introduction to the profile and a table including five tabs, where three are of special interest: 
-    ![Profile Content](/assets/images/ProfileContent.png)
-      * Click on the tab 'Snapshot Table (MustSupport)'. Here is all required content for the profil gathered. The table contains five headlines
-          * Name
-                * The element name.
-            * Flags: 
-                * I = a rule, which can be seen further down the page.
-                * &sum; = if the element shall be included in the narrativ. 
-                * ?! = modifier element, an element which potentially can modify the understanding of an entire message
-            * Cardinality (Card):
-                * Given the minimum cardinality of 1 for Patient.identifier and Patient.name the information for these elements shall always be included when exchanging a MedCom standard. Not only shall a Patient.name be included, it shall always be the patients offical name, indicated by Patient.name:Official. Information about Patient.telecom, Patient.deceased, Patient.address and Patient.managingOrganization shall be included if the information is available in the sender system, given the minimum cardinality of 0. 
-                * Given the maximum cardinality of * for Patient.identifier, Patient.name, Patient.telecom and Patient.address it is allowed to slice the element. For the element Patient.deceased it is only allowed to include the information once. 
-            * Type: 
-                * Describes the datatype of the element. Click on them for more information about the datatype. 
-                * One migth notice the type at the top of the elements says _DKCorePatient_, which means that the MedComCorePatient inherits from a Patient profile developed by the Danish HL7 affiliate. You can read more about the work under '[How does Inheritance work and what is DKCorePatient?](#how-does-inheritance-work-and-what-is-dk-core-profiles)'.
-            * Description and Constraints
-                * A short description of the element as well as rules associated with the element.
-      * If you click on [Detailed Descriptions](https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-definitions.html) yuo'll get a more detailed description of all the elements in the profile. 
-      * Click on [Mappings](https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-mappings.html) you'll find mapping to other HL7 standards, but not the previuos MedCom standards. To get this information you must look under each standard. 
-      * Click on [Examples](https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html) and you'll find examples for the profile. For MedComCorePatient the example is quite simple, but for MedComHospitalNotificationMessage it contains a lot more information.
-          *  If you select one of the examples you will be presented for the content of the narrative text. If you instead select the tabs XML, JSON or TTL you will see the entire content of the MedComCorePatient. 
-      * If you click on XML, JSON og TTL you see StructureDefinition of the profile, which reflects the content. 
-    * Now, try choosing the profile [MedComCoreEncounter](https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-encounter.html)
-        * Here you'll see the type Reference(...) at the element Encounter.subject. This means that the element references the MedComCorePatient profile, and that an encounter always shall be associated with a patient. 
-        * For the elements Encounter.status and Encounter.class the type is code or coding, meaning that a predefined, structured code shall be selected from a ValueSet. which can be seen in the column 'Description & Constraints'.  
-* The tab [Extensions](https://build.fhir.org/ig/hl7dk/dk-medcom-core/extensions.html) shows the extensions made for the IG. 
-* The tab [Terminology](https://build.fhir.org/ig/hl7dk/dk-medcom-core/terminology.html) shows the CodeSystems and ValueSets used in the IG.
-* The tab [Artifacts](https://build.fhir.org/ig/hl7dk/dk-medcom-core/artifacts.html) shows entire content of the IG.
+If you are interested in understanding the basics of a IG, you can follow this <a href="assets\documents\FHIRImplementationGuide.md" target="_blank">step-by-step guide</a>. It will guide you around in an IG and describe the composition. 
 
 
-#### 2.2.1 Why are there Multiple Implementation Guides?
+### Why are there Multiple Implementation Guides?
 
 FHIR allows for a great deal of reuse. When creating a MedCom message, profiles from the MedComCore and MedComMessaging IG are used, as illustrated on the figure below. ![Overview](/assets/images/Overview-IGs.png)
 Keeping the IGs seperat allow to versioning each one of them, so updates in the MedComHospitalNotification IG won't affect the version of the MedComCareCommunication IG.  However an update in the MedComMessaging IG will affect all standards that uses profiles or inherit profiles from this IG. 
-For more information about versioning see HERE.. (is coming.)
 
-#### 2.2.2 How does Inheritance work and what is DKCorePatient? 
+### How does Inheritance Work and What is DKCore? 
 
-Just like profiling of resources, it is possible to take a generic profile and specify it to a given context. For example is a [MedComCoreOrganization](https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-organization.html) determined to include a SOR-code and possible a name of the organization. When using an organization in a messaging context, it is determined that a [MedComMessagingOrganization](https://build.fhir.org/ig/hl7dk/dk-medcom-messaging/StructureDefinition-medcom-messaging-organization.html) further shall include an EAN/GLN-number. However, MedComMessagingOrganization is based on the profiling of MedComCoreOrganization and is therefore said to inherit from this profile. <br>
-In Denmark there is a national HL7 affiliate, called HL7-DK. A special FHIR-interest group develops what is called DK-core profiles, generic FHIR profiles which can be used freely for FHIR project in Denmark. MedComCorePatient inherits from [DKCorePatient](https://hl7.dk/fhir/core/1.1.0/StructureDefinition-dk-core-patient.html). This means that when a MedCom standard uses a CPR-number from DKCorePatient, it is defined in the same way as when other projects inherit from DK-core and uses a CPR-number, securing consistentcy across projects. You can read more about the work of HL7-DK [here](https://www.medcom.dk/standarder/moderniseringsnyheder/nyhedsbrev-29-november-2021). 
+In Denmark there is a national HL7 affiliate, called <a href="https://hl7.dk/" target="_blank">HL7-DK</a>. A special FHIR-interest group develops what is called DK-core profiles, generic FHIR profiles which can be used freely for FHIR project in Denmark. MedComCorePatient inherits from <a href="https://hl7.dk/fhir/core/1.1.0/StructureDefinition-dk-core-patient.html" target="_blank">DKCorePatient</a>. This means that when a MedCom standard uses a CPR-number from DKCorePatient, it is defined in the same way as when other projects inherit from DK-core and uses a CPR-number, securing consistentcy across projects. DKCorePatient is the foundation of MedComCorePatient, why MedComCorePatient is said to inherit from DKCorePatient. </br> 
+<a href="https://www.medcom.dk/standarder/moderniseringsnyheder/nyhedsbrev-29-november-2021" target="_blank">You can read more about the work of HL7-DK here</a>. 
 
-### 2.3 Relevant pages
+### More information
 
-Is coming...
+#### Webinars
+In 2022 MedCom has held a two webinars concerning the modernization of MedCom standards. Both webinars freely available and in Danish. The latter is very technical oriented: 
+* <a href="FHIR-introduktionswebinar (17. maj 2022)" target="_blank">FHIR-introduktionswebinar (17. maj 2022)</a>
+* <a href="https://www.youtube.com/watch?v=bfzx7U2Suug" target="_blank">FHIR demo-webinar med MedCom, Mjølner og Trifork (10 . februar 2022)</a>
 
-## 3 Information about the Transportation Layer
+#### HL7 FHIR Documentation
 
-See [here](/assets/documents/MedComs_FHIR-meddelelser_og_forsendelseskuvert.md)
-
-
-## 4 Test and Certification
-
-Link to MedCom testCenter. 
-
-Link to FHIR validator 
-
-Link to GettingStarted with TouchStone 
+All FHIR documentation can be found at <a href="https://www.hl7.org/fhir/" target="_blank">www.hl7.org/fhir/</a>. Here you will find detailed describtions about basic principles, presentation to all resources and much more. 
 
 ## 5 Release Notes
 
@@ -270,4 +232,4 @@ Updates in the latest release.
 ## 6 Support or Contact
 
 [MedCom](https://www.medcom.dk/) is responsible for this page.  
-For any question regaring the standard, please contact <fhir@medcom.dk>
+For any question regaring the standard, please contact <fhir@medcom.dk>.

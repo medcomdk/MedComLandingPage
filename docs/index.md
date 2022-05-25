@@ -26,62 +26,97 @@ In the table below is a link to get more information about the standard and a sh
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-rnyl{background-color:#FFF;color:#727272;text-align:center;vertical-align:middle}
-.tg .tg-prcv{background-color:#FFF;color:#727272;text-align:left;vertical-align:middle;}
-.tg .tg-kftd{background-color:#efefef;text-align:left;vertical-align:top}
-.tg .tg-d8lx{background-color:#FFF;color:#444;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-2vsp{background-color:#FFF;color:#444;font-weight:bold;text-align:left;vertical-align:middle}
-.tg .tg-7s4j{background-color:#FFF;color:#267CB9;text-align:center;vertical-align:top}
+.tg .tg-life{background-color:#FFF;border-color:inherit;color:#727272;text-align:center;vertical-align:middle}
+.tg .tg-n6um{border-color:#656565;color:#727272;text-align:left;vertical-align:top}
+.tg .tg-yapu{background-color:#FFF;border-color:inherit;color:#444;font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-etep{background-color:#FFF;border-color:#656565;color:#727272;text-align:left;vertical-align:middle}
+.tg .tg-b8lo{background-color:#FFF;border-color:inherit;color:#444;font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-y698{background-color:#efefef;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-2bev{border-color:#656565;text-align:left;vertical-align:top}
+.tg .tg-xlqk{background-color:#FFF;border-color:inherit;color:#267CB9;text-align:center;vertical-align:middle}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-d8lx"><span style="color:#444">English</span></th>
-    <th class="tg-d8lx"><span style="color:#444">Danish</span></th>
-    <th class="tg-2vsp"><span style="color:#444">Short description</span></th>
+    <th class="tg-yapu"><span style="color:#444">English</span></th>
+    <th class="tg-yapu"><span style="color:#444">Danish</span></th>
+    <th class="tg-b8lo"><span style="color:#444">Short description</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">Replaces</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-kftd" colspan="3">Generic profiles used across standards</td>
+    <td class="tg-y698" colspan="4">Generic profiles used across standards</td>
   </tr>
   <tr>
-    <td class="tg-rnyl">Core</td>
-    <td class="tg-rnyl">Kerneprofiler</td>
-    <td class="tg-prcv">Core profiles that are static and used across standards.</td>
+    <td class="tg-life">Core</td>
+    <td class="tg-life">Kerneprofiler</td>
+    <td class="tg-etep">Core profiles that are static and used across standards.</td>
+    <td class="tg-2bev"></td>
   </tr>
   <tr>
-    <td class="tg-rnyl">Messaging</td>
-    <td class="tg-rnyl">Medddelsesprofiler</td>
-    <td class="tg-prcv">Messaging profiles used across all messaging-based standards.</td>
+    <td class="tg-life">Messaging</td>
+    <td class="tg-life">Medddelsesprofiler</td>
+    <td class="tg-etep">Messaging profiles used across all messaging-based standards.</td>
+    <td class="tg-2bev"></td>
   </tr>
   <tr>
-    <td class="tg-kftd" colspan="3">Current MedCom FHIR standards</td>
+    <td class="tg-y698" colspan="4">Current MedCom FHIR standards</td>
   </tr>
   <tr>
-    <td class="tg-rnyl">Acknowledgement</td>
-    <td class="tg-rnyl">Kvittering</td>
-    <td class="tg-prcv">When a message is received an acknowledgement message shall be returned to the sender, stating if the message was received properly.</td>
+    <td class="tg-life">Acknowledgement</td>
+    <td class="tg-life">Kvittering</td>
+    <td class="tg-etep">When a message is received an acknowledgement message shall be returned to the sender, stating if the message was received properly.</td>
+    <td class="tg-2bev"></td>
   </tr>
   <tr>
-    <td class="tg-7s4j"><a href="https://tmsmedcom.github.io/GitHubPagesTest/"><span style="text-decoration:none;color:#267CB9">HospitalNotification</span></a></td>
-    <td class="tg-rnyl">Sygehusadvis</td>
-    <td class="tg-prcv">Used to inform municipalities about hospitalization of a patient</td>
+    <td class="tg-xlqk"><a href="https://tmsmedcom.github.io/GitHubPagesTest/"><span style="text-decoration:none;color:#267CB9">HospitalNotification</span></a></td>
+    <td class="tg-life">Sygehusadvis</td>
+    <td class="tg-etep">Used to inform municipalities about hospitalization of a patient</td>
+    <td class="tg-n6um">XDIS17 <br>XDIS20</td>
   </tr>
   <tr>
-    <td class="tg-rnyl">CareCommunication</td>
-    <td class="tg-rnyl">Korrespondancemeddelelse</td>
-    <td class="tg-prcv">Used in all parts of the Danish health care sector to communicate between parties.</td>
+    <td class="tg-life">CareCommunication</td>
+    <td class="tg-life">Korrespondancemeddelelse</td>
+    <td class="tg-etep">Used in all parts of the Danish health care sector to communicate between parties.</td>
+    <td class="tg-n6um">XDIS91</td>
   </tr>
 </tbody>
 </table>
+[Test of tabel refence][1]
 
-## 1 Clinical Introduction to FHIR
+
+## 2 Implementing a MedCom FHIR standard
+
+When implementing a MedCom FHIR standard the documentation below is fundamental to ensure uniform use of the standards. 
+
+### Standard documentation
+
+
+
+### Communication Rules
+
+Describes how MedCom has profilled HL7 FHIR messaging framework to a Danish context. This framework is fundamental to be able to send and receive MedCom FHIR messages.
+
+> In Danish communication rules are often known as 'Syn&Kom' or 'Syntaks og Kommunikationsregler. 
+
+[Tab here to get more information about the Communication Rules - markdown](https://medcomdk.github.io/MedCom-FHIR-Communication/)</b>
+<a href="https://medcomdk.github.io/MedCom-FHIR-Communication/" target="_blank">Tab here to get more information about the Communication Rules - html</a>
+
+### Transportation layer
+
+Describes how a MedCom FHIR message shall be handled in  envelope 
+
+## 3 Test and Certification
+
+
+## 2 Clinical Introduction to FHIR
 
 [Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)](https://www.hl7.org/fhir/) is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare related information. <br> 
 This introduction is amied for people with limited insigth into FHIR. First, the most common _FHIR-words_ are presented followed by a short introduction to a MedCom Implementation Guide (IG). 
 
-### 1.1 Glossary
+### 2.1 Glossary
 
 Below you'll find the most common words and associated descriptions used in FHIR-regi. 
 
@@ -147,7 +182,7 @@ Below you'll find the most common words and associated descriptions used in FHIR
 </table>
 
 
-### 1.2 How to Read a MedCom Implementation Guide
+### 2.2 How to Read a MedCom Implementation Guide
 
 This step-by-step guide takes its starting point in [MedComCore IG](https://build.fhir.org/ig/hl7dk/dk-medcom-core/). 
 
@@ -186,27 +221,27 @@ This step-by-step guide takes its starting point in [MedComCore IG](https://buil
 * The tab [Artifacts](https://build.fhir.org/ig/hl7dk/dk-medcom-core/artifacts.html) shows entire content of the IG.
 
 
-#### 1.2.1 Why are there Multiple Implementation Guides?
+#### 2.2.1 Why are there Multiple Implementation Guides?
 
 FHIR allows for a great deal of reuse. When creating a MedCom message, profiles from the MedComCore and MedComMessaging IG are used, as illustrated on the figure below. ![Overview](/assets/images/Overview-IGs.png)
 Keeping the IGs seperat allow to versioning each one of them, so updates in the MedComHospitalNotification IG won't affect the version of the MedComCareCommunication IG.  However an update in the MedComMessaging IG will affect all standards that uses profiles or inherit profiles from this IG. 
 For more information about versioning see HERE.. (is coming.)
 
-#### 1.2.2 How does Inheritance work and what is DKCorePatient? 
+#### 2.2.2 How does Inheritance work and what is DKCorePatient? 
 
 Just like profiling of resources, it is possible to take a generic profile and specify it to a given context. For example is a [MedComCoreOrganization](https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-organization.html) determined to include a SOR-code and possible a name of the organization. When using an organization in a messaging context, it is determined that a [MedComMessagingOrganization](https://build.fhir.org/ig/hl7dk/dk-medcom-messaging/StructureDefinition-medcom-messaging-organization.html) further shall include an EAN/GLN-number. However, MedComMessagingOrganization is based on the profiling of MedComCoreOrganization and is therefore said to inherit from this profile. <br>
 In Denmark there is a national HL7 affiliate, called HL7-DK. A special FHIR-interest group develops what is called DK-core profiles, generic FHIR profiles which can be used freely for FHIR project in Denmark. MedComCorePatient inherits from [DKCorePatient](https://hl7.dk/fhir/core/1.1.0/StructureDefinition-dk-core-patient.html). This means that when a MedCom standard uses a CPR-number from DKCorePatient, it is defined in the same way as when other projects inherit from DK-core and uses a CPR-number, securing consistentcy across projects. You can read more about the work of HL7-DK [here](https://www.medcom.dk/standarder/moderniseringsnyheder/nyhedsbrev-29-november-2021). 
 
-### 1.3 Relevant pages
+### 2.3 Relevant pages
 
 Is coming...
 
-## 2 Information about the Transportation Layer
+## 3 Information about the Transportation Layer
 
 See [here](/assets/documents/MedComs_FHIR-meddelelser_og_forsendelseskuvert.md)
 
 
-## 3 Test and Certification
+## 4 Test and Certification
 
 Link to MedCom testCenter. 
 
@@ -214,11 +249,11 @@ Link to FHIR validator
 
 Link to GettingStarted with TouchStone 
 
-## 4 Release Notes
+## 5 Release Notes
 
 Updates in the latest release. 
 
-## 5 Support or Contact
+## 6 Support or Contact
 
 [MedCom](https://www.medcom.dk/) is responsible for this page.  
 For any question regaring the standard, please contact <fhir@medcom.dk>

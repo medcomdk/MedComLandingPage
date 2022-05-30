@@ -235,15 +235,7 @@ If you are interested in understanding the basic content and the composition of 
 
 FHIR allows for a great deal of reuse. When creating a MedCom message, profiles from the MedComCore and MedComMessaging IG are used, as illustrated on the figure below. 
 ![MD](/assets/images/MultipleIGs.png)
-!<img src="/assets/images/MultipleIGs.png" alt="HTML : Illustrates how MedComHospitalNotification, MedComCareCommunication and MedComAcknowledgement reuses profiles from MedComCore and MedComMessaging.">
-
-
-<html>
-<body>
-<img src="/assets/images/MultipleIGs.png" alt="HTML" style="width:300px">
-</body>
-</html>
-
+<img src="/assets/images/MultipleIGs.png" alt="HTML : Illustrates how MedComHospitalNotification, MedComCareCommunication and MedComAcknowledgement reuses profiles from MedComCore and MedComMessaging." width="200" />
 
 
 

@@ -201,7 +201,7 @@ In the table below you'll find the most common words and associated descriptions
   <tr>
     <td class="tg-c75y"><span style="font-weight:bold;background-color:#FFF">ValueSet:</span></td>
     <td class="tg-pkxh"><span style="background-color:#FFF">A collection of codes from one or more CodeSystems. ValueSets can either include all codes from a CodeSystem or only some codes. </span></td>
-    <td class="tg-4py2">A ValueSet defined by MedCom is https://build.fhir.org/ig/hl7dk/dk-medcom-messaging/ValueSet-medcom-messaging-messageTypes.html MedComMessagingMessageTypes, which includes all codes from the CodeSystem called MedComMessagingEvents https://build.fhir.org/ig/hl7dk/dk-medcom-messaging/CodeSystem-medcom-messaging-eventCodes.html </td>
+    <td class="tg-4py2">A ValueSet defined by MedCom is <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-messaging/ValueSet-medcom-messaging-messageTypes.html" target="_blank">MedComMessagingMessageTypes</a>, which includes all codes from the CodeSystem called <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-messaging/CodeSystem-medcom-messaging-eventCodes.html" target="_blank">MedComMessagingEvents</a>.</td>
   </tr>
   <tr>
     <td class="tg-c75y"><span style="font-weight:bold">MustSupport:</span></td>
@@ -233,7 +233,9 @@ If you are interested in understanding the basic content and the composition of 
 
 ### Why are there Multiple Implementation Guides?
 
-FHIR allows for a great deal of reuse. When creating a MedCom message, profiles from the MedComCore and MedComMessaging IG are used, as illustrated on the figure below. <img src="/assets/images/MultipleIGs.png" alt="Illustrates how MedComHospitalNotification, MedComCareCommunication and MedComAcknowledgement reuses profiles from MedComCore and MedComMessaging." width="400">
+FHIR allows for a great deal of reuse. When creating a MedCom message, profiles from the MedComCore and MedComMessaging IG are used, as illustrated on the figure below. 
+![MD](/assets/images/MultipleIGs.png)
+!<img src="/assets/images/MultipleIGs.png" alt="HTML : Illustrates how MedComHospitalNotification, MedComCareCommunication and MedComAcknowledgement reuses profiles from MedComCore and MedComMessaging.">
 Keeping the IGs seperat allow to versioning each one of them, so updates in the MedComHospitalNotification IG won't affect the version of the MedComCareCommunication IG.  However an update in the MedComMessaging IG will affect all standards that uses profiles or inherit profiles from this IG. 
 
 ### How does Inheritance Work and What is DKCore? 

@@ -236,6 +236,17 @@ If you are interested in understanding the basic content and the composition of 
 FHIR allows for a great deal of reuse. When creating a MedCom message, profiles from the MedComCore and MedComMessaging IG are used, as illustrated on the figure below. 
 ![MD](/assets/images/MultipleIGs.png)
 !<img src="/assets/images/MultipleIGs.png" alt="HTML : Illustrates how MedComHospitalNotification, MedComCareCommunication and MedComAcknowledgement reuses profiles from MedComCore and MedComMessaging.">
+
+
+<html>
+<body>
+<img src="/assets/images/MultipleIGs.png" alt="HTML" style="width:300px">
+</body>
+</html>
+
+
+
+
 Keeping the IGs seperat allow to versioning each one of them, so updates in the MedComHospitalNotification IG won't affect the version of the MedComCareCommunication IG.  However an update in the MedComMessaging IG will affect all standards that uses profiles or inherit profiles from this IG. 
 
 ### How does Inheritance Work and What is DKCore? 

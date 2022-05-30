@@ -138,8 +138,8 @@ OPdateringer, versionering, change management
 
 ## 5 New to FHIR?
 
-The purpose of this section is to give a brief introduction to MedComs FHIR standards to stakeholders with limited knowledge about FHIR, who wants to know more. </br> 
-<a href="https://www.hl7.org/fhir/" target="_blank">Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)</a> is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare related information. <br> 
+The purpose of this section is to give a brief introduction to MedComs FHIR standards to stakeholders with limited knowledge about FHIR, who wants to know more.
+<a href="https://www.hl7.org/fhir/" target="_blank">Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)</a> is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare related information.
 
 ### FHIR Glossary
 
@@ -148,7 +148,7 @@ In the table below you'll find the most common words and associated descriptions
 > Note: the table below uses FHIR-paths to describe exactly which element that is refered to. E.g Patient.name referres to the name-element in the Patient resource.
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
+.tg  {border-collapse:collapse;border-spacing:0;max-width:80%;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -233,7 +233,7 @@ If you are interested in understanding the basic content and the composition of 
 
 ### Why are there Multiple Implementation Guides?
 
-FHIR allows for a great deal of reuse. When creating a MedCom message, profiles from the MedComCore and MedComMessaging IG are used, as illustrated on the figure below. <img src="/assets/images/Overview-IGs.png" alt="Illustrates how MedComHospitalNotification, MedComCareCommunication and MedComAcknowledgement reuses profiles from MedComCore and MedComMessaging. " width="400">
+FHIR allows for a great deal of reuse. When creating a MedCom message, profiles from the MedComCore and MedComMessaging IG are used, as illustrated on the figure below. <img src="/assets/images/MultipleIGs.png" alt="Illustrates how MedComHospitalNotification, MedComCareCommunication and MedComAcknowledgement reuses profiles from MedComCore and MedComMessaging." width="400">
 Keeping the IGs seperat allow to versioning each one of them, so updates in the MedComHospitalNotification IG won't affect the version of the MedComCareCommunication IG.  However an update in the MedComMessaging IG will affect all standards that uses profiles or inherit profiles from this IG. 
 
 ### How does Inheritance Work and What is DKCore? 

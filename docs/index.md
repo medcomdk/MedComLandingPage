@@ -2,17 +2,25 @@
 
 Here you will find the nessecary information you'll need to get started with MedCom's FHIR messaging standards. Messaging standard found on this page will in time replace existing EDIFACT and OIOXML standards, you can read more about why MedCom is modernizing standards on [medcom.dk](https://www.medcom.dk/). 
 
-  * [1 MedCom's FHIR Messaging standard](#1-medcoms-fhir-messaging-standard)
-  * [1 Clinical Introduction to FHIR](#1-clinical-introduction-to-fhir)
-    + [1.1 Glossary](#11-glossary)
-    + [1.2 How to Read a MedCom Implementation Guide](#12-how-to-read-a-medcom-implementation-guide)
-      - [1.2.1 Why are there Multiple Implementation Guides?](#121-why-are-there-multiple-implementation-guides-)
-      - [1.2.2 How does Inheritance work and what is DKCorePatient?](#122-how-does-inheritance-work-and-what-is-dkcorepatient-)
-    + [1.3 Relevant pages](#13-relevant-pages)
-  * [2 Information about the Transportation Layer](#2-information-about-the-transportation-layer)
-  * [3 Test and Certification](#3-test-and-certification)
-  * [4 Release Notes](#4-release-notes)
-  * [5 Support or Contact](#5-support-or-contact)
+- [1 MedComs FHIR Messaging standards](#1-medcoms-fhir-messaging-standards)
+- [2 Implementing a MedCom FHIR standard](#2-implementing-a-medcom-fhir-standard)
+  * [Standard Documentation](#standard-documentation)
+  * [Terminology](#terminology)
+  * [Communication Rules](#communication-rules)
+  * [Transportation layer](#transportation-layer)
+- [3 Test and Certification](#3-test-and-certification)
+  * [TouchStone](#touchstone)
+- [4 Governance](#4-governance)
+- [5 New to FHIR?](#5-new-to-fhir-)
+  * [FHIR-glossary](#fhir-glossary)
+  * [How to Read a MedCom Implementation Guide](#how-to-read-a-medcom-implementation-guide)
+  * [Why are there Multiple Implementation Guides?](#why-are-there-multiple-implementation-guides-)
+  * [How does Inheritance Work and What is DKCore?](#how-does-inheritance-work-and-what-is-dkcore-)
+  * [More information](#more-information)
+    + [Webinars](#webinars)
+    + [HL7 FHIR Documentation](#hl7-fhir-documentation)
+- [5 Release Notes](#5-release-notes)
+- [6 Support or Contact](#6-support-or-contact)
 
 > Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.
 

@@ -1,6 +1,8 @@
 title: "MedCom on FHIR"
 logo: medcom+fhir-logo.png
 description: "MedCom standards based on HL7 FHIR"
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+version: "Version 1.0.0-alpha.1"
+fhir_version: "FHIR R4"

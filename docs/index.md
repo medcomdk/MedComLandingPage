@@ -114,7 +114,7 @@ Describes how MedCom has profilled HL7 FHIR messaging framework to a Danish cont
 
 Describes how a MedCom FHIR message shall be handled in an envelope. At present, the existing VANS network is used to deliver messages, why messages shall be sent in a VANSenvelope unless otherwise specified under the individual standard. Receipt can either be in VANSenvelope or another receipt envelope, eg. KOMBITs BeskedFordeler envelope. 
 
-<a href="/assets/documents/MedCom_FHIR-messages_and_enclosing_envelope.md" target="_blank">Tab here to see requirements for the VANSenvelope</a>
+<a href="assets/documents/MedCom_FHIR-messages_and_enclosing_envelope.md" target="_blank">Tab here to see requirements for the VANSenvelope</a>
 
 ## 3 Test and Certification
 
@@ -124,7 +124,7 @@ Before using the implemented standard in production environment, it must be test
 
 TouchStone describes an infrastructure that allows for automated test against HL7 FHIR. For each FHIR standard MedCom will develope testsuits, which is helpfull to automatisize the testing.
 
-<a href="/assets/documents/TouchStoneGettingStarted.md" target="_blank">To get started with TouchStone please take a look here.</a> 
+<a href="assets/documents/TouchStoneGettingStarted.md" target="_blank">To get started with TouchStone please take a look here.</a> 
 
 ## 4 Governance 
 
@@ -134,11 +134,11 @@ OPdateringer, versionering, change management
 
 The purpose of this section is to give a brief introduction to MedComs FHIR standards to stakeholders with limited knowledge about FHIR, who wants to know more.
 
-<a href="/assets/documents/NewToFHIR.md" target="_blank">Tab here to get an short introduction to FHIR and how to read an Implementation Guide.</a> 
+<a href="assets/documents/NewToFHIR.md" target="_blank">Tab here to get an short introduction to FHIR and how to read an Implementation Guide.</a> 
 
 ## 6 Release Notes
 
-<a href="/assets/documents/ReleaseNotes.md" target="_blank">The latest changes of this page can be found here.</a>
+<a href="assets/documents/ReleaseNotes.md" target="_blank">The latest changes of this page can be found here.</a>
 
 ## 7 Support or Contact
 

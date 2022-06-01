@@ -49,7 +49,7 @@ In the table below is a short description of each MedCom FHIR standard as well a
     <td class="tg-y698" colspan="4">Generic profiles used across standards</td>
   </tr>
   <tr>
-    <td class="tg-life">Core</td>
+    <td class="tg-life"><a href="https://medcomdk.github.io/dk-medcom-core/" target="_blank"><span style="text-decoration:none;color:#267CB9">Core</span></a></td>
     <td class="tg-life">Kerneprofiler</td>
     <td class="tg-etep">Core profiles that are static and used across standards.</td>
     <td class="tg-2bev"></td>
@@ -70,7 +70,7 @@ In the table below is a short description of each MedCom FHIR standard as well a
     <td class="tg-2bev"></td>
   </tr>
   <tr>
-    <td class="tg-xlqk"><a href="https://tmsmedcom.github.io/GitHubPagesTest/"><span style="text-decoration:none;color:#267CB9">HospitalNotification</span></a></td>
+    <td class="tg-xlqk"><a href="https://tmsmedcom.github.io/GitHubPagesTest/" target="_blank"><span style="text-decoration:none;color:#267CB9">HospitalNotification</span></a></td>
     <td class="tg-life">Sygehusadvis</td>
     <td class="tg-etep">Used to inform municipalities about hospitalization of a patient</td>
     <td class="tg-2bev">XDIS17 <br>XDIS20</td>

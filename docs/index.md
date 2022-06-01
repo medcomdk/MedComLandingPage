@@ -13,7 +13,6 @@ Here you will find the nessecary information you'll need to get started with Med
 - [4 Governance](#4-governance)
 - [5 New to FHIR?](#5-new-to-fhir)
 - [6 Release Notes](#6-release-notes)
-- [7 Support or Contact](#7-support-or-contact)
 
 > Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.
 
@@ -114,7 +113,7 @@ Describes how MedCom has profilled HL7 FHIR messaging framework to a Danish cont
 
 Describes how a MedCom FHIR message shall be handled in an envelope. At present, the existing VANS network is used to deliver messages, why messages shall be sent in a VANSenvelope unless otherwise specified under the individual standard. Receipt can either be in VANSenvelope or another receipt envelope, eg. KOMBITs BeskedFordeler envelope. 
 
-<a href="assets/documents/MedCom_FHIR-messages_and_enclosing_envelope.md" target="_blank">Tab here to see requirements for the VANSenvelope</a>
+[Tab here to see requirements for the VANSenvelope](assets/documents/MedCom_FHIR-messages_and_enclosing_envelope.md)
 
 ## 3 Test and Certification
 
@@ -140,8 +139,3 @@ The purpose of this section is to give a brief introduction to MedComs FHIR stan
 ## 6 Release Notes
 
 [The latest changes of this page can be found here.](assets/documents/ReleaseNotes.md)
-
-## 7 Support or Contact
-
-[MedCom](https://www.medcom.dk/) is responsible for this page.  
-For any question regaring the standard, please contact <fhir@medcom.dk> or write in <a href="https://chat.fhir.org/#narrow/stream/315677-denmark.2Fmedcom.2FFHIRimplementationErfaGroup" target="_blank">MedComs stream on Zulip</a>.

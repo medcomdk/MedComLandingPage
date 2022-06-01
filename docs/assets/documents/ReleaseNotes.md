@@ -1,6 +1,6 @@
 # Release Note
 
-The release notes in the following describes the changes made to <a href="../index.md" target="_blank">the introduction of MedComs FHIR standards and subpages</a>. Versioning follows [Versionerings DOC!]
+The release notes in the following describes the changes made to [the introduction of MedComs FHIR standards and subpages](../index.md). Versioning follows [Versionerings DOC!]
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;max-width:65%;}

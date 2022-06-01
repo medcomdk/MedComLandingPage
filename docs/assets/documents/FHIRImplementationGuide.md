@@ -1,14 +1,19 @@
-This step-by-step guide takes its starting point in [MedComCore IG](https://build.fhir.org/ig/hl7dk/dk-medcom-core/). 
+# Step-by-Step Guide
 
-* Go to [MedComCore IG](https://build.fhir.org/ig/hl7dk/dk-medcom-core/).
+This step-by-step guide takes its starting point in <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>. 
+
+* Go to <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/" target="_blank">MedCom Core IG</a>.
 * On the landingpage you'll find a short introduction to the IG, in this case the MedComCore profiles. 
     * The topbar on the page includes multiple options: 
-    ![Content](/assets/images/IG-content.png)
-* Click on the tab [Profiles](https://build.fhir.org/ig/hl7dk/dk-medcom-core/profiles.html) you'll get an overview of the profiles in the IG. 
-    * Choose [MedComCorePatient](https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html) and you will get to the frontpage of MedComCorePatient, called 'Content'. _Please notice: a MedComCorePatient describes both a patient and a citizen._ Here you'll find a short introduction to the profile and a table including five tabs, where three are of special interest: 
+    ![shows the content of an IG](/assets/images/IG-content.png)
+* Click on the tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/profiles.html" target="_blank">Profiles</a>. Here you'll get an overview of which profiles are in the IG. 
+    * Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a> and you will get to the frontpage of MedComCorePatient, called 'Content'. Here you'll find a short introduction to the profile and a table including five tabs, where three are of special interest: 
     ![Profile Content](/assets/images/ProfileContent.png)
+      * There are multiple tabs in the table, and a short describtion of them is given here: 
+      ![Table Overview](/assets/images/TableOverview.png)
       * Click on the tab 'Snapshot Table (MustSupport)'. Here is all required content for the profil gathered. The table contains five headlines
-          * Name
+            ![Table Content](/assets/images/TableContent.png)
+            * Name
                 * The element name.
             * Flags: 
                 * I = a rule, which can be seen further down the page.
@@ -19,17 +24,17 @@ This step-by-step guide takes its starting point in [MedComCore IG](https://buil
                 * Given the maximum cardinality of * for Patient.identifier, Patient.name, Patient.telecom and Patient.address it is allowed to slice the element. For the element Patient.deceased it is only allowed to include the information once. 
             * Type: 
                 * Describes the datatype of the element. Click on them for more information about the datatype. 
-                * One migth notice the type at the top of the elements says _DKCorePatient_, which means that the MedComCorePatient inherits from a Patient profile developed by the Danish HL7 affiliate. You can read more about the work under '[How does Inheritance work and what is DKCorePatient?](#how-does-inheritance-work-and-what-is-dk-core-profiles)'.
+                * One migth notice the type at the top of the elements says _DKCorePatient_, which means that the MedComCorePatient inherits from a Patient profile developed by the Danish HL7 affiliate. [You can read more about inheritance and the work for HL7-Denmark here](docs\assets\documents\NewToFHIR.md).
             * Description and Constraints
                 * A short description of the element as well as rules associated with the element.
-      * If you click on [Detailed Descriptions](https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-definitions.html) yuo'll get a more detailed description of all the elements in the profile. 
-      * Click on [Mappings](https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-mappings.html) you'll find mapping to other HL7 standards, but not the previuos MedCom standards. To get this information you must look under each standard. 
-      * Click on [Examples](https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html) and you'll find examples for the profile. For MedComCorePatient the example is quite simple, but for MedComHospitalNotificationMessage it contains a lot more information.
+      * If you click on <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-definitions.html" target="_blank">Detailed Descriptions</a> you'll get a more detailed description of all the elements in the profile. 
+      * Click on <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-mappings.html" target="_blank">Mappings</a> you'll find mapping to other HL7 standards, but not the previuos MedCom standards. To get this information you must look under each standard. 
+      * Click on <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html" target="_blank">Examples</a> and you'll find examples for the profile. For MedComCorePatient the example is quite simple, but for MedComHospitalNotificationMessage it contains a lot more information.
           *  If you select one of the examples you will be presented for the content of the narrative text. If you instead select the tabs XML, JSON or TTL you will see the entire content of the MedComCorePatient. 
       * If you click on XML, JSON og TTL you see StructureDefinition of the profile, which reflects the content. 
-    * Now, try choosing the profile [MedComCoreEncounter](https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-encounter.html)
+    * Now, try choosing the profile <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a>
         * Here you'll see the type Reference(...) at the element Encounter.subject. This means that the element references the MedComCorePatient profile, and that an encounter always shall be associated with a patient. 
         * For the elements Encounter.status and Encounter.class the type is code or coding, meaning that a predefined, structured code shall be selected from a ValueSet. which can be seen in the column 'Description & Constraints'.  
-* The tab [Extensions](https://build.fhir.org/ig/hl7dk/dk-medcom-core/extensions.html) shows the extensions made for the IG. 
-* The tab [Terminology](https://build.fhir.org/ig/hl7dk/dk-medcom-core/terminology.html) shows the CodeSystems and ValueSets used in the IG.
-* The tab [Artifacts](https://build.fhir.org/ig/hl7dk/dk-medcom-core/artifacts.html) shows entire content of the IG.
+* The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/extensions.html" target="_blank">Extensions</a> shows the extensions made for the IG. 
+* The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/terminology.html" target="_blank">Terminology</a> shows the CodeSystems and ValueSets used in the IG.
+* The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/artifacts.html" target="_blank">Artifacts</a> shows entire content of the IG.

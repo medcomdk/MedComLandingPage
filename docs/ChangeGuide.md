@@ -42,8 +42,8 @@ Using _'!'_ before the reference entails that the images is shown on the webpage
 ![Profile Content](/assets/images/ProfileContent.png)
 
 ### Links 
-The text in the squared parenthesis will be the text shown on the webpages. 
-[Extensions](https://build.fhir.org/ig/hl7dk/dk-medcom-core/extensions.html)
+It is agreed, that links to external websites, shall open a new window, why the following html-form must be used. 
+<a href="https://medcomdk.github.io/MedCom-FHIR-Communication/" target="_blank">Tab here to get more information about the Communication Rules.</a>
 
 ### Internal references
 References within the file. The text in the squared parenthesis will be the text shown on the webpages. Writing the # will help you choosing the headline.

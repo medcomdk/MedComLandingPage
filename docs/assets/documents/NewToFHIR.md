@@ -99,7 +99,7 @@ In the table below you'll find the most common words and associated descriptions
 
 ## How to Read a MedCom Implementation Guide?
 
-If you are interested in understanding the basic content and the composition of an IG, you can follow this <a href="\FHIRImplementationGuide.md" target="_blank">step-by-step guide</a>.
+If you are interested in understanding the basic content and the composition of an IG, you can follow this [step-by-step guide](\FHIRImplementationGuide.md).
 
 
 ## Why are there Multiple Implementation Guides?

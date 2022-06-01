@@ -124,7 +124,8 @@ Before using the implemented standard in production environment, it must be test
 
 TouchStone describes an infrastructure that allows for automated test against HL7 FHIR. For each FHIR standard MedCom will develope testsuits, which is helpfull to automatisize the testing.
 
-<a href="assets/documents/TouchStoneGettingStarted.md" target="_blank">To get started with TouchStone please take a look here.</a> 
+[To get started with TouchStone please take a look here](assets/documents/TouchStoneGettingStarted.md)
+
 
 ## 4 Governance 
 
@@ -134,11 +135,11 @@ OPdateringer, versionering, change management
 
 The purpose of this section is to give a brief introduction to MedComs FHIR standards to stakeholders with limited knowledge about FHIR, who wants to know more.
 
-<a href="assets/documents/NewToFHIR.md" target="_blank">Tab here to get an short introduction to FHIR and how to read an Implementation Guide.</a> 
+[Tab here to get an short introduction to FHIR and how to read an Implementation Guide.](assets/documents/NewToFHIR.md)
 
 ## 6 Release Notes
 
-<a href="assets/documents/ReleaseNotes.md" target="_blank">The latest changes of this page can be found here.</a>
+[The latest changes of this page can be found here.](assets/documents/ReleaseNotes.md)
 
 ## 7 Support or Contact
 

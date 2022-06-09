@@ -2,17 +2,19 @@
 
 Here you will find the nessecary information you'll need to get started with MedCom's FHIR standards. Standard found on this page will in time replace existing EDIFACT and OIOXML standards, you can read more about why MedCom is modernizing standards on [medcom.dk](https://www.medcom.dk/). 
 
-- [1 MedComs FHIR standards](#1-medcoms-fhir-standards)
-- [2 Implementing a MedCom FHIR standard](#2-implementing-a-medcom-fhir-standard)
-  * [Standard Documentation](#standard-documentation)
-  * [Terminology](#terminology)
-  * [Communication Rules](#communication-rules)
-  * [Transportation layer](#transportation-layer)
-- [3 Test and Certification](#3-test-and-certification)
-  * [TouchStone](#touchstone)
-- [4 Governance](#4-governance)
-- [5 New to FHIR?](#5-new-to-fhir)
-- [6 Release Notes](#6-release-notes)
+- [Welcome to MedComs FHIR standards](#welcome-to-medcoms-fhir-standards)
+  * [1 MedComs FHIR standards](#1-medcoms-fhir-standards)
+  * [2 Implementing a MedCom FHIR standard](#2-implementing-a-medcom-fhir-standard)
+    + [Standard Documentation](#standard-documentation)
+    + [Terminology](#terminology)
+    + [Communication Rules](#communication-rules)
+    + [Network Layer](#network-layer)
+  * [3 Test and Certification](#3-test-and-certification)
+  * [4 Governance](#4-governance)
+    + [Versioning of FHIR standard](#versioning-of-fhir-standard)
+    + [Change Requests and Improvements](#change-requests-and-improvements)
+  * [5 New to FHIR](#5-new-to-fhir)
+  * [6 Release Notes](#6-release-notes)
 
 > Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.
 

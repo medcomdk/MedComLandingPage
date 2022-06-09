@@ -1,5 +1,7 @@
 # Release Note
 
+[Return to frontpage](../../index.md)
+
 The release notes in the following describes the changes made to [the introduction of MedComs FHIR standards and subpages](../index.md). Versioning follows [Versionerings DOC!]
 
 <style type="text/css">

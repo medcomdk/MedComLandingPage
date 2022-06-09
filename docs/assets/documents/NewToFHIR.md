@@ -1,5 +1,7 @@
 # New to FHIR?
 
+[Return to frontpage](../../index.md)
+
 The purpose of this section is to give a brief introduction to MedComs FHIR standards to stakeholders with limited knowledge about FHIR, who wants to know more.
 <a href="https://www.hl7.org/fhir/" target="_blank">Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)</a> is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare related information.
 
@@ -99,7 +101,7 @@ In the table below you'll find the most common words and associated descriptions
 
 ## How to Read a MedCom Implementation Guide
 
-If you are interested in understanding the basic content and the composition of an IG, you can follow this [step-by-step guide](/docs/assets/documents/FHIRImplementationGuide.md).
+If you are interested in understanding the basic content and the composition of an IG, you can follow this [step-by-step guide](FHIRImplementationGuide.md).
 
 
 ## Why are there Multiple Implementation Guides

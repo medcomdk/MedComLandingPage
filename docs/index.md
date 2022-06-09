@@ -55,7 +55,7 @@ In the table below is a short description of each MedCom FHIR standard as well a
     <td class="tg-2bev"></td>
   </tr>
   <tr>
-    <td class="tg-life">Messaging</td>
+    <td class="tg-life"><a href="https://medcomdk.github.io/dk-medcom-messaging/" target="_blank"><span style="text-decoration:none;color:#267CB9">Messaging</span></a></td>
     <td class="tg-life">Medddelsesprofiler</td>
     <td class="tg-etep">Messaging profiles used across all messaging-based standards.</td>
     <td class="tg-2bev"></td>
@@ -70,7 +70,7 @@ In the table below is a short description of each MedCom FHIR standard as well a
     <td class="tg-2bev"></td>
   </tr>
   <tr>
-    <td class="tg-xlqk"><a href="https://tmsmedcom.github.io/GitHubPagesTest/" target="_blank"><span style="text-decoration:none;color:#267CB9">HospitalNotification</span></a></td>
+    <td class="tg-xlqk"><a href="https://medcomdk.github.io/dk-medcom-hospitalnotification/" target="_blank"><span style="text-decoration:none;color:#267CB9">HospitalNotification</span></a></td>
     <td class="tg-life">Sygehusadvis</td>
     <td class="tg-etep">Used to inform municipalities about hospitalization of a patient</td>
     <td class="tg-2bev">XDIS17 <br>XDIS20</td>
@@ -86,7 +86,7 @@ In the table below is a short description of each MedCom FHIR standard as well a
 
 ## 2 Implementing a MedCom FHIR standard
 
-When implementing a MedCom FHIR standard the documentation below is fundamental to ensure uniform use of the standards. 
+When implementing a MedCom FHIR standard the documentation below is fundamental to ensure uniform use and implementation of the standards. 
 
 ### Standard Documentation
 
@@ -109,26 +109,37 @@ Describes how MedCom has profilled HL7 FHIR messaging framework to a Danish cont
 
 <a href="https://medcomdk.github.io/MedCom-FHIR-Communication/" target="_blank">Tab here to get more information about the Communication Rules.</a>
 
-### Transportation layer
+### Network Layer
 
 Describes how a MedCom FHIR message shall be handled in an envelope. At present, the existing VANS network is used to deliver messages, why messages shall be sent in a VANSenvelope unless otherwise specified under the individual standard. Receipt can either be in VANSenvelope or another receipt envelope, eg. KOMBITs BeskedFordeler envelope. 
 
-[Tab here to see requirements for the VANSenvelope](assets/documents/MedCom_FHIR-messages_and_enclosing_envelope.md)
+<a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank">Here you can read more about the Network Layer and Network Envelope.</a>
 
 ## 3 Test and Certification
 
-Before using the implemented standard in production environment, it must be tested and certified by MedCom to ensure it fulfills the requirements. In addition to the usual <a href="https://www.medcom.dk/standarder/testcenter" target="_blank">MedCom test setup</a> with a selftest and live test, <a href="https://touchstone.aegis.net/touchstone/" target="_blank">TouchStone</a> is used as a tool to validate FHIR messages send in different use cases.
+Before using the implemented standard in production environment to exchange patient data, it must be tested and certified by MedCom to ensure it fulfills the requirements. In addition to the usual <a href="https://www.medcom.dk/standarder/testcenter" target="_blank">MedCom test setup</a> with a selftest and live test, <a href="https://touchstone.aegis.net/touchstone/" target="_blank">TouchStone</a> is used as a tool to validate FHIR messages send in different use cases.
 
-### TouchStone
-
-TouchStone describes an infrastructure that allows for automated test against HL7 FHIR. For each FHIR standard MedCom will develope testsuits, which is helpfull to automatisize the testing.
+TouchStone describes an infrastructure that allows for automated test against HL7 FHIR. For each FHIR standard MedCom will develope testsuits, which is helpfull to automate the testing, both during implementation and as a part of test and certification.
 
 [To get started with TouchStone please take a look here](assets/documents/TouchStoneGettingStarted.md)
 
-
 ## 4 Governance 
 
-OPdateringer, versionering, change management
+### Versioning of FHIR standard
+
+MedComs FHIR standards follow <a href="https://semver.org/" target="_blank">semantic versioning version 2.0</a>, adjusted to the workflow in MedCom. Each document such as clinical guidelines, use cases or other documentation will each have a version and a releasenote, to keep track of the changes in the document. The Implementation Guide will have one version that covers all the artifacts in the Implementation Guide. 
+
+Semantic versioning includes three numbers, seperated by dot, eg. 2.1.4. The numbers are called major.minor.patch, representing different degrees of changes. The major and minor versions will represented in Det Rådgivende Udvalg for Standarder og Arkitekturer (RUSA). If a document or IG has an extra number eg. 2.1.4-a.1 it means that it is a prerelease, and therefore not for implementation yet. In this Standard Operating Procedure (SOP) [INSERT LINK!] you can read more about the use of semantic versioning in MedCom and what it means for changes the FHIR standards. 
+
+### Change Requests and Improvements
+
+Stakeholders and vendors are alway welcome to submit requests for changes or improvements of the IG or other documentation. 
+* If the request concerns the IG, it is possible to 
+  1. submit an issue to the relevant GitHub repository
+  2. write an email to <a href="mailto:fhir@medcom.dk">fhir@medcom.dk</a> describing the request
+* If the request concerns other documentation, please write an email to <a href="mailto:fhir@medcom.dk">fhir@medcom.dk</a> 
+
+Based on an analysis of the severity of the request, MedCom decide if the changes shall be implemented and change the version of the artifact or IG to reflect the changes.  
 
 ## 5 New to FHIR
 

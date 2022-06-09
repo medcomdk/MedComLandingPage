@@ -7,14 +7,14 @@ This step-by-step guide takes its starting point in <a href="https://build.fhir.
 * Go to <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/" target="_blank">MedCom Core IG</a>.
 * On the landingpage you'll find a short introduction to the IG, in this case the MedComCore profiles. 
     * The topbar on the page includes multiple options: 
-    ![shows the content of an IG](/assets/images/IG-content.png)
+    ![shows the content of an IG](../images/IG-content.png)
 * Click on the tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/profiles.html" target="_blank">Profiles</a>. Here you'll get an overview of which profiles are in the IG. 
     * Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a> and you will get to the frontpage of MedComCorePatient, called 'Content'. Here you'll find a short introduction to the profile and a table including five tabs, where three are of special interest: 
-    ![Profile Content](/assets/images/ProfileContent.png)
+    ![Profile Content](../images/ProfileContent.png)
       * There are multiple tabs in the table, and a short describtion of them is given here: 
-      ![Table Overview](/assets/images/TableOverview.png)
+      ![Table Overview](../images/TableOverview.png)
       * Click on the tab 'Snapshot Table (MustSupport)'. Here is all required content for the profil gathered. The table contains five headlines
-            ![Table Content](/assets/images/TableContent.png)
+            ![Table Content](../images/TableContent.png)
             * Name
                 * The element name.
             * Flags: 
@@ -40,3 +40,5 @@ This step-by-step guide takes its starting point in <a href="https://build.fhir.
 * The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/extensions.html" target="_blank">Extensions</a> shows the extensions made for the IG. 
 * The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/terminology.html" target="_blank">Terminology</a> shows the CodeSystems and ValueSets used in the IG.
 * The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/artifacts.html" target="_blank">Artifacts</a> shows entire content of the IG.
+
+[More information about IGs can be found here](https://medcomdk.github.io/MedComLandingPage/assets/documents/NewToFHIR.html#hl7-fhir-documentation)

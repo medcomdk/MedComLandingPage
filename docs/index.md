@@ -2,44 +2,7 @@
 
 Here you will find the nessecary information you'll need to get started with MedCom's FHIR standards. Standards found on this page will in time replace existing EDIFACT and OIOXML standards, you can read more about why MedCom is modernizing standards on [medcom.dk](https://www.medcom.dk/). 
 
-<style>
-  ol {
-    counter-reset: item
-    }
-  li {
-    display: block
-    }
-  li:before {
-    content: counters(item, ".")" ";
-    counter-increment: item
-  }
-</style>
-
-<ol>
-  <li> <a href="#welcome-to-medcoms-fhir-standards">Welcome to MedComs FHIR standards</a>  </li>
-  <li> <a href="#1-medcoms-fhir-standards"> MedComs FHIR standards</a>
-  <li> <a href="#2-implementing-a-medcom-fhir-standard"> Implementing a MedCom FHIR standard</a>
-    <ol>
-      <li> <a href="#standard-documentation">Standard Documentation</a></li>
-      <li> <a href="#terminology">Terminology</a> </li>
-      <li> <a href="#communication-rules">Communication Rules</a></li>
-      <li> <a href="#network-layer">Network Layer</a> </li>
-    </ol>
-  </li>
-  <li> <a href="#3-test-and-certification">Test and Certification</a>
-  <li> <a href="#4-governance">Governance</a>
-    <ol>
-      <li> <a href="#versioning-of-fhir-standard">Versioning of FHIR</a> </li>
-      <li> <a href="#change-requests-and-improvements">Change Requests and Improvements</a> </li>
-    </ol>
-  </li>
-   <li> <a href="#5-new-to-fhir">New to FHIR</a>
-   <li> <a href="#6-release-notes">Release Notes</a>
-</ol>
-
-
-
-<!--- [Welcome to MedComs FHIR standards](#welcome-to-medcoms-fhir-standards)
+ [Welcome to MedComs FHIR standards](#welcome-to-medcoms-fhir-standards)
   * [1 MedComs FHIR standards](#1-medcoms-fhir-standards)
   * [2 Implementing a MedCom FHIR standard](#2-implementing-a-medcom-fhir-standard)
     * [Standard Documentation](#standard-documentation)
@@ -52,7 +15,7 @@ Here you will find the nessecary information you'll need to get started with Med
     * [Change Requests and Improvements](#change-requests-and-improvements)
   * [5 New to FHIR](#5-new-to-fhir)
   * [6 Release Notes](#6-release-notes)
--->
+
 > Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.
 
 ## 1 MedComs FHIR standards

@@ -1,17 +1,18 @@
 # Welcome to MedComs FHIR standards
 
 Here you will find the nessecary information you'll need to get started with MedCom's FHIR standards. Standards found on this page will in time replace existing EDIFACT and OIOXML standards, you can read more about why MedCom is modernizing standards on [medcom.dk](https://www.medcom.dk/). 
+
 <style>
   ol {
     counter-reset: item
-}
-li {
+    }
+  li {
     display: block
-}
-li:before {
+    }
+  li:before {
     content: counters(item, ".")" ";
     counter-increment: item
-}
+  }
 </style>
 
 <ol>
@@ -19,20 +20,21 @@ li:before {
   <li> <a href="#1-medcoms-fhir-standards"> MedComs FHIR standards</a>
   <li> <a href="#2-implementing-a-medcom-fhir-standard"> Implementing a MedCom FHIR standard</a>
     <ol>
-      <li> <a href="#Lnk">baz</a></li>
-      <li> <a href="#Lnk">qux</a> </li>
+      <li> <a href="#standard-documentation">Standard Documentation</a></li>
+      <li> <a href="#terminology">Terminology</a> </li>
+      <li> <a href="#communication-rules">Communication Rules</a></li>
+      <li> <a href="#network-layer">Network Layer</a> </li>
     </ol>
   </li>
-  <li> <a href="#Lnk">alpha</a>
+  <li> <a href="#3-test-and-certification">Test and Certification</a>
+  <li> <a href="#4-governance">Governance</a>
     <ol>
-      <li> <a href="#Lnk">beta</a>
-
-      </li>
-      <li> <a href="#Lnk">gamma</a>
-
-      </li>
+      <li> <a href="#versioning-of-fhir-standard">Versioning of FHIR</a> </li>
+      <li> <a href="#change-requests-and-improvements">Change Requests and Improvements</a> </li>
     </ol>
   </li>
+   <li> <a href="#5-new-to-fhir">New to FHIR</a>
+   <li> <a href="#6-release-notes">Release Notes</a>
 </ol>
 
 

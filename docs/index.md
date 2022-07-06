@@ -1,6 +1,10 @@
 # Welcome to MedComs FHIR standards
 
-Here you will find the nessecary information you'll need to get started with MedCom's FHIR standards. Standards found on this page will in time replace existing EDIFACT and OIOXML standards, you can read more about why MedCom is modernizing standards on [medcom.dk](https://www.medcom.dk/). 
+MedComs modernization project involves both rethinking business requirements and technical improvement. The modernization is done in collaboration with MedComs central partners. 
+
+On <a href="https://www.medcom.dk/" target="_blank">medcom.dk </a> are the political and strategical aspects of the modernization described. These aspects involves the initial wave of the modernizations including HospitalNotification (Dansk: Sygehusadvis), CareCommunication (Dansk: Korrespondancemeddelelse) and Acknowledgement (Dansk: Kvittering). The out phasing of existing standards and implementation plan for the initial wave is described and the following modernization waves will be described there as well.
+
+The purpose of these pages is to describe both the business requirement and technical implementation of the requirements for each standard. This page guides you to find more information about each standard. 
 
  [Welcome to MedComs FHIR standards](#welcome-to-medcoms-fhir-standards)
   * [1 MedComs FHIR standards](#1-medcoms-fhir-standards)
@@ -19,6 +23,24 @@ Here you will find the nessecary information you'll need to get started with Med
 > Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.
 
 ## 1 MedComs FHIR standards
+
+The business requirements describe the context in which a standard shall be used, and they are presented on a webpage for each standard.
+For a MedCom FHIR standard the technical implementation is presented in an Implementation Guide (IG). An IG includes several rules, extensions, profiles and more. Each profile describes a delimited area within healthcare e.g., a patient, an organization or an encounter.
+Some of the profiles are often used across standards. An example could be the Patient profile which includes the most central information about a patient or citizen such as the CPR-number or name. This type of profiles are called core profiles (Dansk: kerneprofiler) and are gathered in the Core IG. Additionally, some profiles are often used when defining a message. These profiles are called messaging profiles and are gathered in the Messaging IG. 
+Some profiles are specific for a standard, why these are gathered in the respective IG. 
+Lastly, the terminology codes including all CodeSystems, ValueSet, and ConceptMaps are gathered in the Terminology IG.
+Currently, there are three FHIR standards: HospitalNotification, CareCommunication and Acknowledgement, which all are composed of profiles from the Core, and Messaging IG as well as the IG for the specific standard, and codes from the Terminology IG. 
+
+Due to the above mentioned, the table below is divided into three parts: the upper part describing the profiles used across standards and the middle part describing the profiles specific for a standard as well as the business requirements for a standard, and the lower part describing the terminology used in the standards. 
+
+The modernized FHIR standards will in time replace existing MedCom standards. HospitalNotification replaces 
+<a href="https://svn.medcom.dk/svn/releases/Standarder/Det%20gode%20kommuneadvis/XDIS17/Dokumentation/XDIS17.pdf" target="_blank">XDIS17</a> &
+<a href="https://svn.medcom.dk/svn/releases/Standarder/Det%20gode%20kommuneadvis/XDIS20/Dokumentation/XDIS20.pdf" target="_blank">XDIS20</a>, CareCommunication replaces 
+<a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20korrespondance/EDI/Dokumentation/DIS91.pdf" target="_blank">DIS91 </a> & <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20korrespondance/XML/Dokumentation/XDIS91.pdf" target="_blank">XDIS91 </a>, and Acknowledgement replaced <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/EDI/Dokumentation/CTL01.pdf" target="_blank">XCTL01 </a>
+& <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/XCTL01.pdf" target="_blank">XCTL01 </a>.
+
+Links to the webpage presentations of the standards can be found in the table below. On the webpages is links to the IG and other relevant information.”
+
 
 In the table below is a short description of each MedCom FHIR standard as well as a link to obtain more information about the specific standard. The table is divided in two parts, the upper representing the core profiles that creates a foundation for reuse of the profiles that are used across the standards and the lower representing profiles special to the standard. A MedCom FHIR standard is composed by both core profiles and specialized profiles. 
 

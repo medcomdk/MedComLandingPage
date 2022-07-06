@@ -107,44 +107,29 @@ Links to the webpage presentations of the standards can be found in the table be
 ## 2 Implementing a MedCom FHIR standard
 When implementing a MedCom FHIR standard, it is fundamental to understand in which context the standard shall be used to ensure that the implementation fulfill the business requirements. Therefore, it is important to understand the standard documentation for the given standard. 
 Furthermore it is important to understand the messaging framework and the possibilities of the VANS Network, since FHIR standards defines the process for how information is packaged and send from one part to another over the VANS Network.
-The messaging framework and the VANS Network are described as [governance](#4-governance), previously known as the “Syntax and Communication Rules"
+The messaging framework and the VANS Network are described as governance, previously known as the “Syntax and Communication Rules". 
+<a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank">Tab here to get more information about the govenance.</a>
 
 
 ### Standard Documentation
 The purpose of the standard documentation is to describe the context in which a standard shall be used and which requirements the standard shall fulfill. Implementation guide, use cases, clinical guidelines, and testprotocols will be available for all standards and some additional documents might be available as well to support implementation, such as the mapping document. Standard documentation is only provided for the standards, HospitalNotification, CareCommunication and Acknowledgement and not for the generic core or messaging IG’s.” 
-Efterfulgt af listen med standard doc i følgende rækkefølge: 
-•	Implementation Guide
-•	Clinical guidelines
-•	Use cases
-•	Testprotocols 
-•	Mapping doc. 
-
-
-
-
-
-
 
 
 This is found in under each standard, as mentioned in [section 1](#1-medcoms-fhir-messaging-standards). Standard documentation consists of: 
-* Clinical documentation: the clinical consideration behind the modernization.
-* Use cases: the intended use of the standard.
 * Implementation Guide: the technical specifications of the standard.
-* Mapping document: the mapping from the previous OIOXML standard to FHIR.
+* Clinical guidelines: the clinical consideration behind the modernization.
+* Use cases: the intended use of the standard.
 * Testprotocol: used during test and certification to document that the vendor implementation fulfills the standard. 
+* Mapping document: the mapping from the previous OIOXML standard to FHIR.
 
-### Communication Rules
+
+### Governance for MedCom HL7 FHIR®© Messaging
+
 The governance is important to understand before implementing a MedCom FHIR standard, as it describes the Danish profiling of the FHIR messaging framework and the network layer, which is the VANS network at present. Since the existing VANS network is used to deliver messages, shall messages be sent in a VANSenvelope unless otherwise specified. Receipt may be send in an VANSenvelope or another receipt envelope, eg. KOMBITs BeskedFordeler envelope. 
+<a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank">Tab here to get more information about the govenance.</a>
 
- + links til Governance siden
 
-Describes how MedCom has profilled HL7 FHIR messaging framework to a Danish context. This framework is fundamental to be able to send and receive MedCom FHIR messages.
-
-> Note: In Danish communication rules are often known as 'Syn&Kom' or 'Syntaks og Kommunikationsregler'. 
-
-<a href="https://medcomdk.github.io/MedCom-FHIR-Communication/" target="_blank">Tab here to get more information about the Communication Rules.</a>
-
-### Network Layer
+#### Network Layer
 
 Describes how a MedCom FHIR message shall be handled in an envelope. At present, the existing VANS network is used to deliver messages, why messages shall be sent in a VANSenvelope unless otherwise specified under the individual standard. Receipt can either be in VANSenvelope or another receipt envelope, eg. KOMBITs BeskedFordeler envelope. 
 
@@ -158,13 +143,13 @@ TouchStone describes an infrastructure that allows for automated test against HL
 
 [To get started with TouchStone please take a look here](assets/documents/TouchStoneGettingStarted.md)
 
-## 4 Governance 
+## 4 Change Manegment and Versioning  
 
 ### Versioning of FHIR standard
 
 MedComs FHIR standards follow <a href="https://semver.org/" target="_blank">semantic versioning version 2.0</a>, adjusted to the workflow in MedCom. Each document such as clinical guidelines, use cases or other documentation will each have a version and a releasenote, to keep track of the changes in the document. The Implementation Guide will have one version that covers all the artifacts in the Implementation Guide. 
 
-Semantic versioning includes three numbers, seperated by dot, eg. 2.1.4. The numbers are called major.minor.patch, representing different degrees of changes. The major and minor versions will represented in Det Rådgivende Udvalg for Standarder og Arkitekturer (RUSA). If a document or IG has an extra number eg. 2.1.4-a.1 it means that it is a prerelease, and therefore not for implementation yet. In this Standard Operating Procedure (SOP) [INSERT LINK!] you can read more about the use of semantic versioning in MedCom and what it means for changes the FHIR standards. 
+Semantic versioning includes three numbers, seperated by dot, eg. 2.1.4. The numbers are called major.minor.patch, representing different degrees of changes. The major and minor versions will represented in Det Rådgivende Udvalg for Standarder og Arkitekturer (RUSA). If a document or IG has an extra number eg. 2.1.4-a.1 it means that it is a prerelease, and therefore not for implementation yet. In this Standard Operating Procedure (SOP) (LINKET KOMMER SNART) you can read more about the use of semantic versioning in MedCom and what it means for changes the FHIR standards. 
 
 ### Change Requests and Improvements
 

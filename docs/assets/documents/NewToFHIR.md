@@ -87,7 +87,7 @@ In the table below you’ll find the most common terms and associated descriptio
   <tr>
     <td class="tg-az2b"><span style="font-weight:bold;background-color:#FFF">ValueSet</span></td>
     <td class="tg-t3tv">A collection of codes from one or more CodeSystems. ValueSets can either include all codes from a CodeSystem or only some codes.</td>
-    <td class="tg-4m1j"><a href="https://build.fhir.org/ig/hl7dk/dk-medcom-messaging/ValueSet-medcom-messaging-messageTypes.html" target="_blank">MedComMessagingMessageTypes</a> is a ValueSet that includes all codes from the <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-messaging/CodeSystem-medcom-messaging-eventCodes.html" target="_blank" >MedComMessagingEvents</a> CodeSystem. The ValueSet includes the codes for MedComs FHIR standards</td>
+    <td class="tg-4m1j"><a href="https://build.fhir.org/ig/hl7dk/dk-medcom-messaging/ValueSet-medcom-messaging-messageTypes.html" target="_blank">MedComMessagingMessageTypes </a> is a ValueSet that includes all codes from the <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-messaging/CodeSystem-medcom-messaging-eventCodes.html" target="_blank">MedComMessagingEvents</a> CodeSystem. The ValueSet includes the codes for MedComs FHIR standards</td>
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">MustSupport</span></td>

@@ -28,15 +28,15 @@ In the table below you’ll find the most common terms and associated descriptio
 > Note: the table below uses FHIR-paths to describe exactly which element that is refered to. E.g Patient.name referres to the name-element in the Patient resource.
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:80%;}
+.tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-ri2b{background-color:#FFF;border-color:inherit;color:#333333;text-align:left;vertical-align:top}
-.tg .tg-67v1{border-color:inherit;color:#2c415c;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-14zz{border-color:inherit;color:#333333;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-i91a{border-color:inherit;color:#333333;text-align:left;vertical-align:top}
+.tg .tg-l3yj{background-color:#FFF;border-color:#000000;color:#333333;text-align:left;vertical-align:top}
+.tg .tg-ztr9{border-color:#000000;color:#2c415c;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-7j3r{border-color:#000000;color:#333333;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-on52{border-color:#000000;color:#333333;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
 <thead>

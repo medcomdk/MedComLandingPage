@@ -28,15 +28,15 @@ In the table below you’ll find the most common terms and associated descriptio
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:80%;}
-.tg td{border-color:#2c415c;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:#2c415c;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg th{border-color:black ;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-mxcs{border-color:inherit;color:#333;font-weight:bold;text-align:left;vertical-align:top}
 .tg .tg-ujx6{color:#333;text-align:left;vertical-align:top}
 .tg .tg-acii{background-color:#FFF;border-color:inherit;color:#333;text-align:left;vertical-align:top}
 .tg .tg-14zz{border-color:inherit;color:#333333;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-tg7p{border-color:inherit;color:#333;text-align:left;vertical-align:top}
+.tg .tg-tg7p{border-color:inherit;color:#2c415c;text-align:left;vertical-align:top}
 .tg .tg-i91a{border-color:inherit;color:#333333;text-align:left;vertical-align:top}
 .tg .tg-osjb{color:#333;font-weight:bold;text-align:left;vertical-align:top}
 </style>

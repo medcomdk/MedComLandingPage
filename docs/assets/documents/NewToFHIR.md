@@ -86,7 +86,7 @@ In the table below you’ll find the most common terms and associated descriptio
   </tr>
   <tr>
     <td class="tg-i91a"><span style="font-weight:bold">Narrative</span></td>
-    <td class="tg-i91a"><span style="background-color:#FFF">A summary of the most important information in a standard. All elements with a SUMMARITION symbol in a resource or profile will be automatically included in the narrative. <span>&Sigma;</span> can be defined in the generic resource or during the profiling.</span></td>
+    <td class="tg-i91a"><span style="background-color:#FFF">A summary of the most important information in a standard. All elements with a SUMMARITION symbol in a resource or profile will be automatically included in the narrative. <p><span>&Sigma;</span> </p> can be defined in the generic resource or during the profiling.</span></td>
     <td class="tg-i91a">In the generic Patient resource Patient.identifier and Patient.name are both included in the narrative.</td>
   </tr>
   <tr>

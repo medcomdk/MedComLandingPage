@@ -92,7 +92,7 @@ In the table below you’ll find the most common terms and associated descriptio
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">MustSupport</span></td>
     <td class="tg-t3tv">Indicates which information which shall be included in a MedCom standard if available in the sender systemer and which information the receiver system shall be able to handle. MustSupport is defined during profiling of the resource.</td>
-    <td class="tg-t3tv">The elements Patient.identifier, Patient.name and Patient.address does all have the flag MustSupport in the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank" rel="noopener noreferrer">MedComCorePatient</a> profile.</td>
+    <td class="tg-t3tv">The elements Patient.identifier, Patient.name and Patient.address does all have the flag MustSupport in the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a> profile.</td>
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">Modifier</span></td>

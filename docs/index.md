@@ -2,7 +2,7 @@
 
 MedComs modernization project involves both rethinking business requirements and technical improvement. The modernization is done in collaboration with MedComs central partners. 
 
-On <a href="https://www.medcom.dk/" target="_blank">medcom.dk </a> are the political and strategical aspects of the modernization described. These aspects involve the initial wave of modernizations including HospitalNotification (Dansk: Sygehusadvis), CareCommunication (Dansk: Korrespondancemeddelelse), and Acknowledgement (Dansk: Kvittering). The out phasing of existing  standards(EDIFACT and OIOXML), and implementation plan for the initial wave is described and the following modernization waves will also be described there.
+On <a href="https://www.medcom.dk/" target="_blank">medcom.dk </a> are the political and strategical aspects of the modernization described. These aspects involve the initial wave of modernizations including HospitalNotification (Dansk: Sygehusadvis), CareCommunication (Dansk: Korrespondancemeddelelse), and Acknowledgement (Dansk: Kvittering). The out phasing of existing  standards (EDIFACT and OIOXML), and implementation plan for the initial wave is described and the following modernization waves will also be described there.
 
 The purpose of these pages is to describe both the business requirement and technical implementation of the requirements for each standard. This page guides you to find more information about each standard. 
 

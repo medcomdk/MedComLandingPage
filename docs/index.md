@@ -6,18 +6,18 @@ On <a href="https://www.medcom.dk/" target="_blank">medcom.dk </a> are the polit
 
 The purpose of these pages is to describe both the business requirement and technical implementation of the requirements for each standard. This page guides you to find more information about each standard. 
 
- [Welcome to MedComs FHIR standards](#welcome-to-medcoms-fhir-standards)
-  * [1 MedComs FHIR standards](#1-medcoms-fhir-standards)
-  * [2 Implementing a MedCom FHIR standard](#2-implementing-a-medcom-fhir-standard)
-    * [Standard Documentation](#standard-documentation)
-    * [Communication Rules](#communication-rules)
-    * [Network Layer](#network-layer)
-  * [3 Test and Certification](#3-test-and-certification)
-  * [4 Governance](#4-governance)
-    * [Versioning of FHIR standard](#versioning-of-fhir-standard)
-    * [Change Requests and Improvements](#change-requests-and-improvements)
-  * [5 New to FHIR](#5-new-to-fhir)
-  * [6 Release Notes](#6-release-notes)
+[Welcome to MedComs FHIR standards](#welcome-to-medcoms-fhir-standards)
+* [1 MedComs FHIR standards](#1-medcoms-fhir-standards)
+* [2 Implementing a MedCom FHIR standard](#2-implementing-a-medcom-fhir-standard)
+  * [Standard Documentation](#standard-documentation)
+  * [Communication Rules](#communication-rules)
+  * [Network Layer](#network-layer)
+* [3 Test and Certification](#3-test-and-certification)
+* [4 Governance](#4-governance)
+  * [Versioning of FHIR standard](#versioning-of-fhir-standard)
+  * [Change Requests and Improvements](#change-requests-and-improvements)
+* [5 New to FHIR](#5-new-to-fhir)
+* [6 Release Notes](#6-release-notes)
 
 > Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.
 
@@ -105,6 +105,7 @@ Links to the webpage presentations of the standards can be found in the table be
 </table>
 
 ## 2 Implementing a MedCom FHIR standard
+
 When implementing a MedCom FHIR standard, it is fundamental to understand in which context the standard shall be used to ensure that the implementation fulfill the business requirements. Therefore, it is important to understand the standard documentation for the given standard. 
 Furthermore it is important to understand the messaging framework and the possibilities of the VANS Network, since FHIR standards defines the process for how information is packaged and send from one part to another over the VANS Network.
 The messaging framework and the VANS Network are described as governance, previously known as the “Syntax and Communication Rules". 
@@ -112,16 +113,15 @@ The messaging framework and the VANS Network are described as governance, previo
 
 
 ### Standard Documentation
-The purpose of the standard documentation is to describe the context in which a standard shall be used and which requirements the standard shall fulfill. Implementation guide, use cases, clinical guidelines, and testprotocols will be available for all standards and some additional documents might be available as well to support implementation, such as the mapping document. Standard documentation is only provided for the standards, HospitalNotification, CareCommunication and Acknowledgement and not for the generic core or messaging IG’s.” 
 
-
-This is found in under each standard, as mentioned in [section 1](#1-medcoms-fhir-messaging-standards). Standard documentation consists of: 
+The purpose of the standard documentation is to describe the context in which a standard shall be used and which requirements the standard shall fulfill. Implementation guide, use cases, clinical guidelines, and testprotocols will be available for all standards and some additional documents might be available as well to support implementation, such as the mapping document. Standard documentation is only provided for the standards, HospitalNotification, CareCommunication and Acknowledgement and not for the generic core or messaging IG’s.
+Standard documentation consists of: 
 * Implementation Guide: the technical specifications of the standard.
 * Clinical guidelines: the clinical consideration behind the modernization.
 * Use cases: the intended use of the standard.
 * Testprotocol: used during test and certification to document that the vendor implementation fulfills the standard. 
 * Mapping document: the mapping from the previous OIOXML standard to FHIR.
-
+<p>&nbsp;</p>
 
 ### Governance for MedCom HL7 FHIR®© Messaging
 

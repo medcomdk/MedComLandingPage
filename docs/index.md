@@ -15,7 +15,7 @@ The purpose of these pages is to describe both the business requirement and tech
 * [4 Governance](#4-governance)
   * [Versioning of FHIR standard](#versioning-of-fhir-standard)
   * [Change Requests and Improvements](#change-requests-and-improvements)
-* [5 New to FHIR ?](#5-new-to-fhir)
+* [5 New to FHIR?](#5-new-to-fhir?)
 * [6 Release Notes](#6-release-notes)
 
 > Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.
@@ -150,7 +150,7 @@ Stakeholders and vendors are alway welcome to submit requests for changes or imp
 <p>&nbsp;</p>
 Based on an analysis of the severity of the request, MedCom decide if the changes shall be implemented and change the version of the artifact or IG to reflect the changes.  
 
-## 5 New to FHIR ?
+## 5 New to FHIR?
 This section gives a brief introduction to MedComs FHIR Universe. The introduction is for stakeholders with no or limited knowledge about FHIR. It will take you through the most common terminology used throughout the FHIR pages. Additionally, it introduces a step-by-step guide which guides one through an implementation guide (IG) and can be used as a starting point to understand an IG and its structure. Further some of the frequent asked questions are addressed. If more questions appear you are more than welcome to contact MedCom. Contact information is in the bottom of the page. Further, the introduction includes links to HL7 FHIR pages describing much more thoroughly what FHIR is and how it can be used, and links to previous webinars by MedCom.
 [Tab here to get an short introduction to FHIR and how to read an Implementation Guide.](assets/documents/NewToFHIR.md)
 

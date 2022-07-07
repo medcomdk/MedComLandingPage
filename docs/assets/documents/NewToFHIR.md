@@ -121,8 +121,12 @@ The figure below illustrates that the messaging standard use multiple of the pro
  
 
 ## How does Inheritance Work and What is DKCore
+In Denmark we have a national HL7 affiliate, called <a href="https://hl7.dk/" target="_blank">HL7-DK</a>. The affiliate works on development of international HL7 standards that supports healthcare. HL7-DK has focus on profiling the international standard to Danish context to provide a common foundation in Denmark.  HL7-DK develops DK-core which is generic FHIR profiles that can be used freely for FHIR project in Denmark. At present DK-core includes the following profiles: DkCorePatient, DkCorePractitioner and DkCoreOrganization. The profile MedComCorePatient inherits from <a href="https://hl7.dk/fhir/core/1.1.0/StructureDefinition-dk-core-patient.html" target="_blank">DKCorePatient</a>. This means that when a MedCom standard uses a CPR-number from DKCorePatient, it is defined in the same way as when other projects inherit from DK-core and uses a CPR-number, securing consistency across projects. DKCorePatient is the foundation of MedComCorePatient, why MedComCorePatient is said to inherit from DKCorePatient.
+The figure below illustrates the inheritance of profiles. 
 ![MD](../images/WhatisDKCore.png)
-In Denmark there is a national HL7 affiliate, called <a href="https://hl7.dk/" target="_blank">HL7-DK</a>. A special FHIR-interest group develops what is called DK-core profiles, generic FHIR profiles which can be used freely for FHIR project in Denmark. MedComCorePatient inherits from <a href="https://hl7.dk/fhir/core/1.1.0/StructureDefinition-dk-core-patient.html" target="_blank">DKCorePatient</a>. This means that when a MedCom standard uses a CPR-number from DKCorePatient, it is defined in the same way as when other projects inherit from DK-core and uses a CPR-number, securing consistentcy across projects. DKCorePatient is the foundation of MedComCorePatient, why MedComCorePatient is said to inherit from DKCorePatient.<a href="https://www.medcom.dk/standarder/moderniseringsnyheder/nyhedsbrev-29-november-2021" target="_blank">You can read more about the work of HL7-DK here</a>. 
+
+The figure also illustrates that there is a dependency between the IGs and the FHIR resources defined by HL7. <a href="https://www.medcom.dk/standarder/moderniseringsnyheder/nyhedsbrev-29-november-2021" target="_blank">You can read more about the work of HL7-DK here</a>. 
+
 
 ## More information
 

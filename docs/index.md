@@ -96,7 +96,7 @@ Links to the webpage presentations of the standards can be found in the table be
     <td class="tg-63yy" colspan="3">Terminology&nbsp;&nbsp;explanation </td>
   </tr>
   <tr>
-    <td class="tg-0lax">Terminology</td>
+    <td class="tg-0lax"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/" target="_blank"> Terminology</a></td>
     <td class="tg-0lax">Terminologi </td>
     <td class="tg-0lax">Includes CodeSystem, ValueSet and ConceptMaps developed by MedCom used in the standards</td>
   </tr>

@@ -32,75 +32,82 @@ In the table below you’ll find the most common terms and associated descriptio
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-mxcs{border-color:inherit;color:#333;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-ujx6{color:#333;text-align:left;vertical-align:top}
+.tg .tg-acii{background-color:#FFF;border-color:inherit;color:#333;text-align:left;vertical-align:top}
 .tg .tg-14zz{border-color:inherit;color:#333333;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-tg7p{border-color:inherit;color:#333;text-align:left;vertical-align:top}
 .tg .tg-i91a{border-color:inherit;color:#333333;text-align:left;vertical-align:top}
+.tg .tg-osjb{color:#333;font-weight:bold;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
   <tr>
     <th class="tg-14zz">Term</th>
-    <th class="tg-14zz">Describtion</th>
+    <th class="tg-14zz">Description</th>
     <th class="tg-14zz">Example</th>
   </tr>
 </thead>
 <tbody>
   <tr>
+    <td class="tg-mxcs"><span style="font-weight:bold">Implementation Guide (IG)</span></td>
+    <td class="tg-acii">The technical specification of a MedCom FHIR standard. A set of rules and associated documentation describing, how FHIR profiles should be implemented to accommodate a given standard and requirements.</td>
+    <td class="tg-tg7p">All IG's are available in section 1.</td>
+  </tr>
+  <tr>
     <td class="tg-i91a"><span style="font-weight:bold">Resources</span></td>
-    <td class="tg-i91a"><span style="background-color:#FFF">FHIR consists of generic resources, each describing a clinically delimited area. Resources are 'building blocks' defined by HL7.</span></td>
+    <td class="tg-i91a">FHIR consists of generic resources, each describing a clinically delimited area. Resources are 'building blocks' defined by HL7.</td>
     <td class="tg-i91a">A Patient resource, an Allergy resource, an Observation resource, an Encounter resource ect.</td>
   </tr>
   <tr>
     <td class="tg-i91a"><span style="font-weight:bold">Element</span></td>
-    <td class="tg-i91a"><span style="background-color:#FFF">A resource consists of multiple elements each describing a specific part of the content.</span></td>
+    <td class="tg-i91a">A resource consists of multiple elements each describing a specific part of the content.</td>
     <td class="tg-i91a">Patient.name or Patient.address.</td>
   </tr>
   <tr>
     <td class="tg-i91a"><span style="font-weight:bold">Cardinality</span></td>
-    <td class="tg-i91a"><span style="background-color:#FFF">Each element is described with a minimum and maximum cardinality, describing how many times an element may or shall appear.</span><br><span style="background-color:#FFF">If the minimum cardinality is 0, the element may appear and if it is 1 or more the element shall at least appear the number of times stated.</span><br><span style="background-color:#FFF">If the maximum cardinality is 0 the element must not appear, 1 the element may not appear more than once and if it is * the element may appear several times.</span><br></td>
+    <td class="tg-i91a">Each element is described with a minimum and maximum cardinality, describing how many times an element may or shall appear.<br>If the minimum cardinality is 0, the element may appear and if it is 1 or more the element shall at least appear the number of times stated.<br>If the maximum cardinality is 0 the element must not appear, 1 the element may not appear more than once and if it is * the element may appear several times.<br></td>
     <td class="tg-i91a">In the generic resource Patient.name has the cardinality 0..*, meaning a patient may have zero or more names.<br>In the generic resource Encounter.status has the cardinality 1..1, meaning that a status always shall appear, and in may only appear once.</td>
   </tr>
   <tr>
     <td class="tg-i91a"><span style="font-weight:bold">Profiling</span></td>
-    <td class="tg-i91a"><span style="background-color:#FFF">To fit a resource to a given context. It is widely recognized that when exchanging data it is impossible to make a</span> <span style="font-style:italic">one size fits all</span> <span style="background-color:#FFF">within healthcare worldwide.</span><br><span style="background-color:#FFF">To accommodate this, the resources made generic with the possibility to be profiled to fit a specific context, such as exchanging a CareCommunication message between Danish healthcare parties.</span></td>
+    <td class="tg-i91a">To fit a resource to a given context. It is widely recognized that when exchanging data it is impossible to make a one size fits all within healthcare worldwide.<br>To accommodate this, the resources made generic with the possibility to be profiled to fit a specific context, such as exchanging a CareCommunication message between Danish healthcare parties.</td>
     <td class="tg-i91a">Profiling could be to require a lastname and an identifier of a patient or citizen when exchanging information about the person.</td>
   </tr>
   <tr>
     <td class="tg-i91a"><span style="font-weight:bold">Extensions</span></td>
-    <td class="tg-i91a"><span style="background-color:#FFF">To extend a resource to include additional information than defined by HL7. Defining extensions are usually a part of the profiling.</span></td>
+    <td class="tg-i91a">To extend a resource to include additional information than defined by HL7. </td>
     <td class="tg-i91a">Extending the Patient resource with a CPR-number. As this is unique in Denmark, the generic Patient resource does not include it as a patient identifier.</td>
   </tr>
   <tr>
     <td class="tg-i91a"><span style="font-weight:bold">CodeSystem</span></td>
-    <td class="tg-i91a"><span style="background-color:#FFF">A collection of codes, which can be predetermined by HL7, from a international terminology or defined by the developer of the IG.</span></td>
-    <td class="tg-i91a">Predetermined by HL7 e.g. gender, from a international terminology e.g. SNOMED CT or defined by the developer of the IG e.g. categories in a CareCommunication message.</td>
+    <td class="tg-i91a">A collection of codes, which can be predetermined by HL7, from a international terminology or defined by the developer of the IG.</td>
+    <td class="tg-i91a">Predetermined by HL7 e.g. <a href="http://hl7.org/fhir/valueset-administrative-gender.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">gender</span></a>, from a international terminology e.g. <a href="https://browser.ihtsdotools.org/?" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">SNOMED CT </span></a>,or defined by the developer of the IG e.g. <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication/CodeSystem-medcom-careCommunication-categoryCodes.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">categories </span></a>categories in a CareCommunication message.</td>
   </tr>
   <tr>
     <td class="tg-i91a"><span style="font-weight:bold;background-color:#FFF">ValueSet</span></td>
-    <td class="tg-i91a"><span style="background-color:#FFF">A collection of codes from one or more CodeSystems. ValueSets can either include all codes from a CodeSystem or only some codes.</span></td>
-    <td class="tg-i91a">A ValueSet defined by MedCom is <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-messaging/ValueSet-medcom-messaging-messageTypes.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">MedComMessagingMessageTypes</span></a>, which includes all codes from the CodeSystem called <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-messaging/CodeSystem-medcom-messaging-eventCodes.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">MedComMessagingEvents</span></a>.</td>
+    <td class="tg-i91a">A collection of codes from one or more CodeSystems. ValueSets can either include all codes from a CodeSystem or only some codes.</td>
+    <td class="tg-i91a"><a href="https://build.fhir.org/ig/hl7dk/dk-medcom-messaging/ValueSet-medcom-messaging-messageTypes.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">MedComMessagingMessageTypes</span></a> is a ValueSet that includes all codes from the <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-messaging/CodeSystem-medcom-messaging-eventCodes.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">MedComMessagingEvents</span></a> CodeSystem. The ValueSet includes the codes for MedComs FHIR standards</td>
   </tr>
   <tr>
     <td class="tg-i91a"><span style="font-weight:bold">MustSupport</span></td>
-    <td class="tg-i91a"><span style="background-color:#FFF">Indicates which information which shall be included in a MedCom standard if available in the sender systemer and which information the receiver system shall be able to handle. MustSupport is defined during profiling of the resource.</span></td>
+    <td class="tg-i91a">Indicates which information which shall be included in a MedCom standard if available in the sender systemer and which information the receiver system shall be able to handle. MustSupport is defined during profiling of the resource.</td>
     <td class="tg-i91a">The elements Patient.identifier, Patient.name and Patient.address does all have the flag MustSupport in the MedComCorePatient profile.</td>
   </tr>
   <tr>
+    <td class="tg-osjb"><span style="font-weight:bold">Modifier</span></td>
+    <td class="tg-ujx6">An element which modifies or changes the understanding of the resource. '!?' indicates in the IG that the element is a modifier element, which is often defined in the generic resource or in developed extensions</td>
+    <td class="tg-ujx6">Patient.deceased is a modifier element, since is modifies the way the content of the profile should be understood, if the patient is deceased.</td>
+  </tr>
+  <tr>
     <td class="tg-i91a"><span style="font-weight:bold">Narrative</span></td>
-    <td class="tg-i91a"><span style="background-color:#FFF">A summary of the most important information in a standard. All elements with a SUMMARITION symbol in a resource or profile will be automatically included in the narrative. <p><span>&Sigma;</span> </p> can be defined in the generic resource or during the profiling.</span></td>
-    <td class="tg-i91a">In the generic Patient resource Patient.identifier and Patient.name are both included in the narrative.</td>
-  </tr>
-  <tr>
-    <td class="tg-i91a"><span style="font-weight:bold">Modifier</span></td>
-    <td class="tg-i91a">An element which modifies or changes the understanding of the resource. All modifier elements are indicates with '!?', which can be defines in the generic resource or during the profiling.</td>
-    <td class="tg-i91a">Patient.deceased is a modifier element, since is modifies the way the content of the profile should be understood, if the patient is deceased.</td>
-  </tr>
-  <tr>
-    <td class="tg-i91a"><span style="font-weight:bold">Implementation Guide (IG)</span></td>
-    <td class="tg-i91a"><span style="background-color:#FFF">The technical specification of a MedCom FHIR standard. A set of rules and associated documentation describing, how FHIR profiles should be implemented to accommodate a given standard and requirements.</span></td>
-    <td class="tg-i91a">All IG's are available in <a href="https://medcomdk.github.io/MedComLandingPage/assets/documents/NewToFHIR.html#1-medcoms-fhir-messaging-standards" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">section 1</span></a>.</td>
+    <td class="tg-i91a"> A textual summary of the information   in a message which can be   used to display information if the structured data cannot be displayed. All   information in a message shall be included in the summary. <br>Description:    </td>
+    <td class="tg-i91a">All content from a message, including the patients name or CPR-number and the written correspondence in a CareCommunication message.</td>
   </tr>
 </tbody>
 </table>
+
+
 
 
 ## How to Read a MedCom Implementation Guide

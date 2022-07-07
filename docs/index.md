@@ -15,7 +15,7 @@ The purpose of these pages is to describe both the business requirement and tech
 * [4 Change Manegment and Versioning ](#4-change-manegment-and-versioning)
   * [4.1 Versioning of FHIR standard](#41-versioning-of-fhir-standard)
   * [4.2 Change Requests and Improvements](#42-change-requests-and-improvements)
-* [5 New to FHIR?](#5-new-to-fhir-?)
+* [5 New to FHIR?](#5-new-to-fhir?)
 * [6 Release Notes](#6-release-notes)
 
 > Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.

@@ -52,7 +52,7 @@ In the table below you’ll find the most common terms and associated descriptio
   <tr>
     <td class="tg-mxcs"><span style="font-weight:bold">Implementation Guide (IG)</span></td>
     <td class="tg-acii">The technical specification of a MedCom FHIR standard. A set of rules and associated documentation describing, how FHIR profiles should be implemented to accommodate a given standard and requirements.</td>
-    <td class="tg-tg7p">All IG's are available in section 1.</td>
+    <td class="tg-tg7p">All IG's are available in <a href="https://medcomdk.github.io/MedComLandingPage/assets/documents/NewToFHIR.html#1-medcoms-fhir-messaging-standards" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">MedComs FHIR standards</span></a>.</td>
   </tr>
   <tr>
     <td class="tg-i91a"><span style="font-weight:bold">Resources</span></td>

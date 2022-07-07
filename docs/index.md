@@ -45,7 +45,7 @@ Links to the webpage presentations of the standards can be found in the table be
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-mx33{background-color:#9dbad7;border-color:inherit;color:#2c415c;font-style:italic;text-align:left;vertical-align:top}
+.tg .tg-mx33{background-color:#9dbad7;border-color:inherit;color:#333333;font-style:italic;text-align:left;vertical-align:top}
 .tg .tg-o5v9{background-color:#ffffff;border-color:inherit;color:#333333;text-align:left;vertical-align:top}
 .tg .tg-67v1{border-color:inherit;color:#2c415c;font-weight:bold;text-align:left;vertical-align:top}
 .tg .tg-i91a{border-color:inherit;color:#333333;text-align:left;vertical-align:top}

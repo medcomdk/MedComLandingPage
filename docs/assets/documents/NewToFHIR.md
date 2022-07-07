@@ -110,10 +110,15 @@ If you are interested in understanding the basic content and the composition of 
 
 ## Why are there Multiple Implementation Guides
 
-FHIR allows for a great deal of reuse. When creating a MedCom message, profiles from the MedComCore and MedComMessaging IG are used, as illustrated on the figure below. 
+FHIR allows for a great deal of reuse. When creating a MedCom FHIR message, profiles from the MedComCore and MedComMessaging IG are used to create a complete understanding. Currently, there are three FHIR standards: HospitalNotification, CareCommunication and Acknowledgement, which all are composed of profiles from the Core -, and Messaging-IG as well as the IG for the specific standard, and codes from the Terminology IG. 
+
+Keeping the IGs seperat allows to version them individually, so updates in the MedComHospitalNotification IG won’t affect the version of the MedComCareCommunication IG. However, an update in the MedComMessaging IG will affect all standards that uses profiles or inherit profiles from this IG. 
+Additionally, it makes it possible to reuse the profiles from the Core IG in different MedCom standard and in different exchange formats. 
+
+The figure below illustrates that the messaging standard use multiple of the profiles from the Core and Messaging IG and uses some profiles that are specific for the given standard. 
 ![MD](../images/MultipleIGs.png)
 
-Keeping the IGs seperat allow to versioning each one of them, so updates in the MedComHospitalNotification IG won't affect the version of the MedComCareCommunication IG.  However an update in the MedComMessaging IG will affect all standards that uses profiles or inherit profiles from this IG. 
+ 
 
 ## How does Inheritance Work and What is DKCore
 ![MD](../images/WhatisDKCore.png)

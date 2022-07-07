@@ -28,7 +28,7 @@ In the table below you’ll find the most common terms and associated descriptio
 > Note: the table below uses FHIR-paths to describe exactly which element that is refered to. E.g Patient.name referres to the name-element in the Patient resource.
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
+.tg  {border-collapse:collapse;border-spacing:80;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -90,7 +90,7 @@ In the table below you’ll find the most common terms and associated descriptio
   <tr>
     <td class="tg-i91a"><span style="font-weight:bold">MustSupport</span></td>
     <td class="tg-i91a">Indicates which information which shall be included in a MedCom standard if available in the sender systemer and which information the receiver system shall be able to handle. MustSupport is defined during profiling of the resource.</td>
-    <td class="tg-i91a">The elements Patient.identifier, Patient.name and Patient.address does all have the flag MustSupport in the MedComCorePatient profile.</td>
+    <td class="tg-i91a">The elements Patient.identifier, Patient.name and Patient.address does all have the flag MustSupport in the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</span></a> profile.</td>
   </tr>
   <tr>
     <td class="tg-osjb"><span style="font-weight:bold">Modifier</span></td>

@@ -140,6 +140,7 @@ The figure also illustrates that there is a dependency between the IGs and the F
 In 2022 MedCom has held a two webinars concerning the modernization of MedCom standards. Both webinars freely available and in Danish:
 * <a href="https://www.youtube.com/watch?v=8doBKskz3J8" target="_blank">FHIR-introduktionswebinar (17. maj 2022)</a>
 * <a href="https://www.youtube.com/watch?v=bfzx7U2Suug" target="_blank">FHIR demo-webinar med MedCom, Mjølner og Trifork (10 . februar 2022)</a>
+<p>&nbsp;</p>
 
 ### HL7 FHIR Documentation
 

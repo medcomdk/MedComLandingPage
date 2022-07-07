@@ -10,12 +10,12 @@ The purpose of these pages is to describe both the business requirement and tech
 * [1 MedComs FHIR standards](#1-medcoms-fhir-standards)
 * [2 Implementing a MedCom FHIR standard](#2-implementing-a-medcom-fhir-standard)
   * [2.1 Standard Documentation](#21-standard-documentation)
-  * [2.2 Governance for MedCom HL7 FHIR®© Messaging](#22-Governance for MedCom HL7 FHIR®© Messaging) 
+  * [2.1 Governance for MedCom HL7 FHIR®© Messaging](#22-governance-for-medcom-hl7-fhir-messaging) 
 * [3 Test and Certification](#3-test-and-certification)
-* [4 Change Manegment and Versioning ](#4-Change-Manegment-and-Versioning)
+* [4 Change Manegment and Versioning ](#4-change-manegment-and-versioning)
   * [4.1 Versioning of FHIR standard](#41-versioning-of-fhir-standard)
   * [4.2 Change Requests and Improvements](#42-change-requests-and-improvements)
-* [5 New to FHIR?](#5-new-to-fhir?)
+* [5 New to FHIR?](#5-new-to-fhir-?)
 * [6 Release Notes](#6-release-notes)
 
 > Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.

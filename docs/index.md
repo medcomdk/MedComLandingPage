@@ -53,6 +53,8 @@ Links to the webpage presentations of the standards can be found in the table be
 .tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
 <table class="tg">
+<caption style="color:#2c415c;
+  font-weight:bold"> Table 1: Overview of th modernized FHIR standards </caption>
 <thead>
   <tr>
     <th class="tg-67v1">English</th>

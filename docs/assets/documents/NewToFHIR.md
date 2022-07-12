@@ -28,7 +28,7 @@ In the table below you’ll find the most common terms and associated descriptio
 > Note: the table below uses FHIR-paths to describe exactly which element that is refered to. E.g Patient.name referres to the name-element in the Patient resource.
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
+.tg  {border-collapse:collapse;border-spacing:65%;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -41,6 +41,7 @@ In the table below you’ll find the most common terms and associated descriptio
 .tg .tg-4m1j{color:#333333;text-align:left;text-decoration:underline;vertical-align:top}
 </style>
 <table class="tg">
+<caption style="color:#2c145c;font-weight:bold">Most common terms used when worning with FHIR</caption>
 <thead>
   <tr>
     <th class="tg-316y">Term</th>

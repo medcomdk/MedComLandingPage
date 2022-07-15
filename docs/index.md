@@ -134,7 +134,7 @@ Before using the implemented standard in production environment to exchange pati
 
 TouchStone describes an infrastructure that allows for automated test against HL7 FHIR. For each FHIR standard MedCom will develope testsuits, which is helpfull to automate the testing, both during implementation and as a part of test and certification.[To get started with TouchStone please take a look here](assets/documents/TouchStoneGettingStarted.md)
 
-## 4 Change Manegment and Versioning  
+## 4 Change Management and Versioning  
 
 ### 4.1 Versioning of FHIR standard
 

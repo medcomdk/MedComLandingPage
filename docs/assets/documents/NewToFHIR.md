@@ -7,10 +7,10 @@ The purpose of this section is to give a introduction to MedComs FHIR standards 
 
 **Table of Content**
 - [FHIR Glossary](#fhir-glossary)
-- [Frequently asked questions]()
 - [How to Read a MedCom Implementation Guide](#how-to-read-a-medcom-implementation-guide)
-- [Why are there Multiple Implementation Guides](#why-are-there-multiple-implementation-guides)
-- [How does Inheritance Work and What is DKCore](#how-does-inheritance-work-and-what-is-dkcore)
+- [Frequently asked questions](#frequently-asked-qestions)
+  - [Why are there Multiple Implementation Guides Exists](#why-are-there-multiple-implementation-guides-exists)
+  - [How does Inheritance Work and What is DKCore](#how-does-inheritance-work-and-what-is-dkcore)
 - [More information](#more-information)
   * [Webinars](#webinars)
   * [HL7 FHIR Documentation](#hl7-fhir-documentation)
@@ -111,11 +111,10 @@ In the table below you’ll find the most common terms and associated descriptio
 
 
 ## How to Read a MedCom Implementation Guide
-
 If you are interested in understanding the basic content and the composition of an IG, you can follow this [step-by-step guide](FHIRImplementationGuide.md).
 
 ## Frequently asked qestions
-### Why are there Multiple Implementation Guides
+### Why are there Multiple Implementation Guides Exists
 
 FHIR allows for a great deal of reuse. When creating a MedCom FHIR message, profiles from the MedComCore and MedComMessaging IG are used to create a complete understanding. Currently, there are three FHIR standards: HospitalNotification, CareCommunication and Acknowledgement, which all are composed of profiles from the Core and Messaging IG as well as the IG for the specific standard, and codes from the Terminology IG. 
 

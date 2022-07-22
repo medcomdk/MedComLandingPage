@@ -5,10 +5,10 @@
 The release notes in the following describes the changes made to the landing page of MedComs FHIR standards and subpages.
 Each subpage will have its own release note, and they can be found here: 
 
-  * [Landing page](../ReleaseNotes-index.md)
-    * [TouchStone getting started](../ReleaseNotes-TouchStoneGettingStarted.md)
-    * [New to FHIR ?](../ReleaseNotes-NewToFHIR.md)
-      * [Step-by-Step Guide](../ReleaseNotes-FHIRImplementationGuide.md)
+  * [Landing page](ReleaseNotesIndex.md)
+    * [TouchStone getting started](ReleaseNotesTouchStoneGettingStarted.md)
+    * [New to FHIR ?](ReleaseNotesNewToFHIR.md)
+      * [Step-by-Step Guide](ReleaseNotesFHIRImplementationGuide.md)
 
 In the table below is an overview of the changes recently made and where to find more information.
 
@@ -35,10 +35,10 @@ In the table below is an overview of the changes recently made and where to find
     <td class="tg-pkxh"><span style="color:#343434">1.0.0-b.1</span></td>
     <td class="tg-pkxh"><span style="color:#343434">22-07-2022</span></td>
     <td class="tg-pkxh"><span style="color:#343434">Inital release. Presentation of MedCom FHIR standards.</span></td>
-    <td class="tg-pkxh"><span style="color:#343434"></span><a href="../ReleaseNotes-index.md" target="_blank">Landing page</a></br>
-    <a href="../ReleaseNotes-TouchStoneGettingStarted.md" target="_blank">TouchStone getting started</a></br>
-    <a href="../ReleaseNotes-NewToFHIR.md" target="_blank">New to FHIR ?</a></br>
-    <a href="../ReleaseNotes-FHIRImplementationGuide.md" target="_blank">Step-by-Step Guide</a></td>
+    <td class="tg-pkxh"><span style="color:#343434"></span><a href="ReleaseNotesIndex.md" target="_blank">Landing page</a> </br> 
+    <a href="ReleaseNotesTouchStoneGettingStarted.md" target="_blank">TouchStone getting started</a> </br> 
+    <a href="ReleaseNotesNewToFHIR.md" target="_blank">New to FHIR ?</a> </br> 
+    <a href="ReleaseNotesFHIRImplementationGuide.md" target="_blank">Step-by-Step Guide</a> </td>
   </tr>
   <tr>
     <td class="tg-pkxh"></td>

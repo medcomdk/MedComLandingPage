@@ -35,7 +35,7 @@ In the table below is an overview of the changes recently made and where to find
     <td class="tg-pkxh"><span style="color:#343434">1.0.0-b.1</span></td>
     <td class="tg-pkxh"><span style="color:#343434">22-07-2022</span></td>
     <td class="tg-pkxh"><span style="color:#343434">Inital release. Presentation of MedCom FHIR standards.</span></td>
-    <td class="tg-pkxh"><span style="color:#343434">View release note for:  </span><a href="ReleaseNotesIndex.md">Landing page</a><br><a href="ReleaseNotesTouchStoneGettingStarted.md">TouchStone getting started</a><br><a href="ReleaseNotesNewToFHIR.md">New to FHIR ?</a><br><a href="ReleaseNotesFHIRImplementationGuide.md">Step-by-Step Guide</a></td>
+    <td class="tg-pkxh"><span style="color:#343434">View release note for: <br> </span><a href="ReleaseNotesIndex.md">Landing page</a> <br> <a href="ReleaseNotesTouchStoneGettingStarted.md">TouchStone getting started</a> <br> <a href="ReleaseNotesNewToFHIR.md">New to FHIR ?</a> <br> <a href="ReleaseNotesFHIRImplementationGuide.md">Step-by-Step Guide</a></td>
   </tr>
   <tr>
     <td class="tg-pkxh"></td>

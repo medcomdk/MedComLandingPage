@@ -1,7 +1,5 @@
 # Release Note
 
-[Return](NewToFHIR.md)
-
 In the table below are the changes made to previous page described. The versioning follows <a href="https://semver.org/" target="_blank">semantic versioning version 2.0</a>, adjusted to the workflow in MedCom.
 
 <style type="text/css">

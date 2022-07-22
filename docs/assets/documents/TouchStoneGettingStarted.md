@@ -22,3 +22,7 @@ For information regarding how to run a Touchstone test script, please refer to:
 ## Java FHIR client setup
 
 [http://svn.medcom.dk/svn/drafts/TestProcedurer/Touchstone/MedcomTouchstoneTest/java%20FHIR%20client.pptx](http://svn.medcom.dk/svn/drafts/TestProcedurer/Touchstone/MedcomTouchstoneTest/java%20FHIR%20client.pptx)
+
+## Release Notes
+
+[The latest changes of this page can be found here.](ReleaseNotesTouchStoneGettingStarted.md)

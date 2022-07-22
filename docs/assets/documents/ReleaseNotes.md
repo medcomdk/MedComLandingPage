@@ -1,8 +1,16 @@
 # Release Note
 
-[Return to frontpage](../../index.md)
+[Return](../../index.md)
 
-The release notes in the following describes the changes made to [the introduction of MedComs FHIR standards and subpages](../index.md). Versioning follows [Versionerings DOC!]
+The release notes in the following describes the changes made to the landing page of MedComs FHIR standards and subpages.
+Each subpage will have its own release note, and they can be found here: 
+
+  * [Landing page](../ReleaseNotes-index.md)
+    * [TouchStone getting started](../ReleaseNotes-TouchStoneGettingStarted.md)
+    * [New to FHIR ?](../ReleaseNotes-NewToFHIR.md)
+      * [Step-by-Step Guide](../ReleaseNotes-FHIRImplementationGuide.md)
+
+In the table below is an overview of the changes recently made and where to find more information.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;max-width:65%;}
@@ -10,48 +18,39 @@ The release notes in the following describes the changes made to [the introducti
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-uaof{color:#343434;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-ne9s{color:#343434;text-align:left;vertical-align:top}
+.tg .tg-c75y{background-color:#FFF;border-color:#343434;color:#343434;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-pkxh{background-color:#FFF;border-color:#343434;color:#343434;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-uaof">Version</th>
-    <th class="tg-uaof">Date</th>
-    <th class="tg-uaof">Initials</th>
-    <th class="tg-uaof">Changes</th>
+    <th class="tg-c75y"><span style="font-weight:bold;color:#343434">Version</span></th>
+    <th class="tg-c75y"><span style="font-weight:bold;color:#343434">Date</span></th>
+    <th class="tg-c75y"><span style="font-weight:bold;color:#343434">Changes</span></th>
+    <th class="tg-c75y"><span style="font-weight:bold;color:#343434">More information</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-ne9s">1.0.0-a.1</td>
-    <td class="tg-ne9s">31-05-2022</td>
-    <td class="tg-ne9s">TMS</td>
-    <td class="tg-ne9s">Inital release. Presentation of MedCom FHIR standards.</td>
+    <td class="tg-pkxh"><span style="color:#343434">1.0.0-b.1</span></td>
+    <td class="tg-pkxh"><span style="color:#343434">22-07-2022</span></td>
+    <td class="tg-pkxh"><span style="color:#343434">Inital release. Presentation of MedCom FHIR standards.</span></td>
+    <td class="tg-pkxh"><span style="color:#343434"></span><a href="../ReleaseNotes-index.md" target="_blank">Landing page</a></br>
+    <a href="../ReleaseNotes-TouchStoneGettingStarted.md" target="_blank">TouchStone getting started</a></br>
+    <a href="../ReleaseNotes-NewToFHIR.md" target="_blank">New to FHIR ?</a></br>
+    <a href="../ReleaseNotes-FHIRImplementationGuide.md" target="_blank">Step-by-Step Guide</a></td>
   </tr>
   <tr>
-    <td class="tg-ne9s"></td>
-    <td class="tg-ne9s"></td>
-    <td class="tg-ne9s"></td>
-    <td class="tg-ne9s"></td>
+    <td class="tg-pkxh"></td>
+    <td class="tg-pkxh"></td>
+    <td class="tg-pkxh"></td>
+    <td class="tg-pkxh"></td>
   </tr>
   <tr>
-    <td class="tg-ne9s"></td>
-    <td class="tg-ne9s"></td>
-    <td class="tg-ne9s"></td>
-    <td class="tg-ne9s"></td>
-  </tr>
-  <tr>
-    <td class="tg-ne9s"></td>
-    <td class="tg-ne9s"></td>
-    <td class="tg-ne9s"></td>
-    <td class="tg-ne9s"></td>
-  </tr>
-  <tr>
-    <td class="tg-ne9s"></td>
-    <td class="tg-ne9s"></td>
-    <td class="tg-ne9s"></td>
-    <td class="tg-ne9s"></td>
+    <td class="tg-pkxh"></td>
+    <td class="tg-pkxh"></td>
+    <td class="tg-pkxh"></td>
+    <td class="tg-pkxh"></td>
   </tr>
 </tbody>
 </table>

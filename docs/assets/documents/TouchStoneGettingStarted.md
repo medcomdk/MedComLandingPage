@@ -1,6 +1,6 @@
 # Touchstone Getting started
 
-[Return to frontpage](../../index.md)
+[Return](../../index.md)
 
 ## How to register
 1.	Go to https://touchstone.aegis.net/touchstone/register and follow the steps. (Create a “Free” account) 

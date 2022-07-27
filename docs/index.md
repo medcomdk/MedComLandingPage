@@ -86,7 +86,7 @@ Links to the webpage presentations of the standards can be found in the table be
     <td class="tg-1ady" colspan="4"><span style="font-style:italic">MedComs FHIR standards</span></td>
   </tr>
   <tr>
-    <td class="tg-on52"><span style="background-color:#FFF"> <a href="https://medcomdk.github.io/dk-medcom-acknowledgement/" rel="noopener noreferrer"><span style="text-decoration:none">Acknowledgement [This page is under construction. Pleas check back soon!!]</span></a></span></td>
+    <td class="tg-on52"><span style="background-color:#FFF"> <a href="https://medcomdk.github.io/dk-medcom-acknowledgement/" rel="noopener noreferrer"><span style="text-decoration:none">Acknowledgement </span></a>[This page is under construction. Pleas check back soon!!]</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Kvittering</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">When a message is received an acknowledgement message shall be returned to the sender, stating if the message was received properly.</span></td>
     <td class="tg-on52"></td>
@@ -98,7 +98,7 @@ Links to the webpage presentations of the standards can be found in the table be
     <td class="tg-on52"> Version 1.0</td>
   </tr>
   <tr>
-    <td class="tg-on52"><span style="background-color:#FFF"><a href="https://medcomdk.github.io/dk-medcom-carecommunication/" rel="noopener noreferrer"><span style="text-decoration:none">CareCommunication [This page is under construction. Pleas check back soon!!]</span></a></span></td>
+    <td class="tg-on52"><span style="background-color:#FFF"><a href="https://medcomdk.github.io/dk-medcom-carecommunication/" rel="noopener noreferrer"><span style="text-decoration:none">CareCommunication </span></a>[This page is under construction. Pleas check back soon!!]</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Korrespondancemeddelelse</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Used in all parts of the Danish health care sector to communicate between parties.</span></td>
     <td class="tg-on52"> Version 1.0</td>
@@ -107,7 +107,7 @@ Links to the webpage presentations of the standards can be found in the table be
     <td class="tg-1ady" colspan="4"><span style="font-style:italic">Terminology  explanation</span></td>
   </tr>
   <tr>
-    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-terminology/" rel="noopener noreferrer"><span style="text-decoration:none">Terminology [This page is under construction. Pleas check back soon!!]</span></a></td>
+    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-terminology/" rel="noopener noreferrer"><span style="text-decoration:none">Terminology </span></a> [This page is under construction. Pleas check back soon!!]</td>
     <td class="tg-on52">Terminologi</td>
     <td class="tg-on52">Includes CodeSystem, ValueSet and ConceptMaps developed by MedCom used in the standards</td>
     <td class="tg-on52"></td>

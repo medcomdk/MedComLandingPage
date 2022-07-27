@@ -1,15 +1,15 @@
 [Return to frontpage](../../index.md)
 
 # New to FHIR ?
-The purpose of this section is to give a introduction to MedComs FHIR standards to stakeholders with no or limited knowledge about FHIR. On this page you will find a brief introduction, most frequently used terms, descriptions that addresses some often asked questions and guiding to more information about FHIR and MedComs FHIR standards. 
+The purpose of this section is to give a introduction to MedComs FHIR standards to stakeholders with no or limited knowledge about FHIR. On this page you will find a brief introduction to the most frequently used terms, descriptions that addresses some often asked questions and guiding to more information about FHIR and MedComs FHIR standards. 
 
 
 **Table of Content**
 - [1 FHIR Glossary](#1-fhir-glossary)
 - [2 How to Read a MedCom Implementation Guide](#2-how-to-read-a-medcom-implementation-guide)
 - [3 Frequently asked questions](#3-frequently-asked-qestions)
-  - [3.1 Why are there Multiple Implementation Guides Exists](#31-why-are-there-multiple-implementation-guides-exists)
-  - [3.2 How does Inheritance Work and What is DKCore](#32-how-does-inheritance-work-and-what-is-dkcore)
+  - [3.1 Why are there Multiple Implementation Guides?](#Why-are-there-multiple-implementation-guides)
+  - [3.2 How does Inheritance Work and What is DKCore?](#how-does-inheritance-work-and-what-is-dkcore)
 - [4 More information](#4-more-information)
   * [4.1 Webinars](#41-webinars)
   * [4.2 HL7 FHIR Documentation](#42-hl7-fhir-documentation)
@@ -19,7 +19,7 @@ The purpose of this section is to give a introduction to MedComs FHIR standards 
 # 1 FHIR Glossary
 <a href="https://www.hl7.org/fhir/" target="_blank">Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)</a> is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare-related information. FHIR defines several resources, often referred to as ‘building blocks’, each describing a delimited area within healthcare e.g., a Patient or an Encounter. These resources are generic and can therefore be used across the world. However, when using the resources in a specific context, such as communication between Danish healthcare parties, the resources need to be profiled to accommodate the use. The profiling could be to require at last name of a Patient. In some cases, it is necessary to extend the generic resources to fit the context e.g., to add a CPR-number as a patient identifier.
 
-When creating a MedCom FHIR standard, multiple profiles are assembled to include the information necessary to support the business requirements. Under the auspices of MedCom, these profiles will most often come from multiple Implementation Guides (IG). This decision is further addressed in the section [3.1 Why does Multiple Implementation Guides Exists?](#31-why-are-there-multiple-implementation-guides). 
+When creating a MedCom FHIR standard, multiple profiles are assembled to include the information necessary to support the business requirements. Under the auspices of MedCom, these profiles will most often come from multiple Implementation Guides (IG). This decision is further addressed in the section [3.1 Why are there Multiple Implementation Guides?](#Why-are-there-multiple-implementation-guides). 
 
 The first wave of MedComs modernization only includes messages, which means that there always shall be a sender and a receiver. However, the optimal format for a standard will be considered when modernizing the next wave of MedCom standards. Another relevant format could be to upload data as services or as documents where multiple receivers can get access to data or documents. If another exchange format is to be used, it is possible to reuse the profiles from the Core IG. This is an example of FHIRs reusability across. 
 
@@ -114,7 +114,7 @@ In the table below you’ll find the most common terms and associated descriptio
 If you are interested in understanding the basic content and the composition of an IG, you can follow this [step-by-step guide](FHIRImplementationGuide.md).
 
 # 3 Frequently asked qestions
-## 3.1 Why are there Multiple Implementation Guides Exists
+## 3.1 Why are there Multiple Implementation Guides? {#Why-are-there-multiple-implementation-guides}
 
 FHIR allows for a great deal of reuse. When creating a MedCom FHIR message, profiles from the MedComCore and MedComMessaging IG are used to create a complete understanding. Currently, there are three FHIR standards: HospitalNotification, CareCommunication and Acknowledgement, which all are composed of profiles from the Core and Messaging IG as well as the IG for the specific standard, and codes from the Terminology IG. 
 
@@ -126,7 +126,7 @@ The figure below illustrates that the messaging standard use multiple of the pro
 
  
 
-### 3.2 How does Inheritance Work and What is DKCore
+### 3.2 How does Inheritance Work and What is DKCore {#how-does-inheritance-work-and-what-is-dkcore}
 In Denmark we have a national HL7 affiliate, called <a href="https://hl7.dk/" target="_blank">HL7-DK</a>. The affiliate works on development of international HL7 standards that supports healthcare. HL7-DK has focus on profiling the international standard to Danish context to provide a common foundation in Denmark.  HL7-DK develops DK-core which is generic FHIR profiles that can be used freely for FHIR project in Denmark. At present DK-core includes the following profiles: DkCorePatient, DkCorePractitioner and DkCoreOrganization. The profile MedComCorePatient inherits from <a href="https://hl7.dk/fhir/core/1.1.0/StructureDefinition-dk-core-patient.html" target="_blank">DKCorePatient</a>. This means that when a MedCom standard uses a CPR-number from DKCorePatient, it is defined in the same way as when other projects inherit from DK-core and uses a CPR-number, securing consistency across projects. DKCorePatient is the foundation of MedComCorePatient, why MedComCorePatient is said to inherit from DKCorePatient.
 The figure below illustrates the inheritance of profiles. 
 ![MD](../images/WhatisDKCore.png)

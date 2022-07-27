@@ -91,7 +91,7 @@ In the table below you’ll find the most common terms and associated descriptio
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">CodeSystem</span></td>
     <td class="tg-t3tv">A collection of codes, which can be predetermined by HL7, from a international terminology or defined by the developer of the IG.</td>
-    <td class="tg-t3tv">Predetermined by HL7 e.g. <a href="http://hl7.org/fhir/valueset-administrative-gender.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">gender</span></a>, from a international terminology e.g. <a href="https://browser.ihtsdotools.org/?" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">SNOMED CT </span></a>,or defined by the developer of the IG e.g. <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication/CodeSystem-medcom-careCommunication-categoryCodes.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">categories </span></a>categories in a CareCommunication message.</td>
+    <td class="tg-t3tv">Predetermined by HL7 e.g. <a href="http://hl7.org/fhir/valueset-administrative-gender.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">gender</span></a>, from a international terminology e.g. <a href="https://browser.ihtsdotools.org/?" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">SNOMED CT</span></a>, or defined by the developer of the IG e.g. <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication/CodeSystem-medcom-careCommunication-categoryCodes.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">categories </span></a>categories in a CareCommunication message.</td>
   </tr>
   <tr>
     <td class="tg-az2b"><span style="font-weight:bold;background-color:#FFF">ValueSet</span></td>
@@ -130,8 +130,12 @@ Keeping the IGs seperat allows to version them individually, so updates in the M
 Additionally, it makes it possible to reuse the profiles from the Core IG in different MedCom standard and in different exchange formats. 
 
 The figure below illustrates that the messaging standard use multiple of the profiles from the Core and Messaging IG and uses some profiles that are specific for the given standard. 
-![MD](../images/MultipleIGs.png)
+<!-- ![MD](../images/MultipleIGs.png) -->
 
+<figure>
+<img src="../images/MultipleIGs.png" alt="Overview of the MedCom Messaging Standard"  style="width:50%" id="Fig1">
+<figcaption text-align = "center"><b>Figre 1: Overview of the MedCom Messaging Standard </b></figcaption>
+</figure>
  
 
 ### 3.2 How does Inheritance Work and What is DKCore {#how-does-inheritance-work-and-what-is-dkcore}

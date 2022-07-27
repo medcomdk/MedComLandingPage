@@ -129,7 +129,7 @@ FHIR allows for a great deal of reuse. When creating a MedCom FHIR message, prof
 Keeping the IGs seperat allows to version them individually, so updates in the MedComHospitalNotification IG won’t affect the version of the MedComCareCommunication IG. However, an update in the MedComMessaging IG will affect all standards that uses profiles or inherit profiles from this IG. 
 Additionally, it makes it possible to reuse the profiles from the Core IG in different MedCom standard and in different exchange formats. 
 
-<a href="Fig1"> Figure 1</a> illustrates that the messaging standard use multiple of the profiles from the Core and Messaging IG and uses some profiles that are specific for the given standard. 
+<a href="#Fig1"> Figure 1</a> illustrates that the messaging standard use multiple of the profiles from the Core and Messaging IG and uses some profiles that are specific for the given standard. 
 
 <figure>
 <img src="../images/MultipleIGs.png" alt="Overview of the MedCom Messaging Standard"  style="width:50%" id="Fig1">
@@ -146,7 +146,7 @@ In Denmark we have a national HL7 affiliate, called <a href="https://hl7.dk/" ta
 <figcaption text-align="center"><b>Figre 2: The inheritance of profiles </b></figcaption>
 </figure>
 
-The <a href="../images/WhatisDKCore.png">Figure 2 </a> also illustrates that there is a dependency between the IGs and the FHIR resources defined by HL7. 
+The <a href="#Fig2">Figure 2 </a> also illustrates that there is a dependency between the IGs and the FHIR resources defined by HL7. 
 <br>
 <a href="https://www.medcom.dk/standarder/moderniseringsnyheder/nyhedsbrev-29-november-2021" target="_blank">You can read more about the work of HL7-DK here</a>. 
 

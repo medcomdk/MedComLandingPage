@@ -40,7 +40,7 @@ The modernized FHIR standards will in time replace existing MedCom standards. Ho
 Links to the webpage presentations of the standards can be found in the table below. On the webpages is links to the IG and other relevant information.
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;width:75%}
+.tg  {border-collapse:collapse;border-spacing:0; width:75%;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -68,49 +68,46 @@ Links to the webpage presentations of the standards can be found in the table be
 </thead>
 <tbody>
   <tr>
-    <td class="tg-1ady" colspan="3"><span style="font-style:italic">Generic profiles used across standards</span></td>
-    <td class="tg-1ady"></td>
+    <td class="tg-1ady" colspan="4"><span style="font-style:italic">Generic profiles used across standards</span></td>
   </tr>
   <tr>
-    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-core/" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">Core</span></a></td>
+    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-core/" rel="noopener noreferrer"><span style="text-decoration:none">Core</span></a></td>
     <td class="tg-on52">Kerneprofiler</td>
     <td class="tg-on52">Core profiles that are static and used across standards.</td>
     <td class="tg-on52"></td>
   </tr>
   <tr>
-    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-messaging/" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">Messaging</span></a></td>
+    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-messaging/" rel="noopener noreferrer"><span style="text-decoration:none">Messaging</span></a></td>
     <td class="tg-on52">Medddelsesprofiler</td>
     <td class="tg-on52">Messaging profiles used across all messaging-based standards.</td>
     <td class="tg-on52"></td>
   </tr>
   <tr>
-    <td class="tg-1ady" colspan="3"><span style="font-style:italic">MedComs FHIR standards</span></td>
-    <td class="tg-1ady"></td>
+    <td class="tg-1ady" colspan="4"><span style="font-style:italic">MedComs FHIR standards</span></td>
   </tr>
   <tr>
-    <td class="tg-on52"><span style="background-color:#FFF">Acknowledgement</span></td>
+    <td class="tg-on52"><span style="background-color:#FFF"> <a href="https://medcomdk.github.io/dk-medcom-acknowledgement/" rel="noopener noreferrer"><span style="text-decoration:none">Acknowledgement [This page is under construction. Pleas check back soon!!]</span></a></span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Kvittering</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">When a message is received an acknowledgement message shall be returned to the sender, stating if the message was received properly.</span></td>
     <td class="tg-on52"></td>
   </tr>
   <tr>
-    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-hospitalnotification/" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">HospitalNotification</span></a></td>
+    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-hospitalnotification/" rel="noopener noreferrer"><span style="text-decoration:none">HospitalNotification</span></a></td>
     <td class="tg-on52"><span style="background-color:#FFF">Sygehusadvis</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Used to inform municipalities about hospitalization of a patient</span></td>
-    <td class="tg-on52"></td>
+    <td class="tg-on52"> Version 1.0</td>
   </tr>
   <tr>
-    <td class="tg-on52"><span style="background-color:#FFF">CareCommunication</span></td>
+    <td class="tg-on52"><span style="background-color:#FFF"><a href="https://medcomdk.github.io/dk-medcom-carecommunication/" rel="noopener noreferrer"><span style="text-decoration:none">CareCommunication [This page is under construction. Pleas check back soon!!]</span></a></span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Korrespondancemeddelelse</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Used in all parts of the Danish health care sector to communicate between parties.</span></td>
-    <td class="tg-on52"></td>
+    <td class="tg-on52"> Version 1.0</td>
   </tr>
   <tr>
-    <td class="tg-1ady" colspan="3"><span style="font-style:italic">Terminology  explanation</span></td>
-    <td class="tg-1ady"></td>
+    <td class="tg-1ady" colspan="4"><span style="font-style:italic">Terminology  explanation</span></td>
   </tr>
   <tr>
-    <td class="tg-on52"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">Terminology</span></a></td>
+    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-terminology/" rel="noopener noreferrer"><span style="text-decoration:none">Terminology [This page is under construction. Pleas check back soon!!]</span></a></td>
     <td class="tg-on52">Terminologi</td>
     <td class="tg-on52">Includes CodeSystem, ValueSet and ConceptMaps developed by MedCom used in the standards</td>
     <td class="tg-on52"></td>
@@ -119,42 +116,45 @@ Links to the webpage presentations of the standards can be found in the table be
 </table>
 
 
+
+
 ## 2 Implementing a MedCom FHIR standard
 
 When implementing a MedCom FHIR standard, it is fundamental to understand in which context the standard shall be used to ensure that the implementation fulfill the business requirements. Therefore, it is important to understand the standard documentation for the given standard. 
 Furthermore it is important to understand the messaging framework and the possibilities of the VANS Network, since FHIR standards defines the process for how information is packaged and send from one part to another over the VANS Network.
-The messaging framework and the VANS Network are described as governance, previously known as the “Syntax and Communication Rules". 
-<a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank">Tab here to get more information about the govenance.</a>
+The messaging framework and the VANS Network are described as governance, previously known as the “Syntax and Communication Rules". <br>
+Tab <a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank"> here </a> to get more information about the govenance.
 
 
 ### 2.1 Standard Documentation
 
 The purpose of the standard documentation is to describe the context in which a standard shall be used and which requirements the standard shall fulfill. Implementation guide, use cases, clinical guidelines, and testprotocols will be available for all standards and some additional documents might be available as well to support implementation, such as the mapping document. Standard documentation is only provided for the standards, HospitalNotification, CareCommunication and Acknowledgement and not for the generic core or messaging IG’s.
 Standard documentation consists of: 
-* Implementation Guide: the technical specifications of the standard.
-* Clinical guidelines: the clinical consideration behind the modernization.
-* Use cases: the intended use of the standard.
-* Testprotocol: used during test and certification to document that the vendor implementation fulfills the standard. 
-* Mapping document: the mapping from the previous OIOXML standard to FHIR.
+* **Implementation Guide**: the technical specifications of the standard.
+* **Clinical guidelines**: the clinical consideration behind the modernization.
+* **Use cases**: the intended use of the standard.
+* **Testprotocol**: used during test and certification to document that the vendor implementation fulfills the standard. 
+* **Mapping document**: the mapping from the previous OIOXML standard to FHIR.
 <p>&nbsp;</p>
 
 ### 2.2 Governance for MedCom HL7 FHIR®© Messaging
 
-The governance is important to understand before implementing a MedCom FHIR standard, as it describes the Danish profiling of the FHIR messaging framework and the network layer, which is the VANS network at present. Since the existing VANS network is used to deliver messages, shall messages be sent in a VANSenvelope unless otherwise specified. Receipt may be send in an VANSenvelope or another receipt envelope, eg. KOMBITs BeskedFordeler envelope.<a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank">Tab here to get more information about the govenance.</a>
-
+The governance is important to understand before implementing a MedCom FHIR standard, as it describes the Danish profiling of the FHIR messaging framework and the network layer, which is the VANS network at present. Since the existing VANS network is used to deliver messages, shall messages be sent in a VANSenvelope unless otherwise specified. Receipt may be send in an VANSenvelope or another receipt envelope, eg. KOMBITs BeskedFordeler envelope. <br>
+Tab <a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank"> here </a>to get more information about the govenance.
+ 
 ## 3 Test and Certification
 
 Before using the implemented standard in production environment to exchange patient data, it must be tested and certified by MedCom to ensure it fulfills the requirements. In addition to the usual <a href="https://www.medcom.dk/standarder/testcenter" target="_blank">MedCom test setup</a> with a selftest and live test, <a href="https://touchstone.aegis.net/touchstone/" target="_blank">TouchStone</a> is used as a tool to validate FHIR messages send in different use cases.
 
-TouchStone describes an infrastructure that allows for automated test against HL7 FHIR. For each FHIR standard MedCom will develope testsuits, which is helpfull to automate the testing, both during implementation and as a part of test and certification.[To get started with TouchStone please take a look here](assets/documents/TouchStoneGettingStarted.md)
+TouchStone describes an infrastructure that allows for automated test against HL7 FHIR. For each FHIR standard MedCom will develope testsuits, which is helpfull to automate the testing, both during implementation and as a part of test and certification.To get started with TouchStone please take a look [here](assets/documents/TouchStoneGettingStarted.md)
 
 ## 4 Change Management and Versioning  
 
 ### 4.1 Versioning of FHIR standard
 
-MedComs FHIR standards follow <a href="https://semver.org/" target="_blank">semantic versioning version 2.0</a>, adjusted to the workflow in MedCom. Each document such as clinical guidelines, use cases or other documentation will each have a version and a releasenote, to keep track of the changes in the document. The Implementation Guide will have one version that covers all the artifacts in the Implementation Guide. 
+MedComs FHIR standards follow <a href="https://semver.org/" target="_blank">semantic versioning, version 2.0</a>, adjusted to the workflow in MedCom. Each document such as clinical guidelines, use cases or other documentation will each have a version and a releasenote, to keep track of the changes in the document. The Implementation Guide will have one version that covers all the artifacts in the Implementation Guide. 
 
-Semantic versioning includes three numbers, seperated by dot, eg. 2.1.4. The numbers are called major.minor.patch, representing different degrees of changes. The major and minor versions will represented in Det Rådgivende Udvalg for Standarder og Arkitekturer (RUSA). If a document or IG has an extra number eg. 2.1.4-a.1 it means that it is a prerelease, and therefore not for implementation yet. In this Standard Operating Procedure (SOP) (LINKET KOMMER SNART) you can read more about the use of semantic versioning in MedCom and what it means for changes the FHIR standards. 
+Semantic versioning includes three numbers, seperated by dot, eg. 2.1.4. The numbers are called major.minor.patch, representing different degrees of changes. The major and minor versions will represented in  <a href="https://sundhedsdatastyrelsen.dk/da/rammer-og-retningslinjer/om-referencearkitektur-og-standarder/udvalg" target="_blank">Det Rådgivende Udvalg for Standarder og Arkitekturer (RUSA)</a>. If a document or IG has an extra number eg. 2.1.4-a.1 it means that it is a prerelease, and therefore not for implementation yet. In this Standard Operating Procedure (SOP) (The LINK Is Comming Soon  ) you can read more about the use of semantic versioning in MedCom and what it means for changes the FHIR standards. 
 
 ### 4.2 Change Requests and Improvements
 
@@ -167,8 +167,8 @@ Stakeholders and vendors are alway welcome to submit requests for changes or imp
 Based on an analysis of the severity of the request, MedCom decide if the changes shall be implemented and change the version of the artifact or IG to reflect the changes.  
 
 ## 5 New to FHIR? {#New-to-fhir}
-This section gives a brief introduction to MedComs FHIR Universe. The introduction is for stakeholders with no or limited knowledge about FHIR. It will take you through the most common terminology used throughout the FHIR pages. Additionally, it introduces a step-by-step guide which guides one through an implementation guide (IG) and can be used as a starting point to understand an IG and its structure. Further some of the frequent asked questions are addressed. If more questions appear you are more than welcome to contact MedCom. Contact information is in the bottom of the page. Further, the introduction includes links to HL7 FHIR pages describing much more thoroughly what FHIR is and how it can be used, and links to previous webinars by MedCom.
-[Tab here to get an short introduction to FHIR and how to read an Implementation Guide.](assets/documents/NewToFHIR.md)
+This section gives a brief introduction to MedComs FHIR Universe. The introduction is for stakeholders with no or limited knowledge about FHIR. It will take you through the most common terminology used throughout the FHIR pages. Additionally, it introduces a step-by-step guide which guides one through an implementation guide (IG) and can be used as a starting point to understand an IG and its structure. Further some of the frequent asked questions are addressed. If more questions appear you are more than welcome to contact MedCom. Contact information is in the bottom of the page. Further, the introduction includes links to HL7 FHIR pages describing much more thoroughly what FHIR is and how it can be used, and links to previous webinars by MedCom. <br>
+Tab [here](assets/documents/NewToFHIR.md) to get an short introduction to FHIR and how to read an Implementation Guide.
 
 ## 6 Release Notes
 

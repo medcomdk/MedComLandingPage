@@ -1,4 +1,4 @@
-[Return to frontpage](../../index.md)
+[Return](../../index.md)
 
 # New to FHIR ?
 The purpose of this section is to give a introduction to MedComs FHIR standards to stakeholders with no or limited knowledge about FHIR. On this page you will find a brief introduction to the most frequently used terms, descriptions that addresses some often asked questions and guiding to more information about FHIR and MedComs FHIR standards. 

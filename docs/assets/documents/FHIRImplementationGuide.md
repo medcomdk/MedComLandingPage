@@ -5,7 +5,7 @@ This step-by-step guide takes its starting point in <a href="https://build.fhir.
 
 * Go to <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/" target="_blank">MedCom Core IG</a>.
 * On the landingpage you'll find a short introduction to the IG, in this case the MedComCore profiles. 
-    * The topbar on the page includes multiple options (see <a href="#Fig1"> Figure 1</a> ): 
+    * The topbar on the page includes multiple options (see <a href="#Fig1"> Figure 1</a> ):<br> <br>
     <figure>
     <img src="../images/IG-content.png" alt="shows the content of an IG"  style="width:50%" id="Fig1">
     <figcaption text-align="center"><b>Figre 1: Menu on IG page </b></figcaption>

@@ -145,3 +145,7 @@ In 2022 MedCom has held a two webinars concerning the modernization of MedCom st
 ### HL7 FHIR Documentation
 
 All FHIR documentation can be found at <a href="https://www.hl7.org/fhir/" target="_blank">www.hl7.org/fhir/</a>. Here you will find detailed describtions about basic principles, presentation to all resources and much more. 
+
+## Release Notes
+
+[The latest changes of this page can be found here.](ReleaseNotesNewToFHIR.md)

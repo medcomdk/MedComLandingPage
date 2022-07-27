@@ -1,6 +1,6 @@
 # Step-by-Step Guide
 
-[Return to previous page](NewToFHIR.md)
+[Return](NewToFHIR.md)
 
 This step-by-step guide takes its starting point in <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>. 
 
@@ -42,3 +42,7 @@ This step-by-step guide takes its starting point in <a href="https://build.fhir.
 * The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/artifacts.html" target="_blank">Artifacts</a> shows entire content of the IG.
 
 [More information about IGs can be found here](https://medcomdk.github.io/MedComLandingPage/assets/documents/NewToFHIR.html#hl7-fhir-documentation)
+
+# Release Notes
+
+[The latest changes of this page can be found here.](ReleaseNotesFHIRImplementationGuide.md)

@@ -1,6 +1,6 @@
 # Touchstone Getting started
 
-[Return to frontpage](../../index.md)
+[Return](../../index.md)
 
 ## How to register
 1.	Go to https://touchstone.aegis.net/touchstone/register and follow the steps. (Create a “Free” account) 
@@ -22,3 +22,7 @@ For information regarding how to run a Touchstone test script, please refer to:
 ## Java FHIR client setup
 
 [http://svn.medcom.dk/svn/drafts/TestProcedurer/Touchstone/MedcomTouchstoneTest/java%20FHIR%20client.pptx](http://svn.medcom.dk/svn/drafts/TestProcedurer/Touchstone/MedcomTouchstoneTest/java%20FHIR%20client.pptx)
+
+## Release Notes
+
+[The latest changes of this page can be found here.](ReleaseNotesTouchStoneGettingStarted.md)

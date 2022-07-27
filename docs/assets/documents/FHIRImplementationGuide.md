@@ -15,21 +15,21 @@ This step-by-step guide takes its starting point in <a href="https://build.fhir.
     <figure>
     <img src="../images/ProfileOverview.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig2"> <figcaption text-align="center"><b>Figre 2: Overview of the associated profiles for MedCom Core IG </b></figcaption>
     </figure> 
-    * Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="Fig2">Figure 2</a>), and you will get to the front page of MedComCorePatient, called 'Content' (see <a href="Fig3">Figure 3</a>)
+ * Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="Fig2">Figure 2</a>), and you will get to the front page of MedComCorePatient, called 'Content' (see <a href="Fig3">Figure 3</a>)
    
     <figure>
     <img src="../images/ProfileContent.png" alt="Profile Content" style="width:50%" id="Fig3"> <figcaption text-align="center"><b>Figure 3: Content of the Profile </b></figcaption>
     </figure
 
-    * On top of the profile 'Content' page you will finde a menubar with folowing tabs: 
-        * **Content** 
-        * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-definitions.html" target="_blank"> <b>Detailed Description </b></a>: Gives a detailed description of all elements in the profile  
-        * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-mappings.html" target="_blank"><b>Mapping</b></a>: Gives an overview of how terms in the standard can be mapped to other HL7 standards, but not the previuos MedCom standards. To get this information you must look under each standard.
-        * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html" target="_blank"><b>Examples</b></a>: Gives an overview of the examples for the gine profile as in this case for the MedComCorePatient profile 
-            *  If you select one of the examples you will be presented for the content of the narrative text. If you instead select the tabs XML, JSON or TTL you will see the entire content of the MedComCorePatient.  
-        * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.xml.html" target="_blank"><b>XML</b></a>: Shows the entire content of the MedComCorePatient profile in XML format
-        * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html" target="_blank"><b>JSON</b></a>: Shows the entire content of the MedComCorePatient profile in JSON format
-        * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.json.html" target="_blank"><b>TTL</b></a> Shows the entire content of the MedComCorePatient profile in TTL format         
+* On top of the profile 'Content' page you will finde a menubar with folowing tabs: 
+    * **Content** 
+    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-definitions.html" target="_blank"> <b>Detailed Description </b></a>: Gives a detailed description of all elements in the profile  
+    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-mappings.html" target="_blank"><b>Mapping</b></a>: Gives an overview of how terms in the standard can be mapped to other HL7 standards, but not the previuos MedCom standards. To get this information you must look under each standard.
+    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html" target="_blank"><b>Examples</b></a>: Gives an overview of the examples for the gine profile as in this case for the MedComCorePatient profile 
+        *  If you select one of the examples you will be presented for the content of the narrative text. If you instead select the tabs XML, JSON or TTL you will see the entire content of the MedComCorePatient.  
+    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.xml.html" target="_blank"><b>XML</b></a>: Shows the entire content of the MedComCorePatient profile in XML format
+    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html" target="_blank"><b>JSON</b></a>: Shows the entire content of the MedComCorePatient profile in JSON format
+    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.json.html" target="_blank"><b>TTL</b></a> Shows the entire content of the MedComCorePatient profile in TTL format         
     * If you click on XML, JSON og TTL you see StructureDefinition of the profile, which reflects the content. 
 
       *  On the 'Content' page you will find  a short introduction to the profile and a table including five tabs, where three are of special interest:  There are multiple tabs in the table, and a short describtion of them is given here: 

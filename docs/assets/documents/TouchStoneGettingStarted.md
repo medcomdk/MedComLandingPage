@@ -1,6 +1,7 @@
+[Return](../../index.md)
+
 # Touchstone Getting started
 
-[Return](../../index.md)
 
 ## How to register
 1.	Go to https://touchstone.aegis.net/touchstone/register and follow the steps. (Create a “Free” account) 

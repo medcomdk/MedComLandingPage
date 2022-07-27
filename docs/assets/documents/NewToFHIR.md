@@ -1,7 +1,6 @@
-# New to FHIR ?
-
 [Return to frontpage](../../index.md)
 
+# New to FHIR ?
 The purpose of this section is to give a introduction to MedComs FHIR standards to stakeholders with no or limited knowledge about FHIR. On this page you will find a brief introduction, most frequently used terms, descriptions that addresses some often asked questions and guiding to more information about FHIR and MedComs FHIR standards. 
 
 
@@ -20,7 +19,7 @@ The purpose of this section is to give a introduction to MedComs FHIR standards 
 # 1 FHIR Glossary
 <a href="https://www.hl7.org/fhir/" target="_blank">Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)</a> is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare-related information. FHIR defines several resources, often referred to as ‘building blocks’, each describing a delimited area within healthcare e.g., a Patient or an Encounter. These resources are generic and can therefore be used across the world. However, when using the resources in a specific context, such as communication between Danish healthcare parties, the resources need to be profiled to accommodate the use. The profiling could be to require at last name of a Patient. In some cases, it is necessary to extend the generic resources to fit the context e.g., to add a CPR-number as a patient identifier.
 
-When creating a MedCom FHIR standard, multiple profiles are assembled to include the information necessary to support the business requirements. Under the auspices of MedCom, these profiles will most often come from multiple Implementation Guides (IG). This decision is further addressed in the section [Why does Multiple Implementation Guides Exists?](#why-are-there-multiple-implementation-guides). 
+When creating a MedCom FHIR standard, multiple profiles are assembled to include the information necessary to support the business requirements. Under the auspices of MedCom, these profiles will most often come from multiple Implementation Guides (IG). This decision is further addressed in the section [3.1 Why does Multiple Implementation Guides Exists?](#31-why-are-there-multiple-implementation-guides). 
 
 The first wave of MedComs modernization only includes messages, which means that there always shall be a sender and a receiver. However, the optimal format for a standard will be considered when modernizing the next wave of MedCom standards. Another relevant format could be to upload data as services or as documents where multiple receivers can get access to data or documents. If another exchange format is to be used, it is possible to reuse the profiles from the Core IG. This is an example of FHIRs reusability across. 
 
@@ -29,7 +28,7 @@ In the table below you’ll find the most common terms and associated descriptio
 > Note: the table below uses FHIR-paths to describe exactly which element that is refered to. E.g Patient.name referres to the name-element in the Patient resource.
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:65%;}
+.tg  {border-collapse:collapse;border-spacing:65%;width:75%;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -42,7 +41,7 @@ In the table below you’ll find the most common terms and associated descriptio
 .tg .tg-4m1j{color:#333333;text-align:left;text-decoration:underline;vertical-align:top}
 </style>
 <table class="tg">
-<caption style="color:#2c145c;font-weight:bold">Most common terms used when worning with FHIR</caption>
+<caption style="color:#2c145c;font-weight:bold">Most used terms in FHIR</caption>
 <thead>
   <tr>
     <th class="tg-316y">Term</th>

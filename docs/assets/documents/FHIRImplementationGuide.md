@@ -4,15 +4,19 @@
 This step-by-step guide takes its starting point in <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>. 
 
 * Go to <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/" target="_blank">MedCom Core IG</a>.
-* On the landingpage you'll find a short introduction to the IG, in this case the MedComCore profiles. 
-    * The topbar on the page includes multiple options (see <a href="#Fig1"> Figure 1</a> ):
+* On the front page of the MedCom Core IG you'll find a short introduction to the IG, in this case the MedComCore profiles. 
+    * On top of the front page you will finde a topbar (see <a href="#Fig1"> Figure 1</a> ):
     <figure>
     <img src="../images/IG-content.png" alt="shows the content of an IG"  style="width:50%" id="Fig1">
     <figcaption text-align="center"><b>Figre 1: Menu on IG page </b></figcaption>
     </figure>
 
-* Click on the tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/profiles.html" target="_blank">Profiles</a>. Here you'll get an overview of which profiles are in the IG. 
-    * Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a> and you will get to the frontpage of MedComCorePatient, called 'Content'. Here you'll find a short introduction to the profile and a table including five tabs, where three are of special interest: 
+* Click on the tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/profiles.html" target="_blank">Profiles</a> (se red circle 1 on <a href="Fig2">Figure 2</a> ) to get an overview of which profiles are in the IG.
+    <figure>
+    <img src="../images/ProfileOverview.png" alt="Overview of the associated profiles for this IG" style="width:50%" id="Fig2"> <figcaption text-align="center"><b>Figre 2: Overview of the associated profiles for this IG </b></figcaption>
+    </figure> 
+    
+    * Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>  (se red circle 1 on <a href="Fig2">Figure 2</a> ), and you will get to the frontpage of MedComCorePatient, called 'Content'. Here you'll find a short introduction to the profile and a table including five tabs, where three are of special interest: 
     ![Profile Content](../images/ProfileContent.png)
       * There are multiple tabs in the table, and a short describtion of them is given here: 
       ![Table Overview](../images/TableOverview.png)

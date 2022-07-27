@@ -6,7 +6,7 @@ On <a href="https://www.medcom.dk/" target="_blank">medcom.dk </a> are the polit
 
 The purpose of these pages is to describe both the business requirement and technical implementation of the requirements for each standard. This page guides you to find more information about each standard. 
 
-[Welcome to MedComs FHIR standards](#welcome-to-medcoms-fhir-standards)
+**Table of Contents**
 * [1 MedComs FHIR standards](#1-medcoms-fhir-standards)
 * [2 Implementing a MedCom FHIR standard](#2-implementing-a-medcom-fhir-standard)
   * [2.1 Standard Documentation](#21-standard-documentation)
@@ -17,7 +17,8 @@ The purpose of these pages is to describe both the business requirement and tech
   * [4.2 Change Requests and Improvements](#42-change-requests-and-improvements)
 * [5 New to FHIR?](#New-to-fhir)
 * [6 Release Notes](#6-release-notes)
-
+<br>
+<br>
 > Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.
 
 ## 1 MedComs FHIR standards
@@ -33,76 +34,90 @@ Due to the above mentioned, the table below is divided into three parts: the upp
 The modernized FHIR standards will in time replace existing MedCom standards. HospitalNotification replaces 
 <a href="https://svn.medcom.dk/svn/releases/Standarder/Det%20gode%20kommuneadvis/XDIS17/Dokumentation/XDIS17.pdf" target="_blank">XDIS17</a> &
 <a href="https://svn.medcom.dk/svn/releases/Standarder/Det%20gode%20kommuneadvis/XDIS20/Dokumentation/XDIS20.pdf" target="_blank">XDIS20</a>, CareCommunication replaces 
-<a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20korrespondance/EDI/Dokumentation/DIS91.pdf" target="_blank">DIS91 </a> & <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20korrespondance/XML/Dokumentation/XDIS91.pdf" target="_blank">XDIS91 </a>, and Acknowledgement replaced <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/EDI/Dokumentation/CTL01.pdf" target="_blank">XCTL01 </a>
+<a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20korrespondance/EDI/Dokumentation/DIS91.pdf" target="_blank">DIS91 </a> & <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20korrespondance/XML/Dokumentation/XDIS91.pdf" target="_blank">XDIS91 </a>, and Acknowledgement replaces <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/EDI/Dokumentation/CTL01.pdf" target="_blank">XCTL01 </a>
 & <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/XCTL01.pdf" target="_blank">XCTL01 </a>.
 
-Links to the webpage presentations of the standards can be found in the table below. On the webpages is links to the IG and other relevant information.”
+Links to the webpage presentations of the standards can be found in the table below. On the webpages is links to the IG and other relevant information.
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:65%;}
+.tg  {border-collapse:collapse;border-spacing:0;width:75%}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-mx33{background-color:#9dbad7;border-color:inherit;color:#333333;font-style:italic;text-align:left;vertical-align:top}
-.tg .tg-o5v9{background-color:#ffffff;border-color:inherit;color:#333333;text-align:left;vertical-align:top}
-.tg .tg-67v1{border-color:inherit;color:#2c415c;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-i91a{border-color:inherit;color:#333333;text-align:left;vertical-align:top}
-.tg .tg-63yy{background-color:#9dbad7;font-style:italic;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-ippy{border-color:#000000;color:#2c415c;text-align:left;vertical-align:top}
+.tg .tg-ztr9{border-color:#000000;color:#2c415c;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-1ady{background-color:#9dbad7;border-color:#000000;color:#333333;text-align:left;vertical-align:top}
+.tg .tg-on52{border-color:#000000;color:#333333;text-align:left;vertical-align:top}
 </style>
-<table class="tg">
-<caption style="color:#2c415c;
-  font-weight:bold"> Table 1: Overview of th modernized FHIR standards </caption>
+<table class="tg" style="undefined;table-layout: fixed; width: 942px">
+<caption style="color:#2c415c;font-weight:bold"> Table 1: Overview of the modernized FHIR standards </caption>
+<colgroup>
+<col style="width: 138.88889px">
+<col style="width: 184.88889px">
+<col style="width: 409.88889px">
+<col style="width: 207.88889px">
+</colgroup>
 <thead>
   <tr>
-    <th class="tg-67v1">English</th>
-    <th class="tg-67v1">Danish</th>
-    <th class="tg-67v1">Short description</th>
+    <th class="tg-ippy"><span style="font-weight:bold">English</span></th>
+    <th class="tg-ippy"><span style="font-weight:bold">Danish</span></th>
+    <th class="tg-ippy"><span style="font-weight:bold">Short description</span></th>
+    <th class="tg-ztr9">Version approved by RUSA</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-mx33" colspan="3">Generic profiles used across standards</td>
+    <td class="tg-1ady" colspan="3"><span style="font-style:italic">Generic profiles used across standards</span></td>
+    <td class="tg-1ady"></td>
   </tr>
   <tr>
-    <td class="tg-life"><a href="https://medcomdk.github.io/dk-medcom-core/" target="_blank"><span style="text-decoration:none;color:#267CB9">Core</span></a></td>
-    <td class="tg-i91a">Kerneprofiler</td>
-    <td class="tg-i91a">Core profiles that are static and used across standards.</td>
+    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-core/" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">Core</span></a></td>
+    <td class="tg-on52">Kerneprofiler</td>
+    <td class="tg-on52">Core profiles that are static and used across standards.</td>
+    <td class="tg-on52"></td>
   </tr>
   <tr>
-    <td class="tg-life"><a href="https://medcomdk.github.io/dk-medcom-messaging/" target="_blank"><span style="text-decoration:none;color:#267CB9">Messaging</span></a></td>
-    <td class="tg-i91a">Medddelsesprofiler</td>
-    <td class="tg-i91a">Messaging profiles used across all messaging-based standards.</td>
+    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-messaging/" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">Messaging</span></a></td>
+    <td class="tg-on52">Medddelsesprofiler</td>
+    <td class="tg-on52">Messaging profiles used across all messaging-based standards.</td>
+    <td class="tg-on52"></td>
   </tr>
   <tr>
-    <td class="tg-mx33" colspan="3">MedComs FHIR standards</td>
+    <td class="tg-1ady" colspan="3"><span style="font-style:italic">MedComs FHIR standards</span></td>
+    <td class="tg-1ady"></td>
   </tr>
   <tr>
-    <td class="tg-o5v9">Acknowledgement</td>
-    <td class="tg-o5v9">Kvittering</td>
-    <td class="tg-o5v9">When a message is received an acknowledgement message shall be returned to the sender, stating if the message was received properly.</td>
+    <td class="tg-on52"><span style="background-color:#FFF">Acknowledgement</span></td>
+    <td class="tg-on52"><span style="background-color:#FFF">Kvittering</span></td>
+    <td class="tg-on52"><span style="background-color:#FFF">When a message is received an acknowledgement message shall be returned to the sender, stating if the message was received properly.</span></td>
+    <td class="tg-on52"></td>
   </tr>
   <tr>
-    <td class="tg-xlqk"><a href="https://medcomdk.github.io/dk-medcom-hospitalnotification/" target="_blank"><span style="text-decoration:none;color:#267CB9">HospitalNotification</span></a></td>
-    <td class="tg-o5v9">Sygehusadvis</td>
-    <td class="tg-o5v9">Used to inform municipalities about hospitalization of a patient</td>
+    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-hospitalnotification/" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">HospitalNotification</span></a></td>
+    <td class="tg-on52"><span style="background-color:#FFF">Sygehusadvis</span></td>
+    <td class="tg-on52"><span style="background-color:#FFF">Used to inform municipalities about hospitalization of a patient</span></td>
+    <td class="tg-on52"></td>
   </tr>
   <tr>
-    <td class="tg-o5v9">CareCommunication</td>
-    <td class="tg-o5v9">Korrespondancemeddelelse</td>
-    <td class="tg-o5v9">Used in all parts of the Danish health care sector to communicate between parties.</td>
+    <td class="tg-on52"><span style="background-color:#FFF">CareCommunication</span></td>
+    <td class="tg-on52"><span style="background-color:#FFF">Korrespondancemeddelelse</span></td>
+    <td class="tg-on52"><span style="background-color:#FFF">Used in all parts of the Danish health care sector to communicate between parties.</span></td>
+    <td class="tg-on52"></td>
   </tr>
   <tr>
-    <td class="tg-63yy" colspan="3">Terminology&nbsp;&nbsp;explanation </td>
+    <td class="tg-1ady" colspan="3"><span style="font-style:italic">Terminology  explanation</span></td>
+    <td class="tg-1ady"></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/" target="_blank"> Terminology</a></td>
-    <td class="tg-0lax">Terminologi </td>
-    <td class="tg-0lax">Includes CodeSystem, ValueSet and ConceptMaps developed by MedCom used in the standards</td>
+    <td class="tg-on52"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">Terminology</span></a></td>
+    <td class="tg-on52">Terminologi</td>
+    <td class="tg-on52">Includes CodeSystem, ValueSet and ConceptMaps developed by MedCom used in the standards</td>
+    <td class="tg-on52"></td>
   </tr>
 </tbody>
 </table>
+
 
 ## 2 Implementing a MedCom FHIR standard
 

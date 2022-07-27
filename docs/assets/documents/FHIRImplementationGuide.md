@@ -1,13 +1,18 @@
-# Step-by-Step Guide
-
 [Return](NewToFHIR.md)
 
+# Step-by-Step Guide
 This step-by-step guide takes its starting point in <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>. 
 
 * Go to <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/" target="_blank">MedCom Core IG</a>.
 * On the landingpage you'll find a short introduction to the IG, in this case the MedComCore profiles. 
-    * The topbar on the page includes multiple options: 
-    ![shows the content of an IG](../images/IG-content.png)
+    * The topbar on the page includes multiple options (see <a href="#Fig1"> Figure 1</a> ): 
+    <figure>
+    <img src="../images/IG-content.png" alt="shows the content of an IG"  style="width:50%" id="Fig1">
+    <figcaption text-align="center"><b>Figre 1: Menu on IG page </b></figcaption>
+    </figure>
+    <br>
+    <br>
+
 * Click on the tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/profiles.html" target="_blank">Profiles</a>. Here you'll get an overview of which profiles are in the IG. 
     * Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a> and you will get to the frontpage of MedComCorePatient, called 'Content'. Here you'll find a short introduction to the profile and a table including five tabs, where three are of special interest: 
     ![Profile Content](../images/ProfileContent.png)

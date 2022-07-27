@@ -6,17 +6,18 @@ The purpose of this section is to give a introduction to MedComs FHIR standards 
 
 
 **Table of Content**
-- [FHIR Glossary](#fhir-glossary)
-- [How to Read a MedCom Implementation Guide](#how-to-read-a-medcom-implementation-guide)
-- [Frequently asked questions](#frequently-asked-qestions)
-  - [Why are there Multiple Implementation Guides Exists](#why-are-there-multiple-implementation-guides-exists)
-  - [How does Inheritance Work and What is DKCore](#how-does-inheritance-work-and-what-is-dkcore)
-- [More information](#more-information)
-  * [Webinars](#webinars)
-  * [HL7 FHIR Documentation](#hl7-fhir-documentation)
+- [1 FHIR Glossary](#1-fhir-glossary)
+- [2 How to Read a MedCom Implementation Guide](#2-how-to-read-a-medcom-implementation-guide)
+- [3 Frequently asked questions](#3-frequently-asked-qestions)
+  - [3.1 Why are there Multiple Implementation Guides Exists](#31-why-are-there-multiple-implementation-guides-exists)
+  - [3.2 How does Inheritance Work and What is DKCore](#32-how-does-inheritance-work-and-what-is-dkcore)
+- [4 More information](#4-more-information)
+  * [4.1 Webinars](#41-webinars)
+  * [4.2 HL7 FHIR Documentation](#42-hl7-fhir-documentation)
+- [5 Release Notes](#5-release-notes)
 <p>&nbsp;</p> 
 
-## FHIR Glossary
+# 1 FHIR Glossary
 <a href="https://www.hl7.org/fhir/" target="_blank">Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)</a> is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare-related information. FHIR defines several resources, often referred to as ‘building blocks’, each describing a delimited area within healthcare e.g., a Patient or an Encounter. These resources are generic and can therefore be used across the world. However, when using the resources in a specific context, such as communication between Danish healthcare parties, the resources need to be profiled to accommodate the use. The profiling could be to require at last name of a Patient. In some cases, it is necessary to extend the generic resources to fit the context e.g., to add a CPR-number as a patient identifier.
 
 When creating a MedCom FHIR standard, multiple profiles are assembled to include the information necessary to support the business requirements. Under the auspices of MedCom, these profiles will most often come from multiple Implementation Guides (IG). This decision is further addressed in the section [Why does Multiple Implementation Guides Exists?](#why-are-there-multiple-implementation-guides). 
@@ -110,11 +111,11 @@ In the table below you’ll find the most common terms and associated descriptio
 
 
 
-## How to Read a MedCom Implementation Guide
+# 2 How to Read a MedCom Implementation Guide
 If you are interested in understanding the basic content and the composition of an IG, you can follow this [step-by-step guide](FHIRImplementationGuide.md).
 
-## Frequently asked qestions
-### Why are there Multiple Implementation Guides Exists
+# 3 Frequently asked qestions
+## 3.1 Why are there Multiple Implementation Guides Exists
 
 FHIR allows for a great deal of reuse. When creating a MedCom FHIR message, profiles from the MedComCore and MedComMessaging IG are used to create a complete understanding. Currently, there are three FHIR standards: HospitalNotification, CareCommunication and Acknowledgement, which all are composed of profiles from the Core and Messaging IG as well as the IG for the specific standard, and codes from the Terminology IG. 
 
@@ -126,7 +127,7 @@ The figure below illustrates that the messaging standard use multiple of the pro
 
  
 
-### How does Inheritance Work and What is DKCore
+### 3.2 How does Inheritance Work and What is DKCore
 In Denmark we have a national HL7 affiliate, called <a href="https://hl7.dk/" target="_blank">HL7-DK</a>. The affiliate works on development of international HL7 standards that supports healthcare. HL7-DK has focus on profiling the international standard to Danish context to provide a common foundation in Denmark.  HL7-DK develops DK-core which is generic FHIR profiles that can be used freely for FHIR project in Denmark. At present DK-core includes the following profiles: DkCorePatient, DkCorePractitioner and DkCoreOrganization. The profile MedComCorePatient inherits from <a href="https://hl7.dk/fhir/core/1.1.0/StructureDefinition-dk-core-patient.html" target="_blank">DKCorePatient</a>. This means that when a MedCom standard uses a CPR-number from DKCorePatient, it is defined in the same way as when other projects inherit from DK-core and uses a CPR-number, securing consistency across projects. DKCorePatient is the foundation of MedComCorePatient, why MedComCorePatient is said to inherit from DKCorePatient.
 The figure below illustrates the inheritance of profiles. 
 ![MD](../images/WhatisDKCore.png)
@@ -134,18 +135,18 @@ The figure below illustrates the inheritance of profiles.
 The figure also illustrates that there is a dependency between the IGs and the FHIR resources defined by HL7. <a href="https://www.medcom.dk/standarder/moderniseringsnyheder/nyhedsbrev-29-november-2021" target="_blank">You can read more about the work of HL7-DK here</a>. 
 
 
-## More information
+# 4 More information
 
-### Webinars
+## 4.1 Webinars
 In 2022 MedCom has held a two webinars concerning the modernization of MedCom standards. Both webinars freely available and in Danish:
 * <a href="https://www.youtube.com/watch?v=8doBKskz3J8" target="_blank">FHIR-introduktionswebinar (17. maj 2022)</a>
 * <a href="https://www.youtube.com/watch?v=bfzx7U2Suug" target="_blank">FHIR demo-webinar med MedCom, Mjølner og Trifork (10 . februar 2022)</a>
 <p>&nbsp;</p>
 
-### HL7 FHIR Documentation
+## 4.2 HL7 FHIR Documentation
 
 All FHIR documentation can be found at <a href="https://www.hl7.org/fhir/" target="_blank">www.hl7.org/fhir/</a>. Here you will find detailed describtions about basic principles, presentation to all resources and much more. 
 
-## Release Notes
+# 5 Release Notes
 
 [The latest changes of this page can be found here.](ReleaseNotesNewToFHIR.md)

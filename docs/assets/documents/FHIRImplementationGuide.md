@@ -15,10 +15,10 @@ This step-by-step guide takes its starting point in <a href="https://build.fhir.
     <figure>
     <img src="../images/ProfileOverview.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig2"> <figcaption text-align="center"><b>Figre 2: Overview of the associated profiles for MedCom Core IG </b></figcaption>
     </figure> 
- * Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="Fig2">Figure 2</a>), and you will get to the front page of MedComCorePatient, called 'Content' (see <a href="Fig3">Figure 3</a>)
+ * Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="Fig2">Figure 2</a>), and you will get to the front page of MedComCorePatient, called 'Content' (see <a href="Fig3">Figure 3 </a>)
    
     <figure>
-    <img src="../images/ProfileContent.png" alt="Profile Content" style="width:50%" id="Fig3"> <figcaption text-align="center"><b>Figure 3: Content of the Profile </b></figcaption>
+    <img src="../images/ProfileContent.png" alt="Profile Content" style="width:50%" id="Fig3"> <figcaption text-align="center"><b>Figure 3: Menubar for profile 'MedComCorePatient'</figcaption> 
     </figure
 
 * On top of the profile 'Content' page you will finde a menubar with folowing tabs: 

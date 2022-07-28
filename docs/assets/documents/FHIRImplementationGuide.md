@@ -6,24 +6,24 @@ This step-by-step guide aims to explain the basic content and the composition of
 **Step 1**
  Go to <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/" target="_blank">MedCom Core IG</a>.
 * On the front page of the MedCom Core IG you'll find a short introduction to the IG and menu bar, for the IG on top of the page (see <a href="#Fig1" rel="noopener noreferrer"> Figure 1 </a>):
-    <figure>
-    <img src="../images/IG-content.png" alt="shows the content of an IG"  style="width:50%" id="Fig1">
-    <figcaption text-align="center"><b>Figure 1: Menu on IG page</b></figcaption>
-    </figure>
+<figure>
+<img src="../images/IG-content.png" alt="shows the content of an IG"  style="width:50%" id="Fig1">
+<figcaption text-align="center"><b>Figure 1: Menu on IG page</b></figcaption>
+</figure>
 
 **Step 2**
 Click on the tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/profiles.html" target="_blank">Profiles</a> (se red circle 1 on <a href="#Fig2" rel="noopener noreferrer">Figure 2</a> ) to get an overview of which profiles are in the IG.
-    <figure>
-    <img src="../images/ProfileOverview.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig2"> 
-    <figcaption text-align="center"><b>Figure 2: Overview of the associated profiles for MedCom Core IG </b></figcaption>
-    </figure> 
+<figure>
+<img src="../images/ProfileOverview.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig2"> 
+<figcaption text-align="center"><b>Figure 2: Overview of the associated profiles for MedCom Core IG </b></figcaption>
+</figure> 
 
 **Step 3**
   Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="#Fig2">Figure 2</a>), and you will get to the front page of MedComCorePatient,(see <a href="#Fig3" rel="noopener noreferrer">Figure 3 </a>)
-    <figure>
-    <img src="../images/ProfileContent.png" alt="Content of the menu bar for the profile"  style="width:50%" id="Fig3">
-    <figcaption text-align="center"><b>Figure 3: Menu bar for profile 'MedComCorePatient'</b></figcaption>
-    </figure>
+<figure>
+<img src="../images/ProfileContent.png" alt="Content of the menu bar for the profile"  style="width:50%" id="Fig3">
+<figcaption text-align="center"><b>Figure 3: Menu bar for profile 'MedComCorePatient'</b></figcaption>
+</figure>
 
 On top of the MedComCorePatients front page you will finde a menu bar with folowing tabs:<br>
    * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html"> <b>Content</b></a>:  Givies a short introduction to the profile and a table over profile content 

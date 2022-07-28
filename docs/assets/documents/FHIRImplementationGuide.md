@@ -1,11 +1,10 @@
 [Return](NewToFHIR.md)
 
 # Step-by-Step Guide
-This step-by-step guide takes its starting point in <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>. 
+This step-by-step guide aims to explain the basic content and the composition of an IG, based on <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>. 
 
 * Go to <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/" target="_blank">MedCom Core IG</a>.
-* On the front page of the MedCom Core IG you'll find a short introduction to the IG, in this case the MedComCore profiles. 
-    * On top of the front page you will finde a topbar (see <a href="#Fig1"> Figure 1</a> ):
+* On the front page of the MedCom Core IG you'll find a short introduction to the IG and menu bar, for the IG on top of the page (see <a href="#Fig1"> Figure 1</a>):
     <figure>
     <img src="../images/IG-content.png" alt="shows the content of an IG"  style="width:50%" id="Fig1">
     <figcaption text-align="center"><b>Figre 1: Menu on IG page </b></figcaption>
@@ -15,14 +14,15 @@ This step-by-step guide takes its starting point in <a href="https://build.fhir.
     <figure>
     <img src="../images/ProfileOverview.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig2"> <figcaption text-align="center"><b>Figre 2: Overview of the associated profiles for MedCom Core IG </b></figcaption>
     </figure> 
- * Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="Fig2">Figure 2</a>), and you will get to the front page of MedComCorePatient, called 'Content' (see <a href="Fig3">Figure 3 </a>)
+
+ * Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="Fig2">Figure 2</a>), and you will get to the front page of MedComCorePatient,(see <a href="Fig3">Figure 3 </a>)
    
     <figure>
     <img src="../images/ProfileContent.png" alt="Profile Content" style="width:50%" id="Fig3"> <figcaption text-align="center"><b>Figure 3: Menubar for profile 'MedComCorePatient'</figcaption> 
     </figure
 
-* On top of the profile 'Content' page you will finde a menubar with folowing tabs: 
-    * **Content** 
+* On top of the profile you will finde a menu bar with folowing tabs: 
+    * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank"> <b>Content</b></a>:  Givies a short introduction to the profile and a table over profile content 
     * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-definitions.html" target="_blank"> <b>Detailed Description </b></a>: Gives a detailed description of all elements in the profile  
     * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-mappings.html" target="_blank"><b>Mapping</b></a>: Gives an overview of how terms in the standard can be mapped to other HL7 standards, but not the previuos MedCom standards. To get this information you must look under each standard.
     * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html" target="_blank"><b>Examples</b></a>: Gives an overview of the examples for the gine profile as in this case for the MedComCorePatient profile 
@@ -30,7 +30,6 @@ This step-by-step guide takes its starting point in <a href="https://build.fhir.
     * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.xml.html" target="_blank"><b>XML</b></a>: Shows the entire content of the MedComCorePatient profile in XML format
     * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html" target="_blank"><b>JSON</b></a>: Shows the entire content of the MedComCorePatient profile in JSON format
     * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.json.html" target="_blank"><b>TTL</b></a> Shows the entire content of the MedComCorePatient profile in TTL format         
-    * If you click on XML, JSON og TTL you see StructureDefinition of the profile, which reflects the content. 
 
       *  On the 'Content' page you will find  a short introduction to the profile and a table including five tabs, where three are of special interest:  There are multiple tabs in the table, and a short describtion of them is given here: 
       ![Table Overview](../images/TableOverview.png)

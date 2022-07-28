@@ -48,23 +48,26 @@ If you scroll down on the MedComCorePatients front page you will finde a menu ba
     </figure>
 
 **Step 5**
-* Click on the tab 'Snapshot Table (MustSupport)'. Here is all required content for the profil gathered. The table contains five headlines
-        ![Table Content](../images/TableContent.png)
+Click on the tab 'Snapshot Table (MustSupport)'. Here is all required content for the profil gathered. 
+<img src="../images/TableContent.png" alt="Content of the 'Snapshot Table (MustSupport)'"  style="width:50%" id="Fig5">
+<figcaption text-align="center"><b>Figure 5: Content of the 'Snapshot Table (MustSupport)'</b></figcaption>
+</figure>
 
-        * Name
-            * The element name.
-        * Flags: 
-            * I = a rule, which can be seen further down the page.
-            * &sum; = if the element shall be included in the narrativ. 
-            * ?! = modifier element, an element which potentially can modify the understanding of an entire message
-        * Cardinality (Card):
-            * Given the minimum cardinality of 1 for Patient.identifier and Patient.name the information for these elements shall always be included when exchanging a MedCom standard. Not only shall a Patient.name be included, it shall always be the patients offical name, indicated by Patient.name:Official. Information about Patient.telecom, Patient.deceased, Patient.address and Patient.managingOrganization shall be included if the information is available in the sender system, given the minimum cardinality of 0. 
-            * Given the maximum cardinality of * for Patient.identifier, Patient.name, Patient.telecom and Patient.address it is allowed to slice the element. For the element Patient.deceased it is only allowed to include the information once. 
-        * Type: 
-            * Describes the datatype of the element. Click on them for more information about the datatype. 
-            * One migth notice the type at the top of the elements says _DKCorePatient_, which means that the MedComCorePatient inherits from a Patient profile developed by the Danish HL7 affiliate. [You can read more about inheritance and the work for HL7-Denmark here](docs\assets\documents\NewToFHIR.md).
-        * Description and Constraints
-            * A short description of the element as well as rules associated with the element.
+The table contains five headlines (see <a href="#Fig5" rel="noopener noreferrer"> Figure 5</a>):
+* Name
+    * The element name.
+* Flags: 
+    * I = a rule, which can be seen further down the page.
+    * &sum; = if the element shall be included in the narrativ. 
+    * ?! = modifier element, an element which potentially can modify the understanding of an entire message
+* Cardinality (Card):
+    * Given the minimum cardinality of 1 for Patient.identifier and Patient.name the information for these elements shall always be included when exchanging a MedCom standard. Not only shall a Patient.name be included, it shall always be the patients offical name, indicated by Patient.name:Official. Information about Patient.telecom, Patient.deceased, Patient.address and Patient.managingOrganization shall be included if the information is available in the sender system, given the minimum cardinality of 0. 
+    * Given the maximum cardinality of * for Patient.identifier, Patient.name, Patient.telecom and Patient.address it is allowed to slice the element. For the element Patient.deceased it is only allowed to include the information once. 
+* Type: 
+    * Describes the datatype of the element. Click on them for more information about the datatype. 
+    * One migth notice the type at the top of the elements says _DKCorePatient_, which means that the MedComCorePatient inherits from a Patient profile developed by the Danish HL7 affiliate. [You can read more about inheritance and the work for HL7-Denmark here](docs\assets\documents\NewToFHIR.md).
+* Description and Constraints
+    * A short description of the element as well as rules associated with the element.
       
     * Now, try choosing the profile <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a>
         * Here you'll see the type Reference(...) at the element Encounter.subject. This means that the element references the MedComCorePatient profile, and that an encounter always shall be associated with a patient. 

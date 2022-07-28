@@ -12,13 +12,14 @@ This step-by-step guide aims to explain the basic content and the composition of
     </figure>
 
 **Step 2**
-Click on the tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/profiles.html" target="_blank">Profiles</a> (se red circle 1 on <a href="Fig2">Figure 2</a> ) to get an overview of which profiles are in the IG.
+Click on the tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/profiles.html" target="_blank">Profiles</a> (se red circle 1 on <a href="#Fig2">Figure 2</a> ) to get an overview of which profiles are in the IG.
     <figure>
-    <img src="../images/ProfileOverview.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig2"> <figcaption text-align="center"><b>Figure 2: Overview of the associated profiles for MedCom Core IG </b></figcaption>
+    <img src="../images/ProfileOverview.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig2"> 
+    <figcaption text-align="center"><b>Figure 2: Overview of the associated profiles for MedCom Core IG </b></figcaption>
     </figure> 
 
 **Step 3**
-  Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="Fig2">Figure 2</a>), and you will get to the front page of MedComCorePatient,(see <a href="Fig3">Figure 3 </a>)
+  Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="#Fig2">Figure 2</a>), and you will get to the front page of MedComCorePatient,(see <a href="#Fig3">Figure 3 </a>)
     <figure>
     <img src="../images/ProfileContent.png" alt="Content of the menu bar for the profile"  style="width:50%" id="Fig3">
     <figcaption text-align="center"><b>Figure 3: Menu bar for profile 'MedComCorePatient' </b></figcaption>
@@ -45,6 +46,7 @@ On top of the MedComCorePatients front page you will finde a menu bar with folow
     <img src="../images/TableOverview.png" alt="Table overview of the profile MedComCorePatient"  style="width:50%" id="Fig4">
     <figcaption text-align="center"><b>Figure 4: Menu bar with overview of the profile MedComCorePatient content' </b></figcaption>
     </figure>
+
 **Step 5**
 * Click on the tab 'Snapshot Table (MustSupport)'. Here is all required content for the profil gathered. The table contains five headlines
         ![Table Content](../images/TableContent.png)

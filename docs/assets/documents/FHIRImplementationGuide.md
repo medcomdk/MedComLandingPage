@@ -60,6 +60,7 @@ If you scroll down on the MedComCorePatients front page you will finde a menu ba
 
 **Step 5**
 Click on the tab 'Snapshot Table (MustSupport)'. Here is all required content for the profil gathered. 
+    <figure>
     <img src="../images/TableContent.png" alt="Contæent of the 'Snapshot Table (MustSupport)'"  style="width:65%" id="Fig5">
     <figcaption text-align="center"><b>Figure 5: Content of the 'Snapshot Table (MustSupport)'</b></figcaption>
     </figure>

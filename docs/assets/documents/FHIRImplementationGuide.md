@@ -8,7 +8,7 @@ This step-by-step guide aims to explain the basic content and the composition of
 * On the front page of the MedCom Core IG you'll find a short introduction to the IG and menu bar, for the IG on top of the page (see <a href="#Fig1" rel="noopener noreferrer"> Figure 1 </a>):
     <figure>
     <img src="../images/IG-content.png" alt="shows the content of an IG"  style="width:50%" id="Fig1">
-    <figcaption text-align="center"><b>Figure 1: Menu on IG page </b></figcaption>
+    <figcaption text-align="center"><b>Figure 1: Menu on IG page</b></figcaption>
     </figure>
 
 **Step 2**
@@ -22,21 +22,21 @@ Click on the tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/profile
   Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="#Fig2">Figure 2</a>), and you will get to the front page of MedComCorePatient,(see <a href="#Fig3" rel="noopener noreferrer">Figure 3 </a>)
     <figure>
     <img src="../images/ProfileContent.png" alt="Content of the menu bar for the profile"  style="width:50%" id="Fig3">
-    <figcaption text-align="center"><b>Figure 3: Menu bar for profile 'MedComCorePatient' </b></figcaption>
+    <figcaption text-align="center"><b>Figure 3: Menu bar for profile 'MedComCorePatient'</b></figcaption>
     </figure>
 
 On top of the MedComCorePatients front page you will finde a menu bar with folowing tabs: 
-    * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank"> <b>Content</b></a>:  Givies a short introduction to the profile and a table over profile content 
-    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-definitions.html" target="_blank"> <b>Detailed Description </b></a>: Gives a detailed description of all elements in the profile  
-    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-mappings.html" target="_blank"><b>Mapping</b></a>: Gives an overview of how terms in the standard can be mapped to other HL7 standards, but not the previuos MedCom standards. To get this information you must look under each standard.
-    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html" target="_blank"><b>Examples</b></a>: Gives an overview of the examples for the gine profile as in this case for the MedComCorePatient profile 
+    * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html"> <b>Content</b></a>:  Givies a short introduction to the profile and a table over profile content 
+    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-definitions.html"> <b>Detailed Description </b></a>: Gives a detailed description of all elements in the profile  
+    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-mappings.html"><b>Mapping</b></a>: Gives an overview of how terms in the standard can be mapped to other HL7 standards, but not the previuos MedCom standards. To get this information you must look under each standard.
+    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html"><b>Examples</b></a>: Gives an overview of the examples for the gine profile as in this case for the MedComCorePatient profile 
         *  If you select one of the examples you will be presented for the content of the narrative text. If you instead select the tabs XML, JSON or TTL you will see the entire content of the MedComCorePatient.  
-    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.xml.html" target="_blank"><b>XML</b></a>: Shows the entire content of the MedComCorePatient profile in XML format
-    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html" target="_blank"><b>JSON</b></a>: Shows the entire content of the MedComCorePatient profile in JSON format
-    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.json.html" target="_blank"><b>TTL</b></a> Shows the entire content of the MedComCorePatient profile in TTL format         
+    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.xml.html"><b>XML</b></a>: Shows the entire content of the MedComCorePatient profile in XML format
+    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html"><b>JSON</b></a>: Shows the entire content of the MedComCorePatient profile in JSON format
+    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.json.html"><b>TTL</b></a> Shows the entire content of the MedComCorePatient profile in TTL format         
 
 **Step 4**
-* If you scrool down on the MedComCorePatients front page you will finde a menu bar with five tabs where three of the tabs represents tables that explains how the profile is constructed (see <a href="#Fig4"> Figure 4</a>).  
+* If you scroll down on the MedComCorePatients front page you will finde a menu bar with five tabs where three of the tabs represents tables that explains how the profile is constructed (see <a href="#Fig4" rel="noopener noreferrer"> Figure 4</a>).  
     * The trhee tables are: 
         * **Differential Table**
         * **Snapshot Table**
@@ -44,7 +44,7 @@ On top of the MedComCorePatients front page you will finde a menu bar with folow
 
     <figure>
     <img src="../images/TableOverview.png" alt="Table overview of the profile MedComCorePatient"  style="width:50%" id="Fig4">
-    <figcaption text-align="center"><b>Figure 4: Menu bar with overview of the profile MedComCorePatient content' </b></figcaption>
+    <figcaption text-align="center"><b>Figure 4: Menu bar with overview of the profile MedComCorePatient content'</b></figcaption>
     </figure>
 
 **Step 5**

@@ -29,7 +29,7 @@ Click on the tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/profile
 **Step 3**
   Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="#Fig2">Figure 2</a>), and you will get to the front page of MedComCorePatient,(see <a href="#Fig3" rel="noopener noreferrer">Figure 3 </a>)
 <figure>
-<img src="../images/ProfileContent.png" alt="Content of the menu bar for the profile"  style="width:50%" id="Fig3">
+<img src="../images/ProfileContent.png" alt="Content of the menu bar for the profile"  style="width:65%" id="Fig3">
 <figcaption text-align="center"><b>Figure 3: Menu bar for profile 'MedComCorePatient'</b></figcaption>
 </figure>
 
@@ -51,13 +51,13 @@ If you scroll down on the MedComCorePatients front page you will finde a menu ba
     * **Snapshot Table(Must Support)**
 
     <figure>
-    <img src="../images/TableOverview.png" alt="Table overview of the profile MedComCorePatient"  style="width:50%" id="Fig4">
+    <img src="../images/TableOverview.png" alt="Table overview of the profile MedComCorePatient"  style="width:65%" id="Fig4">
     <figcaption text-align="center"><b>Figure 4: Menu bar with overview of the profile MedComCorePatient content'</b></figcaption>
     </figure>
 
 **Step 5**
 Click on the tab 'Snapshot Table (MustSupport)'. Here is all required content for the profil gathered. 
-    <img src="../images/TableContent.png" alt="Content of the 'Snapshot Table (MustSupport)'"  style="width:50%" id="Fig5">
+    <img src="../images/TableContent.png" alt="Contæent of the 'Snapshot Table (MustSupport)'"  style="width:65%" id="Fig5">
     <figcaption text-align="center"><b>Figure 5: Content of the 'Snapshot Table (MustSupport)'</b></figcaption>
     </figure>
 
@@ -76,10 +76,10 @@ The table contains five headlines (see <a href="#Fig5" rel="noopener noreferrer"
     * One migth notice the type at the top of the elements says _DKCorePatient_, which means that the MedComCorePatient inherits from a Patient profile developed by the Danish HL7 affiliate. [You can read more about inheritance and the work for HL7-Denmark here](docs\assets\documents\NewToFHIR.md).
 * Description and Constraints
     * A short description of the element as well as rules associated with the element.
-      
-    * Now, try choosing the profile <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a>
-        * Here you'll see the type Reference(...) at the element Encounter.subject. This means that the element references the MedComCorePatient profile, and that an encounter always shall be associated with a patient. 
-        * For the elements Encounter.status and Encounter.class the type is code or coding, meaning that a predefined, structured code shall be selected from a ValueSet. which can be seen in the column 'Description & Constraints'.  
+**Step 6**   
+Now, try choosing  another profile <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a>
+* Here you'll see the type Reference(...) at the element Encounter.subject. This means that the element references the MedComCorePatient profile, and that an encounter always shall be associated with a patient. 
+* For the elements Encounter.status and Encounter.class the type is code or coding, meaning that a predefined, structured code shall be selected from a ValueSet. which can be seen in the column 'Description & Constraints'.  
 
 
 [More information about IGs can be found here](https://medcomdk.github.io/MedComLandingPage/assets/documents/NewToFHIR.html#hl7-fhir-documentation)

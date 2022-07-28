@@ -53,10 +53,10 @@ If you scroll down on the MedComCorePatients front page you will finde a menu ba
     * **Snapshot Table**
     * **Snapshot Table(Must Support)**
 
-    <figure>
-    <img src="../images/TableOverview.png" alt="Table overview of the profile MedComCorePatient"  style="width:65%" id="Fig4">
-    <figcaption text-align="center"><b>Figure 4: Menu bar with overview of the profile MedComCorePatient content'</b></figcaption>
-    </figure>
+<figure>
+<img src="../images/TableOverview.png" alt="Table overview of the profile MedComCorePatient"  style="width:65%" id="Fig4">
+<figcaption text-align="center"><b>Figure 4: Menu bar with overview of the profile MedComCorePatient content'</b></figcaption>
+</figure>
 
 **Step 5**
 Click on the tab 'Snapshot Table (MustSupport)'. Here is all required content for the profil gathered. 

@@ -98,7 +98,7 @@ Links to the webpage presentations of the standards can be found in the table be
     <td class="tg-on52"> Version 1.0</td>
   </tr>
   <tr>
-    <td class="tg-on52"><span style="background-color:#FFF"><a href="https://medcomdk.github.io/dk-medcom-carecommunication/" rel="noopener noreferrer"><span style="text-decoration:none">CareCommunication </span></a> <b>This page is under construction !</b></span></td>
+    <td class="tg-on52"><span style="background-color:#FFF"><a href="https://medcomdk.github.io/dk-medcom-carecommunication/" rel="noopener noreferrer"><span style="text-decoration:none">CareCommunication </span></a> <b>This page is under construction!</b></span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Korrespondancemeddelelse</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Used in all parts of the Danish health care sector to communicate between parties.</span></td>
     <td class="tg-on52"> Version 1.0</td>

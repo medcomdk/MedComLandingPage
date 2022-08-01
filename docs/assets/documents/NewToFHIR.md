@@ -16,7 +16,7 @@ The purpose of this section is to give a introduction to MedComs FHIR standards 
 - [5 Release Notes](#5-release-notes)
 <p>&nbsp;</p> 
 
-# 1 FHIR Glossary
+## 1 FHIR Glossary
 <a href="https://www.hl7.org/fhir/" target="_blank">Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)</a> is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare-related information. FHIR defines several resources, often referred to as ‘building blocks’, each describing a delimited area within healthcare e.g., a Patient or an Encounter. These resources are generic and can therefore be used across the world. However, when using the resources in a specific context, such as communication between Danish healthcare parties, the resources need to be profiled to accommodate the use. The profiling could be to require at last name of a Patient. In some cases, it is necessary to extend the generic resources to fit the context e.g., to add a CPR-number as a patient identifier.
 
 When creating a MedCom FHIR standard, multiple profiles are assembled to include the information necessary to support the business requirements. Under the auspices of MedCom, these profiles will most often come from multiple Implementation Guides (IG). This decision is further addressed in the section [3.1 Why are there Multiple Implementation Guides?](#Why-are-there-multiple-implementation-guides) 
@@ -118,11 +118,11 @@ In the table below you’ll find the most common terms and associated descriptio
 <br>
 <br>
 
-# 2 How to Read a MedCom Implementation Guide
+## 2 How to Read a MedCom Implementation Guide
 If you are interested in understanding the basic content and the composition of an IG, you can follow this [step-by-step guide](FHIRImplementationGuide.md).
 
-# 3 Frequently asked qestions
-## 3.1 Why are there Multiple Implementation Guides? {#Why-are-there-multiple-implementation-guides}
+## 3 Frequently asked qestions
+### 3.1 Why are there Multiple Implementation Guides? {#Why-are-there-multiple-implementation-guides}
 
 FHIR allows for a great deal of reuse. When creating a MedCom FHIR message, profiles from the MedComCore and MedComMessaging IG are used to create a complete understanding. Currently, there are three FHIR standards: HospitalNotification, CareCommunication and Acknowledgement, which all are composed of profiles from the Core and Messaging IG as well as the IG for the specific standard, and codes from the Terminology IG. 
 
@@ -151,18 +151,18 @@ In Denmark we have a national HL7 affiliate, called <a href="https://hl7.dk/" ta
 <a href="https://www.medcom.dk/standarder/moderniseringsnyheder/nyhedsbrev-29-november-2021" target="_blank">You can read more about the work of HL7-DK here</a>. 
 
 
-# 4 More information
+## 4 More information
 
-## 4.1 Webinars
+### 4.1 Webinars
 In 2022 MedCom has held a two webinars concerning the modernization of MedCom standards. Both webinars freely available and in Danish:
 * <a href="https://www.youtube.com/watch?v=8doBKskz3J8" target="_blank">FHIR-introduktionswebinar (17. maj 2022)</a>
 * <a href="https://www.youtube.com/watch?v=bfzx7U2Suug" target="_blank">FHIR demo-webinar med MedCom, Mjølner og Trifork (10 . februar 2022)</a>
 <p>&nbsp;</p>
 
-## 4.2 HL7 FHIR Documentation
+### 4.2 HL7 FHIR Documentation
 
 All FHIR documentation can be found at <a href="https://www.hl7.org/fhir/" target="_blank">www.hl7.org/fhir/</a>. Here you will find detailed describtions about basic principles, presentation to all resources and much more. 
 
-# 5 Release Notes
+## 5 Release Notes
 
 [The latest changes of this page can be found here.](ReleaseNotesNewToFHIR.md)

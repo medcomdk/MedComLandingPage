@@ -3,7 +3,7 @@
 # Step-by-Step Guide
 This step-by-step guide aims to explain the basic content and the composition of an IG, based on <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>. 
 
-## **Step 1**
+## Step 1
  Go to <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank">MedCom Core IG</a>.
 * On the front page of the MedCom Core IG you'll find a short introduction to the IG and menu bar, for the IG on top of the page (see <a href="#Fig1" rel="noopener noreferrer"> Figure 1 </a>):
 <figure>
@@ -21,7 +21,7 @@ On the manue bar you finde forllowing tabs:
 <br>
 <br>
 
-## **Step 2**
+## Step 2
 Click on the tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/profiles.html" target="_blank">Profiles</a> (se red circle 1 on <a href="#Fig2" rel="noopener noreferrer">Figure 2</a> ) to get an overview of which profiles are in the IG.
 <figure>
 <img src="../images/ProfileOverview.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig2"> 
@@ -29,7 +29,7 @@ Click on the tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/prof
 </figure> 
 <br>
 
-## **Step 3**
+## Step 3
   Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="#Fig2">Figure 2</a>), and you will get to the front page of MedComCorePatient,(see <a href="#Fig3" rel="noopener noreferrer">Figure 3 </a>)
 <figure>
 <img src="../images/ProfileContent.png" alt="Content of the menu bar for the profile"  style="width:65%" id="Fig3">
@@ -47,7 +47,7 @@ On top of the MedComCorePatients front page you will finde a menu bar with folow
    * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.json.html"><b>TTL</b></a> Shows the entire content of the MedComCorePatient profile in TTL format         
 <br>
 
-## **Step 4**
+## Step 4
 If you scroll down on the MedComCorePatients front page you will finde a menu bar with five tabs where three of the tabs represents tables that explains how the profile is constructed (see <a href="#Fig4" rel="noopener noreferrer"> Figure 4</a>).  
 * The trhee tables are: 
     * **Differential Table**
@@ -59,7 +59,7 @@ If you scroll down on the MedComCorePatients front page you will finde a menu ba
 <figcaption text-align="center"><b>Figure 4: Menu bar with overview of the profile MedComCorePatient content'</b></figcaption>
 </figure>
 
-## **Step 5**
+## Step 5
 Click on the tab 'Snapshot Table (MustSupport)'(see <a href="#Fig5" rel="noopener noreferrer"> Figure 5</a>). Here is all required content for the profil gathered. 
 <figure>
 <img src="../images/TableContent.png" alt="Contæent of the 'Snapshot Table (MustSupport)'"  style="width:65%" id="Fig5">
@@ -83,7 +83,7 @@ The table contains five headlines (see <a href="#Fig5" rel="noopener noreferrer"
     * A short description of the element as well as rules associated with the element.
 <br>
 
-## **Step 6**   
+## Step 6   
 Now, try choosing  another profile <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a>
 * Here you'll see the type Reference(...) at the element Encounter.subject. This means that the element references the MedComCorePatient profile, and that an encounter always shall be associated with a patient. 
 * For the elements Encounter.status and Encounter.class the type is code or coding, meaning that a predefined, structured code shall be selected from a ValueSet. which can be seen in the column 'Description & Constraints'.  

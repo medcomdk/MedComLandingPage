@@ -76,7 +76,7 @@ Click on the tab 'Snapshot Table (MustSupport)'(see <a href="#Fig6" rel="noopene
 <figcaption text-align="center"><b>Figure 6: Content of the 'Snapshot Table (MustSupport)'</b></figcaption>
 </figure>
 
-The table contains five headlines (see <a href="#Fig5" rel="noopener noreferrer"> Figure 5</a>):
+The table contains five headlines (see <a href="#Fig6" rel="noopener noreferrer"> Figure 6</a>):
 * **Name**:
     * The element name.
 * **Flags**: 

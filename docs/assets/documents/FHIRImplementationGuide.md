@@ -31,10 +31,10 @@ Click on the tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/prof
 <br>
 
 ## Step 3
-  Choose <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="#Fig3">Figure 3</a>), and you will get to the front page of MedComCorePatient,(see <a href="#Fig4" rel="noopener noreferrer">Figure 4 </a>)
+  Choose <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 1 on <a href="#Fig3">Figure 3</a>), and you will get to the front page of MedComCorePatient,(see <a href="#Fig4" rel="noopener noreferrer">Figure 4 </a>)
 
 <figure>
-<img src="../images/IGProfile.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig3"> 
+<img src="../images/ProfileOverview.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig3"> 
 <figcaption text-align="center"><b>Figure 3: Overview of the associated profiles for MedCom Core IG </b></figcaption>
 </figure> 
 

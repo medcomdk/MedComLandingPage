@@ -1,10 +1,10 @@
 [Return](NewToFHIR.md)
 
 # Step-by-Step Guide
-This step-by-step guide aims to explain the basic content and the composition of an IG, based on <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>. 
+This step-by-step guide aims to explain the basic content and the composition of an IG, based on <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>. 
 
 ## **Step 1**
- Go to <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/" target="_blank">MedCom Core IG</a>.
+ Go to <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank">MedCom Core IG</a>.
 * On the front page of the MedCom Core IG you'll find a short introduction to the IG and menu bar, for the IG on top of the page (see <a href="#Fig1" rel="noopener noreferrer"> Figure 1 </a>):
 <figure>
 <img src="../images/IG-content.png" alt="shows the content of an IG"  style="width:50%" id="Fig1">
@@ -13,16 +13,16 @@ This step-by-step guide aims to explain the basic content and the composition of
 
 On the manue bar you finde forllowing tabs: 
 * The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/toc.html" target="_blank">Table of Contents</a> shows the contents list of the IG
-* The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/index.html" target="_blank">Home</a> shows the fornt page of the IG
-* The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/profiles.html" target="_blank">Profiles</a> shows which profiles are in the  IG
-* The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/extensions.html" target="_blank">Extensions</a> shows the extensions made for the IG. 
+* The tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/index.html" target="_blank">Home</a> shows the fornt page of the IG
+* The tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/profiles.html" target="_blank">Profiles</a> shows which profiles are in the  IG
+* The tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/extensions.html" target="_blank">Extensions</a> shows the extensions made for the IG. 
 * The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/terminology.html" target="_blank">Terminology</a> shows the CodeSystems and ValueSets used in the IG.
 * The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/artifacts.html" target="_blank">Artifacts</a> shows entire content of the IG.
 <br>
 <br>
 
 ## **Step 2**
-Click on the tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/profiles.html" target="_blank">Profiles</a> (se red circle 1 on <a href="#Fig2" rel="noopener noreferrer">Figure 2</a> ) to get an overview of which profiles are in the IG.
+Click on the tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/profiles.html" target="_blank">Profiles</a> (se red circle 1 on <a href="#Fig2" rel="noopener noreferrer">Figure 2</a> ) to get an overview of which profiles are in the IG.
 <figure>
 <img src="../images/ProfileOverview.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig2"> 
 <figcaption text-align="center"><b>Figure 2: Overview of the associated profiles for MedCom Core IG </b></figcaption>

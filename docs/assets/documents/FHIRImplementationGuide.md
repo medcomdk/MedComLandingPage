@@ -28,6 +28,7 @@ Click on the tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/prof
 <figcaption text-align="center"><b>Figure 2: Overview of the associated profiles for MedCom Core IG </b></figcaption>
 </figure> 
 <br>
+<br>
 
 ## Step 3
   Choose <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="#Fig2">Figure 2</a>), and you will get to the front page of MedComCorePatient,(see <a href="#Fig3" rel="noopener noreferrer">Figure 3 </a>)
@@ -46,6 +47,7 @@ On top of the MedComCorePatients front page you will finde a menu bar with folow
    * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.json.html"><b>JSON</b></a>: Shows the entire content of the MedComCorePatient profile in JSON format
    * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.ttl.html"><b>TTL</b></a> Shows the entire content of the MedComCorePatient profile in TTL format         
 <br>
+<br>
 
 ## Step 4
 If you scroll down on the MedComCorePatients front page you will finde a menu bar with five tabs where three of the tabs represents tables that explains how the profile is constructed (see <a href="#Fig4" rel="noopener noreferrer"> Figure 4</a>).  
@@ -58,6 +60,8 @@ If you scroll down on the MedComCorePatients front page you will finde a menu ba
 <img src="../images/TableOverview.png" alt="Table overview of the profile MedComCorePatient"  style="width:65%" id="Fig4">
 <figcaption text-align="center"><b>Figure 4: Menu bar with overview of the profile MedComCorePatient content'</b></figcaption>
 </figure>
+<br>
+<br>
 
 ## Step 5
 Click on the tab 'Snapshot Table (MustSupport)'(see <a href="#Fig5" rel="noopener noreferrer"> Figure 5</a>). Here is all required content for the profil gathered. 
@@ -82,6 +86,7 @@ The table contains five headlines (see <a href="#Fig5" rel="noopener noreferrer"
 * **Description and Constraints**:
     * A short description of the element as well as rules associated with the element.
 <br>
+<br>
 
 ## Step 6   
 Now, try choosing  another profile <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a>
@@ -91,6 +96,7 @@ Now, try choosing  another profile <a href="https://build.fhir.org/ig/medcomdk/d
 
 [More information about IGs can be found here](https://medcomdk.github.io/MedComLandingPage/assets/documents/NewToFHIR.html#hl7-fhir-documentation)
 
-## Release Notes
+## About
+### Release Notes
 
 [The latest changes of this page can be found here.](ReleaseNotesFHIRImplementationGuide.md)

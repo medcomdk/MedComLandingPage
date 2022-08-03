@@ -24,7 +24,7 @@ On the manue bar you finde forllowing tabs:
 ## Step 2
 Click on the tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/profiles.html" target="_blank">Profiles</a> (se red circle 1 on <a href="#Fig2" rel="noopener noreferrer">Figure 2</a> ) to get an overview of which profiles are in the IG.
 <figure>
-<img src="../images/ProfileOverview.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig2"> 
+<img src="../images/IG-profile.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig2"> 
 <figcaption text-align="center"><b>Figure 2: Overview of the associated profiles for MedCom Core IG </b></figcaption>
 </figure> 
 <br>

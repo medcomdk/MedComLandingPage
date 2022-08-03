@@ -24,17 +24,23 @@ On the manue bar you finde forllowing tabs:
 ## Step 2
 Click on the tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/profiles.html" target="_blank">Profiles</a> (se red circle 1 on <a href="#Fig2" rel="noopener noreferrer">Figure 2</a> ) to get an overview of which profiles are in the IG.
 <figure>
-<img src="../images/IGProfile.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig2"> 
-<figcaption text-align="center"><b>Figure 2: Overview of the associated profiles for MedCom Core IG </b></figcaption>
+<img src="../images/IGProfile.png" alt="Figure 2: Profile highlighted in IG menu" style="width:60%" id="Fig2"> 
+<figcaption text-align="center"><b>Figure 2:Profile highlighted in IG menu</b></figcaption>
 </figure> 
 <br>
 <br>
 
 ## Step 3
-  Choose <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="#Fig2">Figure 2</a>), and you will get to the front page of MedComCorePatient,(see <a href="#Fig3" rel="noopener noreferrer">Figure 3 </a>)
+  Choose <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="#Fig3">Figure 3</a>), and you will get to the front page of MedComCorePatient,(see <a href="#Fig4" rel="noopener noreferrer">Figure 4 </a>)
+
 <figure>
-<img src="../images/ProfileContent.png" alt="Content of the menu bar for the profile"  style="width:65%" id="Fig3">
-<figcaption text-align="center"><b>Figure 3: Menu bar for profile 'MedComCorePatient'</b></figcaption>
+<img src="../images/IGProfile.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig3"> 
+<figcaption text-align="center"><b>Figure 3: Overview of the associated profiles for MedCom Core IG </b></figcaption>
+</figure> 
+
+<figure>
+<img src="../images/ProfileContent.png" alt="Content of the menu bar for the profile"  style="width:65%" id="Fig4">
+<figcaption text-align="center"><b>Figure 4: Menu bar for profile 'MedComCorePatient'</b></figcaption>
 </figure>
 
 On top of the MedComCorePatients front page you will finde a menu bar with folowing tabs:<br>
@@ -50,24 +56,24 @@ On top of the MedComCorePatients front page you will finde a menu bar with folow
 <br>
 
 ## Step 4
-If you scroll down on the MedComCorePatients front page you will finde a menu bar with five tabs where three of the tabs represents tables that explains how the profile is constructed (see <a href="#Fig4" rel="noopener noreferrer"> Figure 4</a>).  
+If you scroll down on the MedComCorePatients front page you will finde a menu bar with five tabs where three of the tabs represents tables that explains how the profile is constructed (see <a href="#Fig5" rel="noopener noreferrer"> Figure 5</a>).  
 * The trhee tables are: 
     * **Differential Table**
     * **Snapshot Table**
     * **Snapshot Table(Must Support)**
 
 <figure>
-<img src="../images/TableOverview.png" alt="Table overview of the profile MedComCorePatient"  style="width:65%" id="Fig4">
-<figcaption text-align="center"><b>Figure 4: Menu bar with overview of the profile MedComCorePatient content'</b></figcaption>
+<img src="../images/TableOverview.png" alt="Table overview of the profile MedComCorePatient"  style="width:65%" id="Fig5">
+<figcaption text-align="center"><b>Figure 5: Menu bar with overview of the profile MedComCorePatient content'</b></figcaption>
 </figure>
 <br>
 <br>
 
 ## Step 5
-Click on the tab 'Snapshot Table (MustSupport)'(see <a href="#Fig5" rel="noopener noreferrer"> Figure 5</a>). Here is all required content for the profil gathered. 
+Click on the tab 'Snapshot Table (MustSupport)'(see <a href="#Fig6" rel="noopener noreferrer"> Figure 6</a>). Here is all required content for the profil gathered. 
 <figure>
-<img src="../images/TableContent.png" alt="Contæent of the 'Snapshot Table (MustSupport)'"  style="width:65%" id="Fig5">
-<figcaption text-align="center"><b>Figure 5: Content of the 'Snapshot Table (MustSupport)'</b></figcaption>
+<img src="../images/TableContent.png" alt="Contæent of the 'Snapshot Table (MustSupport)'"  style="width:65%" id="Fig6">
+<figcaption text-align="center"><b>Figure 6: Content of the 'Snapshot Table (MustSupport)'</b></figcaption>
 </figure>
 
 The table contains five headlines (see <a href="#Fig5" rel="noopener noreferrer"> Figure 5</a>):

@@ -16,8 +16,8 @@ On the manue bar you finde forllowing tabs:
 * The tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/index.html" target="_blank">Home</a> shows the fornt page of the IG
 * The tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/profiles.html" target="_blank">Profiles</a> shows which profiles are in the  IG
 * The tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/extensions.html" target="_blank">Extensions</a> shows the extensions made for the IG. 
-* The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/terminology.html" target="_blank">Terminology</a> shows the CodeSystems and ValueSets used in the IG.
-* The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/artifacts.html" target="_blank">Artifacts</a> shows entire content of the IG.
+<!-- * The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/terminology.html" target="_blank">Terminology</a> shows the CodeSystems and ValueSets used in the IG. -->
+* The tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/artifacts.html" target="_blank">Artifacts</a> shows entire content of the IG.
 <br>
 <br>
 
@@ -30,21 +30,21 @@ Click on the tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/prof
 <br>
 
 ## Step 3
-  Choose <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="#Fig2">Figure 2</a>), and you will get to the front page of MedComCorePatient,(see <a href="#Fig3" rel="noopener noreferrer">Figure 3 </a>)
+  Choose <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 2 on <a href="#Fig2">Figure 2</a>), and you will get to the front page of MedComCorePatient,(see <a href="#Fig3" rel="noopener noreferrer">Figure 3 </a>)
 <figure>
 <img src="../images/ProfileContent.png" alt="Content of the menu bar for the profile"  style="width:65%" id="Fig3">
 <figcaption text-align="center"><b>Figure 3: Menu bar for profile 'MedComCorePatient'</b></figcaption>
 </figure>
 
 On top of the MedComCorePatients front page you will finde a menu bar with folowing tabs:<br>
-   * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html"> <b>Content</b></a>:  Givies a short introduction to the profile and a table over profile content 
-   * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-definitions.html"> <b>Detailed Description </b></a>: Gives a detailed description of all elements in the profile  
-   * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-mappings.html"><b>Mapping</b></a>: Gives an overview of how terms in the standard can be mapped to other HL7 standards, but not the previuos MedCom standards. To get this information you must look under each standard.
-   * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html"><b>Examples</b></a>: Gives an overview of the examples for the gine profile as in this case for the MedComCorePatient profile 
+   * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html#"> <b>Content</b></a>:  Givies a short introduction to the profile and a table over profile content 
+   * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient-definitions.html"> <b>Detailed Description </b></a>: Gives a detailed description of all elements in the profile  
+   * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient-mappings.html"><b>Mapping</b></a>: Gives an overview of how terms in the standard can be mapped to other HL7 standards, but not the previuos MedCom standards. To get this information you must look under each standard.
+   * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html"><b>Examples</b></a>: Gives an overview of the examples for the gine profile as in this case for the MedComCorePatient profile 
        *  If you select one of the examples you will be presented for the content of the narrative text. If you instead select the tabs XML, JSON or TTL you will see the entire content of the MedComCorePatient.  
-   * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.xml.html"><b>XML</b></a>: Shows the entire content of the MedComCorePatient profile in XML format
-   * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html"><b>JSON</b></a>: Shows the entire content of the MedComCorePatient profile in JSON format
-   * <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.json.html"><b>TTL</b></a> Shows the entire content of the MedComCorePatient profile in TTL format         
+   * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.xml.html"><b>XML</b></a>: Shows the entire content of the MedComCorePatient profile in XML format
+   * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.json.html"><b>JSON</b></a>: Shows the entire content of the MedComCorePatient profile in JSON format
+   * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.ttl.html"><b>TTL</b></a> Shows the entire content of the MedComCorePatient profile in TTL format         
 <br>
 
 ## Step 4
@@ -84,7 +84,7 @@ The table contains five headlines (see <a href="#Fig5" rel="noopener noreferrer"
 <br>
 
 ## Step 6   
-Now, try choosing  another profile <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a>
+Now, try choosing  another profile <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a>
 * Here you'll see the type Reference(...) at the element Encounter.subject. This means that the element references the MedComCorePatient profile, and that an encounter always shall be associated with a patient. 
 * For the elements Encounter.status and Encounter.class the type is code or coding, meaning that a predefined, structured code shall be selected from a ValueSet. which can be seen in the column 'Description & Constraints'.  
 <br>

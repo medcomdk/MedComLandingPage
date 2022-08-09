@@ -1,18 +1,25 @@
 [Return](../../index.md)
 
 # Touchstone Getting started
+<br>
+<br>
+
 **Table of Contents**
 * [1 How to register](#1-how-to-register)
 * [2 How to run a Touchstone test script based on use cases](#2-how-to-run-a-touchstone-test-script-based-on-use-cases)
 * [3 Touchstone .NET client Demo](#3-touchstone-net-client-demo)
 * [4 Java FHIR client setup](#4-java-fhir-client-setup)
 * [5 Release Notes](#5-release-notes)
+<br>
+<br>
 
 ## 1 How to register
 1.	Go to https://touchstone.aegis.net/touchstone/register and follow the steps. (Create a “Free” account) 
 2.	Follow this guide https://touchstone.aegis.net/touchstone/userguide/html/registration/membership.html#new-organization  to create your organization. 
 3.	Send the organization name that is registered to fhir@medcom.dk 
 4.	MedCom will ask AEGIS to raise your subscription level from “Free” to “Starter” 
+<br>
+<br>
 
 ## 2 How to run a Touchstone test script based on use cases
 For information regarding how to run a Touchstone test script, please refer to:

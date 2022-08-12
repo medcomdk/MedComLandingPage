@@ -86,7 +86,7 @@ Links to the webpage presentations of the standards can be found in the table be
     <td class="tg-1ady" colspan="4"><span style="font-style:italic">MedComs FHIR standards</span></td>
   </tr>
   <tr>
-    <td class="tg-on52"><span style="background-color:#FFF"> <a href="https://medcomdk.github.io/dk-medcom-acknowledgement/" rel="noopener noreferrer"><span style="text-decoration:none">Acknowledgement </span></a><b>This page is under construction!</b></span></td>
+    <td class="tg-on52"><span style="background-color:#FFF"> <a href="https://medcomdk.github.io/dk-medcom-acknowledgement/" rel="noopener noreferrer"><span style="text-decoration:none">Acknowledgement </span></a></span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Kvittering</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">When a message is received an acknowledgement message shall be returned to the sender, stating if the message was received properly.</span></td>
     <td class="tg-on52"></td>
@@ -114,7 +114,7 @@ Links to the webpage presentations of the standards can be found in the table be
   </tr>
 </tbody>
 </table>
-
+<br><br>
 
 
 
@@ -124,10 +124,9 @@ When implementing a MedCom FHIR standard, it is fundamental to understand in whi
 Furthermore it is important to understand the messaging framework and the possibilities of the VANS Network, since FHIR standards defines the process for how information is packaged and send from one part to another over the VANS Network.
 The messaging framework and the VANS Network are described as governance, previously known as the “Syntax and Communication Rules". <br>
 <a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank"> Tab here to get more information about the govenance.</a>  
-
+<br>
 
 ### 2.1 Standard Documentation
-
 The purpose of the standard documentation is to describe the context in which a standard shall be used and which requirements the standard shall fulfill. Implementation guide, use cases, clinical guidelines, and testprotocols will be available for all standards and some additional documents might be available as well to support implementation, such as the mapping document. Standard documentation is only provided for the standards, HospitalNotification, CareCommunication and Acknowledgement and not for the generic core or messaging IG’s.
 Standard documentation consists of: 
 * **Implementation Guide**: the technical specifications of the standard.

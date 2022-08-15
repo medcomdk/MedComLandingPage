@@ -1,8 +1,6 @@
 [Return](../../index.md)
 
 # Touchstone Getting started
-<br>
-<br>
 
 **Table of Contents**
 * [1 How to register](#1-how-to-register)

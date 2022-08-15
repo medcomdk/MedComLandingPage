@@ -1,11 +1,11 @@
-# Welcome to MedComs FHIR standards
+# Welcome to MedComs FHIR®© standards
 <hr/>
 
 **Table of Content**
-* [1 MedComs FHIR standards](#1-medcoms-fhir-standards)
-* [2 Implementing a MedCom FHIR standard](#2-implementing-a-medcom-fhir-standard)
+* [1 MedComs FHIR standards](#1-medcoms-fhir®©-standards)
+* [2 Implementing a MedCom FHIR standard](#2-implementing-a-medcom-fhir®©-standard)
   * [2.1 Standard Documentation](#21-standard-documentation)
-  * [2.1 Governance for MedCom HL7 FHIR®© Messaging](#22-governance-for-medcom-hl7-fhir-messaging) 
+  * [2.2 Governance for MedCom HL7 FHIR®© Messaging](#22-governance-for-medcom-hl7-fhir®©-messaging) 
 * [3 Test and Certification](#3-test-and-certification)
 * [4 Change Management and Versioning](#4-change-management-and-versioning)
   * [4.1 Versioning of FHIR standard](#41-versioning-of-fhir-standard)
@@ -15,16 +15,16 @@
 <hr/>
 
 > Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.
+<p>&nbsp;</p>
 
 MedComs modernization project involves both rethinking business requirements and technical improvement. The modernization is done in collaboration with MedComs central partners. 
 
 On <a href="https://www.medcom.dk/" target="_blank">medcom.dk </a> are the political and strategical aspects of the modernization described. These aspects involve the initial wave of modernizations including HospitalNotification (Dansk: Sygehusadvis), CareCommunication (Dansk: Korrespondancemeddelelse), and Acknowledgement (Dansk: Kvittering). The out phasing of existing  standards (EDIFACT and OIOXML), and implementation plan for the initial wave is described and the following modernization waves will also be described there.
 
 The purpose of these pages is to describe both the business requirement and technical implementation of the requirements for each standard. This page guides you to find more information about each standard. 
-  
-  
+<p>&nbsp;</p>
 
-## 1 MedComs FHIR standards
+## 1 MedComs FHIR®© standards
 The business requirements describe the context in which a standard shall be used, and they are presented on a webpage for each standard.
 For a MedCom FHIR standard, the technical implementation is presented in an Implementation Guide (IG). An IG includes several rules, extensions, profiles, and more. Each profile describes a delimited area within healthcare e.g., a patient, an organization, or an encounter.
 Some of the profiles are often used across standards. An example could be the Patient profile which includes the most central information about a patient or citizen such as the CPR-number or name. These types of profiles are called core profiles (Dansk: kerneprofiler) and are gathered in the Core IG. Additionally, some profiles are often used when defining a message. These profiles are called messaging profiles and are gathered in the Messaging IG. 
@@ -120,9 +120,7 @@ Links to the webpage presentations of the standards can be found in the table be
 <br><br>
 
 
-
-## 2 Implementing a MedCom FHIR standard
-
+## 2 Implementing a MedCom FHIR®© standard
 When implementing a MedCom FHIR standard, it is fundamental to understand in which context the standard shall be used to ensure that the implementation fulfill the business requirements. Therefore, it is important to understand the standard documentation for the given standard. 
 Furthermore it is important to understand the messaging framework and the possibilities of the VANS Network, since FHIR standards defines the process for how information is packaged and send from one part to another over the VANS Network.
 The messaging framework and the VANS Network are described as governance, previously known as the “Syntax and Communication Rules". <br>
@@ -169,7 +167,7 @@ Stakeholders and vendors are alway welcome to submit requests for changes or imp
 <p>&nbsp;</p>
 Based on an analysis of the severity of the request, MedCom decide if the changes shall be implemented and change the version of the artifact or IG to reflect the changes.  
 
-## 5 New to FHIR? {#New-to-fhir}
+## 5 New to FHIR®©? {#New-to-fhir}
 This section gives a brief introduction to MedComs FHIR Universe. The introduction is for stakeholders with no or limited knowledge about FHIR. It will take you through the most common terminology used throughout the FHIR pages. Additionally, it introduces a step-by-step guide which guides one through an implementation guide (IG) and can be used as a starting point to understand an IG and its structure. Further some of the frequent asked questions are addressed. If more questions appear you are more than welcome to contact MedCom. Contact information is in the bottom of the page. Further, the introduction includes links to HL7 FHIR pages describing much more thoroughly what FHIR is and how it can be used, and links to previous webinars by MedCom. <br>
  [Tab here to get an short introduction to FHIR and how to read an Implementation Guide.](assets/documents/NewToFHIR.md) 
 

@@ -1,8 +1,7 @@
 [Return](../../index.md)
 
 # New to FHIR ?
-The purpose of this section is to give a introduction to MedComs FHIR standards to stakeholders with no or limited knowledge about FHIR. On this page you will find a brief introduction to the most frequently used terms, descriptions that addresses some often asked questions and guiding to more information about FHIR and MedComs FHIR standards. 
-
+<hr/> 
 
 **Table of Content**
 - [1 FHIR Glossary](#1-fhir-glossary)
@@ -14,7 +13,10 @@ The purpose of this section is to give a introduction to MedComs FHIR standards 
   * [4.1 Webinars](#41-webinars)
   * [4.2 HL7 FHIR Documentation](#42-hl7-fhir-documentation)
 - [5 Release Notes](#5-release-notes)
-<p>&nbsp;</p> 
+<hr/>
+
+The purpose of this section is to give a introduction to MedComs FHIR standards to stakeholders with no or limited knowledge about FHIR. On this page you will find a brief introduction to the most frequently used terms, descriptions that addresses some often asked questions and guiding to more information about FHIR and MedComs FHIR standards. 
+
 
 ## 1 FHIR Glossary
 <a href="https://www.hl7.org/fhir/" target="_blank">Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)</a> is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare-related information. FHIR defines several resources, often referred to as ‘building blocks’, each describing a delimited area within healthcare e.g., a Patient or an Encounter. These resources are generic and can therefore be used across the world. However, when using the resources in a specific context, such as communication between Danish healthcare parties, the resources need to be profiled to accommodate the use. The profiling could be to require at last name of a Patient. In some cases, it is necessary to extend the generic resources to fit the context e.g., to add a CPR-number as a patient identifier.

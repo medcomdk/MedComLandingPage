@@ -1,12 +1,7 @@
 # Welcome to MedComs FHIR standards
+<hr/>
 
-MedComs modernization project involves both rethinking business requirements and technical improvement. The modernization is done in collaboration with MedComs central partners. 
-
-On <a href="https://www.medcom.dk/" target="_blank">medcom.dk </a> are the political and strategical aspects of the modernization described. These aspects involve the initial wave of modernizations including HospitalNotification (Dansk: Sygehusadvis), CareCommunication (Dansk: Korrespondancemeddelelse), and Acknowledgement (Dansk: Kvittering). The out phasing of existing  standards (EDIFACT and OIOXML), and implementation plan for the initial wave is described and the following modernization waves will also be described there.
-
-The purpose of these pages is to describe both the business requirement and technical implementation of the requirements for each standard. This page guides you to find more information about each standard. 
-
-**Table of Contents**
+**Table of Content**
 * [1 MedComs FHIR standards](#1-medcoms-fhir-standards)
 * [2 Implementing a MedCom FHIR standard](#2-implementing-a-medcom-fhir-standard)
   * [2.1 Standard Documentation](#21-standard-documentation)
@@ -17,9 +12,17 @@ The purpose of these pages is to describe both the business requirement and tech
   * [4.2 Change Requests and Improvements](#42-change-requests-and-improvements)
 * [5 New to FHIR?](#New-to-fhir)
 * [6 Release Notes](#6-release-notes)
-<br>
-<br>
+<hr/>
+
 > Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.
+
+MedComs modernization project involves both rethinking business requirements and technical improvement. The modernization is done in collaboration with MedComs central partners. 
+
+On <a href="https://www.medcom.dk/" target="_blank">medcom.dk </a> are the political and strategical aspects of the modernization described. These aspects involve the initial wave of modernizations including HospitalNotification (Dansk: Sygehusadvis), CareCommunication (Dansk: Korrespondancemeddelelse), and Acknowledgement (Dansk: Kvittering). The out phasing of existing  standards (EDIFACT and OIOXML), and implementation plan for the initial wave is described and the following modernization waves will also be described there.
+
+The purpose of these pages is to describe both the business requirement and technical implementation of the requirements for each standard. This page guides you to find more information about each standard. 
+  
+  
 
 ## 1 MedComs FHIR standards
 The business requirements describe the context in which a standard shall be used, and they are presented on a webpage for each standard.

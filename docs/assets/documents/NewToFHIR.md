@@ -1,7 +1,7 @@
 [Return](../../index.md)
+<hr/> 
 
 # New to FHIR ?
-<hr/> 
 
 **Table of Content**
 - [1 FHIR Glossary](#1-fhir-glossary)

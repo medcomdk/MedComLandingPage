@@ -7,7 +7,7 @@
 * [2 How to run a Touchstone test script based on use cases](#2-how-to-run-a-touchstone-test-script-based-on-use-cases)
 * [3 Touchstone .NET client Demo](#3-touchstone-net-client-demo)
 * [4 Java FHIR client setup](#4-java-fhir-client-setup)
-* [5 Release Notes](#5-release-notes)
+
 <br>
 <br>
 
@@ -31,6 +31,6 @@ For information regarding how to run a Touchstone test script, please refer to:
 ## 4 Java FHIR client setup
 [http://svn.medcom.dk/svn/drafts/TestProcedurer/Touchstone/MedcomTouchstoneTest/java%20FHIR%20client.pptx](http://svn.medcom.dk/svn/drafts/TestProcedurer/Touchstone/MedcomTouchstoneTest/java%20FHIR%20client.pptx)
 
-## 5 Release Notes
+<!-- ## 5 Release Notes
 
-[The latest changes of this page can be found here.](ReleaseNotesTouchStoneGettingStarted.md)
+[The latest changes of this page can be found here.](ReleaseNotesTouchStoneGettingStarted.md) -->

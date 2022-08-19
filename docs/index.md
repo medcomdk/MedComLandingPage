@@ -101,7 +101,7 @@ Links to the webpage presentations of the standards can be found in the table be
     <td class="tg-on52"> Version 1.0</td>
   </tr>
   <tr>
-    <td class="tg-on52"><span style="background-color:#FFF"><a href="https://medcomdk.github.io/dk-medcom-carecommunication/" rel="noopener noreferrer"><span style="text-decoration:none">CareCommunication </span></a> <b>This page is under construction!</b></span></td>
+    <td class="tg-on52"><span style="background-color:#FFF"><a href="https://medcomdk.github.io/dk-medcom-carecommunication/" rel="noopener noreferrer"><span style="text-decoration:none">CareCommunication </span></a></span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Korrespondancemeddelelse</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Used in all parts of the Danish health care sector to communicate between parties.</span></td>
     <td class="tg-on52"> Version 1.0</td>
@@ -110,7 +110,7 @@ Links to the webpage presentations of the standards can be found in the table be
     <td class="tg-1ady" colspan="4"><span style="font-style:italic">Terminology  explanation</span></td>
   </tr>
   <tr>
-    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-terminology/" rel="noopener noreferrer"><span style="text-decoration:none">Terminology </span></a> <b>This page is under construction!</b></td>
+    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-terminology/" rel="noopener noreferrer"><span style="text-decoration:none">Terminology </span></a></td>
     <td class="tg-on52">Terminologi</td>
     <td class="tg-on52">Includes CodeSystem, ValueSet and ConceptMaps developed by MedCom used in the standards</td>
     <td class="tg-on52"></td>
@@ -172,6 +172,6 @@ This section gives a brief introduction to MedComs FHIR Universe. The introducti
 [Tab here to get an short introduction to FHIR and how to read an Implementation Guide.](assets/documents/NewToFHIR.md) 
 <p>&nbsp;</p>
 
-## 6 Release Notes
+<!-- ## 6 Release Notes
 
-[The latest changes of this page](assets/documents/ReleaseNotes.md) can be found here.
+[The latest changes of this page](assets/documents/ReleaseNotes.md) can be found here. -->

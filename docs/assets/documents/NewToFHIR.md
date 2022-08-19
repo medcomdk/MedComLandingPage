@@ -12,7 +12,7 @@
 - [4 More information](#4-more-information)
   * [4.1 Webinars](#41-webinars)
   * [4.2 HL7 FHIR Documentation](#42-hl7-fhir-documentation)
-- [5 Release Notes](#5-release-notes)
+<!-- - [5 Release Notes](#5-release-notes) -->
 <hr/>
 
 The purpose of this section is to give a introduction to MedComs FHIR standards to stakeholders with no or limited knowledge about FHIR. On this page you will find a brief introduction to the most frequently used terms, descriptions that addresses some often asked questions and guiding to more information about FHIR and MedComs FHIR standards. 
@@ -165,6 +165,6 @@ In 2022 MedCom has held a two webinars concerning the modernization of MedCom st
 
 All FHIR documentation can be found at <a href="https://www.hl7.org/fhir/" target="_blank">www.hl7.org/fhir/</a>. Here you will find detailed describtions about basic principles, presentation to all resources and much more. 
 
-## 5 Release Notes
+<!-- ## 5 Release Notes
 
-[The latest changes of this page can be found here.](ReleaseNotesNewToFHIR.md)
+[The latest changes of this page can be found here.](ReleaseNotesNewToFHIR.md) -->

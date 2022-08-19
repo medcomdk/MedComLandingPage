@@ -146,7 +146,7 @@ The governance is important to understand before implementing a MedCom FHIR stan
 Before using the implemented standard in production environment to exchange patient data, it must be tested and certified by MedCom to ensure it fulfills the requirements. In addition to the usual <a href="https://www.medcom.dk/standarder/testcenter" target="_blank">MedCom test setup</a> with a selftest and live test, <a href="https://touchstone.aegis.net/touchstone/" target="_blank">TouchStone</a> is used as a tool to validate FHIR messages send in different use cases.
 
 TouchStone describes an infrastructure that allows for automated test against HL7 FHIR. For each FHIR standard MedCom will develope testsuits, which is helpfull to automate the testing, both during implementation and as a part of test and certification. <br>
-[Tab here to get started with TouchStone](assets/documents/TouchStoneGettingStarted.md)
+<!-- [Tab here to get started with TouchStone](assets/documents/TouchStoneGettingStarted.md) -->
 <p>&nbsp;</p>
 
 ## 4 Change Management and Versioning  

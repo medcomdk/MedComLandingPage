@@ -11,6 +11,7 @@
   * [4.1 Versioning of FHIR standard](#41-versioning-of-fhir-standard)
   * [4.2 Change Requests and Improvements](#42-change-requests-and-improvements)
 * [5 New to FHIR?](#New-to-fhir)
+* [6 Wanna stay updated ? ](#6-wanna-stay-updated--wanna-stay-updated)
 <hr/>
 
 > Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.
@@ -170,6 +171,10 @@ Based on an analysis of the severity of the request, MedCom decide if the change
 This section gives a brief introduction to MedComs FHIR Universe. The introduction is for stakeholders with no or limited knowledge about FHIR. It will take you through the most common terminology used throughout the FHIR pages. Additionally, it introduces a step-by-step guide which guides one through an implementation guide (IG) and can be used as a starting point to understand an IG and its structure. Further some of the frequent asked questions are addressed. If more questions appear you are more than welcome to contact MedCom. Contact information is in the bottom of the page. Further, the introduction includes links to HL7 FHIR pages describing much more thoroughly what FHIR is and how it can be used, and links to previous webinars by MedCom. <br>
 [Tab here to get an short introduction to FHIR and how to read an Implementation Guide.](assets/documents/NewToFHIR.md) 
 <p>&nbsp;</p>
+
+## 6 Wanna stay updated ? {#wanna-stay-updated} 
+It is possible to be notified about the latest changes in the standards documentation, please go to the <a href="https://github.com/medcomdk ">medcom GitHub repository</a>  Choose the repository that you want to receive information about and then choose the “watch” button in the right upper corner.  
+Please Notice that you must have a github account to be able to "Watch" the repository.!!! If you don't have a GitHub account jet please go to <a href="https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Corg-login%3E&source=header"> GitHub</a>
 
 <!-- ## 6 Release Notes
 

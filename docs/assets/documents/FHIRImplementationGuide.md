@@ -102,7 +102,3 @@ Now, try choosing  another profile <a href="https://build.fhir.org/ig/medcomdk/d
 
 [More information about IGs can be found here](https://medcomdk.github.io/MedComLandingPage/assets/documents/NewToFHIR.html#hl7-fhir-documentation)
 
-## About
-### Release Notes
-
-[The latest changes of this page can be found here.](ReleaseNotesFHIRImplementationGuide.md)

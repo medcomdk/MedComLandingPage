@@ -11,7 +11,6 @@
   * [4.1 Versioning of FHIR standard](#41-versioning-of-fhir-standard)
   * [4.2 Change Requests and Improvements](#42-change-requests-and-improvements)
 * [5 New to FHIR?](#New-to-fhir)
-* [6 Release Notes](#6-release-notes)
 <hr/>
 
 > Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.

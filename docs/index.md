@@ -11,7 +11,7 @@
   * [4.1 Versioning of FHIR standard](#41-versioning-of-fhir-standard)
   * [4.2 Change Requests and Improvements](#42-change-requests-and-improvements)
 * [5 New to FHIR?](#New-to-fhir)
-* [6 Wanna stay updated ? ](#6-wanna-stay-updated--wanna-stay-updated)
+* [6 Wanna stay updated ? ](#6-wanna-stay-updated)
 <hr/>
 
 > Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.
@@ -172,7 +172,7 @@ This section gives a brief introduction to MedComs FHIR Universe. The introducti
 [Tab here to get an short introduction to FHIR and how to read an Implementation Guide.](assets/documents/NewToFHIR.md) 
 <p>&nbsp;</p>
 
-## 6 Wanna stay updated ? {#wanna-stay-updated} 
+## 6 Wanna stay updated? {#wanna-stay-updated} 
 It is possible to be notified about the latest changes in the standards documentation, please go to the <a href="https://github.com/medcomdk ">medcom GitHub repository</a>  Choose the repository that you want to receive information about and then choose the “watch” button in the right upper corner.  
 Please Notice that you must have a github account to be able to "Watch" the repository.!!! If you don't have a GitHub account jet please go to <a href="https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Corg-login%3E&source=header"> GitHub</a>
 

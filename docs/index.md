@@ -124,7 +124,7 @@ Links to the webpage presentations of the standards can be found in the table be
 When implementing a MedCom FHIR standard, it is fundamental to understand in which context the standard shall be used to ensure that the implementation fulfill the business requirements. Therefore, it is important to understand the standard documentation for the given standard. 
 Furthermore it is important to understand the messaging framework and the possibilities of the VANS Network, since FHIR standards defines the process for how information is packaged and send from one part to another over the VANS Network.
 The messaging framework and the VANS Network are described as governance, previously known as the “Syntax and Communication Rules". <br>
-<a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank"> Tab here to get more information about the govenance.</a>  
+<a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank"> Tab here to get more information about the governance.</a>  
 <br>
 
 ### 2.1 Standard Documentation
@@ -139,7 +139,7 @@ Standard documentation consists of:
 
 ### 2.2 Governance for MedCom HL7 FHIR Messaging
 The governance is important to understand before implementing a MedCom FHIR standard, as it describes the Danish profiling of the FHIR messaging framework and the network layer, which is the VANS network at present. Since the existing VANS network is used to deliver messages, shall messages be sent in a VANSenvelope unless otherwise specified. Receipt may be send in an VANSenvelope or another receipt envelope, eg. KOMBITs BeskedFordeler envelope. <br>
-<a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank"> Tab here to get more information about the govenance.</a>  
+<a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank"> Tab here to get more information about the governance.</a>  
 <p>&nbsp;</p>
 
 ## 3 Test and Certification

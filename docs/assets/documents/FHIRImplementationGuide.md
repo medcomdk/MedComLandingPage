@@ -1,37 +1,38 @@
 [Return](NewToFHIR.md)
 
 # Step-by-Step Guide
-This step-by-step guide aims to explain the basic content and the composition of an IG, based on <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>. 
+This step-by-step guide aims to explain the basic content and the composition of an IG. The guide is based on <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>. 
 
 ## Step 1
  Go to <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank">MedCom Core IG</a>.
-* On the front page of the MedCom Core IG you'll find a short introduction to the IG and menu bar, for the IG on top of the page (see <a href="#Fig1" rel="noopener noreferrer"> Figure 1 </a>):
+* On the front page of the MedCom Core IG you'll find a short introduction to the content of the IG and a menu bar, at top of the page (see <a href="#Fig1" rel="noopener noreferrer"> Figure 1 </a>):
 <figure>
 <img src="../images/IG-content.png" alt="shows the content of an IG"  style="width:50%" id="Fig1">
 <figcaption text-align="center"><b>Figure 1: Menu on IG page</b></figcaption>
 </figure>
 
-On the manue bar you finde forllowing tabs: 
+On the menu bar you find following tabs: 
 * The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/toc.html" target="_blank">Table of Contents</a> shows the contents list of the IG
-* The tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/index.html" target="_blank">Home</a> shows the fornt page of the IG
-* The tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/profiles.html" target="_blank">Profiles</a> shows which profiles are in the  IG
+* The tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/index.html" target="_blank">Home</a> shows the front page of the IG
+* The tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/profiles.html" target="_blank">Profiles</a> shows which profiles are included in the IG
 * The tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/extensions.html" target="_blank">Extensions</a> shows the extensions made for the IG. 
 <!-- * The tab <a href="https://build.fhir.org/ig/hl7dk/dk-medcom-core/terminology.html" target="_blank">Terminology</a> shows the CodeSystems and ValueSets used in the IG. -->
 * The tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/artifacts.html" target="_blank">Artifacts</a> shows entire content of the IG.
+* The tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/downloads.html" target="_blank">Download</a> shows the possible download format of the IG. 
 <br>
 <br>
 
 ## Step 2
-Click on the tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/profiles.html" target="_blank">Profiles</a> (se red circle 1 on <a href="#Fig2" rel="noopener noreferrer">Figure 2</a> ) to get an overview of which profiles are in the IG.
+Click on the tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/profiles.html" target="_blank">Profiles</a> (see red circle on <a href="#Fig2" rel="noopener noreferrer">Figure 2</a> ) to get an overview of which profiles are in the IG.
 <figure>
 <img src="../images/IGProfile.png" alt="Figure 2: Profile highlighted in IG menu" style="width:60%" id="Fig2"> 
-<figcaption text-align="center"><b>Figure 2:Profile highlighted in IG menu</b></figcaption>
+<figcaption text-align="center"><b>Figure 2: Profile highlighted in IG menu</b></figcaption>
 </figure> 
 <br>
 <br>
 
 ## Step 3
-  Choose <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle 1 on <a href="#Fig3">Figure 3</a>), and you will get to the front page of MedComCorePatient, (see <a href="#Fig4" rel="noopener noreferrer">Figure 4 </a>).
+  Choose <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see red circle on <a href="#Fig3">Figure 3</a>), and you will get to the front page of MedComCorePatient, (see <a href="#Fig4" rel="noopener noreferrer">Figure 4 </a>). This page introduces the MedComCorePatient profile. It includes a short description of the profile, its usage, and the required content. 
 
 <figure>
 <img src="../images/OverviewProfile.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig3"> 
@@ -44,7 +45,7 @@ Click on the tab <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/prof
 </figure>
 
 On top of the MedComCorePatients front page you will finde a menu bar with folowing tabs:<br>
-   * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html#"> <b>Content</b></a>:  Givies a short introduction to the profile and a table over profile content 
+   * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html#"> <b>Content</b></a>:  Gives a short introduction to the profile and a table over profile content 
    * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient-definitions.html"> <b>Detailed Description </b></a>: Gives a detailed description of all elements in the profile  
    * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient-mappings.html"><b>Mapping</b></a>: Gives an overview of how terms in the standard can be mapped to other HL7 standards, but not the previuos MedCom standards. To get this information you must look under each standard.
    * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html"><b>Examples</b></a>: Gives an overview of the examples for the gine profile as in this case for the MedComCorePatient profile 
@@ -56,11 +57,11 @@ On top of the MedComCorePatients front page you will finde a menu bar with folow
 <br>
 
 ## Step 4
-If you scroll down on the MedComCorePatients front page you will finde a menu bar with five tabs where three of the tabs represents tables that explains how the profile is constructed (see <a href="#Fig5" rel="noopener noreferrer"> Figure 5</a>).  
-* The trhee tables are: 
-    * **Differential Table**
-    * **Snapshot Table**
-    * **Snapshot Table(Must Support)**
+If you scroll down on the MedComCorePatients front page you will find a menu bar with five tabs where three of the tabs represents tables that explains The content of the profile and which changes are made from the parent profile or ressource, which i DkCorePatient in this case (see <a href="#Fig5" rel="noopener noreferrer"> Figure 5</a>). .  
+* The thRee tables are: 
+    * <b>Differential Table</b>: Shows what is changed form the resource the profile is based on.  
+    * <b>Snapshot Table</b>: Shows all the content of a profile. Not all schould be included in a MedCom standard. 
+    * <b>Snapshot Table(Must Support)</b>: Shows the required content of a profile.
 
 <figure>
 <img src="../images/TableOverview.png" alt="Table overview of the profile MedComCorePatient"  style="width:65%" id="Fig5">
@@ -70,7 +71,7 @@ If you scroll down on the MedComCorePatients front page you will finde a menu ba
 <br>
 
 ## Step 5
-Click on the tab 'Snapshot Table (MustSupport)'(see <a href="#Fig6" rel="noopener noreferrer"> Figure 6</a>). Here is all required content for the profil gathered. 
+Click on the tab 'Snapshot Table (MustSupport)'(see <a href="#Fig6" rel="noopener noreferrer"> Figure 6</a>). It is important to notice that the sender and receiver system shall be able to handle the content shown when choosing the tab "Snapshot Table (MustSupport)". 
 <figure>
 <img src="../images/TableContent.png" alt="Contæent of the 'Snapshot Table (MustSupport)'"  style="width:65%" id="Fig6">
 <figcaption text-align="center"><b>Figure 6: Content of the 'Snapshot Table (MustSupport)'</b></figcaption>
@@ -81,14 +82,14 @@ The table contains five headlines (see <a href="#Fig6" rel="noopener noreferrer"
     * The element name.
 * **Flags**: 
     * I = a rule, which can be seen further down the page.
-    * &sum; = if the element shall be included in the narrativ. 
-    * ?! = modifier element, an element which potentially can modify the understanding of an entire message
+    * &sum; = summary, describes if it is possible to search for the content of the element. 
+    * ?! = modifier element, an element which potentially can modify the understanding of an entire message, and example could be if the patient is deceased as it changes the understanding of the content. 
 * **Cardinality (Card)**:
-    * Given the minimum cardinality of 1 for Patient.identifier and Patient.name the information for these elements shall always be included when exchanging a MedCom standard. Not only shall a Patient.name be included, it shall always be the patients offical name, indicated by Patient.name:Official. Information about Patient.telecom, Patient.deceased, Patient.address and Patient.managingOrganization shall be included if the information is available in the sender system, given the minimum cardinality of 0. 
+    * Cardinality describes how many times an element may or shall appear.  Given the minimum cardinality of 1 for Patient.identifier and Patient.name the information for these elements shall always be included when exchanging a MedCom standard. Not only shall a Patient.name be included, it shall always be the patients official name, indicated by Patient.name:Official. Information about Patient.telecom, Patient.deceased, Patient.address and Patient.managingOrganization shall be included if the information is available in the sender system, given the minimum cardinality of 0. 
     * Given the maximum cardinality of * for Patient.identifier, Patient.name, Patient.telecom and Patient.address it is allowed to slice the element. For the element Patient.deceased it is only allowed to include the information once. 
 * **Type**: 
     * Describes the datatype of the element. Click on them for more information about the datatype. 
-    * One migth notice the type at the top of the elements says _DKCorePatient_, which means that the MedComCorePatient inherits from a Patient profile developed by the Danish HL7 affiliate. <a href="https://medcomdk.github.io/MedComLandingPage/assets/documents/NewToFHIR.html#how-does-inheritance-work-and-what-is-dkcore " target="_blank">You can read more about inheritance and the work for HL7-Denmark here.</a>
+    * One might notice the type at the top of the elements says _DKCorePatient_, which means that the MedComCorePatient profile inherits from a Patient profile developed by the Danish HL7 affiliate. <a href="https://medcomdk.github.io/MedComLandingPage/assets/documents/NewToFHIR.html#how-does-inheritance-work-and-what-is-dkcore " target="_blank">You can read more about inheritance and the work for HL7-Denmark here.</a>
 * **Description and Constraints**:
     * A short description of the element as well as rules associated with the element.
 <br>

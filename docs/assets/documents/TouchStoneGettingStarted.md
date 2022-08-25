@@ -1,6 +1,6 @@
 [Return](../../index.md)
 
-# Touchstone Getting started
+# TouchStone Getting started
 
 **Table of Contents**
 * [1 How to register](#1-how-to-register)
@@ -8,8 +8,8 @@
 <!-- * [3 Touchstone .NET client Demo](#3-touchstone-net-client-demo)
 * [4 Java FHIR client setup](#4-java-fhir-client-setup) -->
 
-This page presents an short introduction to the test tool called "Touchstone" used to perform test of MedCom FHIR standards.
-The introduction is divided in to two sections: the first section will contain information out how to register on "Touchstone", and the seccond section will contain information about how to run a testscript. 
+This page presents an short introduction to the test tool called "TouchStone" used to perform test of MedCom FHIR standards.
+The introduction is divided in to two sections: the first section will contain information out how to register on "TouchStone", and the seccond section will contain information about how to run a testscript. 
 
 
 
@@ -32,13 +32,13 @@ The introduction is divided in to two sections: the first section will contain i
 
 3. To get acces to MedCom testscrptis you need to be part of MedCom organization. Pleas click on the "Organizations" and then "Become a member" buttons (see <a href="#Fig3" target="_blank">Figure 3</a> )
 <figure>
-<img src="../images/become_member_menu" alt="Organization menu" style="width:50%" id="Fig3">
+<img src="../images/become_member_menu.png" alt="Organization menu" style="width:50%" id="Fig3">
 <figcaption text-align = "center"><b>Figure 3: Organization menu </b></figcaption>
 </figure>
 
 4. Tick the <i>"Become a member of an existing organization"</i>: and select MedCom (see <a href="#Fig4" target="_blank">Figure 4</a>  ). Send the request of being a member by hitting the Submit button. 
 <figure>
-<img src="../images/become_member_menu" alt="Become a member " style="width:50%" id="Fig3">
+<img src="../images/become_member.png" alt="Become a member " style="width:50%" id="Fig3">
 <figcaption text-align = "center"><b>Figure 3: Organization menu </b></figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ After the request has been submitted, you will need to wait for approval before 
 
 ## 2 How to run a Touchstone test script based on use cases
 
-For information regarding how to run a Touchstone test script, please refer to:
+To be able to run TouchStone scripFor information regarding how to run a Touchstone test script, please refer to:
 [http://svn.medcom.dk/svn/drafts/TestProcedurer/Touchstone/MedcomTouchstoneTest/Guide%20to%20the%20mtt.docx](http://svn.medcom.dk/svn/drafts/TestProcedurer/Touchstone/MedcomTouchstoneTest/Guide%20to%20the%20mtt.docx)
 
 

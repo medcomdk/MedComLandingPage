@@ -14,7 +14,6 @@ The introduction is divided in to two sections: the first section will contain i
 
 
 
-
 ## 1 How to register
 
 1. To register please go to <a href="https://touchstone.aegis.net/touchstone/" target="_blank">Touchstone</a> and click on Register link (see <a href="#Fig1" target="_blank">Figure 1</a>):

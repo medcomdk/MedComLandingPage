@@ -5,8 +5,9 @@
 **Table of Contents**
 * [1 How to register](#1-how-to-register)
 * [2 How to run a Touchstone test script based on use cases](#2-how-to-run-a-touchstone-test-script-based-on-use-cases)
-<!-- * [3 Touchstone .NET client Demo](#3-touchstone-net-client-demo)
-* [4 Java FHIR client setup](#4-java-fhir-client-setup) -->
+
+<!-- [3 Touchstone .NET client Demo](#3-touchstone-net-client-demo)
+ [4 Java FHIR client setup](#4-java-fhir-client-setup) -->
 
 This page presents an short introduction to the test tool called "TouchStone" used to perform test of MedCom FHIR standards.
 The introduction is divided in to two sections: the first section will contain information out how to register on "TouchStone", and the seccond section will contain information about how to run a testscript. 
@@ -43,17 +44,18 @@ The introduction is divided in to two sections: the first section will contain i
 
 4. Tick the <i>"Become a member of an existing organization"</i>: and select MedCom (see <a href="#Fig4" target="_blank">Figure 4</a>  ). Send the request of being a member by hitting the Submit button. 
     <figure>
-    <img src="../images/become_member.png" alt="Become a member " style="width:50%" id="Fig3">
-    <figcaption text-align = "center"><b>Figure 3: Organization menu </b></figcaption>
+    <img src="../images/become_member.png" alt=" " style="width:50%" id="Fig4">
+    <figcaption text-align = "center"><b>Figure 4: Application for membership  </b></figcaption>
     </figure>
 
 After the request has been submitted, you will need to wait for approval before you can execute tests in the system. As soon as we accept your organization you will be notified via email. Pleas check your Spam folder in your email system in case the emails get directed there. When you have received the approval you can go further to [section 2](#2-how-to-run-a-touchstone-test-script-based-on-use-cases). 
+
 <br>
 <br>
 
 ## 2 How to run a Touchstone test script based on use cases
 
-To be able to run TouchStone scripts you need to create a a For information regarding how to run a Touchstone test script, please refer to:
+1. To be able to run TouchStone scripts you need to create a a For information regarding how to run a Touchstone test script, please refer to:
 [http://svn.medcom.dk/svn/drafts/TestProcedurer/Touchstone/MedcomTouchstoneTest/Guide%20to%20the%20mtt.docx](http://svn.medcom.dk/svn/drafts/TestProcedurer/Touchstone/MedcomTouchstoneTest/Guide%20to%20the%20mtt.docx)
 
 

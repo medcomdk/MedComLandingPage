@@ -1,6 +1,7 @@
 [Return](../../index.md)
 
 # TouchStone Getting started
+<hr>
 
 **Table of Contents**
 * [1 How to register](#1-how-to-register)
@@ -9,27 +10,28 @@
 <!-- [3 Touchstone .NET client Demo](#3-touchstone-net-client-demo)
  [4 Java FHIR client setup](#4-java-fhir-client-setup) -->
 
-This page presents an short introduction to the test tool called "TouchStone" used to perform test of MedCom FHIR standards.The introduction is based on Touchstone own guides and is divided in two sections: the first section will contain information out how to register on "TouchStone", and the seccond section will contain information about how to run a testscript. 
+This page presents an short introduction to the test tool called "TouchStone" used to perform test of MedCom FHIR standards.The introduction is based on Touchstone own guides and is divided in two sections: the first section will contain information about how to register on "TouchStone", and the seccond section will contain information about how to run a testscript. 
 
 
 
 ## 1 How to register
 
-1. To register please go to <a href="https://touchstone.aegis.net/touchstone/login" target="_blank">Touchstone</a> and follow following <a href="https://touchstone.aegis.net/touchstone/userguide/html/registration-and-login/register.html" target= "_blank">steps</a>
+1. To register please go to <a href="https://touchstone.aegis.net/touchstone/login" target="_blank">Touchstone</a> and follow the following <a href="https://touchstone.aegis.net/touchstone/userguide/html/registration-and-login/register.html" target= "_blank">steps</a>
 
-2. To be able to acces the testscript you need to be a part of MedCom organization. To become a meber follow following <a href="https://touchstone.aegis.net/touchstone/userguide/html/registration-and-login/membership.html#become-a-member" target= "_blank">steps</a>
+2. You need to be a part of a MedCom organization, to be able to acces the testscript. To become a member, please follow the following <a href="https://touchstone.aegis.net/touchstone/userguide/html/registration-and-login/membership.html#become-a-member" target= "_blank">steps</a>
 
-> Note: After the request has been submitted, you will need to wait for approval before you can execute tests in the system. As soon as we accept your organization you will be notified via email. Pleas check your Spam folder in your email system in case the emails get directed there. When you have received the approval you can go further to [section 2](#2-how-to-run-a-touchstone-test-script-based-on-use-cases). 
+> Note: You need to wait until we accept your organization before you can run the test. As soon as we accept your organization, you will be notified via email. Pleas check your Spam folder in your email system in case the emails get directed there.
 <br>
 
 ## 2 How to run a Touchstone test script based on use cases
 
 1. To be able to run TouchStone testscripts you need to create a test system. Sign in to your TouchStone account click then on "Test system" button in the top menu and choose "New test". Follow then  two first steps in following  <a href="https://touchstone.aegis.net/touchstone/userguide/html/test-systems/creating.html" target="_blank">guide</a>. 
- >Note When creaiting a "Test system ", you need to choose wheather your system that you want to test schould act as 'origin' or 'destination.  
-2. Create Test setup by follow following <a href="https://touchstone.aegis.net/touchstone/userguide/html/executing-tests/test-setup.html" target="_blank">steps</a>. 
+ >Note When creaiting a "Test system ", you need to choose wheather your system that you want to test schould act as 'origin' or 'destination.
+
+2. Create then Test setup by follow the following <a href="https://touchstone.aegis.net/touchstone/userguide/html/executing-tests/test-setup.html" target="_blank">steps</a>. 
 <!-- 3. Ensure that you have a program that can build and use API to test   -->
-3. Know are you ready to perform test of your system. To Launch the a test execution  choose the testscript you want to test your system against and follow following<a href="https://touchstone.aegis.net/touchstone/userguide/html/executing-tests/test-execs.html" target="_blank">steps</a>.  
- 4. To read the test results you can take the following <a href="https://touchstone.aegis.net/touchstone/userguide/html/executing-tests/test-exec-results.html" target="_blank">steps</a>.
+3. Know you are ready to perform test of your system. To execute the test choose the testscript you want to test your system against and follow the following<a href="https://touchstone.aegis.net/touchstone/userguide/html/executing-tests/test-execs.html" target="_blank">steps</a>.  
+4. To read the test results you can take the following <a href="https://touchstone.aegis.net/touchstone/userguide/html/executing-tests/test-exec-results.html" target="_blank">steps</a>.
 
 
 

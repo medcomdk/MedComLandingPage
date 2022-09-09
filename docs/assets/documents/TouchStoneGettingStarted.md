@@ -18,9 +18,11 @@ This page presents an short introduction to the test tool called "TouchStone" us
 
 1. To register please go to <a href="https://touchstone.aegis.net/touchstone/login" target="_blank">Touchstone</a> and follow the following <a href="https://touchstone.aegis.net/touchstone/userguide/html/registration-and-login/register.html" target= "_blank">steps</a>
 
-2. You need to be a part of a MedCom organization, to be able to acces the testscript. To become a member, please follow the following <a href="https://touchstone.aegis.net/touchstone/userguide/html/registration-and-login/membership.html#become-a-member" target= "_blank">steps</a>
+2. To execute test you need to be a member of an organization. If your organization allready eksist assign to it.If you are the first user from your organization  <a href="to register into Touchstone, you can take the following steps:" target="_blank">to register into Touchstone, you can take the following steps. </a> 
 
-> Note: You need to wait until we accept your organization before you can run the test. As soon as we accept your organization, you will be notified via email. Pleas check your Spam folder in your email system in case the emails get directed there.
+3. You need to be a part of a MedCom OrgGroup, to be able to acces the testscript. To become a member, pleas send a request to please contact <a href="mailto:fhir@medcom.dk">fhir@medcom.dk</a>
+
+> Note: You need to wait until we accept your request before you can run the test. As soon as we accept your request, you will be notified via email. Pleas check your Spam folder in your email system in case the emails get directed there.
 <br>
 
 ## 2 How to run a Touchstone test script based on use cases

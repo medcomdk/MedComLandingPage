@@ -19,15 +19,15 @@ The purpose of this section is to give an introduction to MedCom's FHIR standard
 
 
 ## 1 FHIR Glossary
-<a href="https://www.hl7.org/fhir/" target="_blank">Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)</a> is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare-related information. FHIR defines several resources, often referred to as ‘building blocks’, each describing a delimited area within healthcare e.g., a Patient or an Encounter. These resources are generic and can therefore be used across the world. However, when using the resources in a specific context, such as communication between Danish healthcare parties, the resources need to be profiled to accommodate the use. The profiling could be to require at last name of a Patient. In some cases, it is necessary to extend the generic resources to fit the context e.g., to add a CPR-number as a patient identifier.
+<a href="https://www.hl7.org/fhir/" target="_blank">Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)</a> is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare-related information. FHIR defines several resources, often referred to as ‘building blocks’, each describing a delimited area within healthcare e.g., a Patient or an Encounter. These resources are generic and can therefore be used across the world. However, when using the resources in a specific context, such as communication between Danish healthcare parties, the resources need to be profiled to accommodate the use. The profiling could be to require the last name of a Patient. In some cases, it is necessary to extend the generic resources to fit the context e.g., to add a civil registration number (Dansk: CPR-nummer) as a patient identifier.
 
-When creating a MedCom FHIR standard, multiple profiles are assembled to include the information necessary to support the business requirements. Under the auspices of MedCom, these profiles will most often come from multiple Implementation Guides (IG). This decision is further addressed in the section [3.1 Why are there Multiple Implementation Guides?](#Why-are-there-multiple-implementation-guides) 
+When creating a MedCom FHIR standard, multiple profiles are assembled to include the information necessary to support the business requirements. Under the auspices of MedCom, these profiles will most often come from multiple Implementation Guides (IG). This decision is further addressed in  section [ Why are there Multiple Implementation Guides?](assets/documents/FAQ.md) that can be founded in the Frequen aked qestions page.  
 
-The first wave of MedComs modernization only includes messages, which means that there always shall be a sender and a receiver. However, the optimal format for a standard will be considered when modernizing the next wave of MedCom standards. Another relevant format could be to upload data as services or as documents where multiple receivers can get access to data or documents. If another exchange format is to be used, it is possible to reuse the profiles from the Core IG. This is an example of FHIRs reusability across. 
+The first wave of MedCom's modernisation only includes messages, which means that there must always be a sender and a receiver. However, the optimal format for a standard will be considered when modernizing the next wave of MedCom standards. Another relevant format could be to upload data as services or as documents where multiple receivers can get access to data or documents. If another exchange format is to be used, it is possible to reuse the profiles from the Core IG. This is an example of FHIR's reusability across. 
 
-In the table below you’ll find the most common terms and associated descriptions, and examples. These terms all describe a fundamental feature in FHIR, and they make the foundation to understand FHIR, and why they are presented initially.
+In the table below you will find the most common terms and associated descriptions and examples. These terms all describe a fundamental feature in FHIR, and they make the foundation to understand FHIR, and why they are presented initially.
 
-> Note: the table below uses FHIR-paths to describe exactly which element that is refered to. E.g Patient.name referres to the name-element in the Patient resource.
+> Note: the table below uses FHIRpaths to describe exactly which element referred to e.g. Patient.name refers to the nameelement in the Patient resource.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:65%;width:75%;}
@@ -93,7 +93,7 @@ In the table below you’ll find the most common terms and associated descriptio
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">CodeSystem</span></td>
     <td class="tg-t3tv">A collection of codes, which can be predetermined by HL7, from a international terminology or defined by the developer of the IG.</td>
-    <td class="tg-t3tv">Predetermined by HL7 e.g. <a href="http://hl7.org/fhir/valueset-administrative-gender.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">gender</span></a>, from a international terminology e.g. <a href="https://browser.ihtsdotools.org/?" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">SNOMED CT</span></a>, or defined by the developer of the IG e.g. <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication/CodeSystem-medcom-careCommunication-categoryCodes.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">categories </span></a>categories in a CareCommunication message.</td>
+    <td class="tg-t3tv">Predetermined by HL7 e.g. <a href="http://hl7.org/fhir/valueset-administrative-gender.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">gender</span></a>, from an international terminology e.g. <a href="https://browser.ihtsdotools.org/?" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">SNOMED CT</span></a>, or defined by the developer of the IG e.g. <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication/CodeSystem-medcom-careCommunication-categoryCodes.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">categories </span></a>categories in a CareCommunication message.</td>
   </tr>
   <tr>
     <td class="tg-az2b"><span style="font-weight:bold;background-color:#FFF">ValueSet</span></td>
@@ -128,14 +128,14 @@ If you are interested in understanding the basic content and the composition of 
 ## 3 More information
 
 ### 3.1 Webinars
-In 2022 MedCom has held a two webinars concerning the modernization of MedCom standards. Both webinars freely available and in Danish:
-* <a href="https://www.youtube.com/watch?v=8doBKskz3J8" target="_blank">FHIR-introduktionswebinar (17. maj 2022)</a>
-* <a href="https://www.youtube.com/watch?v=bfzx7U2Suug" target="_blank">FHIR demo-webinar med MedCom, Mjølner og Trifork (10 . februar 2022)</a>
+In 2022 MedCom has held  two webinars concerning the modernization of MedCom standards. Both webinars are free and available in Danish:
+* <a href="https://www.youtube.com/watch?v=8doBKskz3J8" target="_blank">FHIR-introductionswebinar (17. may 2022)</a>
+* <a href="https://www.youtube.com/watch?v=bfzx7U2Suug" target="_blank">FHIR demo-webinar with MedCom, Mjølner and Trifork (10 . february 2022)</a>
 <p>&nbsp;</p>
 
 ### 3.2 HL7 FHIR Documentation
 
-All FHIR documentation can be found at <a href="https://www.hl7.org/fhir/" target="_blank">www.hl7.org/fhir/</a>. Here you will find detailed describtions about basic principles, presentation to all resources and much more. 
+All FHIR documentation can be found at <a href="https://www.hl7.org/fhir/" target="_blank">www.hl7.org/fhir/</a>. Here you will find detailed descriptions about basic principles, presentations to all resources and much more. 
 
 <!-- ## 5 Release Notes
 

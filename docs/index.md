@@ -187,8 +187,8 @@ Here is what to do:
 <br>
 Please notice that you must have a GitHub account to be able to "watch" the repository.If you don't have a GitHub account, then create one at <a href="https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Corg-login%3E&source=header"> GitHub</a>
 
-## 7 Frequently asked qestions
-This section will contain frequent askead questions and answears to them.  
+## 7 Frequently asked questions
+In this section you will find descriptions that addresses som often asked questions.  
 [Click here to read frequently asked questions](assets/documents/FAQ.md)
 <!-- ## 6 Release Notes
 

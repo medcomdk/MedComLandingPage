@@ -7,7 +7,7 @@
   * [2.1 Standard documentation](#21-standard-documentation)
   * [2.2 Governance for MedCom HL7 FHIR®© Messaging](#22-governance-for-medcom-hl7-fhir-messaging) 
 * [3 Test and certification](#3-test-and-certification)
-* [4 Change mnagement and versioning](#4-change-management-and-versioning)
+* [4 Change management and versioning](#4-change-management-and-versioning)
   * [4.1 Versioning of FHIR standard](#41-versioning-of-fhir-standard)
   * [4.2 Change requests and improvements](#42-change-requests-and-improvements)
 * [5 New to FHIR?](#New-to-fhir)

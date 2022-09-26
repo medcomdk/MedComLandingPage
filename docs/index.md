@@ -20,7 +20,7 @@
 
 MedCom's modernisation project involves both rethinking business requirements and technical improvement. The modernisation is done in collaboration with MedCom's central partners. 
 
-On our website, <a href="https://www.medcom.dk/" target="_blank">medcom.dk </a>, the political and strategical aspects of the modernisation are described. These aspects involve the initial wave of modernisation including HospitalNotification (Danish: Sygehusadvis), CareCommunication (Danish: Korrespondancemeddelelse), and Acknowledgement (Danish: Kvittering) standards. Furthermore, you can finde descriptions of the gradual phase-out of the existing  standards (EDIFACT and OIOXML), the implementation plan for the initial wave and descriptions of the upcoming waves of modernisation.
+On our website, <a href="https://www.medcom.dk/standarder/modernisering-af-medcom-standarder/" target="_blank">medcom.dk </a>, the political and strategical aspects of the modernisation are described. These aspects involve the initial wave of modernisation including HospitalNotification (Danish: Sygehusadvis), CareCommunication (Danish: Korrespondancemeddelelse), and Acknowledgement (Danish: Kvittering) standards. Furthermore, you can finde descriptions of the gradual phase-out of the existing  standards (EDIFACT and OIOXML), the implementation plan for the initial wave and descriptions of the upcoming waves of modernisation.
 
 The purpose of this site is to describe both the business and technical implementation of the requirements for each standard. The aim of this page is to guide you to find more information about each standard. 
 <p>&nbsp;</p>
@@ -34,14 +34,16 @@ Lastly, the terminology codes (Danish: terminologi), including all CodeSystems, 
 Currently, there are three FHIR standards: HospitalNotification, CareCommunication, and Acknowledgement, which are all composed of profiles from the Core and Messaging IG as well as the IG for the specific standard, and codes from the Terminology IG. 
 
 Due to the above mentioned, the <a href="#Tab1" target="_blank"> Table 1</a> is divided into three parts: 
-1. The upper part describes the standards and their business requirements.  
-2. The middle part describes the terminology used in the standards.
-3. The lower part describes the profiles used across standards. 
+1. The upper part describes the MedCom FHIR standards and their business requirements.  
+2. The middle part describes the terminology used in the MedCom FHIR standards.
+3. The lower part describes the profiles used across MedCom FHIR standards. 
 
 <br>
 Over time, the modernised FHIR standards will replace the existing MedCom standards. HospitalNotification replaces 
+<a href="https://svn.medcom.dk/svn/releases/Standarder/Det%20gode%20kommuneadvis/EDI/Dokumentation/" target="_blank">DIS17</a>/
 <a href="https://svn.medcom.dk/svn/releases/Standarder/Det%20gode%20kommuneadvis/XDIS17/Dokumentation/" target="_blank">XDIS17</a> and
-<a href="https://svn.medcom.dk/svn/releases/Standarder/Det%20gode%20kommuneadvis/XDIS20/Dokumentation/" target="_blank">XDIS20</a>, CareCommunication replaces 
+<a href="https://svn.medcom.dk/svn/releases/Standarder/Det%20gode%20kommuneadvis/EDI/Dokumentation/" target="_blank">DIS20</a>/
+<a href="https://svn.medcom.dk/svn/releases/Standarder/Det%20gode%20kommuneadvis/XDIS20/Dokumentation/" target="_blank">XDIS20</a>. CareCommunication replaces 
 <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20korrespondance/EDI/Dokumentation/" target="_blank">DIS91 </a> and <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20korrespondance/XML/Dokumentation/" target="_blank">XDIS91 </a> and Acknowledgement replaces <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/EDI/Dokumentation/" target="_blank">CTL01 </a>
 and <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTL01 </a>.
 

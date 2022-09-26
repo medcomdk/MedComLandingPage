@@ -15,14 +15,14 @@
 * [7 Frequently asked questions](#7-frequently-asked-questions)
 <hr/>
 
-> Note: Clinical guidelines and use case documents are in both Danish and English. All the remaining documentation will be in English.
+> Note: Clinical guidelines and use case documents are available in both Danish and English. All the remaining documentation will be in English.
 <p>&nbsp;</p>
 
 MedCom's modernisation project involves both rethinking business requirements and technical improvement. The modernisation is done in collaboration with MedCom's central partners. 
 
 On our website, <a href="https://www.medcom.dk/" target="_blank">medcom.dk </a>, the political and strategical aspects of the modernisation are described. These aspects involve the initial wave of modernisation including HospitalNotification (Danish: Sygehusadvis), CareCommunication (Danish: Korrespondancemeddelelse), and Acknowledgement (Danish: Kvittering) standards. Furthermore, you can finde descriptions of the gradual phase-out of the existing  standards (EDIFACT and OIOXML), the implementation plan for the initial wave and descriptions of the upcoming waves of modernisation.
 
-The purpose of this site is to describe both the business s and technical implementation of the requirements for each standard. The aim of this page is to guide you to fine more information about each standard. 
+The purpose of this site is to describe both the business and technical implementation of the requirements for each standard. The aim of this page is to guide you to find more information about each standard. 
 <p>&nbsp;</p>
 
 ## 1 MedCom's FHIR standards
@@ -33,11 +33,12 @@ Some profiles are specific for a standard, which is why these are gathered in th
 Lastly, the terminology codes (Danish: terminologi), including all CodeSystems, ValueSet, and ConceptMaps are gathered in the Terminology IG.
 Currently, there are three FHIR standards: HospitalNotification, CareCommunication, and Acknowledgement, which are all composed of profiles from the Core and Messaging IG as well as the IG for the specific standard, and codes from the Terminology IG. 
 
-Due to the above mentioned, the table below is divided into three parts: 
+Due to the above mentioned, the <a href="Tab1" target="_blank"> Table 1</a> table  below is divided into three parts: 
 1. The upper part describes the profiles used across standards. 
 2. The middle part describes the standards and their business requirements.
 3. The lower part describes the terminology used in the standards. 
 
+<br>
 Over time, the modernised FHIR standards will replace the existing MedCom standards. HospitalNotification replaces 
 <a href="https://svn.medcom.dk/svn/releases/Standarder/Det%20gode%20kommuneadvis/XDIS17/Dokumentation/" target="_blank">XDIS17</a> and
 <a href="https://svn.medcom.dk/svn/releases/Standarder/Det%20gode%20kommuneadvis/XDIS20/Dokumentation/" target="_blank">XDIS20</a>, CareCommunication replaces 
@@ -57,7 +58,7 @@ The links to the webpage presentations of the standards can be found in the tabl
 .tg .tg-1ady{background-color:#9dbad7;border-color:#000000;color:#333333;text-align:left;vertical-align:top}
 .tg .tg-on52{border-color:#000000;color:#333333;text-align:left;vertical-align:top}
 </style>
-<table class="tg" style="undefined;table-layout: fixed; width: 942px">
+<table class="tg" style="undefined;table-layout: fixed; width: 942px"id="Tab1">
 <caption style="color:#2c415c;font-weight:bold"> Table 1: Overview of the modernised FHIR standards </caption>
 <colgroup>
 <col style="width: 138.88889px">
@@ -74,21 +75,6 @@ The links to the webpage presentations of the standards can be found in the tabl
   </tr>
 </thead>
 <tbody>
-  <tr>
-    <td class="tg-1ady" colspan="4"><span style="font-style:italic">Generic profiles used across standards</span></td>
-  </tr>
-  <tr>
-    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-core/" rel="noopener noreferrer"><span style="text-decoration:none">Core</span></a></td>
-    <td class="tg-on52">Kerneprofiler</td>
-    <td class="tg-on52">Core profiles that are static and used across standards.</td>
-    <td class="tg-on52"></td>
-  </tr>
-  <tr>
-    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-messaging/" rel="noopener noreferrer"><span style="text-decoration:none">Messaging</span></a></td>
-    <td class="tg-on52">Medddelsesprofiler</td>
-    <td class="tg-on52">Messaging profiles used across all messaging-based standards.</td>
-    <td class="tg-on52"></td>
-  </tr>
   <tr>
     <td class="tg-1ady" colspan="4"><span style="font-style:italic">MedCom's FHIR standards</span></td>
   </tr>
@@ -117,6 +103,21 @@ The links to the webpage presentations of the standards can be found in the tabl
     <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-terminology/" rel="noopener noreferrer"><span style="text-decoration:none">Terminology </span></a></td>
     <td class="tg-on52">Terminologi</td>
     <td class="tg-on52">Includes CodeSystem, ValueSet and ConceptMaps developed by MedCom used in the standards</td>
+    <td class="tg-on52"></td>
+  </tr>
+   <tr>
+    <td class="tg-1ady" colspan="4"><span style="font-style:italic">Generic profiles used across standards</span></td>
+  </tr>
+  <tr>
+    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-core/" rel="noopener noreferrer"><span style="text-decoration:none">Core</span></a></td>
+    <td class="tg-on52">Kerneprofiler</td>
+    <td class="tg-on52">Core profiles that are static and used across standards.</td>
+    <td class="tg-on52"></td>
+  </tr>
+  <tr>
+    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-messaging/" rel="noopener noreferrer"><span style="text-decoration:none">Messaging</span></a></td>
+    <td class="tg-on52">Medddelsesprofiler</td>
+    <td class="tg-on52">Messaging profiles used across all messaging-based standards.</td>
     <td class="tg-on52"></td>
   </tr>
 </tbody>

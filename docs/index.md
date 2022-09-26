@@ -10,8 +10,8 @@
 * [4 Change management and versioning](#4-change-management-and-versioning)
   * [4.1 Versioning of FHIR standard](#41-versioning-of-fhir-standard)
   * [4.2 Change requests and improvements](#42-change-requests-and-improvements)
-* [5 New to FHIR?](#New-to-fhir)
-* [6 Wanna stay updated?](#Wanna-stay-updated)
+* [5 Wanna stay updated?](#Wanna-stay-updated)
+* [6 New to FHIR?](#New-to-fhir)
 * [7 Frequently asked questions](#7-frequently-asked-questions)
 <hr/>
 
@@ -134,8 +134,12 @@ The messaging framework and the VANS Network are described as governance, previo
 <br>
 
 ### 2.1 Standard documentation
-The purpose of the standard documentation is to describe the context in which a standard should be used and which requirements the standard should fulfil. An implementation guide, use cases, clinical guidelines for application and testprotocols will be available for all standards.Furthermore, some additional documents might be available to support implementation, such as a mapping document. Standard documentation is only provided for the standards, HospitalNotification, CareCommunication and Acknowledgement, and thus not for the generic core or messaging IG’s.
-The Standard documentation consists of: 
+The purpose of the standard documentation is to describe the context in which a standard should be used and which requirements the standard should fulfil. Standard documentation is only provided for the Medcom's FHIR standards and thus not for the generic Core or Messaging Profiles.The content of the standard documentation can vary between the standards. 
+
+<!-- An implementation guide, use cases, clinical guidelines for application and testprotocols will be available for all standards -->
+
+<!-- .Furthermore, some additional documents might be available to support implementation, such as a mapping document.  -->
+The Standard documentation can can consists of: 
 * **Implementation Guide**: the technical specifications of the standard.
 * **Clinical guidelines for appliccation**: the clinical consideration behind the modernisation.
 * **Use cases**: the intended use of the standard.
@@ -144,7 +148,7 @@ The Standard documentation consists of:
 <p>&nbsp;</p>
 
 ### 2.2 Governance for MedCom HL7 FHIR Messaging
-The governance is important to understand before implementing a MedCom FHIR standard, as it describes the Danish profiling of the FHIR messaging framework and the network layer, which is the VANS network at present. Since the existing VANS network is used to deliver messages, messages must be sent in a VANSenvelope unless otherwise specified. A receipt may be sent to a VANSenvelope or another receipt envelope, e.g. "KOMBITs BeskedFordeler" envelope. <br>
+The governance is important to understand before implementing a MedCom FHIR standard, as it describes the Danish profiling of the FHIR messaging framework and the network layer, which is the VANS network at present. Since the existing VANS network is used to deliver messages, messages must be sent in a VANSenvelope unless otherwise specified. A receipt may be sent to a VANSenvelope or another receipt envelope, e.g. "Fælleskommunal Beskedfordeler" envelope. <br>
 <a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank"> Click here to get more information about governance.</a>  
 <p>&nbsp;</p>
 
@@ -175,12 +179,8 @@ Stakeholders and vendors are alway welcome to submit requests for changes or imp
 Based on an analysis of the severity of the request, MedCom decides if the changes should be implemented and thus change the version of the artefact or IG to reflect the changes.  
 <p>&nbsp;</p>
 
-## 5 New to FHIR? {#New-to-fhir}
-This section aims to give a brief introduction to MedCom's FHIR universe. The introduction is aimed at stakeholders with no or limited knowledge about FHIR. The section will take you through the most common terminology used throughout the FHIR pages. Additionally, it introduces a step-by-step guide which guides you through an IG and can be used as a starting point to understand an IG and its structure. Furthermore some of the frequently asked questions are addressed. If more questions appear you are more than welcome to contact MedCom. You can find contact information at the bottom of the page. Lastly, the introduction includes links to HL7 FHIR pages describing, in more detail, what FHIR is and how it can be used. Here, you can also find, previous webinars held by MedCom. <br>
-[Click here to get a short introduction to FHIR and how to read an Implementation Guide.](assets/documents/NewToFHIR.md) 
-<p>&nbsp;</p>
 
-## 6 Want to stay updated? {#Wanna-stay-updated}
+## 5 Want to stay updated? {#Wanna-stay-updated}
 It is possible to be notified about the latest changes in the standard documentation.
 Here is what to do:
 1. Go to the <a href="https://github.com/medcomdk ">medcom GitHub repository</a>
@@ -190,7 +190,12 @@ Here is what to do:
 
 >Please notice that you must have a GitHub account to be able to "watch" the repository.If you don't have a GitHub account, then create one at <a href="https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Corg-login%3E&source=header"> GitHub</a>
 
+## 6 New to FHIR? {#New-to-fhir}
+This section aims to give a brief introduction to MedCom's FHIR universe. The introduction is aimed at stakeholders with no or limited knowledge about FHIR. The section will take you through the most common terminology used throughout the FHIR pages. Additionally, it introduces a step-by-step guide which guides you through an IG and can be used as a starting point to understand an IG and its structure. Furthermore some of the frequently asked questions are addressed. If more questions appear you are more than welcome to contact MedCom. You can find contact information at the bottom of the page. Lastly, the introduction includes links to HL7 FHIR pages describing, in more detail, what FHIR is and how it can be used. Here, you can also find, previous webinars held by MedCom. <br>
+[Click here to get a short introduction to FHIR and how to read an Implementation Guide.](assets/documents/NewToFHIR.md) 
+<p>&nbsp;</p>
+
 ## 7 Frequently asked questions
-In this section you will find descriptions that addresses some often asked questions.  
+In this section you will find descriptions that addresses some often asked questions about MedCom's FHIR universe.  
 [Click here to read frequently asked questions](assets/documents/FAQ.md)
 

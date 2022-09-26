@@ -20,7 +20,7 @@
 
 MedCom's modernisation project involves both rethinking business requirements and technical improvement. The modernisation is done in collaboration with MedCom's central partners. 
 
-On our website, <a href="https://www.medcom.dk/" target="_blank">medcom.dk </a>, the political and strategical aspects of the modernisation are described. These aspects involve the initial wave of modernisation including HospitalNotification (Dansk: Sygehusadvis), CareCommunication (Dansk: Korrespondancemeddelelse), and Acknowledgement (Dansk: Kvittering). Furthermore, you can finde descriptions of the gradual phase-out of the existing  standards (EDIFACT and OIOXML), the implementation plan for the initial wave and descriptions of the upcoming waves of modernisation.
+On our website, <a href="https://www.medcom.dk/" target="_blank">medcom.dk </a>, the political and strategical aspects of the modernisation are described. These aspects involve the initial wave of modernisation including HospitalNotification (Danish: Sygehusadvis), CareCommunication (Danish: Korrespondancemeddelelse), and Acknowledgement (Danish: Kvittering) standards. Furthermore, you can finde descriptions of the gradual phase-out of the existing  standards (EDIFACT and OIOXML), the implementation plan for the initial wave and descriptions of the upcoming waves of modernisation.
 
 The purpose of this site is to describe both the business s and technical implementation of the requirements for each standard. The aim of this page is to guide you to fine more information about each standard. 
 <p>&nbsp;</p>
@@ -28,14 +28,14 @@ The purpose of this site is to describe both the business s and technical implem
 ## 1 MedCom's FHIR standards
 The business requirements describe the context in which a standard should be used, and they are presented on a webpage for each standard.
 For a MedCom FHIR standard, the technical implementation is presented in an Implementation Guide (IG). An IG includes several rules, extensions, profiles and more. Each profile describes a delimited area within healthcare e.g., a patient, an organisation, or an encounter.
-Some of the profiles are often used across standards. An example is the patient profile which includes the most central information about a patient or citizen, such as the civil registration number (Dansk:CPR-nummer) or name. These types of profiles are called core profiles (Dansk: kerneprofiler) and are gathered in the Core IG. Additionally, some profiles are often used when defining a message. These profiles are called messaging profiles and are gathered in the Messaging IG. 
+Some of the profiles are often used across standards. An example is the patient profile which includes the most central information about a patient or citizen, such as the civil registration number (Danish:CPR-nummer) or name. These types of profiles are called core profiles (Danish: kerneprofiler) and are gathered in the Core IG. Additionally, some profiles are often used when defining a message. These profiles are called messaging profiles(Danish: meddelelsesprofiler) and are gathered in the Messaging IG. 
 Some profiles are specific for a standard, which is why these are gathered in the respective IG. 
-Lastly, the terminology codes, including all CodeSystems, ValueSet, and ConceptMaps are gathered in the Terminology IG.
+Lastly, the terminology codes (Danish: terminologi), including all CodeSystems, ValueSet, and ConceptMaps are gathered in the Terminology IG.
 Currently, there are three FHIR standards: HospitalNotification, CareCommunication, and Acknowledgement, which are all composed of profiles from the Core and Messaging IG as well as the IG for the specific standard, and codes from the Terminology IG. 
 
 Due to the above mentioned, the table below is divided into three parts: 
 1. The upper part describes the profiles used across standards. 
-2. The middle part describes the profiles, which are specific for a standard, as well as the business requirements for a standard.
+2. The middle part describes the standards and their business requirements.
 3. The lower part describes the terminology used in the standards. 
 
 Over time, the modernised FHIR standards will replace the existing MedCom standards. HospitalNotification replaces 

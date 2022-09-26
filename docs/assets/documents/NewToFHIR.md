@@ -4,14 +4,14 @@
 # New to FHIR?
 
 **Table of contents**
-- [1 FHIR Glossary](#1-fhir-glossary)
-- [2 How to Read a MedCom Implementation Guide](#2-how-to-read-a-medcom-implementation-guide)
+- [1 FHIR glossary](#1-fhir-glossary)
+- [2 How to read a MedCom Implementation Guide](#2-how-to-read-a-medcom-implementation-guide)
 <!-- - [3 Frequently asked questions](#3-frequently-asked-qestions)
   - [3.1 Why are there Multiple Implementation Guides?](#Why-are-there-multiple-implementation-guides)
   - [3.2 How does Inheritance Work and What is DKCore?](#how-does-inheritance-work-and-what-is-dkcore) -->
 - [4 More information](#4-more-information)
   * [4.1 Webinars](#41-webinars)
-  * [4.2 HL7 FHIR Documentation](#42-hl7-fhir-documentation)
+  * [4.2 HL7 FHIR documentation](#42-hl7-fhir-documentation)
 <!-- - [5 Release Notes](#5-release-notes) -->
 <hr/>
 
@@ -19,7 +19,7 @@ The purpose of this section is to give an introduction to MedCom's FHIR standard
 
 
 ## 1 FHIR Glossary
-<a href="https://www.hl7.org/fhir/" target="_blank">Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)</a> is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare-related information. FHIR defines several resources, often referred to as ‘building blocks’, each describing a delimited area within healthcare e.g., a Patient or an Encounter. These resources are generic and can therefore be used across the world. However, when using the resources in a specific context, such as communication between Danish healthcare parties, the resources need to be profiled to accommodate the use. The profiling could be to require the last name of a Patient. In some cases, it is necessary to extend the generic resources to fit the context e.g., to add a civil registration number (Dansk: CPR-nummer) as a patient identifier.
+<a href="https://www.hl7.org/fhir/" target="_blank">Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)</a> is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare-related information. FHIR defines several resources, often referred to as ‘building blocks’, each describing a delimited area within healthcare e.g., a Patient or an Encounter. These resources are generic and can therefore be used across the world. However, when using the resources in a specific context, such as communication between Danish healthcare parties, the resources need to be profiled to accommodate the use. The profiling could be to require the last name of a Patient. In some cases, it is necessary to extend the generic resources to fit the context e.g., to add a civil registration number (Danish: CPR-nummer) as a patient identifier.
 
 When creating a MedCom FHIR standard, multiple profiles are assembled to include the information necessary to support the business requirements. Under the auspices of MedCom, these profiles will most often come from multiple Implementation Guides (IG). This decision is further addressed in  section [ Why are there Multiple Implementation Guides?](assets/documents/FAQ.md) that can be founded in the Frequen aked qestions page.  
 

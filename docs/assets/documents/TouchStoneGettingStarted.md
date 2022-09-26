@@ -1,6 +1,6 @@
 [Return](../../index.md)
 
-# TouchStone Getting started
+# TouchStone getting started
 <hr>
 
 **Table of contents**

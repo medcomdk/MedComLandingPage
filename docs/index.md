@@ -33,7 +33,7 @@ Some profiles are specific for a standard, which is why these are gathered in th
 Lastly, the terminology codes (Danish: terminologi), including all CodeSystems, ValueSet, and ConceptMaps are gathered in the Terminology IG.
 Currently, there are three FHIR standards: HospitalNotification, CareCommunication, and Acknowledgement, which are all composed of profiles from the Core and Messaging IG as well as the IG for the specific standard, and codes from the Terminology IG. 
 
-Due to the above mentioned, the <a href="Tab1" target="_blank"> Table 1</a> is divided into three parts: 
+Due to the above mentioned, the <a href="#Tab1" target="_blank"> Table 1</a> is divided into three parts: 
 1. The upper part describes the standards and their business requirements.  
 2. The middle part describes the terminology used in the standards.
 3. The lower part describes the profiles used across standards. 
@@ -45,7 +45,7 @@ Over time, the modernised FHIR standards will replace the existing MedCom standa
 <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20korrespondance/EDI/Dokumentation/" target="_blank">DIS91 </a> and <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20korrespondance/XML/Dokumentation/" target="_blank">XDIS91 </a> and Acknowledgement replaces <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/EDI/Dokumentation/" target="_blank">CTL01 </a>
 and <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTL01 </a>.
 
-The links to the webpage presentations of the standards can be found in the <a href="Tab1" target="_blank"> Table 1</a>. On the webpages, you can find the links to the IG and other relevant information.
+The links to the webpage presentations of the standards can be found in the <a href="#Tab1" target="_blank"> Table 1</a>. On the webpages, you can find the links to the IG and other relevant information.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0; width:75%;}

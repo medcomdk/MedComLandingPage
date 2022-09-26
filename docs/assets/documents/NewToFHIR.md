@@ -6,12 +6,9 @@
 **Table of contents**
 - [1 FHIR glossary](#1-fhir-glossary)
 - [2 How to read a MedCom Implementation Guide](#2-how-to-read-a-medcom-implementation-guide)
-<!-- - [3 Frequently asked questions](#3-frequently-asked-qestions)
-  - [3.1 Why are there Multiple Implementation Guides?](#Why-are-there-multiple-implementation-guides)
-  - [3.2 How does Inheritance Work and What is DKCore?](#how-does-inheritance-work-and-what-is-dkcore) -->
-- [4 More information](#4-more-information)
-  * [4.1 Webinars](#41-webinars)
-  * [4.2 HL7 FHIR documentation](#42-hl7-fhir-documentation)
+- [3 More information](#3-more-information)
+  * [3.1 Webinars](#31-webinars)
+  * [3.2 HL7 FHIR documentation](#32-hl7-fhir-documentation)
 <!-- - [5 Release Notes](#5-release-notes) -->
 <hr/>
 
@@ -25,9 +22,9 @@ When creating a MedCom FHIR standard, multiple profiles are assembled to include
 
 The first wave of MedCom's modernisation only includes messages, which means that there must always be a sender and a receiver. However, the optimal format for a standard will be considered when modernizing the next wave of MedCom standards. Another relevant format could be to upload data as services or as documents where multiple receivers can get access to data or documents. If another exchange format is to be used, it is possible to reuse the profiles from the Core IG. This is an example of FHIR's reusability across. 
 
-In the table below you will find the most common terms and associated descriptions and examples. These terms all describe a fundamental feature in FHIR, and they make the foundation to understand FHIR, and why they are presented initially.
+In the <a href="#Tab1">Table 1</a>  you will find the most common terms and associated descriptions and examples. These terms all describe a fundamental feature in FHIR, and they make the foundation to understand FHIR, and why they are presented initially.
 
-> Note: the table below uses FHIRpaths to describe exactly which element referred to e.g. Patient.name refers to the nameelement in the Patient resource.
+> Note: the <a href="#Tab1">Table 1</a>  uses FHIR-paths to describe exactly which element is referred to e.g. Patient.name refers to the nameelement in the Patient resource.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:65%;width:75%;}
@@ -42,8 +39,8 @@ In the table below you will find the most common terms and associated descriptio
 .tg .tg-cxm4{color:#333333;font-weight:bold;text-align:left;vertical-align:top}
 .tg .tg-4m1j{color:#333333;text-align:left;text-decoration:underline;vertical-align:top}
 </style>
-<table class="tg">
-<caption style="color:#2c415c;font-weight:bold">Most used terms in FHIR</caption>
+<table class="tg" id="Tab1">
+<caption style="color:#2c415c;font-weight:bold">Table 1: Most used terms in MedCom's FHIR universe</caption>
 <thead>
   <tr>
     <th class="tg-316y">Term</th>
@@ -120,7 +117,7 @@ In the table below you will find the most common terms and associated descriptio
 <br>
 <br>
 
-## 2 How to Read a MedCom Implementation Guide
+## 2 How to read a MedCom Implementation Guide
 If you are interested in understanding the basic content and the composition of an IG, you can follow this [step-by-step guide](FHIRImplementationGuide.md).
 
 

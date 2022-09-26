@@ -58,7 +58,7 @@ The links to the webpage presentations of the standards can be found in the tabl
 .tg .tg-1ady{background-color:#9dbad7;border-color:#000000;color:#333333;text-align:left;vertical-align:top}
 .tg .tg-on52{border-color:#000000;color:#333333;text-align:left;vertical-align:top}
 </style>
-<table class="tg" style="undefined;table-layout: fixed; width: 942px"id="Tab1">
+<table class="tg" style="undefined;table-layout: fixed; width: 942px" id="Tab1">
 <caption style="color:#2c415c;font-weight:bold"> Table 1: Overview of the modernised FHIR standards </caption>
 <colgroup>
 <col style="width: 138.88889px">
@@ -86,7 +86,7 @@ The links to the webpage presentations of the standards can be found in the tabl
   </tr>
   <tr>
     <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-hospitalnotification/" rel="noopener noreferrer"><span style="text-decoration:none">HospitalNotification</span></a></td>
-    <td class="tg-on52"><span style="background-color:#FFF">Sygehusadvis</span></td>
+    <td class="tg-on52"><span style="background-color:#FFF">Advis om sygehusophold</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Used to inform municipalities about hospitalization of a patient</span></td>
     <td class="tg-on52"> Version 1.0</td>
   </tr>

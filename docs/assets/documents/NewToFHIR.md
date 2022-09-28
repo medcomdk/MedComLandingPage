@@ -55,16 +55,11 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
     <td class="tg-t3tv"> <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/">Acknowledgement IG </a>, 
     <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-hospitalnotification/index.html">HospitalNotification IG </a>, 
     <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication/StructureDefinition-medcom-careCommunication-communication.html">CareCommunication IG </a>, 
-    <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/">Terminology IG </a>, 
-    <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/">Core IG </a>, 
-    <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/">Messagaging IG </a>, 
+    <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/">Terminology IG </a>,<br> 
+    <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/">Core IG</a>,<br> 
+    <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/">Messagaging IG </a> 
 
     </td>
-  </tr>
-  <tr>
-    <td class="tg-cxm4"><span style="font-weight:bold">Resources</span></td>
-    <td class="tg-t3tv">FHIR consists of generic resources, each describing a clinically delimited area. Resources are 'building blocks' defined by HL7.</td>
-    <td class="tg-t3tv">A Patient resource, an Allergy resource, an Observation resource, an Encounter resource ect.</td>
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">Element</span></td>
@@ -83,6 +78,16 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
     </ul>
     </td>
     <td class="tg-t3tv">In the generic resource <I>Patient.name</I> has the cardinality 0..*, meaning a patient may have zero or more names.<br>In the generic resource <I>Encounter.status</I> has the cardinality 1..1, meaning that a status always shall appear, and in may only appear once.</td>
+  </tr>
+   <tr>
+    <td class="tg-cxm4"><span style="font-weight:bold">Resources</span></td>
+    <td class="tg-t3tv">FHIR consists of generic resources, each describing a clinically delimited area. Resources are 'building blocks' defined by HL7.</td>
+    <td class="tg-t3tv">A Patient resource, an Allergy resource, an Observation resource, an Encounter resource ect.</td>
+  </tr>
+   <tr>
+    <td class="tg-cxm4"><span style="font-weight:bold">Profile</span></td>
+    <td class="tg-t3tv">FHIR profile is a set of specified constrains and/or extensions on the base resource</td>
+    <td class="tg-t3tv"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/profiles.html">MedComMessaging profiles </a>, <br> <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/profiles.html">MedComCore profiles</a> </td>
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">Profiling</span></td>

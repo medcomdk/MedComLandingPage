@@ -1,7 +1,7 @@
 [Return](NewToFHIR.md)
 
 # Step-by-Step Guide
-This step-by-step guide aims to explain the basic content and the composition of an IG. The guide is based on the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>. 
+This step-by-step guide aims to present the basic content and the composition of an IG. Furthermore the guide aims to explain the structure of the MedCom FHIR profiles. The guide is based on the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>. 
 
 ## Step 1
  Go to <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/" target="_blank">MedCom Core IG</a>.

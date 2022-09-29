@@ -49,7 +49,7 @@ Over time, the modernised FHIR standards will replace the existing MedCom standa
 The links to the webpage presentations of the standards can be found in the <a href="#Tab1"> Table 1</a>. On the webpages, you can find the links to the IG and other relevant information.
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0; width:75%;}
+.tg  {border-collapse:collapse;border-spacing:0; width:50%;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;

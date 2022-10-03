@@ -1,6 +1,4 @@
 # Welcome to MedCom's FHIR®© standards
-<hr/>
-
 **Table of contents**
 * [1 MedComs FHIR standards](#1-medcoms-fhir-standards)
 * [2 Implementing a MedCom FHIR standard](#2-implementing-a-medcom-fhir-standard)
@@ -13,7 +11,6 @@
 * [5 Wanna stay updated?](#Wanna-stay-updated)
 * [6 New to FHIR?](#New-to-fhir)
 * [7 Frequently asked questions](#7-frequently-asked-questions)
-<hr/>
 
 > Note: Clinical guidelines and use case documents are available in both Danish and English. All the remaining documentation will be in English.
 <p>&nbsp;</p>

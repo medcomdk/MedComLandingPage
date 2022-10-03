@@ -1,5 +1,5 @@
 [Return](../../index.md)
-<hr/> 
+
 
 # New to FHIR?
 
@@ -10,7 +10,6 @@
   * [3.1 Webinars](#31-webinars)
   * [3.2 HL7 FHIR documentation](#32-hl7-fhir-documentation)
 <!-- - [5 Release Notes](#5-release-notes) -->
-<hr/>
 
 The purpose of this section is to give an introduction to MedCom's FHIR standards to stakeholders with no or limited knowledge about FHIR. On this page, you will find a brief introduction to the most frequently used terms and guidance to more information about FHIR and MedComs FHIR standards. 
 

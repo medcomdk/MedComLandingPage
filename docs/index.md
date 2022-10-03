@@ -155,7 +155,7 @@ The governance is important to understand before implementing a MedCom FHIR stan
 ## 3 Test and certification
 Before using the implemented standard in a production environment to exchange patient data, it must be tested and certified by MedCom to ensure it fulfils the requirements. In addition to the usual <a href="https://www.medcom.dk/standarder/testcenter" target="_blank">MedCom test setup</a> with a self test and live test, <a href="https://touchstone.aegis.net/touchstone/" target="_blank">TouchStone</a> is used as a tool to validate FHIR messages sent in different use cases.
 
-TouchStone describes an infrastructure that allows for automated tests against HL7 FHIR. For each FHIR standard MedCom will develope testscripts,that will be available on Touchstone. Thease test scripts can be used  both during implementation and as a part of the test and certification, which is helpful to automate the testing. <br>
+TouchStone describes an infrastructure that allows for automated tests against HL7 FHIR. For each FHIR standard MedCom will develope testscripts,that will be available on Touchstone. Thease test scripts can be used both during implementation and as a part of the test and certification. <br>
 [Click here to get started with TouchStone](assets/documents/TouchStoneGettingStarted.md)
 <p>&nbsp;</p>
 
@@ -172,7 +172,7 @@ If a document or an IG has an extra number eg. 2.1.4-a.1 it is a prerelease and 
 ### 4.2 Change requests and improvements
 Stakeholders and vendors are alway welcome to submit requests for changes or improvements to the IG or other documentation. 
 * If the request concerns the IG, it is possible to: 
-  1. submit an issue to the relevant GitHub repository
+  1. submit an issue to the relevant <a href="https://github.com/medcomdk ">MedCom GitHub repository</a>
   2. write an email to <a href="mailto:fhir@medcom.dk">fhir@medcom.dk</a> describing the request
 * If the request concerns other documentation, please write an email to <a href="mailto:fhir@medcom.dk">fhir@medcom.dk</a>. 
 <br>
@@ -183,7 +183,7 @@ Based on an analysis of the severity of the request, MedCom decides if the chang
 ## 5 Want to stay updated? {#Wanna-stay-updated}
 It is possible to be notified about the latest changes in the standard documentation.
 Here is what to do:
-1. Go to the <a href="https://github.com/medcomdk ">medcom GitHub repository</a>
+1. Go to the <a href="https://github.com/medcomdk ">MedCom GitHub repository</a>
 2. Choose the repository that you want to receive information about 
 3. Choose the “watch” button in the right upper corner.  
 <br>

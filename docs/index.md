@@ -161,9 +161,15 @@ TouchStone describes an infrastructure that allows for automated tests against H
 ### 4.1 Versioning of FHIR standard
 MedComs FHIR standards follow the <a href="https://semver.org/" target="_blank">semantic versioning, version 2.0</a>, which is adjusted to the workflow in MedCom. Each document, such as the clinical guidelines, use cases or other documentation, will have a version and a release note, to keep track of the changes in the document. The IG will have one version that covers all the artefacts.
 
-Semantic versioning includes three numbers,which are separated by a dot, e.g. 2.1.4. The numbers are called <i>major.minor.patch</i>,which represent different degrees of changes. The major and minor versions are  recorded  in  <a href="https://sundhedsdatastyrelsen.dk/da/rammer-og-retningslinjer/om-referencearkitektur-og-standarder/udvalg" target="_blank">Det Rådgivende Udvalg for Standarder og Arkitekturer (RUSA)</a>.
+Semantic versioning includes three numbers,which are separated by a dot, e.g. 2.1.4. The numbers are called <i>major.minor.patch</i>,which represent different degrees of changes: 
+* MAJOR version changes when you make incompatible API changes
+* MINOR version changed when you add functionality in a backwards compatible manner
+* PATCH version changed when you make backwards compatible bug fixes
+
+ The major and minor versions are  recorded  in  <a href="https://sundhedsdatastyrelsen.dk/da/rammer-og-retningslinjer/om-referencearkitektur-og-standarder/udvalg" target="_blank">Det Rådgivende Udvalg for Standarder og Arkitekturer (RUSA)</a>.
 RUSA is a Danish advisory committee for standards and architecture. RUSA is working to ensure coherence and interoperability in digital solutions in the healthcare field. 
-If a document or an IG has an extra number eg. 2.1.4-a.1 it is a prerelease and therefore not ready for implementation. In this Standard Operating Procedure (SOP) **(The LINK Is Coming Soon)** you can read more about the use of semantic versioning in MedCom and what it means for changes in the FHIR standards. 
+If a document or an IG has an extra number eg. 2.1.4-a.1 it is a prerelease and therefore not ready for implementation. In this Standard Operating Procedure (SOP) 4.1 you can read more about the use of semantic versioning in MedCom and what it means for changes in the FHIR standards. 
+<a href="https://svn.medcom.dk/svn/qms/Offentlig/SOPer/" target="_blank"> Click here to read SOP-4.1.</a> 
 <p>&nbsp;</p>
 
 ### 4.2 Change requests and improvements

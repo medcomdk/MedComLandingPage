@@ -8,7 +8,7 @@
 * [4 Change management and versioning](#4-change-management-and-versioning)
   * [4.1 Versioning of FHIR standard](#41-versioning-of-fhir-standard)
   * [4.2 Change requests and improvements](#42-change-requests-and-improvements)
-* [5 Wanna stay updated?](#Wanna-stay-updated)
+* [5 Want to stay updated?](#Want-to-stay-updated)
 * [6 New to FHIR?](#New-to-fhir)
 * [7 Frequently asked questions](#7-frequently-asked-questions)
 
@@ -25,7 +25,7 @@ The purpose of this site is to describe both the business and technical implemen
 ## 1 MedCom's FHIR standards
 The business requirements describe the context in which a standard should be used, and they are presented on a webpage for each standard.
 For a MedCom FHIR standard, the technical implementation is presented in an Implementation Guide (IG). An IG includes several rules, extensions, profiles and more. Each profile describes a delimited area within healthcare e.g., a patient, an organisation, or an encounter.
-Some of the profiles are often used across standards. An example is the patient profile which includes the most central information about a patient or citizen, such as the civil registration number (Danish:CPR-nummer) or name. These types of profiles are called core profiles (Danish: kerneprofiler) and are gathered in the Core IG. Additionally, some profiles are often used when defining a message. These profiles are called messaging profiles(Danish: meddelelsesprofiler) and are gathered in the Messaging IG. 
+Some of the profiles are often used across standards. An example is the patient profile which includes the most central information about a patient or citizen, such as the civil registration number (Danish: CPR-nummer) or name. These types of profiles are called core profiles (Danish: kerneprofiler) and are gathered in the Core IG. Additionally, some profiles are often used when defining a message. These profiles are called messaging profiles (Danish: meddelelsesprofiler) and are gathered in the Messaging IG. 
 Some profiles are specific for a standard, which is why these are gathered in the respective IG. 
 Lastly, the terminology codes (Danish: terminologi), including all CodeSystems, ValueSet, and ConceptMaps are gathered in the Terminology IG.
 Currently, there are three FHIR standards: HospitalNotification, CareCommunication, and Acknowledgement, which are all composed of profiles from the Core and Messaging IG as well as the IG for the specific standard, and codes from the Terminology IG. 
@@ -77,12 +77,6 @@ The links to the webpage presentations of the standards can be found in the <a h
     <td class="tg-1ady" colspan="4"><span style="font-style:italic">MedCom's FHIR standards</span></td>
   </tr>
   <tr>
-    <td class="tg-on52"><span style="background-color:#FFF"> <a href="https://medcomdk.github.io/dk-medcom-acknowledgement/" rel="noopener noreferrer"><span style="text-decoration:none">Acknowledgement </span></a></span></td>
-    <td class="tg-on52"><span style="background-color:#FFF">Kvittering</span></td>
-    <td class="tg-on52"><span style="background-color:#FFF">When a message is received, an acknowledgement message will be returned to the sender, which states if the message was received properly.</span></td>
-    <td class="tg-on52"></td>
-  </tr>
-  <tr>
     <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-hospitalnotification/" rel="noopener noreferrer"><span style="text-decoration:none">HospitalNotification</span></a></td>
     <td class="tg-on52"><span style="background-color:#FFF">Advis om sygehusophold</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Used to inform municipalities about hospitalization of a patient</span></td>
@@ -95,7 +89,13 @@ The links to the webpage presentations of the standards can be found in the <a h
     <td class="tg-on52"> Version 1.0</td>
   </tr>
   <tr>
-    <td class="tg-1ady" colspan="4"><span style="font-style:italic">Terminology explanation</span></td>
+    <td class="tg-on52"><span style="background-color:#FFF"> <a href="https://medcomdk.github.io/dk-medcom-acknowledgement/" rel="noopener noreferrer"><span style="text-decoration:none">Acknowledgement </span></a></span></td>
+    <td class="tg-on52"><span style="background-color:#FFF">Kvittering</span></td>
+    <td class="tg-on52"><span style="background-color:#FFF">When a message is received, an acknowledgement message shall be returned to the sender, which states whether the message was valid and the transportation went good.</span></td>
+    <td class="tg-on52"></td>
+  </tr>
+  <tr>
+    <td class="tg-1ady" colspan="4"><span style="font-style:italic">Terminology</span></td>
   </tr>
   <tr>
     <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-terminology/" rel="noopener noreferrer"><span style="text-decoration:none">Terminology </span></a></td>
@@ -183,7 +183,7 @@ Based on an analysis of the severity of the request, MedCom decides if the chang
 <p>&nbsp;</p>
 
 
-## 5 Want to stay updated? {#Wanna-stay-updated}
+## 5 Want to stay updated? {#Want-to-stay-updated}
 It is possible to be notified about the latest changes in the standard documentation.
 Here is what to do:
 1. Go to the <a href="https://github.com/medcomdk ">MedCom GitHub repository</a>

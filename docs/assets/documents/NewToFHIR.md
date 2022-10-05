@@ -57,8 +57,12 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
     <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/">Terminology IG </a>,<br> 
     <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/">Core IG</a>,<br> 
     <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/">Messagaging IG </a> 
-
     </td>
+  </tr>
+  <tr>
+    <td class="tg-cxm4"><span style="font-weight:bold">Standard</span></td>
+    <td class="tg-t3tv">FHIR standard define how health and care information can be exchanged between providers and their system regardles of how the information is stored in those systems. </td>
+    <td class="tg-t3tv">MedCom FHIR standards are HospitalNotification, CareCommunication</td>
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">Element</span></td>
@@ -90,13 +94,13 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">Profiling</span></td>
-    <td class="tg-t3tv">To fit a resource to a given context. It is widely recognized that when exchanging data it is impossible to make a one size fits all within healthcare worldwide.<br>To accommodate this, the resources made generic with the possibility to be profiled to fit a specific context, such as exchanging a CareCommunication message between Danish healthcare parties.</td>
+    <td class="tg-t3tv">Profiling allow to fit resource to a given context, by defining constrains and/or bydefine extensions. It is widely recognized that when exchanging data it is impossible to make a one size fits all within healthcare worldwide.<br>To accommodate this, the resources made generic with the possibility to be profiled to fit a specific context, such as exchanging a CareCommunication message between Danish healthcare parties.</td>
     <td class="tg-t3tv">Profiling could be to require a lastname and an identifier of a patient or citizen when exchanging information about the person.</td>
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">Extensions</span></td>
     <td class="tg-t3tv">To extend a resource to include additional information than defined by HL7. </td>
-    <td class="tg-t3tv">Extending the Patient resource with a CPR-number. As this is unique in Denmark, the generic Patient resource does not include it as a patient identifier.</td>
+    <td class="tg-t3tv"> Extending the MedCom MessageHeader with a reportOfAdmissionFlag.</td>
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">CodeSystem</span></td>

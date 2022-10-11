@@ -41,7 +41,7 @@ Over time, the modernised FHIR standards will replace the existing MedCom standa
 <a href="https://svn.medcom.dk/svn/releases/Standarder/Det%20gode%20kommuneadvis/XDIS17/Dokumentation/" target="_blank">XDIS17</a> and
 <a href="https://svn.medcom.dk/svn/releases/Standarder/Det%20gode%20kommuneadvis/EDI/Dokumentation/" target="_blank">DIS20</a>/
 <a href="https://svn.medcom.dk/svn/releases/Standarder/Det%20gode%20kommuneadvis/XDIS20/Dokumentation/" target="_blank">XDIS20</a>. CareCommunication replaces 
-<a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20korrespondance/EDI/Dokumentation/" target="_blank">DIS91 </a>/ <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20korrespondance/XML/Dokumentation/" target="_blank">XDIS91 </a> and Acknowledgement replaces <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/EDI/Dokumentation/" target="_blank">CTL01-03 </a>/<a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTL01-03 </a>.
+<a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20korrespondance/EDI/Dokumentation/" target="_blank">DIS91</a>/ <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20korrespondance/XML/Dokumentation/" target="_blank">XDIS91 </a> and Acknowledgement replaces <a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/EDI/Dokumentation/" target="_blank">CTL01-03</a>/<a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTL01-03 </a>.
 
 The links to the webpage presentations of the standards can be found in the <a href="#Tab1"> Table 1</a>. On the webpages, you can find the links to the IG and other relevant information.
 
@@ -177,7 +177,7 @@ If a document or an IG has an extra number eg. 2.1.4-a.1 it is a prerelease and 
 ### 4.2 Change requests and improvements
 Stakeholders and vendors are alway welcome to submit requests for changes or improvements to the IG or other documentation. 
 * If the request concerns the IG, it is possible to: 
-  1. submit an issue to the relevant <a href="https://github.com/medcomdk ">MedCom GitHub repository</a>
+  1. submit an issue to the relevant <a href="https://github.com/medcomdk" target="_blank">MedCom GitHub repository</a>
   2. write an email to <a href="mailto:fhir@medcom.dk">fhir@medcom.dk</a> describing the request
 * If the request concerns other documentation, please write an email to <a href="mailto:fhir@medcom.dk">fhir@medcom.dk</a>. 
 <br>
@@ -188,7 +188,7 @@ Based on an analysis of the severity of the request, MedCom decides if the chang
 ## 5 Want to stay updated? {#Want-to-stay-updated}
 It is possible to be notified about the latest changes in the standard documentation.
 Here is what to do:
-1. Go to the <a href="https://github.com/medcomdk ">MedCom GitHub repository</a>
+1. Go to the <a href="https://github.com/medcomdk" target="_blank">MedCom GitHub repository</a>
 2. Choose the repository that you want to receive information about 
 3. Choose the “watch” button in the right upper corner.  
 <br>

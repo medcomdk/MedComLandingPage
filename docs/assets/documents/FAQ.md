@@ -2,7 +2,7 @@
 
 On this page you will finde the answears to the most asked questions.
 **Table of contents**
-* [ 1 Why are there Multiple Implementation Guides? ](#why-are-there-multiple-implementation-guides)
+* [1 Why are there Multiple Implementation Guides?](#why-are-there-multiple-implementation-guides)
 * [2 How does Inheritance Work and What is DKCore? ](#how-does-inheritance-work-and-what-is-dkcore)
 
 

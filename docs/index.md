@@ -56,6 +56,7 @@ The links to the webpage presentations of the standards can be found in the <a h
 .tg .tg-1ady{background-color:#9dbad7;border-color:#000000;color:#333333;text-align:left;vertical-align:top}
 .tg .tg-on52{border-color:#000000;color:#333333;text-align:left;vertical-align:top}
 </style>
+<div style="overflow-x:auto;">
 <table class="tg" style="undefined;table-layout: fixed; width: 942px" id="Tab1">
 <caption style="color:#2c415c;font-weight:bold"> Table 1: Overview of the modernised FHIR standards </caption>
 <colgroup>
@@ -120,6 +121,7 @@ The links to the webpage presentations of the standards can be found in the <a h
   </tr>
 </tbody>
 </table>
+</div>
 <br><br>
 
 

@@ -38,6 +38,7 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
 .tg .tg-cxm4{color:#333333;font-weight:bold;text-align:left;vertical-align:top}
 .tg .tg-4m1j{color:#333333;text-align:left;text-decoration:underline;vertical-align:top}
 </style>
+<div style="overflow-x:auto;">
 <table class="tg" id="Tab1">
 <caption style="color:#2c415c;font-weight:bold">Table 1: Most used terms in MedCom's FHIR universe</caption>
 <thead>
@@ -129,6 +130,7 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
   </tr>
 </tbody>
 </table>
+</div>
 <br>
 <br>
 

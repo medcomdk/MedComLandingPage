@@ -1,10 +1,10 @@
 [Return](NewToFHIR.md)
 
 # Step-by-Step Guide
-This step-by-step guide aims to present the basic content and the composition of an IG. Furthermore the guide aims to explain the structure of the MedCom FHIR profiles. The guide is based on the <a href="https://medcomfhir.dk/ig/dk-medcom-core/" target="_blank">MedCom Core Implementation Guide (IG)</a>. 
+This step-by-step guide aims to present the basic content and the composition of an IG. Furthermore the guide aims to explain the structure of the MedCom FHIR profiles. The guide is based on the <a href="https://medcomfhir.dk/ig/core/" target="_blank">MedCom Core Implementation Guide (IG)</a>. 
 
 ## Step 1
- Go to <a href="https://medcomfhir.dk/ig/dk-medcom-core/" target="_blank">MedCom Core IG</a>.
+ Go to <a href="https://medcomfhir.dk/ig/core/" target="_blank">MedCom Core IG</a>.
 * On the front page of the MedCom Core IG, you will find a short introduction to the content of the IG and a menu bar at top of the page (see <a href="#Fig1" rel="noopener noreferrer"> Figure 1 </a>):
 <figure>
 <img src="../images/IG-content.png" alt="shows the content of an IG"  style="width:50%" id="Fig1">
@@ -12,18 +12,18 @@ This step-by-step guide aims to present the basic content and the composition of
 </figure>
 
 On the menu bar, you will find the following tabs: 
-* <a href="https://medcomfhir.dk/ig/dk-medcom-core/toc.html" target="_blank">Table of Contents</a> shows the content list of the IG
-* <a href="https://medcomfhir.dk/ig/dk-medcom-core/index.html" target="_blank">Home</a> shows the front page of the IG
-* <a href="https://medcomfhir.dk/ig/dk-medcom-core/profiles.html" target="_blank">Profiles</a> shows which profiles are included in the IG
-* <a href="https://medcomfhir.dk/ig/dk-medcom-core/extensions.html" target="_blank">Extensions</a> shows the extensions made for the IG. 
-<!-- * The tab <a href="https://medcomfhir.dk/ig/hl7dk/dk-medcom-core/terminology.html" target="_blank">Terminology</a> shows the CodeSystems and ValueSets used in the IG. -->
-* <a href="https://medcomfhir.dk/ig/dk-medcom-core/artifacts.html" target="_blank">Artifacts</a> shows the entire content of the IG.
-* <a href="https://medcomfhir.dk/ig/dk-medcom-core/downloads.html" target="_blank">Download</a> shows the possible download format of the IG. 
+* <a href="https://medcomfhir.dk/ig/core/toc.html" target="_blank">Table of Contents</a> shows the content list of the IG
+* <a href="https://medcomfhir.dk/ig/core/index.html" target="_blank">Home</a> shows the front page of the IG
+* <a href="https://medcomfhir.dk/ig/core/profiles.html" target="_blank">Profiles</a> shows which profiles are included in the IG
+* <a href="https://medcomfhir.dk/ig/core/extensions.html" target="_blank">Extensions</a> shows the extensions made for the IG. 
+<!-- * The tab <a href="https://medcomfhir.dk/ig/hl7dk/core/terminology.html" target="_blank">Terminology</a> shows the CodeSystems and ValueSets used in the IG. -->
+* <a href="https://medcomfhir.dk/ig/core/artifacts.html" target="_blank">Artifacts</a> shows the entire content of the IG.
+* <a href="https://medcomfhir.dk/ig/core/downloads.html" target="_blank">Download</a> shows the possible download format of the IG. 
 <br>
 <br>
 
 ## Step 2
-Click on the tab <a href="https://medcomfhir.dk/ig/dk-medcom-core/profiles.html" target="_blank">Profiles</a> (see the red circle in <a href="#Fig2" rel="noopener noreferrer">Figure 2</a> ) to get an overview of which profiles are in the IG.
+Click on the tab <a href="https://medcomfhir.dk/ig/core/profiles.html" target="_blank">Profiles</a> (see the red circle in <a href="#Fig2" rel="noopener noreferrer">Figure 2</a> ) to get an overview of which profiles are in the IG.
 <figure>
 <img src="../images/IGProfile.png" alt="Figure 2: Profile highlighted in IG menu" style="width:60%" id="Fig2"> 
 <figcaption text-align="center"><b>Figure 2: Profile highlighted in IG menu</b></figcaption>
@@ -32,7 +32,7 @@ Click on the tab <a href="https://medcomfhir.dk/ig/dk-medcom-core/profiles.html"
 <br>
 
 ## Step 3
-  Choose <a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see the red circle in <a href="#Fig3">Figure 3</a>), and you will get to the front page of MedComCorePatient, (see <a href="#Fig4" rel="noopener noreferrer">Figure 4 </a>). This page introduces the MedComCorePatient profile. It includes a short description of the profile, its usage and the required content. 
+  Choose <a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-patient.html" target="_blank">MedComCorePatient</a>(see the red circle in <a href="#Fig3">Figure 3</a>), and you will get to the front page of MedComCorePatient, (see <a href="#Fig4" rel="noopener noreferrer">Figure 4 </a>). This page introduces the MedComCorePatient profile. It includes a short description of the profile, its usage and the required content. 
 
 <figure>
 <img src="../images/OverviewProfile.png" alt="Overview of the associated profiles for this IG" style="width:60%" id="Fig3"> 
@@ -45,14 +45,14 @@ Click on the tab <a href="https://medcomfhir.dk/ig/dk-medcom-core/profiles.html"
 </figure>
 
 On top of the MedComCorePatients front page, you will find a menu bar with the following tabs:<br>
-   * <a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-patient.html#"> <b>Content</b></a>:  Gives a short introduction to the profile and a table showing the profile content 
-   * <a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-patient-definitions.html"> <b>Detailed Description </b></a>: Gives a detailed description of all elements in the profile  
-   * <a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-patient-mappings.html"><b>Mapping</b></a>: Gives an overview of how terms in the standard can be mapped to other HL7 standards, but not previuos MedCom standards. To get this information, you can look under each standard.
-   * <a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-patient-examples.html"><b>Examples</b></a>: Gives an overview of the examples for the given profile as in this case for the MedComCorePatient profile 
+   * <a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-patient.html#"> <b>Content</b></a>:  Gives a short introduction to the profile and a table showing the profile content 
+   * <a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-patient-definitions.html"> <b>Detailed Description </b></a>: Gives a detailed description of all elements in the profile  
+   * <a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-patient-mappings.html"><b>Mapping</b></a>: Gives an overview of how terms in the standard can be mapped to other HL7 standards, but not previuos MedCom standards. To get this information, you can look under each standard.
+   * <a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-patient-examples.html"><b>Examples</b></a>: Gives an overview of the examples for the given profile as in this case for the MedComCorePatient profile 
        *  If you select one of the examples you will be presented with the content of the narrative text. If you select the tabs XML, JSON or TTL instead, you will see the entire content of the MedComCorePatient.  
-   * <a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.xml.html"><b>XML</b></a>: Shows the entire content of the MedComCorePatient profile in XML format
-   * <a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.json.html"><b>JSON</b></a>: Shows the entire content of the MedComCorePatient profile in JSON format
-   * <a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-patient.profile.ttl.html"><b>TTL</b></a> Shows the entire content of the MedComCorePatient profile in TTL format         
+   * <a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-patient.profile.xml.html"><b>XML</b></a>: Shows the entire content of the MedComCorePatient profile in XML format
+   * <a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-patient.profile.json.html"><b>JSON</b></a>: Shows the entire content of the MedComCorePatient profile in JSON format
+   * <a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-patient.profile.ttl.html"><b>TTL</b></a> Shows the entire content of the MedComCorePatient profile in TTL format         
 <br>
 <br>
 
@@ -96,7 +96,7 @@ The table contains five headlines (see <a href="#Fig6" rel="noopener noreferrer"
 <br>
 
 ## Step 6   
-Now you can, choose another profile; namely the <a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a>
+Now you can, choose another profile; namely the <a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-encounter.html" target="_blank">MedComCoreEncounter</a>
 * Here you will see the type Reference(...) at the element Encounter.subject. This means that the element references the MedComCorePatient profile and that an encounter must always be associated with a patient. 
 * For the elements Encounter.status and Encounter.class, the type is code or coding, meaning that a predefined structured code must be selected from a ValueSet. which can be seen in the column 'Description & Constraints'.  
 <br>

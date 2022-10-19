@@ -52,12 +52,12 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
   <tr>
     <td class="tg-1wig"><span style="font-weight:bold">Implementation Guide (IG)</span></td>
     <td class="tg-t3tv">The technical specification of a MedCom FHIR standard. A set of rules and associated documentation describing, how FHIR profiles should be implemented to accommodate a given standard and requirements.</td>
-    <td class="tg-t3tv"> <a href="http://medcomfhir.dk/ig/acknowledgement" target="_blank">Acknowledgement IG </a>, 
-    <a href="http://medcomfhir.dk/ig/hospitalnotification" target="_blank">HospitalNotification IG </a>, 
+    <td class="tg-t3tv"> <a href="http://medcomfhir.dk/ig/acknowledgement/" target="_blank">Acknowledgement IG </a>, 
+    <a href="http://medcomfhir.dk/ig/hospitalnotification/" target="_blank">HospitalNotification IG </a>, 
     <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication/" target="_blank">CareCommunication IG </a>, 
-    <a href="http://medcomfhir.dk/ig/terminology" target="_blank">Terminology IG </a>, 
-    <a href="http://medcomfhir.dk/ig/core" target="_blank">Core IG target="_blank"</a>,
-    <a href="http://medcomfhir.dk/ig/messaging" target="_blank">Messagaging IG </a> 
+    <a href="http://medcomfhir.dk/ig/terminology/" target="_blank">Terminology IG </a>, 
+    <a href="http://medcomfhir.dk/ig/core/" target="_blank">Core IG target="_blank"</a>,
+    <a href="http://medcomfhir.dk/ig/messaging/" target="_blank">Messagaging IG </a> 
     </td>
   </tr>
   <tr>

@@ -52,12 +52,12 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
   <tr>
     <td class="tg-1wig"><span style="font-weight:bold">Implementation Guide (IG)</span></td>
     <td class="tg-t3tv">The technical specification of a MedCom FHIR standard. A set of rules and associated documentation describing, how FHIR profiles should be implemented to accommodate a given standard and requirements.</td>
-    <td class="tg-t3tv"> <a href="http://medcomfhir.dk/ig/acknowledgement" target="_blank">Acknowledgement IG </a>, 
-    <a href="http://medcomfhir.dk/ig/hospitalnotification" target="_blank">HospitalNotification IG </a>, 
-    <a href="http://medcomfhir.dk/ig/medcomdk/dk-medcom-carecommunication" target="_blank">CareCommunication IG </a>, 
-    <a href="http://medcomfhir.dk/ig/terminology" target="_blank">Terminology IG </a>, 
-    <a href="http://medcomfhir.dk/ig/core" target="_blank">Core IG target="_blank"</a>,
-    <a href="http://medcomfhir.dk/ig/messaging" target="_blank">Messagaging IG </a> 
+    <td class="tg-t3tv"> <a href="http://medcomfhir.dk/ig/acknowledgement/" target="_blank">Acknowledgement IG </a>, 
+    <a href="http://medcomfhir.dk/ig/hospitalnotification/" target="_blank">HospitalNotification IG </a>, 
+    <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication/" target="_blank">CareCommunication IG </a>, 
+    <a href="http://medcomfhir.dk/ig/terminology/" target="_blank">Terminology IG </a>, 
+    <a href="http://medcomfhir.dk/ig/core/" target="_blank">Core IG target="_blank"</a>,
+    <a href="http://medcomfhir.dk/ig/messaging/" target="_blank">Messagaging IG </a> 
     </td>
   </tr>
   <tr>
@@ -91,7 +91,7 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
    <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">Profile</span></td>
     <td class="tg-t3tv">FHIR profile is a set of specified constrains and/or extensions on the base resource</td>
-    <td class="tg-t3tv"><a href="https://medcomfhir.dk/ig/dk-medcom-messaging/profiles.html">MedComMessaging profiles </a>, <br> <a href="https://medcomfhir/ig/dk-medcom-core/profiles.html"  target="_blank">MedComCore profiles</a> </td>
+    <td class="tg-t3tv"><a href="https://medcomfhir.dk/ig/messaging/profiles.html">MedComMessaging profiles </a>, <br> <a href="https://medcomfhir.dk/ig/core/profiles.html"  target="_blank">MedComCore profiles</a> </td>
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">Profiling</span></td>
@@ -106,17 +106,17 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">CodeSystem</span></td>
     <td class="tg-t3tv">A collection of codes, which can be predetermined by HL7, from a international terminology or defined by the developer of the IG.</td>
-    <td class="tg-t3tv">Predetermined by HL7 e.g. <a href="http://hl7.org/fhir/valueset-administrative-gender.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">gender</span></a>, from an international terminology e.g. <a href="https://browser.ihtsdotools.org/?" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">SNOMED CT</span></a>, or defined by the developer of the IG e.g. <a href="https://medcomfhir.dk/ig/dk-medcom-terminology/CodeSystem-medcom-careCommunication-categoryCodes.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">categories </span></a>categories in a CareCommunication message.</td>
+    <td class="tg-t3tv">Predetermined by HL7 e.g. <a href="http://hl7.org/fhir/valueset-administrative-gender.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">gender</span></a>, from an international terminology e.g. <a href="https://browser.ihtsdotools.org/?" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">SNOMED CT</span></a>, or defined by the developer of the IG e.g. <a href="https://medcomfhir.dk/ig/terminology/CodeSystem-medcom-careCommunication-categoryCodes.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">categories </span></a>categories in a CareCommunication message.</td>
   </tr>
   <tr>
     <td class="tg-az2b"><span style="font-weight:bold;background-color:#FFF">ValueSet</span></td>
     <td class="tg-t3tv">A collection of codes from one or more CodeSystems. ValueSets can either include all codes from a CodeSystem or only some codes.</td>
-    <td class="tg-tysj"><a href="https://medcomfhir.dk/ig/medcomdk/dk-medcom-terminology/ValueSet-medcom-messaging-messageTypes.html" target="_blank" rel="noopener noreferrer">MedComMessagingMessageTypes</a>  is a ValueSet that includes all codes from the <a href="https://medcomfhir.dk/ig/dk-medcom-terminology/CodeSystem-medcom-messaging-eventCodes.html" target="_blank" rel="noopener noreferrer">MedComMessagingEvents</a> CodeSystem. The ValueSet includes the codes for MedComs FHIR standards</td>
+    <td class="tg-tysj"><a href="https://medcomfhir.dk/ig/terminology/ValueSet-medcom-messaging-messageTypes.html" target="_blank" rel="noopener noreferrer">MedComMessagingMessageTypes</a>  is a ValueSet that includes all codes from the <a href="https://medcomfhir.dk/ig/terminology/CodeSystem-medcom-messaging-eventCodes.html" target="_blank" rel="noopener noreferrer">MedComMessagingEvents</a> CodeSystem. The ValueSet includes the codes for MedComs FHIR standards</td>
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">MustSupport</span></td>
     <td class="tg-t3tv">Indicates which information which shall be included in a MedCom standard if available in the sender systemer and which information the receiver system shall be able to handle. MustSupport is defined during profiling of the resource.</td>
-    <td class="tg-t3tv">The elements Patient.identifier, Patient.name and Patient.address does all have the flag MustSupport in the <a href="https://medcomfhir.dk/ig/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank"> MedComCorePatient</a> profile.</td>
+    <td class="tg-t3tv">The elements Patient.identifier, Patient.name and Patient.address does all have the flag MustSupport in the <a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-patient.html" target="_blank"> MedComCorePatient</a> profile.</td>
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">Modifier</span></td>

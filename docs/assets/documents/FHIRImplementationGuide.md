@@ -89,7 +89,7 @@ The table contains five headlines (see <a href="#Fig6" rel="noopener noreferrer"
     * Given the maximum cardinality of * for Patient.identifier, Patient.name, Patient.telecom and Patient.address it is allowed to slice the element. For the element Patient.deceased, it is only allowed to include the information once. 
 * **Type**: 
     * Describes the data type of the element. For more information about the data type click here. 
-    * One might notice the type at the top of the elements saying _DKCorePatient_, which means that the MedComCorePatient profile inherits from a Patient profile developed by the Danish HL7 affiliate. <a href="https:/.github.io/MedComLandingPage/assets/documents/NewToFHIR.html#how-does-inheritance-work-and-what-is-dkcore " target="_blank">You can read more about inheritance and the work for HL7 Denmark here.</a>
+    * One might notice the type at the top of the elements saying _DKCorePatient_, which means that the MedComCorePatient profile inherits from a Patient profile developed by the Danish HL7 affiliate. <a href="https://medcomdk.github.io/MedComLandingPage/assets/documents/NewToFHIR.html#how-does-inheritance-work-and-what-is-dkcore " target="_blank">You can read more about inheritance and the work for HL7 Denmark here.</a>
 * **Description and Constraints**:
     * A short description of the element as well as rules associated with the element.
 <br>

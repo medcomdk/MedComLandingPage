@@ -111,7 +111,7 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
   <tr>
     <td class="tg-az2b"><span style="font-weight:bold;background-color:#FFF">ValueSet</span></td>
     <td class="tg-t3tv">A collection of codes from one or more CodeSystems. ValueSets can either include all codes from a CodeSystem or only some codes.</td>
-    <td class="tg-tysj"><a href="https://medcomfhir.dk/ig/medcomdk/terminology/ValueSet-medcom-messaging-messageTypes.html" target="_blank" rel="noopener noreferrer">MedComMessagingMessageTypes</a>  is a ValueSet that includes all codes from the <a href="https://medcomfhir.dk/ig/terminology/CodeSystem-medcom-messaging-eventCodes.html" target="_blank" rel="noopener noreferrer">MedComMessagingEvents</a> CodeSystem. The ValueSet includes the codes for MedComs FHIR standards</td>
+    <td class="tg-tysj"><a href="https://medcomfhir.dk/ig/terminology/ValueSet-medcom-messaging-messageTypes.html" target="_blank" rel="noopener noreferrer">MedComMessagingMessageTypes</a>  is a ValueSet that includes all codes from the <a href="https://medcomfhir.dk/ig/terminology/CodeSystem-medcom-messaging-eventCodes.html" target="_blank" rel="noopener noreferrer">MedComMessagingEvents</a> CodeSystem. The ValueSet includes the codes for MedComs FHIR standards</td>
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">MustSupport</span></td>

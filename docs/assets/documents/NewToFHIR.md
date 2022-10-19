@@ -17,7 +17,7 @@ The purpose of this section is to give an introduction to MedCom's FHIR standard
 ## 1 FHIR Glossary
 <a href="https://www.hl7.org/fhir/" target="_blank">Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)</a> is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare-related information. FHIR defines several resources, often referred to as ‘building blocks’, each describing a delimited area within healthcare e.g., a Patient or an Encounter. These resources are generic and can therefore be used across the world. However, when using the resources in a specific context, such as communication between Danish healthcare parties, the resources need to be profiled to accommodate the use. The profiling could be to require the last name of a Patient. In some cases, it is necessary to extend the generic resources to fit the context e.g., to add a civil registration number (Danish: CPR-nummer) as a patient identifier.
 
-When creating a MedCom FHIR standard, multiple profiles are assembled to include the information necessary to support the business requirements. Under the auspices of MedCom, these profiles will most often come from multiple Implementation Guides (IG). This decision is further addressed in  section [ Why are there Multiple Implementation Guides?](FAQ.md) that can be founded in the Frequen aked qestions page.  
+When creating a MedCom FHIR standard, multiple profiles are assembled to include the information necessary to support the business requirements. Under the auspices of MedCom, these profiles will most often come from multiple Implementation Guides (IG). This decision is further addressed in  section "[Why are there Multiple Implementation Guides?](FAQ.md)" that can be founded in the Frequen aked qestions page.  
 
 The first wave of MedCom's modernisation only includes messages, which means that there must always be a sender and a receiver. A relevant exchange paradigm could be to upload data as services or as documents where multiple receivers can get access to data or documents. If another exchange exchange paradigm is to be used, it is possible to reuse the profiles from the Core IG. This is an example of FHIR's reusability across. The optimal exchange paradigm for a standard will be considered when modernizing the next wave of MedCom standards.
 
@@ -52,12 +52,12 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
   <tr>
     <td class="tg-1wig"><span style="font-weight:bold">Implementation Guide (IG)</span></td>
     <td class="tg-t3tv">The technical specification of a MedCom FHIR standard. A set of rules and associated documentation describing, how FHIR profiles should be implemented to accommodate a given standard and requirements.</td>
-    <td class="tg-t3tv"> <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/">Acknowledgement IG </a>, 
-    <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-hospitalnotification/index.html">HospitalNotification IG </a>, 
-    <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication/StructureDefinition-medcom-careCommunication-communication.html">CareCommunication IG </a>, 
-    <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/">Terminology IG </a>,<br> 
-    <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/">Core IG</a>,<br> 
-    <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/">Messagaging IG </a> 
+    <td class="tg-t3tv"> <a href="http://medcomfhir.dk/ig/acknowledgement/" target="_blank">Acknowledgement IG </a>, 
+    <a href="http://medcomfhir.dk/ig/hospitalnotification/" target="_blank">HospitalNotification IG </a>, 
+    <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication/" target="_blank">CareCommunication IG </a>, 
+    <a href="http://medcomfhir.dk/ig/terminology/" target="_blank">Terminology IG </a>, 
+    <a href="http://medcomfhir.dk/ig/core/" target="_blank">Core IG target="_blank"</a>,
+    <a href="http://medcomfhir.dk/ig/messaging/" target="_blank">Messagaging IG </a> 
     </td>
   </tr>
   <tr>
@@ -91,7 +91,7 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
    <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">Profile</span></td>
     <td class="tg-t3tv">FHIR profile is a set of specified constrains and/or extensions on the base resource</td>
-    <td class="tg-t3tv"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/profiles.html">MedComMessaging profiles </a>, <br> <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/profiles.html">MedComCore profiles</a> </td>
+    <td class="tg-t3tv"><a href="https://medcomfhir.dk/ig/messaging/profiles.html">MedComMessaging profiles </a>, <br> <a href="https://medcomfhir.dk/ig/core/profiles.html"  target="_blank">MedComCore profiles</a> </td>
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">Profiling</span></td>
@@ -106,17 +106,17 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">CodeSystem</span></td>
     <td class="tg-t3tv">A collection of codes, which can be predetermined by HL7, from a international terminology or defined by the developer of the IG.</td>
-    <td class="tg-t3tv">Predetermined by HL7 e.g. <a href="http://hl7.org/fhir/valueset-administrative-gender.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">gender</span></a>, from an international terminology e.g. <a href="https://browser.ihtsdotools.org/?" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">SNOMED CT</span></a>, or defined by the developer of the IG e.g. <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication/CodeSystem-medcom-careCommunication-categoryCodes.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">categories </span></a>categories in a CareCommunication message.</td>
+    <td class="tg-t3tv">Predetermined by HL7 e.g. <a href="http://hl7.org/fhir/valueset-administrative-gender.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">gender</span></a>, from an international terminology e.g. <a href="https://browser.ihtsdotools.org/?" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">SNOMED CT</span></a>, or defined by the developer of the IG e.g. <a href="https://medcomfhir.dk/ig/terminology/CodeSystem-medcom-careCommunication-categoryCodes.html" target="_blank" rel="noopener noreferrer"><span style="text-decoration:none">categories </span></a>categories in a CareCommunication message.</td>
   </tr>
   <tr>
     <td class="tg-az2b"><span style="font-weight:bold;background-color:#FFF">ValueSet</span></td>
     <td class="tg-t3tv">A collection of codes from one or more CodeSystems. ValueSets can either include all codes from a CodeSystem or only some codes.</td>
-    <td class="tg-tysj"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/ValueSet-medcom-messaging-messageTypes.html" target="_blank" rel="noopener noreferrer">MedComMessagingMessageTypes</a>  is a ValueSet that includes all codes from the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/CodeSystem-medcom-messaging-eventCodes.html" target="_blank" rel="noopener noreferrer">MedComMessagingEvents</a> CodeSystem. The ValueSet includes the codes for MedComs FHIR standards</td>
+    <td class="tg-tysj"><a href="https://medcomfhir.dk/ig/terminology/ValueSet-medcom-messaging-messageTypes.html" target="_blank" rel="noopener noreferrer">MedComMessagingMessageTypes</a>  is a ValueSet that includes all codes from the <a href="https://medcomfhir.dk/ig/terminology/CodeSystem-medcom-messaging-eventCodes.html" target="_blank" rel="noopener noreferrer">MedComMessagingEvents</a> CodeSystem. The ValueSet includes the codes for MedComs FHIR standards</td>
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">MustSupport</span></td>
     <td class="tg-t3tv">Indicates which information which shall be included in a MedCom standard if available in the sender systemer and which information the receiver system shall be able to handle. MustSupport is defined during profiling of the resource.</td>
-    <td class="tg-t3tv">The elements Patient.identifier, Patient.name and Patient.address does all have the flag MustSupport in the <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-core/StructureDefinition-medcom-core-patient.html" target="_blank"> MedComCorePatient</a> profile.</td>
+    <td class="tg-t3tv">The elements Patient.identifier, Patient.name and Patient.address does all have the flag MustSupport in the <a href="https://medcomfhir.dk/ig/core/StructureDefinition-medcom-core-patient.html" target="_blank"> MedComCorePatient</a> profile.</td>
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">Modifier</span></td>

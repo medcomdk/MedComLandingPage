@@ -81,19 +81,19 @@ The links to the webpage presentations of the standards can be found in the <a h
     <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-hospitalnotification/" rel="noopener noreferrer"><span style="text-decoration:none">HospitalNotification</span></a></td>
     <td class="tg-on52"><span style="background-color:#FFF">Advis om sygehusophold</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Used to inform municipalities about hospitalization of a patient</span></td>
-    <td class="tg-on52"> Version 1.0</td>
+    <td class="tg-on52"> Version 2.0</td>
   </tr>
   <tr>
     <td class="tg-on52"><span style="background-color:#FFF"><a href="https://medcomdk.github.io/dk-medcom-carecommunication/" rel="noopener noreferrer"><span style="text-decoration:none">CareCommunication </span></a></span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Korrespondancemeddelelse</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Used in all parts of the Danish health care sector to communicate between parties.</span></td>
-    <td class="tg-on52"> Version 1.0</td>
+    <td class="tg-on52"> Version 2.0</td>
   </tr>
   <tr>
     <td class="tg-on52"><span style="background-color:#FFF"> <a href="https://medcomdk.github.io/dk-medcom-acknowledgement/" rel="noopener noreferrer"><span style="text-decoration:none">Acknowledgement </span></a></span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Kvittering</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">When a message is received, an acknowledgement message shall be returned to the sender, which states whether the message was valid and the transportation went good.</span></td>
-    <td class="tg-on52"></td>
+    <td class="tg-on52"> Version 2.0</td>
   </tr>
   <tr>
     <td class="tg-1ady" colspan="4"><span style="font-style:italic">Terminology</span></td>

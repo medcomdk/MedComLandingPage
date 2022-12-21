@@ -22,7 +22,7 @@ Additionally, it makes it possible to reuse the profiles from the Core IG in dif
 <br>
 <br>
 
-## How does Inheritance Work and What is DKCore? {#how-does-inheritance-work-and-what-is-dkcore}
+## 2 How does Inheritance Work and What is DKCore? {#how-does-inheritance-work-and-what-is-dkcore}
 In Denmark, we have a national HL7 affiliate, called <a href="https://hl7.dk/" target="_blank">HL7-DK</a>. The affiliate works on the development of international HL7 standards that supports healthcare. HL7-DK has focuses on profiling the international standard in a Danish context to provide a common foundation in Denmark.  HL7-DK develops DK-core which are generic FHIR profiles that can be used freely for FHIR projects in Denmark. At present, DK-core includes the following profiles: DkCorePatient, DkCorePractitioner and DkCoreOrganization. The profile MedComCorePatient inherits from <a href="https://hl7.dk/fhir/core/1.1.0/StructureDefinition-dk-core-patient.html" target="_blank">DKCorePatient</a>. This means that when a MedCom standard uses a civil registration number (Danish: CPR-nummer) from DKCorePatient, it is defined in the same way as when other projects inherit from DK-core and use a civil registration number, securing consistency across projects. DKCorePatient is the foundation of MedComCorePatient,which is why MedComCorePatient is said to inherit from DKCorePatient.<br>
 
 <figure>

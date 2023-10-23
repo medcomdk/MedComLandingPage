@@ -5,6 +5,7 @@
   * [2.1 Standard documentation](#21-standard-documentation)
   * [2.2 Governance for MedCom HL7 FHIR®© Messaging](#22-governance-for-medcom-hl7-fhir-messaging) 
 * [3 Test and certification](#3-test-and-certification)
+  * [3.1 Test of FHIR messages](#31-test-of-fhir-messages)
 * [4 Change management and versioning](#4-change-management-and-versioning)
   * [4.1 Versioning of FHIR standard](#41-versioning-of-fhir-standard)
   * [4.2 Change requests and improvements](#42-change-requests-and-improvements)
@@ -158,13 +159,13 @@ TouchStone is an infrastructure that allows for automated tests against implemen
 [Click here to get started with TouchStone](assets/documents/TouchStoneGettingStarted.md)
 <p>&nbsp;</p>
 
-### 3.1 FHIR Messages
+### 3.1 Test of FHIR Messages
 Since MedCom's FHIR messages are sent over the VANS network, vendors must to be abel to include the message in a VANSenvelope before sending the message. Vendors should expect to demonstrate this as a part of test and certification. 
 
 ## 4 Change management and versioning  
 
 ### 4.1 Versioning of FHIR standard
-MedComs FHIR standards follow the <a href="https://semver.org/" target="_blank">semantic versioning, version 2.0</a>, which is adjusted to the workflow in MedCom. Each document, such as the clinical guidelines, use cases or other documentation, will have a version and a release note, to keep track of the changes in the document. The IG will have one version that covers all the artefacts in the IG. Versioning of the clinical guidelines, use cases, test material, and more will follow the major and minor version of the technical specifications in the IG, but may have a patch version that is different from the IG’s patch-version.
+MedComs FHIR standards follow the <a href="https://semver.org/" target="_blank">semantic versioning, version 2.0</a>, which is adjusted to the workflow in MedCom. Each document, such as the clinical guidelines, use cases or other documentation, will have a version and a release note, to keep track of the changes in the document. The IG will have one version that covers all the included artefacts. Versioning of the clinical guidelines, use cases, test material, and more will follow the major and minor version of the technical specifications in the IG, but may have a patch version that is different from the IG’s patch-version.
 
 Semantic versioning includes three numbers, which are separated by a dot, e.g. 2.1.4. The numbers are called <i>major.minor.patch</i>,which represent different degrees of changes: 
 * MAJOR version changes when you make incompatible API changes

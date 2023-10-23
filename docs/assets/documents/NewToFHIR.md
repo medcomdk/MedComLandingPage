@@ -15,15 +15,15 @@ The purpose of this section is to give an introduction to MedCom's FHIR standard
 
 
 ## 1 FHIR Glossary
-<a href="https://www.hl7.org/fhir/" target="_blank">Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)</a> is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare-related information. FHIR defines several resources, often referred to as ‘building blocks’, each describing a delimited area within healthcare e.g., a Patient or an Encounter. These resources are generic and can therefore be used across the world. However, when using the resources in a specific context, such as communication between Danish healthcare parties, the resources need to be profiled to accommodate the use. The profiling could be to require the last name of a Patient. In some cases, it is necessary to extend the generic resources to fit the context e.g., to add a civil registration number (Danish: CPR-nummer) as a patient identifier.
+<a href="https://www.hl7.org/fhir/" target="_blank">Fast Healthcare Interoperability Resources (FHIR&reg;&copy;)</a> is developed by the international organization Health Level 7 (HL7) and is an open-source standard developed to exchange healthcare-related information. FHIR defines several resources, often referred to as ‘building blocks’, each describing a delimited area within healthcare, e.g. a Patient or an Encounter. These resources are generic and can therefore be used across the world. However, when using the resources in a specific context, such as communication between Danish healthcare parties, the resources need to be profiled to accommodate the use. The profiling could be to require the last name of a Patient. In some cases, it is necessary to extend the generic resources to fit the context, e.g. to add a civil registration number (Danish: CPR-nummer) as a patient identifier.
 
-When creating a MedCom FHIR standard, multiple profiles are assembled to include the information necessary to support the business requirements. Under the auspices of MedCom, these profiles will most often come from multiple Implementation Guides (IG). This decision is further addressed in  section "[Why are there Multiple Implementation Guides?](FAQ.md)" that can be founded in the Frequen aked qestions page.  
+When creating a MedCom FHIR standard, multiple profiles are assembled to include the information necessary to support the business requirements. Under the auspices of MedCom, these profiles will most often come from multiple Implementation Guides (IG). This decision is further addressed in  section "[Why are there Multiple Implementation Guides?](FAQ.md)" that can be founded in the Frequently asked questions page.  
 
-The first wave of MedCom's modernisation only includes messages, which means that there must always be a sender and a receiver. A relevant exchange paradigm could be to upload data as services or as documents where multiple receivers can get access to data or documents. If another exchange exchange paradigm is to be used, it is possible to reuse the profiles from the Core IG. This is an example of FHIR's reusability across. The optimal exchange paradigm for a standard will be considered when modernizing the next wave of MedCom standards.
+The first wave of MedCom's modernisation only includes FHIR messages, which means that there must always be a sender and a receiver. A relevant exchange paradigm could be to upload data as services or as documents where multiple receivers have access to data or documents. If another exchange paradigm is to be used, it is possible to reuse the profiles from the Core IG. This is an example of FHIR's reusability across standards and exchange paradigms. The optimal exchange paradigm for a standard will be considered when modernizing the next wave of MedCom standards.
 
-In the <a href="#Tab1">Table 1</a>  you will find the most common terms and associated descriptions and examples. These terms all describe a fundamental feature in FHIR, and they make the foundation to understand FHIR, and why they are presented initially.
+In the <a href="#Tab1">Table 1</a> you will find the most common terms and associated descriptions and examples. These terms all describe a fundamental feature in FHIR, and they make the foundation for understanding FHIR, and why they are presented initially.
 
-> Note: the <a href="#Tab1">Table 1</a>  uses FHIR-paths to describe exactly which element is referred to e.g. Patient.name refers to the nameelement in the Patient resource.
+> Note: the <a href="#Tab1">Table 1</a> uses FHIR-paths to describe exactly which element is referred to e.g. Patient.name refers to the nameelement in the Patient resource.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:65%;width:75%;}
@@ -51,7 +51,7 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
 <tbody>
   <tr>
     <td class="tg-1wig"><span style="font-weight:bold">Implementation Guide (IG)</span></td>
-    <td class="tg-t3tv">The technical specification of a MedCom FHIR standard. A set of rules and associated documentation describing, how FHIR profiles should be implemented to accommodate a given standard and requirements.</td>
+    <td class="tg-t3tv">The technical specification of a MedCom FHIR standard. A set of rules and associated documentation describing, how FHIR profiles should be implemented to accommodate a given standard and its requirements.</td>
     <td class="tg-t3tv"> <a href="http://medcomfhir.dk/ig/acknowledgement/" target="_blank">Acknowledgement IG </a>, 
     <a href="http://medcomfhir.dk/ig/hospitalnotification/" target="_blank">HospitalNotification IG </a>, 
     <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication/" target="_blank">CareCommunication IG </a>, 
@@ -72,7 +72,7 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">Cardinality</span></td>
-    <td class="tg-t3tv">Each element is described with a minimum and maximum cardinality, describing how many times an element may or shall appear:<br>
+    <td class="tg-t3tv">Each element is described with a minimum and maximum cardinality, determining how many times an element may or shall appear:<br>
     <ul>
       <li> If the minimum cardinality is 0, the element may appear</li>
       <li> If the minimum cardinality is 1, or more the element shall at least appear the number of times stated.</li>
@@ -95,7 +95,7 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">Profiling</span></td>
-    <td class="tg-t3tv">Profiling allow to fit resource to a given context, by defining constrains and/or bydefine extensions. It is widely recognized that when exchanging data it is impossible to make a one size fits all within healthcare worldwide.<br>To accommodate this, the resources made generic with the possibility to be profiled to fit a specific context, such as exchanging a CareCommunication message between Danish healthcare parties.</td>
+    <td class="tg-t3tv">Profiling allows us to fit a resource to a given context, by defining constrains and/or by define extensions. It is widely recognised that when exchanging data it is impossible to make a one size fits all within the healthcare worldwide.<br>To accommodate this condition, the resources are made generic with the possibility of being profiled to fit a specific context, such as exchanging a CareCommunication message between Danish healthcare parties.</td>
     <td class="tg-t3tv">Profiling could be to require a lastname and an identifier of a patient or citizen when exchanging information about the person.</td>
   </tr>
   <tr>
@@ -121,11 +121,11 @@ In the <a href="#Tab1">Table 1</a>  you will find the most common terms and asso
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">Modifier</span></td>
     <td class="tg-t3tv">An element which modifies or changes the understanding of the resource. '!?' indicates in the IG that the element is a modifier element, which is often defined in the generic resource or in developed extensions</td>
-    <td class="tg-t3tv">Patient.deceased is a modifier element, since is modifies the way the content of the profile should be understood, if the patient is deceased.</td>
+    <td class="tg-t3tv">Patient.deceased is a modifier element since it modifies the way the content of the profile should be understood, if the patient is deceased.</td>
   </tr>
   <tr>
     <td class="tg-cxm4"><span style="font-weight:bold">Narrative</span></td>
-    <td class="tg-t3tv"> A textual summary of the information   in a message which can be   used to display information if the structured data cannot be displayed. All   information in a message shall be included in the summary. <br>Description:    </td>
+    <td class="tg-t3tv"> A textual summary of the information   in a message which can be   used to display information if the structured data cannot be displayed. All   information in a message shall be included in the summary. </td>
     <td class="tg-t3tv">All content from a message, including the patients name or CPR-number and the written correspondence in a CareCommunication message.</td>
   </tr>
 </tbody>
@@ -149,7 +149,7 @@ In 2022 MedCom has held  two webinars concerning the modernization of MedCom sta
 
 ### 3.2 HL7 FHIR Documentation
 
-All FHIR documentation can be found at <a href="https://www.hl7.org/fhir/" target="_blank">www.hl7.org/fhir/</a>. Here you will find detailed descriptions about basic principles, presentations to all resources and much more. 
+All FHIR documentation can be found at <a href="https://www.hl7.org/fhir/" target="_blank">www.hl7.org/fhir/</a>. Here you will find detailed descriptions of basic principles, presentations to all resources and much more. 
 
 <!-- ## 5 Release Notes
 

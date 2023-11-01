@@ -96,6 +96,12 @@ The links to the webpage presentations of the standards can be found in the <a h
     <td class="tg-on52"><span style="background-color:#FFF">When a message is received, an acknowledgement message shall be returned to the sender, which states whether the message was valid and the transportation went good.</span></td>
     <td class="tg-on52"> Version 2.0</td>
   </tr>
+    <tr>
+    <td class="tg-on52"><span style="background-color:#FFF"> <a href="https://medcomdk.github.io/dk_HomeCareObservations/" rel="noopener noreferrer"><span style="text-decoration:none">HomeCareObservation </span></a></span></td>
+    <td class="tg-on52"><span style="background-color:#FFF">Kommunale Prøvesvar</span></td>
+    <td class="tg-on52"><span style="background-color:#FFF">This standard is developed to be part of a production trial of the communication between the general practitioner and municipal acute care team. Used to exchange results and observations performed and produced by the municipal acute care team. </span></td>
+    <td class="tg-on52"> Version 1.0.0</td>
+  </tr>
   <tr>
     <td class="tg-1ady" colspan="4"><span style="font-style:italic">Terminology</span></td>
   </tr>

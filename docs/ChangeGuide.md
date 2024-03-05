@@ -52,5 +52,3 @@ References within the file. The text in the squared parenthesis will be the text
 References within the project, but outside the file. The text in the squared parenthesis will be the text shown on the webpages. Ensure that you use the correct folder path.  
 [ENG-guideline](/documentation/NonTechnicalGuidelines_1.0.1.md)
 
-## Release Notes
-Every time you make a change, ensure to write a short comment in the ReleaseNote.md. 

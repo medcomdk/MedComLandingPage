@@ -61,7 +61,7 @@ The links to the webpage presentations of the standards can be found in the <a h
 <table class="tg" style="undefined;table-layout: fixed; width: 942px" id="Tab1">
 <caption style="color:#2c415c;font-weight:bold"> Table 1: Overview of the modernised FHIR standards </caption>
 <colgroup>
-<col style="width: 138.88889px">
+<col style="width: 200.88889px">
 <col style="width: 184.88889px">
 <col style="width: 409.88889px">
 <col style="width: 207.88889px">
@@ -88,7 +88,7 @@ The links to the webpage presentations of the standards can be found in the <a h
     <td class="tg-on52"><span style="background-color:#FFF"><a href="https://medcomdk.github.io/dk-medcom-carecommunication/" rel="noopener noreferrer"><span style="text-decoration:none">CareCommunication </span></a></span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Korrespondancemeddelelse</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Used in all parts of the Danish health care sector to communicate between parties.</span></td>
-    <td class="tg-on52"> Version 2.0</td>
+    <td class="tg-on52"> Version 3.0</td>
   </tr>
   <tr>
     <td class="tg-on52"><span style="background-color:#FFF"> <a href="https://medcomdk.github.io/dk-medcom-acknowledgement/" rel="noopener noreferrer"><span style="text-decoration:none">Acknowledgement </span></a></span></td>
@@ -100,7 +100,7 @@ The links to the webpage presentations of the standards can be found in the <a h
     <td class="tg-on52"><span style="background-color:#FFF"> <a href="https://medcomdk.github.io/dk_HomeCareObservations/" rel="noopener noreferrer"><span style="text-decoration:none">HomeCareObservation </span></a></span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Kommunale Prøvesvar</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">This standard is developed to be part of a production trial of the communication between the general practitioner and municipal acute care team. Used to exchange results and observations performed and produced by the municipal acute care team. </span></td>
-    <td class="tg-on52"> Version 1.0.0</td>
+    <td class="tg-on52"> Version 1.0</td>
   </tr>
   <tr>
     <td class="tg-1ady" colspan="4"><span style="font-style:italic">Terminology</span></td>

@@ -126,6 +126,12 @@ The links to the webpage presentations of the standards can be found in the <a h
     <td class="tg-on52">Messaging profiles used across all messaging-based standards.</td>
     <td class="tg-on52"></td>
   </tr>
+  <tr>
+    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-messaging/" rel="noopener noreferrer"><span style="text-decoration:none">Dokument</span></a></td>
+    <td class="tg-on52">Dokumentprofiler</td>
+    <td class="tg-on52">Document profiles used across all document-based standards.</td>
+    <td class="tg-on52"></td>
+  </tr>
 </tbody>
 </table>
 </div>

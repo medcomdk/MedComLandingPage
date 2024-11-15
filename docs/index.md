@@ -102,6 +102,13 @@ The links to the webpage presentations of the standards can be found in the <a h
     <td class="tg-on52"><span style="background-color:#FFF">This standard is developed to be part of a production trial of the communication between the general practitioner and municipal acute care team. Used to exchange results and observations performed and produced by the municipal acute care team. </span></td>
     <td class="tg-on52"> Version 1.0</td>
   </tr>
+  </tr>
+    <tr>
+    <td class="tg-on52"><span style="background-color:#FFF"> <a href="https://medcomdk.github.io/dk-medcom-conditionlist/" rel="noopener noreferrer"><span style="text-decoration:none">ConditionList</span></a></span></td>
+    <td class="tg-on52"><span style="background-color:#FFF">Deling af diagnoser</span></td>
+    <td class="tg-on52"><span style="background-color:#FFF">This document based standard is developed to support sharing of a citizens diagnoses selected by the citizens general practitioner to the citizen and healthcare providers</span></td>
+    <td class="tg-on52">-</td>
+  </tr>
   <tr>
     <td class="tg-1ady" colspan="4"><span style="font-style:italic">Terminology</span></td>
   </tr>
@@ -109,6 +116,13 @@ The links to the webpage presentations of the standards can be found in the <a h
     <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-terminology/" rel="noopener noreferrer"><span style="text-decoration:none">Terminology </span></a></td>
     <td class="tg-on52">Terminologi</td>
     <td class="tg-on52">Includes CodeSystem, ValueSet and ConceptMaps developed by MedCom used in the standards</td>
+    <td class="tg-on52"></td>
+  </tr>
+  <tr>
+    <td class="tg-on52"><a href="https://medcomfhir.dk/ig/xdsmetadata/" rel="noopener noreferrer"><span style="text-decoration:none">XDS-metadata </span></a></td>
+    <td class="tg-on52">XDS-metadata</td>
+    <td class="tg-on52">Includes CodeSystem, and ValueSet for use as metadata in document-based exchange. Please notice, the <a href="https://svn.medcom.dk/svn/releases/Standarder/IHE/OID/" target="_blank">ValueSets in defined in the IHE-XDS metadata (.xslx)</a> is currently the valid representation.</td>
+</td>
     <td class="tg-on52"></td>
   </tr>
    <tr>
@@ -122,8 +136,14 @@ The links to the webpage presentations of the standards can be found in the <a h
   </tr>
   <tr>
     <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-messaging/" rel="noopener noreferrer"><span style="text-decoration:none">Messaging</span></a></td>
-    <td class="tg-on52">Medddelsesprofiler</td>
+    <td class="tg-on52">Meddelsesprofiler</td>
     <td class="tg-on52">Messaging profiles used across all messaging-based standards.</td>
+    <td class="tg-on52"></td>
+  </tr>
+  <tr>
+    <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-document/" rel="noopener noreferrer"><span style="text-decoration:none">Document</span></a></td>
+    <td class="tg-on52">Dokumentprofiler</td>
+    <td class="tg-on52">Document profiles used across document-based standards.</td>
     <td class="tg-on52"></td>
   </tr>
 </tbody>

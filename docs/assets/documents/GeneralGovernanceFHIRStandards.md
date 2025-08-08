@@ -1,49 +1,59 @@
 [Return](../../index.md)
 
-# TouchStone getting started
-<hr>
+# General Governance for MedCom FHIR Standards
 
 **Table of contents**
-* [1 How to register](#1-how-to-register)
-* [2 How to run a Touchstone test script based on use cases](#2-how-to-run-a-touchstone-test-script-based-on-use-cases)
+* [1 Introduction to General Governance for MedCom FHIR Standards](#1-introduction-to-general-governance-for-medcom-fhir-standards)
+* [2 Special terms used in the general Governance for MedCom FHIR Standards](#2-special-terms-used-in-the-general-governance-for-medcom-fhir-standards)
+* [3 MedCom FHIR standards](#3-medcom-fhir-standards)
+* [4 4 Governance for concrete MedCom FHIR Standards](#4-governance-for-concrete-medcom-fhir-standards)
+  + [4.1 Versioning of MedCom FHIR Standards](#41-versioning-of-medcom-fhir-standards)
 
-<!-- [3 Touchstone .NET client Demo](#3-touchstone-net-client-demo)
- [4 Java FHIR client setup](#4-java-fhir-client-setup) -->
-
-This page presents a short introduction to the test tool called "TouchStone", which is used to perform tests of MedCom FHIR standards. The introduction is based on Touchstone's own guides and is divided into two sections: the first section will contain information about how to register on "TouchStone" wherease, the second section will contain information about how to run a test script. 
-
-
-
-## 1 How to register
-
-1. To register, please go to <a href="https://touchstone.aegis.net/touchstone/login" target="_blank">Touchstone</a> <a href="https://touchstone.aegis.net/touchstone/userguide/html/registration-and-login/register.html" target= "_blank">and follow steps.</a>
-
-2. To execute test you need to be a member of an organization. If your organization allready eksist assign to it.If you are the first user from your organization, <a href="https://touchstone.aegis.net/touchstone/userguide/html/registration-and-login/membership.html#new-organization" target="_blank"> pleas create your organization by follow the following steps.</a> 
-
-3. You need to be a part of the MedCom OrgGroup, to be able to access the test scripts. To become a member, pleas send a request to <a href="mailto:fhir@medcom.dk">fhir@medcom.dk</a>.
-
-> Note: You need to wait until we accept your request before you can run the test. As soon as we accept your request, you will be notified via email. Please check your spam folder in case the emails get directed there.
 <br>
 
-## 2 How to run a Touchstone test script based on use cases
+## 1 Introduction to General Governance for MedCom FHIR Standards
 
-1. To be able to run TouchStone test scripts you need to create a test system. Sign into your TouchStone account click on the "Test system" button in the top menu and choose "New test". Follow the two first steps in the following  <a href="https://touchstone.aegis.net/touchstone/userguide/html/test-systems/creating.html" target="_blank">guide</a>. 
- >Note When creating a "Test system ", you need to choose whether the system that you want to test schould acts as 'origin' or 'destination'.
+On this page, you can find information about how MedCom has profiled FHIR standards to work in a Danish context.
+Governance for MedCom HL7 FHIR  describes the basic ruleset of how MedCom standards must be implemented in the Danish Healthcare System.
 
-2. Create then "Test setup" by  <a href="https://touchstone.aegis.net/touchstone/userguide/html/executing-tests/test-setup.html" target="_blank"> the following steps</a>. 
-<!-- 3. Ensure that you have a program that can build and use API to test   -->
-3. To execute the test choose the testscript under "Test definition" and <a href="https://touchstone.aegis.net/touchstone/userguide/html/executing-tests/test-execs.html" target="_blank">follow the steps</a>.  
-4. To read the test results,do the following <a href="https://touchstone.aegis.net/touchstone/userguide/html/executing-tests/test-exec-results.html" target="_blank">steps</a>.
+<br>
 
+These general MedCom FHIR Governance rules are intended to clarify the use of MedCom’s FHIR standards for the health and social area.
 
-
-<!-- ## 3 Touchstone .NET client Demo
-[Demo of a .NET client](https://github.com/medcomdk/touchstone-client-demo-dotnet) calling the MedCom Touchstone test Suite 
+It is the intention that the general MedCom FHIR Governance rules together with MedCom’s individual FHIR standards form the full and sufficient basis for implementing MedCom’s healthcare FHIR standards. Thus, the governance rules must be able to function as “a chief judge”, where there is doubt about the practical application of MedCom’s FHIR standards.
 
 
-## 4 Java FHIR client setup
-[http://svn.medcom.dk/svn/drafts/TestProcedurer/Touchstone/MedcomTouchstoneTest/java%20FHIR%20client.pptx](http://svn.medcom.dk/svn/drafts/TestProcedurer/Touchstone/MedcomTouchstoneTest/java%20FHIR%20client.pptx) -->
+### 2 Special terms used in the general Governance for MedCom FHIR Standards
 
-<!-- ## 5 Release Notes
+MedCom adopts the normative words defined in IETF Best Current Practice 14: Key words for use in RFCs to Indicate Requirement Levels (BCP-14) (currently RFC 2119 and RFC 8174), certain words indicate whether a specific content of the Technical Framework is normative: either required (e.g., “must”, “required”, “shall”) or optional (e.g., “may”, “recommended”). Informative content does not contain these key words.
 
-[The latest changes of this page can be found here.](ReleaseNotesTouchStoneGettingStarted.md) -->
+<a href="https://www.rfc-editor.org/info/rfc2119" target="_blank">RFC 2119</a> specifies common key words that may be used in protocol specifications, where <a href="https://www.rfc-editor.org/info/rfc8174" target="_blank">RFC 8174</a> aims to reduce the ambiguity by clarifying that only UPPERCASE usage of the key words have the defined special meanings.
+
+This specification uses the conformance verbs SHALL, SHOULD, and MAY as defined in RFC 2119. Unlike RFC 2119, however, this specification allows that different applications might not be able to interoperate because of how they use optional features. In particular:
+
+* **SHALL**: (or “REQUIRED” or “MUST”) an absolute requirement for all implementations
+* **SHALL NOT**: (or "MUST NOT") an absolute prohibition against inclusion for all implementations
+* **SHOULD/SHOULD NOT**: (or “RECOMMENDED”/“NOT RECOMMENDED”) A best practice or recommendation to be considered by implementers within the context of their particular implementation; there may be valid reasons to ignore an item, but the full implications must be understood and carefully weighed before choosing a different course
+* **MAY**: (or "OPTIONAL") This is truly optional language for an implementation; can be included or omitted as the implementer decides with no implications
+
+<br>
+
+This convention is in compliance with HL7 FHIR use of the terms, which is descibed by <a href="http://www.hl7.org/fhir/conformance-rules.html#conflang" target="_blank">HL7 FHIR under conformance language</a>.
+
+
+## 3 MedCom FHIR standards
+
+An implementer of a MedCom FHIR  Standard **SHALL** be compliant with all parts of the documentation (both the standard documentation and the relevant governance).
+
+## 4 Governance for concrete MedCom FHIR Standards
+
+Each MedCom FHIR standard will potentially add some specific Governance Rules to the mix of overall Governance Rules. These are handled on a separate page, to which the specific standard also will link to.
+
+[Click here to go to Governance for concrete MedCom FHIR Message Standards.](/assets/documents/090_Governance-for-concrete-standards.md)
+<!-- RCH: link i stedet til landingpage direkte -->
+
+### 4.1 Versioning of MedCom FHIR Standards
+Vendors should be prepared to handle multiple versions of a MedCom FHIR standard.
+The version of the standard is not explicitly stated in a message. 
+
+When receiving a MedCom FHIR Bundle, it should be validated against the rules and contraints defined in the associtated Implementaiotn guide of the same version. With breaking changes, MedCom will provide specific guidelines for the scenario.

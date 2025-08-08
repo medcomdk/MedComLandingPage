@@ -6,8 +6,8 @@
 * [1 Introduction to General Governance for MedCom FHIR Standards](#1-introduction-to-general-governance-for-medcom-fhir-standards)
 * [2 Special terms used in the general Governance for MedCom FHIR Standards](#2-special-terms-used-in-the-general-governance-for-medcom-fhir-standards)
 * [3 MedCom FHIR standards](#3-medcom-fhir-standards)
-* [4 4 Governance for concrete MedCom FHIR Standards](#4-governance-for-concrete-medcom-fhir-standards)
-  + [4.1 Versioning of MedCom FHIR Standards](#41-versioning-of-medcom-fhir-standards)
+* [4 Governance for concrete MedCom FHIR Standards](#4-governance-for-concrete-medcom-fhir-standards)
+  + [4.1 Versions of MedCom FHIR Standards](#41-versions-of-medcom-fhir-standards)
 
 <br>
 
@@ -47,12 +47,9 @@ An implementer of a MedCom FHIR  Standard **SHALL** be compliant with all parts 
 
 ## 4 Governance for concrete MedCom FHIR Standards
 
-Each MedCom FHIR standard will potentially add some specific Governance Rules to the mix of overall Governance Rules. These are handled on a separate page, to which the specific standard also will link to.
+Each MedCom FHIR standard will potentially add some specific Governance Rules to the mix of overall Governance Rules. These are handled separately, to which the specific standard will link to.
 
-[Click here to go to Governance for concrete MedCom FHIR Message Standards.](/assets/documents/090_Governance-for-concrete-standards.md)
-<!-- RCH: link i stedet til landingpage direkte -->
-
-### 4.1 Versioning of MedCom FHIR Standards
+### 4.1 Versions of MedCom FHIR Standards
 Vendors should be prepared to handle multiple versions of a MedCom FHIR standard.
 The version of the standard is not explicitly stated in a message. 
 

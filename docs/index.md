@@ -3,7 +3,8 @@
 * [1 MedComs FHIR standards](#1-medcoms-fhir-standards)
 * [2 Implementing a MedCom FHIR standard](#2-implementing-a-medcom-fhir-standard)
   * [2.1 Standard documentation](#21-standard-documentation)
-  * [2.2 Governance for MedCom HL7 FHIR®© Messaging](#22-governance-for-medcom-hl7-fhir-messaging) 
+  * [2.2 General goverance for MedCom FHIR standards](#22-general-goverance-for-medcom-fhir-standards)
+  * [2.3 Governance for MedCom HL7 FHIR®© Messaging](#23-governance-for-medcom-hl7-fhir-messaging) 
 * [3 Test and certification](#3-test-and-certification)
   * [3.1 Test of FHIR messages](#31-test-of-fhir-messages)
 * [4 Change management and versioning](#4-change-management-and-versioning)
@@ -156,11 +157,11 @@ The links to the webpage presentations of the standards can be found in the <a h
 When implementing a MedCom FHIR standard, it is fundamental to understand in which context the standard should be used to ensure that the implementation fulfils the business requirements. Therefore, it is important to understand the standard documentation for the given standard. 
 Furthermore, it is essential to understand the messaging framework and the possibilities of the VANS Network, as the FHIR standards define the process for how information is packaged and sent from one part to another thtough the VANS Network.
 The messaging framework and the VANS Network are described as governance, previously known as the “Syntax and Communication Rules". <br>
-<a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank"> Click here to get more information about governance.</a>  
-<br>
+[Click here to get more information about governance.](assets/documents/TouchStoneGettingStarted.md).
+<p>&nbsp;</p>
 
 ### 2.1 Standard documentation
-The purpose of the standard documentation is to describe the context in which a standard should be used and which requirements the standard should fulfil. Standard documentation is only provided for Medcom's FHIR standards and thus not for the generic Core or Messaging Profiles. The content of the standard documentation can vary between the standards. 
+The purpose of the standard documentation is to describe the context in which a standard should be used and which requirements the standard should fulfil. Standard documentation is only provided for Medcom's FHIR standards and thus not for the generic Core or, Document or Messaging Profiles. The content of the standard documentation can vary between the standards.
 
 <!-- An implementation guide, use cases, clinical guidelines for application and testprotocols will be available for all standards -->
 
@@ -173,9 +174,14 @@ The standard documentation can consist of:
 * **Mapping document**: the mapping from the previous OIOXML standard to FHIR.
 <p>&nbsp;</p>
 
+### 2.2 General goverance for MedCom FHIR standards
+The general governance is important to understand before implementing a MedCom FHIR standard, as it describes general governance for both MedCom FHIR document and messaging standards. Governance for the two individual standard types can be found below.
+<a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank"> Click here to get more information about the general governance for MedCom FHIR standards.</a>  
+<p>&nbsp;</p>
+
 ### 2.2 Governance for MedCom HL7 FHIR Messaging
-The governance is important to understand before implementing a MedCom FHIR standard, as it describes the Danish profiling of the FHIR messaging framework and the network layer, which is the VANS network at present. Since the existing VANS network is used to deliver messages, messages must be sent in a VANSenvelope unless otherwise specified. <br>
-<a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank"> Click here to get more information about governance.</a>  
+The messaging governance is important to understand before implementing a MedCom FHIR messaging standard, as it describes the Danish profiling of the FHIR messaging framework and the network layer, which is the VANS network at present. Since the existing VANS network is used to deliver messages, messages must be sent in a VANSenvelope unless otherwise specified. <br>
+<a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank"> Click here to get more information about messaging governance.</a>  
 <p>&nbsp;</p>
 
 ## 3 Test and certification

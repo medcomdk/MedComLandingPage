@@ -212,8 +212,8 @@ If a document or an IG has an extra number eg. 2.1.4-a.1 it is a prerelease and 
 <p>&nbsp;</p>
 
 ### 4.2 Governance of Medcom FHIR Terminology
-Governance for MedCom FHIR Terminology covers version management and dates Codesystems, Valuesets and ConceptMaps, which are published through the MedCom FHIR Terminology IG.
-[Click here to get more information about the governance for MedCom FHIR Terminology](assets/documents/TouchStoneGettingStarted.md)
+Governance of MedCom FHIR Terminology covers change management and versioning of the Terminology IG and corresponding affected standards. It specificlally adresses Codesystems, Valuesets and ConceptMaps, which are published through the MedCom FHIR Terminology IG.
+[Click here to get more information about the governance for MedCom FHIR Terminology](assets/documents/GovernanceTerminology.md)
 <p>&nbsp;</p>
 
 ### 4.3 Change requests and improvements

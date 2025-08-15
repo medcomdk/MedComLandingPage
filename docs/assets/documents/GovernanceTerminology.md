@@ -29,6 +29,8 @@ The term Terminology is in this governance a term covering all kinds of terminol
 
 All elements of a MedCom FHIR Message **SHALL** be compliant with the terminologies that are pointed out by these elements. No updates will be made without consulting relevant working groups beforehand.
 
+MedCom applies semantic versioning. Read MedCom's description of semantic versioning [here](https://medcomdk.github.io/MedComLandingPage/#41-versioning-of-fhir-standard).
+
 ### 1.1 MedCom FHIR CodeSystems
 
 No code in a CodeSystem will be deleted. Incompatible versions of a CodeSystem will have a unique name. Codes in CodeSystems may be deprecated with a deprecation date and new codes may be added to the CodeSystem. In both cases will the version and date be updated.
@@ -95,13 +97,13 @@ Examples include:
 
 ### 2.2 Versioning of MedCom Terminology IG
 
-MedCom applies a versioning model to manage updates to MedCom FHIR Terminology (https://medcomfhir.dk/ig/terminology/), using the format Major.Minor.Patch. 
+MedCom applies a versioning model to manage updates to [MedCom FHIR Terminology](https://medcomfhir.dk/ig/terminology/), using the format Major.Minor.Patch. 
 
 Changes to individual terminology artefacts do not automatically result in the same level of version change in the Terminology IG. The IG version is determined based on the overall impact of the update. 
 
 For instance, a minor change to a ValueSet may be reflected as a patch version in the MedCom Terminology IG. 
 
-Changes are documented in the Directory of published versions (https://medcomfhir.dk/ig/terminology/history.html) of the Terminology IG. 
+Changes are documented in the [Directory of published versions](https://medcomfhir.dk/ig/terminology/history.html) of the Terminology IG. 
 
 Examples: 
 

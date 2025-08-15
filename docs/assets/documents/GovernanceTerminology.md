@@ -57,7 +57,7 @@ MedCom defines a separation between versioning of the overall MedCom Terminology
 
 MedCom applies a versioning model to manage updates to individual MedCom FHIR Terminology artefacts (CodeSystems, ValueSets, ConceptMaps), using the format Major.Minor.Patch. 
 
-Each component of the version number signals the type and impact of a change. Any MedCom standards affected by changes of individual terminology artefacts in the MedCom Terminology IG will reflect the same version change level as the artefact it incorporates that has the highest level of change (major > minor > patch). MedCom will communicate changes at the major and minor version levels to affected vendors. Vendors must be able to handle patch level changes without being notified by MedCom.
+Each component of the version number signals the type and impact of a change. Any MedCom standards affected by changes of individual terminology artefacts in the MedCom Terminology IG will reflect the same version change level as the artefact it incorporates that has the highest level of change (major > minor > patch). MedCom will communicate changes at the major and minor version levels to affected vendors. Vendors must be able to handle patch level changes without being notified by MedCom. Venders can use GitHub subscriptions to get notifications.
 
 <br>
 

@@ -77,7 +77,7 @@ The links to the webpage presentations of the standards can be found in the <a h
 </thead>
 <tbody>
   <tr>
-    <td class="tg-1ady" colspan="4"><span style="font-style:italic">MedCom's FHIR standards</span></td>
+    <td class="tg-1ady" colspan="4"><span style="font-style:italic">MedCom's Messaging standards</span></td>
   </tr>
   <tr>
     <td class="tg-on52"><a href="https://medcomdk.github.io/dk-medcom-hospitalnotification/" rel="noopener noreferrer"><span style="text-decoration:none">HospitalNotification</span></a></td>
@@ -102,6 +102,9 @@ The links to the webpage presentations of the standards can be found in the <a h
     <td class="tg-on52"><span style="background-color:#FFF">Kommunale Prøvesvar</span></td>
     <td class="tg-on52"><span style="background-color:#FFF">This standard is developed to be part of a production trial of the communication between the general practitioner and municipal acute care team. Used to exchange results and observations performed and produced by the municipal acute care team. </span></td>
     <td class="tg-on52"> Version 1.0</td>
+  </tr>
+    <tr>
+    <td class="tg-1ady" colspan="4"><span style="font-style:italic">MedCom's Document standards</span></td>
   </tr>
   </tr>
     <tr>

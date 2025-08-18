@@ -64,7 +64,7 @@ Each component of the version number signals the type and impact of a change. An
 Examples:
 
 * A minor change in a ValueSet will result in a minor version change in the standards that incorporate it. 
-* MedCom releases a new major version of multiple terminology artefacts not used in MedCom standard A. Standard A’s version is then not affected on any level.
+* MedCom releases a new major version of multiple terminology artefacts not used in MedCom Standard A. Standard A’s version is then not affected on any level.
 
 #### 2.1.1 Major version
 
@@ -93,7 +93,7 @@ The patch version (X.Y.Z) is incremented for small changes that are backward com
 Examples include: 
 
 * Corrections to display names or definitions that do not affect semantic meaning. 
-* Making small technical or editorial updates or fixing bugs that do not affect system behaviour or require changes by users. 
+* Making small technical or editorial updates or fixing bugs that do not affect system behaviour or require changes by users.
 
 ### 2.2 Versioning of MedCom Terminology IG
 
@@ -107,9 +107,9 @@ Changes are documented in the [Directory of published versions](https://medcomfh
 
 Examples: 
 
-* A new version of MedCom Terminology has been released as a major version which includes changes to artefacts (e.g. ValueSets and CodeSystems) not used in MedCom standard A. Standard A’s version is not affected at any level. 
-* A new version of MedCom Terminology has been released. ValueSet A’s version is changed at the minor level and the MedCom Terminology is changed at the patch level. Standard A, which incorporates ValueSet A, is updated on the major level. 
-* A new version of MedCom Terminology has been released, and it includes changes to multiple artefacts (e.g. ValueSets and CodeSystems) used in MedCom standard A. The IG of MedCom standard A will be updated to match the highest version change level (major > minor > patch) among the individual terminology artefacts it incorporates and not the version of the MedCom Terminology IG itself. 
+* A new version of MedCom Terminology has been released as a major version which includes changes to artefacts (e.g. ValueSets and CodeSystems) not used in MedCom Standard A. Standard A’s version is not affected at any level.
+* A new version of MedCom Terminology has been released. ValueSet B’s version is changed at the minor level and the MedCom Terminology is changed at the patch level. Standard B, which incorporates ValueSet B, is updated on the major level. 
+* A new version of MedCom Terminology has been released, and it includes changes to multiple artefacts (e.g. ValueSets and CodeSystems) used in MedCom Standard C. The IG of MedCom Standard C will be updated to match the highest version change level (major > minor > patch) among the individual terminology artefacts it incorporates and not the version of the MedCom Terminology IG itself.
 
 #### 2.2.1 Major version
 

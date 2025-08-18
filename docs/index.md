@@ -33,7 +33,7 @@ Lastly, the terminology codes (Danish: terminologi), including all CodeSystems, 
 
 Due to the above mentioned, the <a href="#Tab1"> Table 1</a> is divided into three parts: 
 1. MedCom's FHIR standards describes the MedCom FHIR standards and their business requirements.  
-2. Terminology describes the terminology XDS-metadata used in the MedCom FHIR standards.
+2. Terminology describes the terminology used in the MedCom FHIR standards.
 3. Generic profiles describes the profiles used across MedCom FHIR standards. 
 
 <br>

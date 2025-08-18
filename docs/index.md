@@ -154,13 +154,13 @@ The links to the webpage presentations of the standards can be found in the <a h
 
 
 ## 2 Implementing a MedCom FHIR standard
-When implementing a MedCom FHIR standard, it is fundamental to understand in which context the standard should be used to ensure that the implementation fulfils the business requirements. Therefore, it is important to understand the standard documentation for the given standard. 
+When implementing a MedCom FHIR standard, it is fundamental to understand in which context the standard should be used to ensure that the implementation fulfills the business requirements. Therefore, it is important to understand the standard documentation for the given standard. 
 Furthermore, it is essential to understand the governance, as it defines the process for how information is packaged and sent.
 <br>
 <p>&nbsp;</p>
 
 ### 2.1 Standard documentation
-The purpose of the standard documentation is to describe the context in which a standard should be used and which requirements the standard should fulfil. Standard documentation is only provided for Medcom's FHIR standards and thus not for the generic Core or, Document or Messaging Profiles. The content of the standard documentation can vary between the standards.
+The purpose of the standard documentation is to describe the context in which a standard should be used and which requirements the standard should fulfill. Standard documentation is only provided for Medcom's FHIR standards and thus not for the generic Core or, Document or Messaging Profiles. The content of the standard documentation can vary between the standards.
 
 <!-- An implementation guide, use cases, clinical guidelines for application and testprotocols will be available for all standards -->
 
@@ -169,7 +169,7 @@ The standard documentation can consist of:
 * **Implementation Guide**: the technical specifications of the standard.
 * **Clinical guidelines for application**: the clinical consideration behind the modernisation.
 * **Use cases**: the intended use of the standard.
-* **Testprotocol**: used during test and certification to document that the vendor implementation fulfils the standard. 
+* **Testprotocol**: used during test and certification to document that the vendor implementation fulfills the standard. 
 * **Mapping document**: the mapping from the previous OIOXML standard to FHIR.
 <p>&nbsp;</p>
 
@@ -184,7 +184,7 @@ The messaging governance is important to understand before implementing a MedCom
 <p>&nbsp;</p>
 
 ## 3 Test and certification
-Before using the implemented standard in a production environment to exchange patient data, it must be tested and certified by MedCom to ensure it fulfils the standard and business requirements. In addition to the usual <a href="https://medcom.dk/standarder/test-og-certificering/" target="_blank">MedCom test setup</a> with a self test and live test, <a href="https://touchstone.aegis.net/touchstone/" target="_blank">TouchStone</a> is used as a tool to validate FHIR messages sent in different use cases.
+Before using the implemented standard in a production environment to exchange patient data, it must be tested and certified by MedCom to ensure it fulfills the standard and business requirements. In addition to the usual <a href="https://medcom.dk/standarder/test-og-certificering/" target="_blank">MedCom test setup</a> with a self test and live test, <a href="https://touchstone.aegis.net/touchstone/" target="_blank">TouchStone</a> is used as a tool to validate FHIR messages sent in different use cases.
 
 TouchStone is an infrastructure that allows for automated tests against implementations of HL7 FHIR. For each FHIR standard MedCom will develope test scripts, that will be available in TouchStone. These test scripts can be used both during implementation/development and as a part of the test and certification. <br>
 [Click here to get started with TouchStone](assets/documents/TouchStoneGettingStarted.md)

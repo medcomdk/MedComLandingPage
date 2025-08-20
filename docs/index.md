@@ -163,7 +163,7 @@ Furthermore, it is essential to understand the governance, as it defines the pro
 <p>&nbsp;</p>
 
 ### 2.1 Standard documentation
-The purpose of the standard documentation is to describe the context in which a standard should be used and which requirements the standard should fulfill. Standard documentation is only provided for Medcom's FHIR standards and thus not for the generic Core or, Document or Messaging Profiles. The content of the standard documentation can vary between the standards.
+The purpose of the standard documentation is to describe the context in which a standard should be used and which requirements the standard should fulfill. Standard documentation is only provided for Medcom's FHIR standards and thus not for the generic Core or, Document or Messaging Profiles. The content of the standard documentation can vary between the standards. It may be useful to note that the terms *standards* and *profiles* are often used interchangeably, at least in the context of a MedCom FHIR Message and a MedCom FHIR Document.
 
 <!-- An implementation guide, use cases, clinical guidelines for application and testprotocols will be available for all standards -->
 
@@ -194,7 +194,7 @@ TouchStone is an infrastructure that allows for automated tests against implemen
 <p>&nbsp;</p>
 
 ### 3.1 Test of FHIR Messages and Documents
-Since MedCom's FHIR messages are sent over the VANS network, vendors implementing messaging standards must to be abel to include the message in a VANSenvelope before sending the message.<br>
+Since MedCom's FHIR messages are sent over the VANS network, vendors implementing messaging standards must to be able to include the message in a VANSenvelope before sending the message.<br>
 Vendors implementing MedCom's FHIR document standards must be able to share documents in the relevant infrastructure.<br>
 Vendors should expect to demonstrate this as a part of test and certification.
 

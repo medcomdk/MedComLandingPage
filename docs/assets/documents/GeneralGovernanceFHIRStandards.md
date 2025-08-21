@@ -53,6 +53,4 @@ Each MedCom FHIR standard will potentially add some specific Governance Rules to
 Vendors should be prepared to handle multiple versions of a MedCom FHIR standard.
 The version of the standard is not explicitly stated in a bundle.
 
-MedCom is, as of 2025, starting to introduce references in the MessageHeader to MessageDefinitions via the `definition` element. This means that future releases containing MessageHeaders will have an associated MessageDefinition linked. You can find the Implementation Guide for MessageDefinitions [here](https://medcomfhir.dk/ig/messagedefinitions/). MessageDefinitions contains the the standard's version.
-
 When receiving a MedCom FHIR Bundle, it should be validated against the rules and contraints defined in the associtated Implementation guide of the same version. With breaking changes, MedCom will provide specific guidelines for the scenario.

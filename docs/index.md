@@ -194,8 +194,8 @@ TouchStone is an infrastructure that allows for automated tests against implemen
 <p>&nbsp;</p>
 
 ### 3.1 Test of FHIR Messages and Documents
-Since MedCom's FHIR messages are sent over the VANS network, vendors implementing messaging standards must to be able to include the message in a VANSenvelope before sending the message, typically in the Danish national Document Sharing infrastructure (DDS).<br>
-Vendors implementing MedCom's FHIR document standards must be able to share documents in the relevant infrastructure.<br>
+Since MedCom's FHIR messages are sent over the VANS network, vendors implementing messaging standards must to be able to include the message in a VANSenvelope before sending the message.<br>
+Vendors implementing MedCom's FHIR document standards must be able to share documents in the relevant infrastructure, typically in the Danish national Document Sharing infrastructure (DDS).<br>
 Vendors should expect to demonstrate this as a part of test and certification.
 
 ## 4 Change management and versioning  

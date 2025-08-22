@@ -73,7 +73,8 @@ The major version (X.0.0) is incremented when changes are introduced that may br
 Examples include:
 
 * Structural changes to existing terminology artefacts. 
-* Changing or deprecating existing codes. 
+* Changing or deprecating existing codes.
+* Corrections to display names that impacts functionality in systems using the terminology.
 * Embedding a group from one terminology artefact into another terminology artefact. 
 * Adding, deprecating or changing a code in a way that impacts functionality in systems using the terminology.
 
@@ -83,7 +84,8 @@ The minor version (X.Y.0) is incremented when new content is added in a way that
 
 Examples include: 
 
-* Addition of one or more new codes to existing terminology artefacts (e.g. a new category). 
+* Addition of one or more new codes to existing terminology artefacts (e.g. a new category).
+* Corrections to display names that do not affect semantic meaning.
 * Changes that do not affect functionality but still require updated documentation or user guidance – e.g. clarifying a code definition or providing new usage instructions. 
 
 #### 2.1.3 Patch version
@@ -92,7 +94,7 @@ The patch version (X.Y.Z) is incremented for small changes that are backward com
 
 Examples include: 
 
-* Corrections to display names or definitions that do not affect semantic meaning. 
+* Corrections to descriptions that do not affect semantic meaning. 
 * Making small technical or editorial updates or fixing bugs that do not affect system behaviour or require changes by users.
 
 ### 2.2 Versioning of MedCom Terminology IG

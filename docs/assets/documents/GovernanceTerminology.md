@@ -129,7 +129,7 @@ Examples include:
 
 * Addition of entirely new CodeSystems or ValueSets. 
 * Addition of a new group of codes (e.g. a new domain or category within an existing CodeSystem). 
-* Adding, deprecating or changing a code in a way that impacts functionality in systems using the terminology. 
+* Adding, deprecating or changing a code or display name in a way that impacts functionality in systems using the terminology. 
 
 Changes that do not affect terminology functionality but still require updated documentation or user guidance. 
 
@@ -140,7 +140,7 @@ The patch version (X.Y.Z) is incremented for small changes that are backward com
 Examples include: 
 
 * Addition of new individual codes to an existing artefact that do not affect system functionality. 
-* Corrections to display names or definitions that do not affect semantic meaning. 
+* Corrections to descriptions that do not affect semantic meaning. 
 * Small technical or editorial updates (like contact info or version notes) that do not affect system behavior or require changes by users. 
 
 ## 3 Governance for Terminology artefact dates

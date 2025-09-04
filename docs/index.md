@@ -9,7 +9,8 @@
   * [3.1 Test of FHIR messages](#31-test-of-fhir-messages)
 * [4 Change management and versioning](#4-change-management-and-versioning)
   * [4.1 Versioning of FHIR standard](#41-versioning-of-fhir-standard)
-  * [4.2 Change requests and improvements](#42-change-requests-and-improvements)
+  * [4.2 Governance for Medcom FHIR Terminology](#42-governance-for-medcom-fhir-terminology)
+  * [4.3 Change requests and improvements](#43-change-requests-and-improvements)
 * [5 Want to stay updated?](#Want-to-stay-updated)
 * [6 New to FHIR?](#New-to-fhir)
 * [7 Frequently asked questions](#7-frequently-asked-questions)
@@ -214,7 +215,7 @@ If a document or an IG has an extra number eg. 2.1.4-a.1 it is a prerelease and 
 <a href="https://svn.medcom.dk/svn/qms/Offentlig/SOPer/" target="_blank">Click here to read SOP-4.1.</a> 
 <p>&nbsp;</p>
 
-### 4.2 Governance of Medcom FHIR Terminology
+### 4.2 Governance for Medcom FHIR Terminology
 Governance of MedCom FHIR Terminology covers change management and versioning of the Terminology IG and corresponding affected standards. It specificlally adresses Codesystems, Valuesets and ConceptMaps, which are published through the MedCom FHIR Terminology IG.
 [Click here to get more information about the governance for MedCom FHIR Terminology](assets/documents/GovernanceTerminology.md)
 <p>&nbsp;</p>

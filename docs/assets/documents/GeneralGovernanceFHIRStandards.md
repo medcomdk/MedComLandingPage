@@ -64,7 +64,7 @@ An implementer of a MedCom FHIR  Standard **SHALL** be compliant with all parts 
 
 Unless otherwise stated, the following criteria apply to elements marked as “Must Support” in MedCom's Implementation Guides:
 
-Labeling an element MustSupport means that implementations that produce or consume resources **SHALL** provide "support" for the element in some meaningful way, and is therefore a part of a standard. Because the base FHIR specification is intended to be independent of any particular implementation context, no elements are flagged as mustSupport=true as part of the base specification. This flag is intended for use in profiles that have a defined implementation context.
+Labeling an element MustSupport (S or SO red markings) means that implementations that produce or consume resources **SHALL** provide "support" for the element in a meaningful way, and is therefore a part of a standard. Because the base FHIR specification is intended to be independent of any particular implementation context, no elements are flagged as mustSupport=true as part of the base specification. This flag is intended for use in profiles that have a defined implementation context.
 
 <br>
 
@@ -78,7 +78,7 @@ Systems receiving or consuming a resource instance:
 
 **MUST** be able to process the field’s content when it is present.
 **MUST** process the content according to the rules defined for the profile.
-**MUST NOT** fail when the value is not present.
+**MUST NOT** fail when the value is not present if it has a cardinality of minimum 1.
 
 Systems sending or creating a resource instance:
 
@@ -137,8 +137,10 @@ If a resource includes a base-64-encoded attachment, this **SHALL NOT** be inclu
 ##### 5.2.3 General Narrative Text Rules
 
 * All resources **SHALL** contain a narrative text defined by the `[resource].text` element (Except Bundles).
-* The Narrative Text **SHALL** have a status with value "generated" or "extensions". 
-* The Narrative Text **SHALL** include elements marked with the Obligation code **SHALL:in-narrative**. 
+* The Narrative Text **SHALL** have a status with value "generated" or "extensions".
+* The Narrative Text **SHALL** include the ID for each resource (Resource.id).
+* The Narrative Text **SHALL** include references to other resources as the ID for each resource (Resource.id).
+* The Narrative Text **SHALL** include elements marked with the Obligation code **SHALL:in-narrative**.
 * The Narrative Text **SHALL NOT** include base-64-encoded attachments.
 * If a resource contains extra information beyond the MedCom standard, this **SHALL** be included in the narrative.
 * The narrative **SHALL** use Danish clinical terminology or recognized Danish display texts where such exist, and it **SHALL** also include the corresponding English text to ensure international readability.
@@ -166,8 +168,9 @@ Clinically and administratively relevant information includes:
 * Codes and corresponding systems with human meaning. When coded values are used (e.g., LOINC, SNOMED CT, MedCom codes), their display text (the human-readable term) must appear in the narrative.
 * Relevant values (e.g., observation results, medication names and dosages, diagnostic conclusions).
 * Relevant elements from extension.
-* Identifiers (e.g., SOR-ID, municipality codes, episode-of-care identifiers) when they have human relevance.
+* Identifiers when they have human relevance (e.g., SOR-ID, municipality codes, episode-of-care identifiers).
 * Relevant dates and times.
+* References to other resources.
 
 ##### 6.2 Elements that shall not be included in the narrative text
 
@@ -175,11 +178,9 @@ Elements that are NOT clinically or administratively relevant and that do not co
 
 Elements that shall not be included are:
 
-* Technical or system-specific identifiers without clinical or administrative relevance (e.g., UUIDs, system-generated internal references).
-* Machine-oriented content such as FHIR resource IDs, or version IDs.
+* Machine-oriented content and technical or system-specific identifiers without clinical or administrative relevance (except resource.id).
 * Base-64-encoded content, including documents or binary attachments.
 * System metadata or technical extensions not relevant to clinical or administrative use.
-* Internal FHIR references (e.g., Patient/123) should not be rendered in the narrative; instead, their human-readable content (e.g., patient name) must be shown.
 
 ## 7 Governance for MedCom FHIR Terminology
 

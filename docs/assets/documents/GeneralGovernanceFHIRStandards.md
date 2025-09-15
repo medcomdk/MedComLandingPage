@@ -169,8 +169,9 @@ Clinically and administratively relevant information includes:
 * Relevant values (e.g., observation results, medication names and dosages, diagnostic conclusions).
 * Relevant elements from extension.
 * Identifiers when they have human relevance (e.g., SOR-ID, municipality codes, episode-of-care identifiers).
+* The resource ID.
+* References to other resources by including the ID of the referenced resource.
 * Relevant dates and times.
-* References to other resources.
 
 ##### 6.2 Elements that shall not be included in the narrative text
 
@@ -191,7 +192,7 @@ Elements that shall not be included are:
 Each MedCom FHIR standard will potentially add some specific Governance Rules to the mix of overall Governance Rules. These are handled separately, to which the specific standard will link to.
 
 ### 8.1 Versions of MedCom FHIR Standards
-Vendors should be prepared to handle multiple versions of a MedCom FHIR standard.
-The version of the standard is not explicitly stated in a bundle.
+Vendors **SHOULD** be prepared to handle multiple versions of a MedCom FHIR standard.
+The version of the standard is not explicitly stated in a Bundle.
 
-When receiving a MedCom FHIR Bundle, it should be validated against the rules and constraints defined in the associated Implementation guide of the same version. With breaking changes, MedCom will provide specific guidelines for the scenario.
+When receiving a MedCom FHIR Bundle, it **SHOULD** be validated against the rules and constraints defined in the associated Implementation guide of the same version. With breaking changes, MedCom will provide specific guidelines for the scenario.

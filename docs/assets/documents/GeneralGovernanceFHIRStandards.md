@@ -64,7 +64,7 @@ An implementer of a MedCom FHIR  Standard **SHALL** be compliant with all parts 
 
 Unless otherwise stated, the following criteria apply to elements marked as “Must Support” in MedCom's Implementation Guides:
 
-Labeling an element MustSupport (S or SO red markings) means that implementations that produce or consume resources **SHALL** provide "support" for the element in a meaningful way, and is therefore a part of a standard. Because the base FHIR specification is intended to be independent of any particular implementation context, no elements are flagged as mustSupport=true as part of the base specification. This flag is intended for use in profiles that have a defined implementation context.
+Labeling an element MustSupport ('S' red marking) means that implementations that produce or consume resources **SHALL** provide "support" for the element in a meaningful way, and is therefore a part of a standard. Because the base FHIR specification is intended to be independent of any particular implementation context, no elements are flagged as mustSupport=true as part of the base specification. This flag is intended for use in profiles that have a defined implementation context.
 
 <br>
 
@@ -114,7 +114,7 @@ The narrative text plays a critical role in supporting robustness and patient sa
 
 The narrative text **SHALL** include a human-readable representation of every data element marked with the Obligation code **SHALL:in-narrative**.
 
-Obligations in FHIR define actor-specific requirements in an Implementation Guide to express conformance expectations. The code “SHALL:in-narrative” indicates that the referenced data element must be represented in the human-readable narrative of the resource. An Actor represents a defined role in an exchange, and obligations are applied to actors to indicate their specific responsibilities. The narrative **SHALL** provide a human-readable summary of the essential elements and **SHALL NOT** replicate the full structured content.
+Obligations ('O' red marking) in FHIR define actor-specific requirements in an Implementation Guide to express conformance expectations. The code “SHALL:in-narrative” indicates that the referenced data element must be represented in the human-readable narrative of the resource. An Actor represents a defined role in an exchange, and obligations are applied to actors to indicate their specific responsibilities. The narrative **SHALL** provide a human-readable summary of the essential elements and **SHALL NOT** replicate the full structured content.
 
 All MedCom FHIR resources **SHALL** include a narrative in the `[resource].text`-element (even though it is not marked with 1..1 cardinality in the Implementation Guide), except the Bundle resources. Since the Bundle itself does not carry clinical meaning, its content must be understood by reviewing the individual resources inside the Bundle.
 

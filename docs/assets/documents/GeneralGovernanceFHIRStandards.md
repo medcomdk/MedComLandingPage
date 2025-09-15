@@ -169,8 +169,7 @@ Clinically and administratively relevant information includes:
 * Relevant values (e.g., observation results, medication names and dosages, diagnostic conclusions).
 * Relevant elements from extension.
 * Identifiers when they have human relevance (e.g., SOR-ID, municipality codes, episode-of-care identifiers).
-* The resource ID.
-* References to other resources by including the ID of the referenced resource.
+* References to other resources.
 * Relevant dates and times.
 
 ##### 6.2 Elements that shall not be included in the narrative text

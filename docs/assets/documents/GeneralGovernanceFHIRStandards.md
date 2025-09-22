@@ -103,6 +103,8 @@ Derived implementations **SHOULD** inherit the field’s “Must Support” flag
 
 ### 5 Implementation Requirements for Narrative Texts
 
+**OBS:** MedCom is currently transitioning between two approaches for defining narrative text in its profiles. If a profile includes Obligations, the Governance on this page must be followed. If a profile has not yet implemented Obligations, use the governance described on [this page instead](MSnarrativeGovernance.md).
+
 This section is aimed at vendors/implementers and describes the concrete requirements for how to implement and represent narrative text in MedCom FHIR resources.
 
 #### 5.1 The Importance of Narrative Text in MedCom’s FHIR Standards

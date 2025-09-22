@@ -78,7 +78,7 @@ Systems receiving or consuming a resource instance:
 
 **MUST** be able to process the field’s content when it is present.
 **MUST** process the content according to the rules defined for the profile.
-**MUST NOT** fail when the value is not present if it has a cardinality of minimum 1.
+**MUST NOT** fail when the value is not present.
 
 Systems sending or creating a resource instance:
 

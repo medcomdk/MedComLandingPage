@@ -114,7 +114,7 @@ The narrative text plays a critical role in supporting robustness and patient sa
 
 #### 5.2 Requirements for the Narratives
 
-The narrative text **SHALL** include a human-readable representation of every data element marked with the Obligation code **SHALL:in-narrative**.
+The narrative text **SHALL** include a human-readable representation of every data element marked with the Obligation code `O` representing the obligation **SHALL:in-narrative**.
 
 Obligations ('O' red marking) in FHIR define actor-specific requirements in an Implementation Guide to express conformance expectations. The code “SHALL:in-narrative” indicates that the referenced data element must be represented in the human-readable narrative of the resource. An Actor represents a defined role in an exchange, and obligations are applied to actors to indicate their specific responsibilities. The narrative **SHALL** provide a human-readable summary of the essential elements and **SHALL NOT** replicate the full structured content.
 
@@ -138,7 +138,7 @@ If a resource includes a base-64-encoded attachment, this **SHALL NOT** be inclu
 
 ##### 5.2.3 General Narrative Text Rules
 
-* All resources **SHALL** contain a narrative text defined by the `[resource].text` element (Except Bundles).
+* All resources **SHALL** contain a narrative text defined by the `[resource].text` element (Except Bundles) that includes narratives for all elements marked with the Obligation code `O`.
 * The Narrative Text **SHALL** have a status with value "generated" or "extensions".
 * The Narrative Text **SHALL** include the ID for each resource (Resource.id).
 * The Narrative Text **SHALL** include references to other resources as the ID for each resource (Resource.id).

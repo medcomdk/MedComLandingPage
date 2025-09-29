@@ -186,7 +186,7 @@ Elements that shall not be included are:
 
 ## 7 Governance for MedCom FHIR Terminology
 
-[Click here to get more information about the governance for MedCom FHIR Terminology](assets/documents/GovernanceTerminology.md).
+[Click here to get more information about the governance for MedCom FHIR Terminology](/GovernanceTerminology.md).
 
 ## 8 Governance for concrete MedCom FHIR Standards
 

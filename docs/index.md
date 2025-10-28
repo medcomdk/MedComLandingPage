@@ -4,7 +4,7 @@
 * [2 Implementing a MedCom FHIR standard](#2-implementing-a-medcom-fhir-standard)
   * [2.1 Standard documentation](#21-standard-documentation)
   * [2.2 General goverance for MedCom FHIR standards](#22-general-goverance-for-medcom-fhir-standards)
-  * [2.3 Governance for MedCom HL7 FHIR®© Messaging](#23-governance-for-medcom-hl7-fhir-messaging) 
+  * [2.3 Governance for MedCom HL7 FHIR Messaging](#23-governance-for-medcom-hl7-fhir-messaging) 
 * [3 Test and certification](#3-test-and-certification)
   * [3.1 Test of FHIR messages](#31-test-of-fhir-messages)
 * [4 Change management and versioning](#4-change-management-and-versioning)
@@ -182,7 +182,7 @@ The general governance is important to understand before implementing a MedCom F
 [Click here to get more information about the general governance for MedCom FHIR standards.](assets/documents/GeneralGovernanceFHIRStandards.md)
 <p>&nbsp;</p>
 
-### 2.2 Governance for MedCom HL7 FHIR Messaging
+### 2.3 Governance for MedCom HL7 FHIR Messaging
 The messaging governance is important to understand before implementing a MedCom FHIR messaging standard, as it describes the Danish profiling of the FHIR messaging framework and the network layer, which is the VANS network at present. Since the existing VANS network is used to deliver messages, messages must be sent in a VANSenvelope unless otherwise specified. <br>
 <a href="https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer" target="_blank"> Click here to get more information about messaging governance.</a>  
 <p>&nbsp;</p>

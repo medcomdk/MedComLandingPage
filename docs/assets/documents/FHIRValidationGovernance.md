@@ -4,13 +4,22 @@
 
 **Table of contents**
 * [1 Introduction](#1-introduction)
+* [2 Validation in Vendor Systems](#2-validation-in-vendor-systems)
+  * [2.1 FHIR Messaging - Validation Governance](#21-fhir-messaging---validation-governance)
+    * [2.1.1 Sender-side validation](#211-sender-side-validation)
+    * [2.1.2 Receiver-side validation](#212-receiver-side-validation)
+  * [2.2 FHIR Documents - Validation Governance](#22-fhir-documents---validation-governance)
+* [3 Validation in MedCom FHIR test server](#3-validation-in-medcom-fhir-test-server)
+  * [3.1 Guide: how to post JSON and XML to MedCom’s FHIR test server](#31-guide-how-to-post-json-and-xml-to-medcoms-fhir-test-server)
+    * [3.1.1 JSON](#311-json)
+    * [3.1.2 XML](#312-xml)
 
 ## 1 Introduction
 
 To ensure interoperability and robustness in FHIR-based exchanges within the Danish healthcare domain, MedCom defines the following governance for validation. The governance ensures that exchanged FHIR content is syntactically valid, semantically conformant, and fully compliant with the relevant profiles.
 
 Notice that the governance principles for MedCom FHIR Messaging differ from those for MedCom FHIR Documents, and vendors **SHALL** ensure that the appropriate rules are applied depending on the communication method.
-You can read more about FHIR validation in general on HL7 FHIR’s official web page: [Validating Resources[(https://hl7.org/fhir/R4/validation.html).
+You can read more about FHIR validation in general on HL7 FHIR’s official web page: [Validating Resources](https://hl7.org/fhir/R4/validation.html).
 
 ## 2 Validation in Vendor Systems
 
@@ -35,14 +44,14 @@ This governance applies specifically to MedCom FHIR Messaging and aligns with Me
 
 #### 2.1.1 Sender-side validation
 
-* The sender SHALL validate outgoing FHIR messages against the relevant FHIR Implementation Guide(s) (IG) before transmission. This includes Acknowledgements.
-* Messages with validation errors SHALL NOT be sent unless explicitly approved by the responsible authority within the sending organization.
+* The sender **SHALL** validate outgoing FHIR messages against the relevant FHIR Implementation Guide(s) (IG) before transmission. This includes Acknowledgements.
+* Messages with validation errors **SHALL NOT** be sent unless explicitly approved by the responsible authority within the sending organization.
 
 #### 2.1.2 Receiver-side validation
 
-* The receiver SHALL validate all incoming messages before further processing.
-* Receivers SHALL accept non-critical warnings but SHALL reject messages that violate mandatory constraints and rules.
-* The sender SHALL validate received Acknowledgments and ensure that they correctly reference the original message. If an Acknowledgement fails validation, the receiver SHALL contact the sending system through alternative communication channels to inform them that their acknowledgment messages are not conformant.
+* The receiver **SHALL** validate all incoming messages before further processing.
+* Receivers **SHALL** accept non-critical warnings but **SHALL** reject messages that violate mandatory constraints and rules.
+* The sender **SHALL** validate received Acknowledgments and ensure that they correctly reference the original message. If an Acknowledgement fails validation, the receiver **SHALL** contact the sending system through alternative communication channels to inform them that their acknowledgment messages are not conformant.
 
 ### 2.2 FHIR Documents - Validation Governance
 
@@ -51,7 +60,9 @@ This governance applies specifically to MedCom FHIR Documents.
 
 ## 3 Validation in MedCom FHIR test server
 
-MedCom provides a [FHIR server](https://medcomfhir.dk) that can be used to validate implementations against MedCom’s FHIR standards. This server is intended for testing only and SHALL NOT be used for production transactions, nor contain any real-world or personally identifiable data.
+MedCom provides a [FHIR server](https://medcomfhir.dk) that can be used to validate implementations against MedCom’s FHIR standards. This server is intended for testing only and **SHALL NOT** be used for production transactions, nor contain any real-world or personally identifiable data.
+
+There is a limit to how many times a vendor can execute test scripts in Touchstone. Therefore, MedCom recommends using the test server first to perform general validation before running the tests in Touchstone. The test server cannot validate the specific use case covered by the test script, but it can be used to identify and correct general issues. Read more about [how to use Touchstone here](TouchStoneGettingStarted.md).
 
 Some MedCom Implementation Guides exist in multiple versions on the test server to cover all MedCom standards. The validation server always uses the latest profile version by default. If your implementation is based on an earlier version, specify it by appending the version number to the canonical URL in resource.meta.profile using the format |X.Y.Z.
 

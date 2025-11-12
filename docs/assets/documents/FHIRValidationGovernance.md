@@ -29,7 +29,7 @@ Vendors **SHALL** use a FHIR validator that is based on an officially maintained
 
 The list below shows examples of FHIR validators commonly used in the international community. The list is provided for guidance only, to help vendors identify tools suitable for their own technical environment. MedCom has not tested these validators and cannot guarantee their behaviour. MedCom encourages vendors to contact FHIR@medcom.dk with comments or suggestions regarding the list.
 
-Notice that validation behaviour may show minor variations between different validator implementations and programming languages - for example between C# and Java. In case of disagreement about validation results, MedCom **SHALL** be contacted via email  (FHIR@medcom.dk) to clarify.
+Notice that the validation behaviour may show minor variations between different validator implementations and programming languages - for example between C# and Java. In case of disagreement about validation results, MedCom **SHALL** be contacted via email (FHIR@medcom.dk) to clarify.
 
 Vendors **SHALL** maintain logs for troubleshooting.
 
@@ -50,7 +50,7 @@ This governance applies specifically to MedCom FHIR Messaging and aligns with Me
 
 * The receiver **SHALL** validate all incoming messages before further processing.
 * Receivers **SHALL** accept non-critical warnings but **SHALL** reject messages that violate mandatory constraints and rules.
-* The sender **SHALL** validate received Acknowledgments and ensure that they correctly reference the original message. If an Acknowledgement fails validation, the receiver **SHALL** contact the sending system through alternative communication channels to inform them that their acknowledgment messages are not conformant.
+* The sender **SHALL** validate received acknowledgements and ensure that they correctly reference the original message. If an Acknowledgement fails validation, the receiver **SHALL** contact the sending system through alternative communication channels to inform them that their acknowledgement messages are not conformant.
 
 ### 2.2 FHIR Documents - Validation Governance
 
@@ -78,7 +78,7 @@ Notice that JSON resources can be validated directly in the browser, while XML r
 
 ### 3.1 Guide: how to post JSON and XML to MedCom’s FHIR test server
 
-If you do not have a user account for MedComs FHIR test server, contact FHIR@medcom.dk and request access. Include the names and email addresses of the people who need access.
+If you do not have a user account for MedCom's FHIR test server, contact FHIR@medcom.dk and request access. Include the names and email addresses of the people who need access.
 
 There are two ways to validate using MedCom’s FHIR test server:
 
@@ -90,7 +90,7 @@ This section provides a step-by-step guide for both the browser-based and Postma
 #### 3.1.1 JSON
 
 1)	Go to https://medcomfhir.dk and log in.
-2)	Select the “Bundle” section to get access to Bundle operations.
+2)	Select the “Bundle” section to get access to the Bundle operations.
 3)	Choose the POST /Bundle/%Validate operation and click “Try it out”.
 4)	Paste your FHIR Bundle (JSON format) into the request body and click “Execute”. 
 5)	Review the validation result (OperationOutcome) under the “Responses” section.
@@ -125,6 +125,6 @@ This section provides a step-by-step guide for both the browser-based and Postma
 
         Content-Type: application/fhir+xml
         Accept: application/fhir+xml
-4.	Under Body, choose raw, select XML, and paste your FHIR Bundle.
+4.	Under Body, choose Raw, select XML, and paste your FHIR Bundle.
 5.	Click Send to execute the request.
 6.	Review the validation result (OperationOutcome) in the response. 

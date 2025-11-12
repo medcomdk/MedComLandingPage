@@ -33,9 +33,8 @@ Notice that validation behaviour may show minor variations between different val
 
 Vendors **SHALL** maintain logs for troubleshooting.
 
-THE LIST IS UNDER DEVELOPMENT.
+*THE LIST IS UNDER DEVELOPMENT.*
 
-FHIR Messaging - Validation Governance
 
 ### 2.1 FHIR Messaging - Validation Governance
 

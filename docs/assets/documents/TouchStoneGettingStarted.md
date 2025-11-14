@@ -48,6 +48,10 @@ This page presents a short introduction to the test tool called "TouchStone", wh
 * Run all scripts by marking them all and choosing Execute Selected.
 * Or run individual scripts by selecting them separately.
 
+## 4 Limited number of runs in Touchstone
+
+There is a limit to how many times a vendor can execute test scripts in Touchstone. Therefore, MedCom recommends using the MedCom test server first to perform general validation before running the tests in Touchstone. The test server cannot validate the specific use case covered by the test script, but it can be used to identify and correct general issues. Read more about [how to use the MedCom test server here](FHIRValidationGovernance.md).
+
 <!-- ## 3 Touchstone .NET client Demo
 [Demo of a .NET client](https://github.com/medcomdk/touchstone-client-demo-dotnet) calling the MedCom Touchstone test Suite 
 

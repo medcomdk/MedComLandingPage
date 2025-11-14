@@ -20,8 +20,9 @@
   + [6.1 Elements that must be included in the narrative text](#61-elements-that-must-be-included-in-the-narrative-text)
   + [6.2 Elements that shall not be included in the narrative text](#62-elements-that-shall-not-be-included-in-the-narrative-text)
 * [7 Governance for MedCom FHIR Terminology](#7-governance-for-medcom-fhir-terminology)
-* [8 Governance for concrete MedCom FHIR Standards](#8-governance-for-concrete-medcom-fhir-standards)
-  + [8.1 Versions of MedCom FHIR Standards](#81-versions-of-medcom-fhir-standards)
+* [8 ## 8 Governance for MedCom FHIR Validation](#8-governance-for-medcom-fhir-validation)
+* [9 Governance for concrete MedCom FHIR Standards](#8-governance-for-concrete-medcom-fhir-standards)
+  + [9.1 Versions of MedCom FHIR Standards](#81-versions-of-medcom-fhir-standards)
 
 <br>
 
@@ -130,7 +131,7 @@ A narrative in MedCom FHIR resources **SHALL NEVER** be of code: empty.
 
 ##### 5.2.2 The div element
 
-The contents of the text.div element are XHTML fragments that **SHALL** contain only the basic HTML formatting elements described in chapters 7-11 (except section 4 of chapter 9) and 15 of the HTML 4.0 standard, '<a>' elements (either name or href), images and internally contained style attributes.
+The contents of the text.div element are XHTML fragments that **SHALL** contain only the basic HTML formatting elements described in chapters 7-11 (except section 4 of chapter 9) and 15 of the HTML 4.0 standard, &lt;a&gt; elements (either name or href), images and internally contained style attributes.
 
 The XHTML content **SHALL NOT** contain a head, a body element, external stylesheet references, deprecated elements, scripts, forms, base/link/xlink, frames, iframes, objects or event related attributes (e.g. onClick). 
 
@@ -186,13 +187,17 @@ Elements that shall not be included are:
 
 ## 7 Governance for MedCom FHIR Terminology
 
-[Click here to get more information about the governance for MedCom FHIR Terminology](assets/documents/GovernanceTerminology.md).
+[Click here to get more information about the governance for MedCom FHIR Terminology](GovernanceTerminology.md).
 
-## 8 Governance for concrete MedCom FHIR Standards
+## 8 Governance for MedCom FHIR Validation
+
+[Click here to get more information about the governance for MedCom FHIR Validation](FHIRValidationGovernance.md).
+
+## 9 Governance for concrete MedCom FHIR Standards
 
 Each MedCom FHIR standard will potentially add some specific Governance Rules to the mix of overall Governance Rules. These are handled separately, to which the specific standard will link to.
 
-### 8.1 Versions of MedCom FHIR Standards
+### 9.1 Versions of MedCom FHIR Standards
 Vendors **SHOULD** be prepared to handle multiple versions of a MedCom FHIR standard.
 The version of the standard is not explicitly stated in a Bundle.
 

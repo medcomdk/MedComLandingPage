@@ -63,7 +63,7 @@ MedCom provides a [FHIR server](https://medcomfhir.dk) that can be used to valid
 
 There is a limit to how many times a vendor can execute test scripts in Touchstone. Therefore, MedCom recommends using the test server first to perform general validation before running the tests in Touchstone. The test server cannot validate the specific use case covered by the test script, but it can be used to identify and correct general issues. Read more about [how to use Touchstone here](TouchStoneGettingStarted.md).
 
-Some MedCom Implementation Guides exist in multiple versions on the test server to cover all MedCom standards. The validation server always uses the latest profile version by default. If your implementation is based on an earlier version, specify it by appending the version number to the canonical URL in resource.meta.profile using the format |n.n.n.
+Some MedCom Implementation Guides exist in multiple versions on the test server to cover all MedCom standards. The validation server always uses the latest profile version by default. If your implementation is based on an earlier version, specify it by appending the version number to the canonical URL in resource.meta.profile using the format \|n.n.n.
 
 Example:
 

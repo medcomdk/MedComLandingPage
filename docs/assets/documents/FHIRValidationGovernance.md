@@ -100,7 +100,7 @@ This section provides a step-by-step guide for both the browser-based and Postma
 **Part 1: Setup in Postman**
 
 1.	Install Postman.
-2.	Create a new workspace and import these three files (download) (DOWNLOAD ZIP) by clicking Import in Postman.
+2.	Create a new workspace and import these three files (WILL BE AVAILALBE SOON) by clicking Import in Postman.
 3.	Open the MedCom FHIR collection.
 4.	Go to the Authorization tab and select Auth Type: OAuth 2.0.
 5.	Under Configure New Token, fill in:

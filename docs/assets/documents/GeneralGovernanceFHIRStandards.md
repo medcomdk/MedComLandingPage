@@ -20,7 +20,7 @@
   + [6.1 Elements that must be included in the narrative text](#61-elements-that-must-be-included-in-the-narrative-text)
   + [6.2 Elements that shall not be included in the narrative text](#62-elements-that-shall-not-be-included-in-the-narrative-text)
 * [7 Governance for MedCom FHIR Terminology](#7-governance-for-medcom-fhir-terminology)
-* [8 ## 8 Governance for MedCom FHIR Validation](#8-governance-for-medcom-fhir-validation)
+* [8 Governance for MedCom FHIR Validation](#8-governance-for-medcom-fhir-validation)
 * [9 Governance for concrete MedCom FHIR Standards](#8-governance-for-concrete-medcom-fhir-standards)
   + [9.1 Versions of MedCom FHIR Standards](#81-versions-of-medcom-fhir-standards)
 

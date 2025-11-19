@@ -70,7 +70,7 @@ This governance applies specifically to MedCom FHIR Documents.
 
 **How to use [validator.fhir.org](validator.fhir.org)**
 
-1. Select FHIR version: Click the “Options” tab. Finf the section labeled “FHIR version” and select 4.0.1.
+1. Select FHIR version: Click the “Options” tab. Find the section labeled “FHIR version” and select 4.0.1.
 
 2. Go to the Validate tab. Paste your FHIR Bundle into the text field or upload your Bundle as a file.
 

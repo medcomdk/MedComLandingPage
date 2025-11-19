@@ -33,7 +33,14 @@ Notice that the validation behaviour may show minor variations between different
 
 Vendors **SHALL** maintain logs for troubleshooting.
 
-*THE LIST IS UNDER DEVELOPMENT.*
+**Examples overview of Potential FHIR Validator Options**
+
+- [Firely](https://www.nuget.org/packages/Firely.Fhir.Validation.R4)
+- [HL7 International – FHIR Validator](https://confluence.hl7.org/spaces/FHIR/pages/35718580/Using+the+FHIR+Validator)
+- [HAPI FHIR – Instance Validator](https://hapifhir.io/hapi-fhir/docs/validation/instance_validator.html)
+- [SMILE Digital Health](https://smilecdr.com/docs/smileutil/validate.html)
+- [LinuxForHealth](https://linuxforhealth.github.io/FHIR/guides/FHIRValidationGuide/)
+- [AidBox – FHIR Schema Validator](https://www.health-samurai.io/docs/aidbox/modules/profiling-and-validation/fhir-schema-validator)
 
 
 ### 2.1 FHIR Messaging - Validation Governance
@@ -58,6 +65,18 @@ This governance applies specifically to MedCom FHIR Documents.
 *This governance is under development. Once finalized, the governance will be published on this site.*
 
 ## 3 Validation in MedCom FHIR test server
+
+**NB: The MedCom FHIR test server is currently not working correctly.** You can use the validator at [validator.fhir.org](validator.fhir.org) in the meantime, as the newest Implementation Guides for CareCommunication and it's dependencies are uploaded to this validator.
+
+**How to use [validator.fhir.org](validator.fhir.org)**
+
+1. Select FHIR version: Click the “Options” tab. Finf the section labeled “FHIR version” and select 4.0.1.
+
+2. Go to the Validate tab. Paste your FHIR Bundle into the text field or upload your Bundle as a file.
+
+3. Click the “Validate” button and see the result.
+
+**How to use the [MedCom FHIR server](https://medcomfhir.dk)**
 
 MedCom provides a [FHIR server](https://medcomfhir.dk) that can be used to validate implementations against MedCom’s FHIR standards. This server is intended for testing only and **SHALL NOT** be used for production transactions, nor contain any real-world or personally identifiable data.
 
@@ -90,9 +109,13 @@ This section provides a step-by-step guide for both the browser-based and Postma
 #### 3.1.1 JSON
 
 1)	Go to https://medcomfhir.dk and log in.
+
 2)	Select the “Bundle” section to get access to the Bundle operations.
+
 3)	Choose the POST /Bundle/%Validate operation and click “Try it out”.
+
 4)	Paste your FHIR Bundle (JSON format) into the request body and click “Execute”. 
+
 5)	Review the validation result (OperationOutcome) under the “Responses” section.
 
 #### 3.1.2 XML

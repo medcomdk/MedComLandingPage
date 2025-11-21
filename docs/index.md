@@ -6,9 +6,10 @@
   * [2.2 General goverance for MedCom FHIR standards](#22-general-goverance-for-medcom-fhir-standards)
   * [2.3 Governance for MedCom HL7 FHIR Messaging](#23-governance-for-medcom-hl7-fhir-messaging) 
 * [3 Test and certification](#3-test-and-certification)
-  * [3.1 Test of FHIR messages](#31-test-of-fhir-messages)
+  * [3.1 Test of FHIR messages](#31-test-of-fhir-messages-and-documents)
+  * [3.2 Note on ITB](#32-note-on-itb)
 * [4 Change management and versioning](#4-change-management-and-versioning)
-  * [4.1 Versioning of FHIR standard](#41-versioning-of-fhir-standard)
+  * [4.1 Versioning of FHIR standard](#41-versioning-of-medcom-fhir-standards)
   * [4.2 Governance for Medcom FHIR Terminology](#42-governance-for-medcom-fhir-terminology)
   * [4.3 Change requests and improvements](#43-change-requests-and-improvements)
 * [5 Want to stay updated?](#Want-to-stay-updated)
@@ -198,6 +199,9 @@ TouchStone is an infrastructure that allows for automated tests against implemen
 Since MedCom's FHIR messages are sent over the VANS network, vendors implementing messaging standards must to be able to include the message in a VANSenvelope before sending the message.<br>
 Vendors implementing MedCom's FHIR document standards must be able to share documents in the relevant infrastructure, typically in the Danish national Document Sharing infrastructure (DDS).<br>
 Vendors should expect to demonstrate this as a part of test and certification.
+
+### 3.2 Note on ITB
+Some tests will be conducted using the ITB instead of Touchstone. [Click here to get started with ITB](assets/documents/ITBGettingStarted.md)
 
 ## 4 Change management and versioning  
 

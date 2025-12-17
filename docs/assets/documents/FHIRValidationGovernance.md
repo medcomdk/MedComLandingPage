@@ -9,6 +9,10 @@
     * [2.1.1 Sender-side validation](#211-sender-side-validation)
     * [2.1.2 Receiver-side validation](#212-receiver-side-validation)
   * [2.2 FHIR Documents - Validation Governance](#22-fhir-documents---validation-governance)
+    * [2.2.1 Document source validation](#221-document-source-validation)
+    * [2.2.2 Document consumer validation](#222-document-consumer-validation)
+    * [2.2.3 Transition to future FHIR-based infrastructure](#223-transition-to-future-fhir-based-infrastructure)
+    * [2.2.4 More information](#224-more-information)
 * [3 Validation in MedCom FHIR test server](#3-validation-in-medcom-fhir-test-server)
   * [3.1 Guide: how to post JSON and XML to MedCom’s FHIR test server](#31-guide-how-to-post-json-and-xml-to-medcoms-fhir-test-server)
     * [3.1.1 JSON](#311-json)
@@ -61,8 +65,32 @@ This governance applies specifically to MedCom FHIR Messaging and aligns with Me
 
 ### 2.2 FHIR Documents - Validation Governance
 
-This governance applies specifically to MedCom FHIR Documents.
-*This governance is under development. Once finalized, the governance will be published on this site.*
+This governance applies to MedCom FHIR Documents exchanged through the current national document-sharing infrastructure, which is based on IHE XDS.
+The existing infrastructure does not perform FHIR validation today. Until the infrastructure is updated to support FHIR-native operations in the future, vendors **SHALL** ensure that all FHIR documents are valid.
+
+#### 2.2.1 Document source validation
+
+* The document source SHALL provide valid FHIR documents to the national infrastructure.
+* Documents that are not valid **SHALL NOT** be submitted. 
+  * In cases where the document source is unable to produce a conformant FHIR document, the document source **SHALL** prevent transmission, **SHALL** log the validation failure, **SHALL** perform internal escalation and troubleshooting, and can seek guidance from MedCom if the issue cannot be resolved locally.
+  * On-demand documents: If the document source is unable to produce a conformant document, the document source **SHALL** return an error response. In the current IHE XDS-based infrastructure, the document source **SHALL** return an IHE-compliant error response structured in accordance with ITI-43 Retrieve Document Set (IHE ITI Technical Framework, Volume 3).
+
+#### 2.2.2 Document source validation
+
+* The document consumer **SHALL** ensure the validity of the received document prior to presenting it to the user.
+* The document consumer **SHOULD**, as far as possible, display documents that contain validation errors. In such cases, the document consumer **SHALL** present a disclaimer indicating that the document contains error(s). The document consumer **MAY** present a clear, user-friendly explanation of the document’s contained error(s) understandable to non-technical users.
+* If the document cannot be processed, the document consumer **MUST** provide an error message to the user. The document consumer **MAY** still display the narrative content to ensure that essential clinical information remains accessible to the user if possible.
+* If identifiable, the relevant document source organization **SHALL** be notified, and MedCom **MAY** be notified.
+
+#### 2.2.3 Transition to future FHIR-based infrastructure
+The national infrastructure is expected to transition to a more FHIR-based architecture in the future. Work on this architecture is ongoing, and the specific design— including whether the infrastructure will perform central validation of metadata and document content, and how validation responsibilities will be shared between participants—has not yet been decided.
+
+Until a future governance model is formally established, document source and document consumer validation remains required.
+
+Regardless of the final architectural decisions, experiences from international FHIR implementations show that vendors will continue to need local validation capabilities for development, testing, debugging, and quality assurance. For this reason, implementing validation now is not a redundant investment, even in a scenario where future infrastructure-level validation is introduced.
+
+#### 2.2.4 More information
+[Domæneregler for patientindeks for dokumentdeling](https://sundhedsdatastyrelsen.dk/digitale-loesninger/referencearkitektur-og-standarder/domaeneregler-patientindeks)
 
 ## 3 Validation in MedCom FHIR test server
 

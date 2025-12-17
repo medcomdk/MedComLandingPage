@@ -54,14 +54,14 @@ This governance applies specifically to MedCom FHIR Messaging and aligns with Me
 
 #### 2.1.1 Sender-side validation
 
-* The sender **SHALL** validate outgoing FHIR messages against the relevant FHIR Implementation Guide(s) (IG) before transmission. This includes Acknowledgements.
+* The sender **SHALL** provide valid outgoing FHIR messages according to the relevant FHIR Implementation Guide(s) (IG) before transmission. This includes Acknowledgements.
 * Messages with validation errors **SHALL NOT** be sent unless explicitly approved by the responsible authority within the sending organization.
 
 #### 2.1.2 Receiver-side validation
 
-* The receiver **SHALL** validate all incoming messages before further processing.
+* The receiver **SHALL** ensure the validity of the received incoming messages before further processing.
 * Receivers **SHALL** accept non-critical warnings but **SHALL** reject messages that violate mandatory constraints and rules.
-* The sender **SHALL** validate received acknowledgements and ensure that they correctly reference the original message. If an Acknowledgement fails validation, the receiver **SHALL** contact the sending system through alternative communication channels to inform them that their acknowledgement messages are not conformant.
+* The sender **SHALL** ensure the validity of the received incoming acknowledgements and ensure that they correctly reference the original message. If an Acknowledgement is not valid, the receiver **SHALL** contact the sending system through alternative communication channels to inform them that their acknowledgement messages are not conformant.
 
 ### 2.2 FHIR Documents - Validation Governance
 
@@ -70,12 +70,12 @@ The existing infrastructure does not perform FHIR validation today. Until the in
 
 #### 2.2.1 Document source validation
 
-* The document source SHALL provide valid FHIR documents to the national infrastructure.
+* The document source SHALL provide valid FHIR documents according to the relevant FHIR Implementation Guide(s) (IG) to the national infrastructure.
 * Documents that are not valid **SHALL NOT** be submitted. 
   * In cases where the document source is unable to produce a conformant FHIR document, the document source **SHALL** prevent transmission, **SHALL** log the validation failure, **SHALL** perform internal escalation and troubleshooting, and can seek guidance from MedCom if the issue cannot be resolved locally.
   * On-demand documents: If the document source is unable to produce a conformant document, the document source **SHALL** return an error response. In the current IHE XDS-based infrastructure, the document source **SHALL** return an IHE-compliant error response structured in accordance with ITI-43 Retrieve Document Set (IHE ITI Technical Framework, Volume 3).
 
-#### 2.2.2 Document source validation
+#### 2.2.2 Document consumer validation
 
 * The document consumer **SHALL** ensure the validity of the received document prior to presenting it to the user.
 * The document consumer **SHOULD**, as far as possible, display documents that contain validation errors. In such cases, the document consumer **SHALL** present a disclaimer indicating that the document contains error(s). The document consumer **MAY** present a clear, user-friendly explanation of the document’s contained error(s) understandable to non-technical users.

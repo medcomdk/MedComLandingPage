@@ -94,13 +94,13 @@ Regardless of the final architectural decisions, experiences from international 
 
 ## 3 Validation in MedCom FHIR test server
 
-**NB: The MedCom FHIR test server is currently not working correctly.** You can use the validator at [validator.fhir.org](validator.fhir.org) in the meantime, as the newest Implementation Guides for CareCommunication and it's dependencies are uploaded to this validator.
+**NB: The MedCom FHIR test server is currently not working correctly.** You can use the validator at [validator.fhir.medcom](https://validator.fhir.medcom.p1.hosting.kitkube.dk/) in the meantime, as the newest Implementation Guides for CareCommunication and it's dependencies are uploaded to this validator.
 
-**How to use [validator.fhir.org](validator.fhir.org)**
+**How to use [validator.fhir.medcom](https://validator.fhir.medcom.p1.hosting.kitkube.dk/)**
 
-1. Select FHIR version: Click the “Options” tab. Find the section labeled “FHIR version” and select 4.0.1.
+1. Open the drop down menu named: Common Validation Options: Select the MedCom FHIR standard you would like to validate aginst. 
 
-2. Go to the Validate tab. Paste your FHIR Bundle into the text field or upload your Bundle as a file.
+2. Paste your FHIR Bundle into the text field or upload your Bundle as a file.
 
 3. Click the “Validate” button and see the result.
 

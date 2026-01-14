@@ -118,7 +118,7 @@ The links to the webpage presentations of the standards can be found in the <a h
   <tr>
     <td class="tg-on52"><span style="background-color:#FFF"> <a href="https://medcomdk.github.io/dk-medcom-ekg/" rel="noopener noreferrer"><span style="text-decoration:none">EKG Recording</span></a></span></td>
     <td class="tg-on52"><span style="background-color:#FFF">Deling af EKG-optagelser</span></td>
-    <td class="tg-on52"><span style="background-color:#FFF">he standard supports the establishment of a national sharing portal for EKG data in the form of PDF documents enclosed in a FHIR Document.</span></td>
+    <td class="tg-on52"><span style="background-color:#FFF">The standard supports the establishment of a national sharing portal for EKG data in the form of PDF documents enclosed in a FHIR Document.</span></td>
     <td class="tg-on52"></td>
   </tr>
   <tr>

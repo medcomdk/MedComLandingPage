@@ -18,7 +18,7 @@ The test tool "Interoperability Test Bed (ITB)", is used to perform tests of Med
     If your organization has not been registered for this community, please continue.
    </li>
   <li>
-    Click on "Register in a public community"
+    Click on "Register in a public community".
     <figure>
     <img src="../images/ITBRegisterCommunity.png">
     </figure>
@@ -33,7 +33,7 @@ The test tool "Interoperability Test Bed (ITB)", is used to perform tests of Med
     Click create and you will automatically be logged in.
   </li>
   <li>
-    If additional information is available to add to your organization, please fill out these with relevant information for testing. 
+    If additional information is available to add to your organization, please fill out these with relevant information for testing. For instance; When testing for CareCommunication we encourage you to fill in the SOR-id, EAN-number and name of the organization that you would like to be the receiver of the CareCommunication messages. This information is used when creating examples in the test cases.
     <figure>
     <img src="../images/ITBAdditionalOrg.png" alt="ITB Populate Additional Organization Details">
     </figure>
@@ -60,7 +60,7 @@ The test tool "Interoperability Test Bed (ITB)", is used to perform tests of Med
     </figure>
   </li>
   <li>
-    In the left hand navigation menu you can find "Conformance statements" which is where you will find the tests that your system are to conform to. Click "Create statements" and add the statement that your system should be conformant to.
+    In the lefthand navigation menu you can find "Conformance statements" which is where you will find the tests that your system are to conform to. Click "Create statements" and add the statement that your system should be conformant to.
   <figure>
     <img src="../images/ITBCreateConfomance.png" alt="ITB Create Conformance">
   </figure>
@@ -100,7 +100,7 @@ The test tool "Interoperability Test Bed (ITB)", is used to perform tests of Med
     </figure>
   </li>
   <li>
-    The test engine then performs the tests and validation and the result can be seen on the test execution page. Click on each step to see the expected and actual result.
+    The test engine then performs the tests and validation, and the result can be seen on the test execution page. Click on each step to see the expected and actual result.
     <figure>
     <img src="../images/ITBTestResult.png" alt="ITB Test result">
     </figure>

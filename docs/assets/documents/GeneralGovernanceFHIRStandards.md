@@ -16,6 +16,7 @@
     - [5.2.2 The div element](#522-the-div-element)
     - [5.2.3 General Narrative Text Rules](#523-general-narrative-text-rules)
   + [5.3 Links for Narrative Text](#53-links-for-narrative-text)
+  + [5.4 Implementing Narrative Text](#54-implementing-narrative-text)
 * [6 Governance for narrative content in MedCom FHIR standards](#6-governance-for-narrative-content-in-medcom-fhir-standards)
   + [6.1 Elements that must be included in the narrative text](#61-elements-that-must-be-included-in-the-narrative-text)
   + [6.2 Elements that shall not be included in the narrative text](#62-elements-that-shall-not-be-included-in-the-narrative-text)
@@ -155,6 +156,10 @@ If a resource includes a base-64-encoded attachment, this **SHALL NOT** be inclu
 |<a href="http://hl7.org/fhir/R4/narrative.html#Narrative" target ="_blank">Narrative Text description in FHIR R4</a>|
 |<a href="http://hl7.org/fhir/R4/codesystem-narrative-status.html#4.3.14.424.2" target="_blank">NarrativeStatus in FHIR R4</a>|
 |<a href ="http://hl7.org/fhir/R4/narrative.html#css" target="_blank">Styling the XHTML in FHIR R4</a>|
+
+#### 5.4 Implementing Narrative Text
+
+For implementers coding in java, the <a href="https://hapifhir.io/hapi-fhir/docs/model/narrative_generation.html" target ="_blank">HAPI FHIR SDK describes the narrative generation here</a>. Unfortunately, Firely's .Net SDK does not currently have a similar support for generating narratives. For inspiration on how the narrative can be structured, this <a href="https://fhirtoolbox.com/narrative-generator" target ="_blank">Narrative Generator FHIR toolbox</a> can be used, however MedCom cannot control that all rules mentioned in [General Narrative Text Rules](#523-general-narrative-text-rules) are supported. 
 
 ### 6 Governance for narrative content in MedCom FHIR standards
 This section serves as background information for vendors to understand the rationale behind the setup of the requirements.

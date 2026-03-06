@@ -44,7 +44,8 @@ Vendors **SHALL** maintain logs for troubleshooting.
 **Examples overview of Potential FHIR Validator Options**
 
 - [Firely](https://www.nuget.org/packages/Firely.Fhir.Validation.R4)
-- [HL7 International – FHIR Validator](https://confluence.hl7.org/spaces/FHIR/pages/35718580/Using+the+FHIR+Validator)
+- For .NET [Firely](https://www.nuget.org/packages/Firely.Fhir.Validation.R4) with docs [here](https://docs.fire.ly/projects/Firely-NET-SDK/en/latest/validation/profile-validation.html) and a MedCom example [here](https://github.com/medcomdk/ValidationCodeExamples/tree/main)
+- [HL7 International – FHIR Validator](https://confluence.hl7.org/spaces/FHIR/pages/35718580/Using+the+FHIR+Validator). This can be setup as an HTTP service.
 - [HAPI FHIR – Instance Validator](https://hapifhir.io/hapi-fhir/docs/validation/instance_validator.html)
 - [SMILE Digital Health](https://smilecdr.com/docs/smileutil/validate.html)
 - [LinuxForHealth](https://linuxforhealth.github.io/FHIR/guides/FHIRValidationGuide/)

@@ -100,7 +100,7 @@ Regardless of the final architectural decisions, experiences from international 
 
 **NB: The MedCom FHIR test server is currently not working correctly.** You can use the validator at [validator.fhir.medcom](https://validator.fhir.medcom.p1.hosting.kitkube.dk/) in the meantime, as the newest Implementation Guides for CareCommunication and it's dependencies are uploaded to this validator.
 
-**How to use [MEdComs FHIR validator](https://validator.fhir.medcom.dk/)**
+**How to use [MedComs FHIR validator](https://validator.fhir.medcom.dk/)**
 
 1. Open the drop down menu named: Common Validation Options: Select the MedCom FHIR standard you would like to validate aginst. 
 

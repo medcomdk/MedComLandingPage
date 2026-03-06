@@ -13,10 +13,7 @@
     * [2.2.2 Document consumer validation](#222-document-consumer-validation)
     * [2.2.3 Transition to future FHIR-based infrastructure](#223-transition-to-future-fhir-based-infrastructure)
     * [2.2.4 More information](#224-more-information)
-* [3 Validation in MedCom FHIR test server](#3-validation-in-medcom-fhir-test-server)
-  * [3.1 Guide: how to post JSON and XML to MedCom’s FHIR test server](#31-guide-how-to-post-json-and-xml-to-medcoms-fhir-test-server)
-    * [3.1.1 JSON](#311-json)
-    * [3.1.2 XML](#312-xml)
+* [3 Validation in MedCom FHIR test validation tool](#3-validation-in-medcom-fhir-test-validation-tool)
 
 
 **Note:**
@@ -99,90 +96,14 @@ Regardless of the final architectural decisions, experiences from international 
 #### 2.2.4 More information
 [Domæneregler for patientindeks for dokumentdeling](https://sundhedsdatastyrelsen.dk/digitale-loesninger/referencearkitektur-og-standarder/domaeneregler-patientindeks)
 
-## 3 Validation in MedCom FHIR test server
+## 3 Validation in MedCom FHIR test validation tool
 
 **NB: The MedCom FHIR test server is currently not working correctly.** You can use the validator at [validator.fhir.medcom](https://validator.fhir.medcom.p1.hosting.kitkube.dk/) in the meantime, as the newest Implementation Guides for CareCommunication and it's dependencies are uploaded to this validator.
 
-**How to use [validator.fhir.medcom](https://validator.fhir.medcom.p1.hosting.kitkube.dk/)**
+**How to use [MEdComs FHIR validator](https://validator.fhir.medcom.dk/)**
 
 1. Open the drop down menu named: Common Validation Options: Select the MedCom FHIR standard you would like to validate aginst. 
 
 2. Paste your FHIR Bundle into the text field or upload your Bundle as a file.
 
 3. Click the “Validate” button and see the result.
-
-**How to use the [MedCom FHIR server](https://medcomfhir.dk)**
-
-MedCom provides a [FHIR server](https://medcomfhir.dk) that can be used to validate implementations against MedCom’s FHIR standards. This server is intended for testing only and **SHALL NOT** be used for production transactions, nor contain any real-world or personally identifiable data.
-
-There is a limit to how many times a vendor can execute test scripts in Touchstone. Therefore, MedCom recommends using the test server first to perform general validation before running the tests in Touchstone. The test server cannot validate the specific use case covered by the test script, but it can be used to identify and correct general issues. Read more about [how to use Touchstone here](TouchStoneGettingStarted.md).
-
-Some MedCom Implementation Guides exist in multiple versions on the test server to cover all MedCom standards. The validation server always uses the latest profile version by default. If your implementation is based on an earlier version, specify it by appending the version number to the canonical URL in resource.meta.profile using the format `|n.n.n`.
-
-Example:
-
-~~~json
-"profile" : [
-    "http://medcomfhir.dk/ig/core/StructureDefinition/medcom-core-patient|3.0.1"
-]
-~~~
-
-Notice that JSON resources can be validated directly in the browser, while XML resources must be submitted using a client tool such as Postman. You can find a guide on how to post JSON and XML below.
-
-
-### 3.1 Guide: how to post JSON and XML to MedCom’s FHIR test server
-
-If you do not have a user account for MedCom's FHIR test server, contact FHIR@medcom.dk and request access. Include the names and email addresses of the people who need access.
-
-There are two ways to validate using MedCom’s FHIR test server:
-
-1.	By posting JSON directly through a web browser.
-2.	By posting XML (or JSON) using a client tool such as Postman.
-
-This section provides a step-by-step guide for both the browser-based and Postman-based validation methods. Other client tools may also be used.
-
-#### 3.1.1 JSON
-
-1)	Go to https://medcomfhir.dk and log in.
-
-2)	Select the “Bundle” section to get access to the Bundle operations.
-
-3)	Choose the POST /Bundle/%Validate operation and click “Try it out”.
-
-4)	Paste your FHIR Bundle (JSON format) into the request body and click “Execute”. 
-
-5)	Review the validation result (OperationOutcome) under the “Responses” section.
-
-#### 3.1.2 XML
-
-**Part 1: Setup in Postman**
-
-1.	Install Postman.
-2.	Create a new workspace and import these three files (WILL BE AVAILALBE SOON) by clicking Import in Postman.
-3.	Open the MedCom FHIR collection.
-4.	Go to the Authorization tab and select Auth Type: OAuth 2.0.
-5.	Under Configure New Token, fill in:
-
-        Token name: token
-        Grant type: Password Credentials
-        Access Token URL: https://keycloak.hosting.kitkube.dk/auth/realms/
-        medcom/protocol/openid-connect/token
-        Client ID: hapifhir-userclient
-        Username and password: Your MedCom FHIR server login
-        Scope: openid
-        Client authentication: Send as Basic Auth header
-
-6.	Click Get New Access Token, then Proceed and Use Token.
-7.	The token appears under Current Token and expires after a short time. Click Refresh to renew it or click Get New Token if it has expired.
-
-**Part 2: Post Bundle to the Server**
-
-1.	In the MedCom FHIR collection, select the POST request.
-2.	Enter the following endpoint in the request URL field: https://fhir.medcom.dk/fhir/Bundle/$validate
-3.	Under Headers, add:
-
-        Content-Type: application/fhir+xml
-        Accept: application/fhir+xml
-4.	Under Body, choose Raw, select XML, and paste your FHIR Bundle.
-5.	Click Send to execute the request.
-6.	Review the validation result (OperationOutcome) in the response. 

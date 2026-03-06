@@ -18,6 +18,13 @@
     * [3.1.1 JSON](#311-json)
     * [3.1.2 XML](#312-xml)
 
+
+**Note:**
+
+1) For sharing MedCom FHIR messages via the messaging infrastructure, this governance is mandatory.
+
+2) For sharing MedCom FHIR documents via DDS (the National Document Sharing Service), this governance is currently advisory, as both the governance framework and infrastructure are still being developed and adapted to FHIR. MedCom strongly recommends early implementation, as FHIR’s built-in tools improve document quality and will support readiness when this governance becomes mandatory.
+
 ## 1 Introduction
 
 To ensure interoperability and robustness in FHIR-based exchanges within the Danish healthcare domain, MedCom defines the following governance for validation. The governance ensures that exchanged FHIR content is syntactically valid, semantically conformant, and fully compliant with the relevant profiles.

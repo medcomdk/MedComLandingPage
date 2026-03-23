@@ -3,17 +3,19 @@
 # Governance for FHIR Validation Using MedCom FHIR Standards
 
 **Table of contents**
-* [1 Introduction](#1-introduction)
-* [2 Validation in Vendor Systems](#2-validation-in-vendor-systems)
-  * [2.1 FHIR Messaging - Validation Governance](#21-fhir-messaging---validation-governance)
-    * [2.1.1 Sender-side validation](#211-sender-side-validation)
-    * [2.1.2 Receiver-side validation](#212-receiver-side-validation)
-  * [2.2 FHIR Documents - Validation Governance](#22-fhir-documents---validation-governance)
-    * [2.2.1 Document source validation](#221-document-source-validation)
-    * [2.2.2 Document consumer validation](#222-document-consumer-validation)
-    * [2.2.3 Transition to future FHIR-based infrastructure](#223-transition-to-future-fhir-based-infrastructure)
-    * [2.2.4 More information](#224-more-information)
-* [3 Validation in MedCom FHIR test validation tool](#3-validation-in-medcom-fhir-test-validation-tool)
+- [Governance for FHIR Validation Using MedCom FHIR Standards](#governance-for-fhir-validation-using-medcom-fhir-standards)
+  - [1 Introduction](#1-introduction)
+  - [2 Validation in Vendor Systems](#2-validation-in-vendor-systems)
+    - [2.1 FHIR Messaging - Validation Governance](#21-fhir-messaging---validation-governance)
+      - [2.1.1 Sender-side validation](#211-sender-side-validation)
+      - [2.1.2 Receiver-side validation](#212-receiver-side-validation)
+    - [2.2 FHIR Documents - Validation Governance](#22-fhir-documents---validation-governance)
+      - [2.2.1 Document source validation](#221-document-source-validation)
+      - [2.2.2 Document consumer validation](#222-document-consumer-validation)
+      - [2.2.3 Transition to future FHIR-based infrastructure](#223-transition-to-future-fhir-based-infrastructure)
+      - [2.2.4 More information](#224-more-information)
+  - [3 Validation in MedCom FHIR test validation tool](#3-validation-in-medcom-fhir-test-validation-tool)
+    - [Extras](#extras)
 
 
 **Note:**
@@ -99,12 +101,17 @@ Regardless of the final architectural decisions, experiences from international 
 
 ## 3 Validation in MedCom FHIR test validation tool
 
-**NB: The MedCom FHIR test server has been replaced.** You can use the validator at [validator.fhir.medcom](https://validator.fhir.medcom.p1.hosting.kitkube.dk/) instead. The newest Implementation Guides for CareCommunication and it's dependencies are uploaded to this validator.
+**NB: The MedCom FHIR test server has been replaced.** You can use the validator at [itb.medcom.dk](https://test.itb.medcom.dk/) instead.
 
 **How to use [MedComs FHIR validator](https://validator.fhir.medcom.dk/)**
 
-1. Open the drop down menu named: Common Validation Options: Select the MedCom FHIR standard you would like to validate aginst. 
+1. Click the button "try out our demos"
+2. Click "My conformance statements" in the left side navigation menu
+3. Navigate to the standard you want to validate
+4. Click on the play button
+5. Click on "Start" in the upper right corner
+6. Paste your FHIR Bundle into the popup dialog
+7. Click on the Validate step to see errors/warnings/information messages
 
-2. Paste your FHIR Bundle into the text field or upload your Bundle as a file.
-
-3. Click the “Validate” button and see the result.
+### Extras
+It is also possible to validate your FHIR resources yourself. More information can be found [here](https://confluence.hl7.org/spaces/FHIR/pages/35718580/Using+the+FHIR+Validator).

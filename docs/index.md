@@ -7,7 +7,6 @@
   * [2.3 Governance for MedCom HL7 FHIR Messaging](#23-governance-for-medcom-hl7-fhir-messaging) 
 * [3 Test and certification](#3-test-and-certification)
   * [3.1 Test of FHIR messages](#31-test-of-fhir-messages-and-documents)
-  * [3.2 Note on ITB](#32-note-on-itb)
 * [4 Change management and versioning](#4-change-management-and-versioning)
   * [4.1 Versioning of FHIR standard](#41-versioning-of-medcom-fhir-standards)
   * [4.2 Governance for Medcom FHIR Terminology](#42-governance-for-medcom-fhir-terminology)
@@ -195,19 +194,16 @@ The messaging governance is important to understand before implementing a MedCom
 <p>&nbsp;</p>
 
 ## 3 Test and certification
-Before using the implemented standard in a production environment to exchange patient data, it must be tested and certified by MedCom to ensure it fulfills the standard and business requirements. In addition to the usual <a href="https://medcom.dk/standarder/test-og-certificering/" target="_blank">MedCom test setup</a> with a self test and live test, <a href="https://touchstone.aegis.net/touchstone/" target="_blank">TouchStone</a> is used as a tool to validate FHIR messages sent in different use cases.
+Before using the implemented standard in a production environment to exchange patient data, it must be tested and certified by MedCom to ensure it fulfills the standard and business requirements. In addition to the usual <a href="https://medcom.dk/standarder/test-og-certificering/" target="_blank">MedCom test setup</a> with a self test and live test, <a href="https://test.itb.medcom.dk/" target="_blank">ITB</a> is used as a tool to validate FHIR messages and documents sent in different use cases.
 
-TouchStone is an infrastructure that allows for automated tests against implementations of HL7 FHIR. For each FHIR standard MedCom will develope test scripts, that will be available in TouchStone. These test scripts can be used both during implementation/development and as a part of the test and certification. <br>
-[Click here to get started with TouchStone](assets/documents/TouchStoneGettingStarted.md)
+ITB is an infrastructure that allows for automated tests. For each FHIR standard MedCom will develope test scripts, that will be available in the ITB. These test scripts can be used both during implementation/development and as a part of the test and certification. <br>
+[Click here to get started with ITB](assets/documents/ITBGettingStarted.md)
 <p>&nbsp;</p>
 
 ### 3.1 Test of FHIR Messages and Documents
 Since MedCom's FHIR messages are sent over the VANS network, vendors implementing messaging standards must to be able to include the message in a VANSenvelope before sending the message.<br>
 Vendors implementing MedCom's FHIR document standards must be able to share documents in the relevant infrastructure, typically in the Danish national Document Sharing infrastructure (DDS).<br>
 Vendors should expect to demonstrate this as a part of test and certification.
-
-### 3.2 Note on ITB
-Some tests will be conducted using the ITB instead of Touchstone. [Click here to get started with ITB](assets/documents/ITBGettingStarted.md)
 
 ## 4 Change management and versioning  
 

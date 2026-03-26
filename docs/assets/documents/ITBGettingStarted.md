@@ -17,14 +17,6 @@ The test tool "Interoperability Test Bed (ITB)", is used to perform tests of Med
     <br>
     If your organization has <strong>not been registered</strong>, you must <strong>contact MedCom</strong> at <a href="mailto:fhir@medcom.dk">fhir@medcom.dk</a>. MedCom will create an organisation and an associated organisation administration user, who can then create organisation users. In the email, please provide: <strong>Organization name</strong>, <strong>system name</strong>, <strong>administrator name</strong>, and <strong>administrator e-mail</strong>.
    </li>
-  <li>
-    If additional information is available to add to your organization, please fill out these with relevant information for testing, when your administration user is created.
-    <br>
-    Example: When testing the CareCommunication statement, we encourage you to fill in the SOR-id, EAN-number and name of the organization of the receiver of the messages. This information is then used in the test cases.
-    <figure>
-    <img src="../images/ITBAdditionalOrg.png" alt="ITB Populate Additional Organization Details">
-    </figure>
-  </li>
   
 </ol>
 
@@ -79,7 +71,7 @@ The test tool "Interoperability Test Bed (ITB)", is used to perform tests of Med
   <li>
     You are now on the test execution page, where you can see what is expected of you, and which tests and/or validation the test engine will perform.
     <br>
-    Click "Start" to start the test, click "Minimize" to se the test execution overview, and click "View pending interaction" to continue the test.
+    Click "Start" to start the test, click "Minimize" to see the test execution overview, and click "View pending interaction" to continue the test.
     <br>
     <i>Tip: Sometimes, detailed instructions for the test case can be found by clicking the information button (i).</i>
     <figure>

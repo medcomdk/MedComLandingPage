@@ -194,7 +194,7 @@ The messaging governance is important to understand before implementing a MedCom
 <p>&nbsp;</p>
 
 ## 3 Test and certification
-Before using the implemented standard in a production environment to exchange patient data, it must be tested and certified by MedCom to ensure it fulfills the standard and business requirements. In addition to the usual <a href="https://medcom.dk/standarder/test-og-certificering/" target="_blank">MedCom test setup</a> with a self test and live test, <a href="https://test.itb.medcom.dk/" target="_blank">ITB</a> is used as a tool to validate FHIR messages and documents sent in different use cases.
+Before using the implemented standard in a production environment to exchange patient data, it must be tested and certified by MedCom to ensure it fulfills the standard and business requirements. In addition to the usual <a href="https://medcom.dk/standarder/test-og-certificering/" target="_blank">MedCom test setup</a> with a self test and live test, <a href="https://test.itb.medcom.dk/" target="_blank">Interoperability Test Bed (ITB)</a> is used as a tool to validate FHIR messages and documents sent in different use cases.
 
 ITB is an infrastructure that allows for automated tests. For each FHIR standard MedCom will develope test scripts, that will be available in the ITB. These test scripts can be used both during implementation/development and as a part of the test and certification. <br>
 [Click here to get started with ITB](assets/documents/ITBGettingStarted.md)

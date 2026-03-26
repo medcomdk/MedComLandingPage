@@ -104,7 +104,7 @@ The test tool "Interoperability Test Bed (ITB)", is used to perform tests of Med
   <li>
   In some test cases, a manual review by MedCom is required. Once you have completed the tests that require review, please send an e-mail to the MedCom employee responsible for managing your test process. In the email, you must include either one or more testcase reports or an entire testsuite report. The session ID will appear in the submitted material, which MedCom will use to locate the test execution in the ITB.
     <figure>
-    <img src="../images/ITBMedComReview.png" alt="ITB Test result">
+    <img src="../images/ITBMedComReview.png" alt="ITB MedCom review">
     </figure>
   </li>
   <li>
